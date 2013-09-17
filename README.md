@@ -26,6 +26,8 @@ are reading this and can generate test files, please contribute!)
 strings are programmatically generated using `CONCATENATE` while the shared
 string table was pulled from <http://longwords.org/longwordslist.html>
 
+`RkNumber` tests all styles of RkNumber records.  Records were verified by hand.
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate 
