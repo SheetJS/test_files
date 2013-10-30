@@ -7,7 +7,7 @@ Test files associated with:
 
 Instead of polluting those repos with large binary files, they are stored here.
 
-All files contained in this repo are covered under the MIT license (see below).
+All files contained in this repo are covered under the Apache 2.0 license.
 The `Makefile` can pull files from other projects, which are covered under 
 separate licenses (see below).
 
@@ -42,6 +42,6 @@ At the time of this writing, it is covered under Apache License, version 2.0:
 
 # License
 
-All files contained in this repository are licensed under the MIT License. Files
-external to this repo (acquired by running `make`) are licensed under separate
+All files contained in this repository are licensed under the Apache 2 License. 
+Files external to this repo (acquired via `make`) are licensed under separate
 terms (as indicated in the External Test Files section) 
