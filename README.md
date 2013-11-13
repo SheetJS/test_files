@@ -2,8 +2,8 @@
 
 Test files associated with:
 
- - [js-xls](https://github.com/Niggler/js-xls)
- - [js-xlsx](https://github.com/Niggler/js-xlsx)
+ - [js-xls](https://github.com/SheetJS/js-xls)
+ - [js-xlsx](https://github.com/SheetJS/js-xlsx)
 
 Instead of polluting those repos with large binary files, they are stored here.
 
@@ -38,6 +38,18 @@ this repo are encumbered by external licenses.
 <https://poi.apache.org/spreadsheet/index.html>.  
 At the time of this writing, it is covered under Apache License, version 2.0: 
 <http://www.apache.org/licenses/LICENSE-2.0>
+
+`xlrd` pulls the test battery from xlrd project: <http://www.python-excel.org/>
+At the time of this writing, it is covered under BSD License.
+
+pyExcelerator https://github.com/WoLpH/pyExcelerator/tree/master/museum
+
+python-xlsx https://github.com/staale/python-xlsx/tree/master/xlsx/tests/fixtures
+
+excel-reader-xlsx https://github.com/jmcnamara/excel-reader-xlsx/tree/master/t/regression/xlsx_files
+
+openpyxl https://bitbucket.org/ericgazoni/openpyxl/src/33f920b3f1da73d899a6140b64956e0a6798a53f/openpyxl/tests/test_data?at=default
+
 
 
 # License
