@@ -42,15 +42,17 @@ At the time of this writing, it is covered under Apache License, version 2.0:
 `xlrd` pulls the test battery from xlrd project: <http://www.python-excel.org/>
 At the time of this writing, it is covered under BSD License.
 
-pyExcelerator https://github.com/WoLpH/pyExcelerator/tree/master/museum
+`excel-reader-xlsx` pulls the test battery from the excel-reader-xlsx project:
+<https://github.com/jmcnamara/excel-reader-xlsx/>
+At the time of this writing, it is covered under Perl Artistic License.
 
-python-xlsx https://github.com/staale/python-xlsx/tree/master/xlsx/tests/fixtures
+`openpyxl` pulls the test battery from the openpyxl project: 
+<http://openpyxl.readthedocs.org/>
+At the time of this writing, it is covered under the MIT License
 
-excel-reader-xlsx https://github.com/jmcnamara/excel-reader-xlsx/tree/master/t/regression/xlsx_files
-
-openpyxl https://bitbucket.org/ericgazoni/openpyxl/src/33f920b3f1da73d899a6140b64956e0a6798a53f/openpyxl/tests/test_data?at=default
-
-
+`pyExcelerator` pulls the test battery from the pyExcelerator project:
+<https://pypi.python.org/pypi/pyExcelerator>
+At the time of this writing, it is covered under the BSD 4-clause License
 
 # License
 
