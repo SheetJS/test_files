@@ -14,10 +14,17 @@ github = $(GSVN) https://github.com/$(1)/trunk/$(2) $@; $(CPUP)
 init: svn
 
 # All files
+.PHONY: all
 all: svn hg
+
+# Tests
+.PHONY: test
+test:
+	bash test.sh all
 
 # git clean
 clean:
+	bash test.sh clean
 	git clean -fd
 
 # Resources acquired via subversion
