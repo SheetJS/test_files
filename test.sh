@@ -19,7 +19,7 @@ case "$1" in
 	pip install -r requirements.txt --use-mirrors
 	;;
 "clean")
-	rm *.tests
+	rm -f *.tests
 	;;
 "all") 
 	for i in *.xls; do

@@ -54,6 +54,10 @@ At the time of this writing, it is covered under the MIT License
 <https://pypi.python.org/pypi/pyExcelerator>
 At the time of this writing, it is covered under the BSD 4-clause License
 
+`jxls-*` pulls the test battery from the jxls project: 
+<http://jxls.sourceforge.net/>
+At the time of this writing, it is covered under the GNU Lesser GPL License 
+
 # License
 
 All files contained in this repository are licensed under the Apache 2 License. 

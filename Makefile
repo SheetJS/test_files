@@ -29,7 +29,7 @@ clean:
 
 # Resources acquired via subversion
 .PHONY: svn
-svn: apachepoi xlrd excel-reader-xlsx pyExcelerator
+svn: apachepoi jxls xlrd excel-reader-xlsx pyExcelerator
 
 # Resources acquired via mercurial 
 .PHONY: hg
@@ -66,3 +66,19 @@ openpyxl:
 .PHONY: pyExcelerator
 pyExcelerator:
 	$(call github,WoLpH/pyExcelerator,museum)
+
+# jxls (java)
+.PHONY: jxls jxls-reader jxls-examples jxls-core
+jxls: jxls-reader jxls-examples jxls-core jxls-src
+
+jxls-core jxls-reader:
+	$(GSVN) https://jxls.svn.sourceforge.net/svnroot/jxls/trunk/$@/src/test/resources/templates/ $@
+	$(CPUP)
+
+jxls-examples:
+	$(GSVN) https://jxls.svn.sourceforge.net/svnroot/jxls/trunk/$@/src/main/resources/templates/ $@
+	$(CPUP)
+
+jxls-src:
+	$(GSVN) https://jxls.svn.sourceforge.net/svnroot/jxls/trunk/src/site/resources/xls/ $@
+	$(CPUP)
