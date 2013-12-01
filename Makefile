@@ -72,13 +72,13 @@ pyExcelerator:
 jxls: jxls-reader jxls-examples jxls-core jxls-src
 
 jxls-core jxls-reader:
-	$(GSVN) https://jxls.svn.sourceforge.net/svnroot/jxls/trunk/$@/src/test/resources/templates/ $@
+	$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/$@/src/test/resources/templates/ $@
 	$(CPUP)
 
 jxls-examples:
-	$(GSVN) https://jxls.svn.sourceforge.net/svnroot/jxls/trunk/$@/src/main/resources/templates/ $@
+	$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/$@/src/main/resources/templates/ $@
 	$(CPUP)
 
 jxls-src:
-	$(GSVN) https://jxls.svn.sourceforge.net/svnroot/jxls/trunk/src/site/resources/xls/ $@
+	$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/src/site/resources/xls/ $@
 	$(CPUP)
