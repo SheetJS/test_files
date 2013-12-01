@@ -29,7 +29,7 @@ case "$1" in
 	done
 	for i in *.xlsx; do
 		echo $i >&2
-		do_test "$i" core "xlsx2csv --dev '$i'"
+		do_test "$i" core "xlsx2csv --dev $i"
 		do_test "$i" xlrd "python tests/xlrd.py $i"
 	done
 	grep -- "^- [^0]" *.tests
