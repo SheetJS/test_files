@@ -9,7 +9,7 @@
  
 do_test() {
 	echo "# $1" >>"$2".tests
-	$3 >/dev/null 2>>"$2".tests
+	$3 "$1" >/dev/null 2>>"$2".tests
 	echo "- $? $1" >>"$2".tests
 }
 
@@ -24,13 +24,13 @@ case "$1" in
 "all") 
 	for i in *.xls; do
 		echo $i >&2
-		do_test "$i" core "xls2csv --dev $i"
-		do_test "$i" xlrd "python tests/xlrd.py $i"
+		do_test "$i" core "xls2csv --dev"
+		do_test "$i" xlrd "python tests/xlrd.py"
 	done
 	for i in *.xlsx; do
 		echo $i >&2
-		do_test "$i" core "xlsx2csv --dev $i"
-		do_test "$i" xlrd "python tests/xlrd.py $i"
+		do_test "$i" core "xlsx2csv --dev"
+		do_test "$i" xlrd "python tests/xlrd.py"
 	done
 	grep -- "^- [^0]" *.tests
 	;;
