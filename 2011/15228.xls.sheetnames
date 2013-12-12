@@ -1,0 +1,18 @@
+general dump
+reported claim lag dump
+paid claim lag dump
+aux
+exposure dump
+ncco dump
+LinearLag
+BlockExposure
+RepLag
+PaidLag
+IncurredClaims
+ClaimCost
+Liabilities
+Sheet8
+IntDiscAdjExp
+WeightedNCC0
+Output
+csv

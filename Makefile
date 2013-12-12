@@ -35,6 +35,10 @@ svn: apachepoi jxls xlrd excel-reader-xlsx pyExcelerator
 .PHONY: hg
 hg: openpyxl
 
+# Sheet Names
+.PHONY: 2011
+2011:
+	tests/sheetnames.sh
 
 ## Acquisition
 
