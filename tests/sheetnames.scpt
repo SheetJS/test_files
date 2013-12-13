@@ -15,7 +15,7 @@ on run argv
 			repeat 40 times
 				try
 					tell sheet idx
-						if (get worksheet type) is not equal to (sheet type worksheet) then error ("'" & (get worksheet type) & "'")
+						--if (get worksheet type) is not equal to (sheet type worksheet) then error ("'" & (get worksheet type) & "'")
 						copy name to the end of sheetnames
 					end tell
 				end try
