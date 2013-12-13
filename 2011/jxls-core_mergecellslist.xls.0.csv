@@ -1,0 +1,5 @@
+ List  with merged cells Test,,,
+Name:,${listBean.name},,
+Other.Name,Integer,Empty,Double
+${listBean.beans.name},${listBean.beans.intValue},,${listBean.beans.doubleValue}
+Last Row,,Test,

@@ -39,6 +39,7 @@ hg: openpyxl
 .PHONY: 2011
 2011:
 	tests/sheetnames.sh
+	tests/csv.sh
 
 ## Acquisition
 
@@ -72,7 +73,7 @@ pyExcelerator:
 	$(call github,WoLpH/pyExcelerator,museum)
 
 # jxls (java)
-.PHONY: jxls jxls-reader jxls-examples jxls-core
+.PHONY: jxls jxls-reader jxls-examples jxls-core jxls-src
 jxls: jxls-reader jxls-examples jxls-core jxls-src
 
 jxls-core jxls-reader:

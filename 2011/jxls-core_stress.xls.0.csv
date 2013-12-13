@@ -1,0 +1,10 @@
+SQL grouping test,,,
+"<jx:forEach items=""${rm.exec('SELECT d.name depname, e.name empname, age, payment, bonus, birthDate FROM employee e, department d where d.id = e.depid order by age desc')}"" groupBy=""depname"">",,,
+Department: ${group.item.depname},,,
+Employees,,,
+Name,Payment,Bonus,Total
+"<jx:forEach items=""${group.items}"" var=""employee"">",,,
+${employee.empname},${employee.payment},${employee.bonus},$[B7*(1+C7)]
+</jx:forEach>,,,
+Totals:,,,$[SUM(D13)]
+</jx:forEach>,,,

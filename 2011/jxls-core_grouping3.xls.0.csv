@@ -1,0 +1,5 @@
+Department//departments,${departments.name}//:4,,
+Employees,,,
+Name,Payment,Bonus,Total
+${departments.staff.name},${departments.staff.payment},${departments.staff.bonus},$[B4*(1+C4)]//departments.staff
+Totals:,$[SUM(B4)],,$[SUM(D4)]

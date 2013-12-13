@@ -1,0 +1,4 @@
+Employees,,,,,,
+Name,Age,Birth Date,Payment,Bonus,,
+${employee.name},${employee.age},${employee.birthdate},${employee.payment},${employee.bonus},,
+,,,$[SUM(D3)],,,

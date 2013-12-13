@@ -1,0 +1,7 @@
+Range begin,Range,Range end,Actual,Expected,Comments
+,,,3,3,
+1,,1,1,1,
+1,,,2,2,
+TRUE,FALSE,,1,1,boolean false does not count as blank
+foxtrot,unicorn,charlie,0,0,
+12/12/09, ,,1,1,second cell contains a space character

@@ -1,0 +1,8 @@
+Known y,Known x
+2,6
+3,5
+9,11
+1,7
+8,5
+Formula,Description (Result)
+0.048387097,Point at which a line will intersect the y-axis by using the x-values and y-values above (0.0483871)

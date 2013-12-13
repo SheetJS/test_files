@@ -1,0 +1,11 @@
+ For If Tags test,
+Name:,
+Other.Name,
+"<jx:forEach items=""${listBean.beans}"" var=""sb"">",
+Name:,${listBean.name}
+"<jx:if test=""${sb.doubleValue < 400 || sb.doubleValue > 600}"">",
+${sb.name},${sb.doubleValue}
+</jx:if>,
+Double value:,${listBean.doubleValue}
+</jx:forEach>,
+Last Row,

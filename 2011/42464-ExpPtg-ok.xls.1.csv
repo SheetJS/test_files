@@ -1,0 +1,218 @@
+SAE Type
+SAE
+non SAE
+
+Business Line
+CmB
+CML – Other
+CML – OO
+CREL – Construction
+CREL – Unsecured Lending
+CREL – Other
+MFL
+
+Transaction Type
+Relationship
+Non Relationship
+Express
+Other
+
+Origination Type
+Origination
+WaMu Refi
+Seasoned
+
+Entity Type
+Corporation
+Foreign National
+General Partnership
+Individual
+Limited Liability Co.
+Limited Partnership
+S Corporation
+Trust
+
+Relevant Experience
+National.  Highest integrity.
+Strong regional
+Regional or strong local
+Local adequate
+Weak or unproven
+Questionable
+No experience 
+
+Fin. Reporting Compliance 
+<= 8 quarters & Audited Stmts
+<= 8 quarters & Reviewed Stmts
+<= 8 quarters & Compiled Stmts
+<= 8 quarters & customer prepared Stmts
+Sporadic non-compl & acct prepared
+Sporadic non-compl & cust prepared
+NA
+
+Fin. Covenant Compliance
+> 8 quarters
+<= 8 quarters
+<= 6 quarters
+<= 4 quarters
+One non-compliance
+Sporadic non-compliance
+Consistent non-compliance
+NA
+
+Documented Tenure
+>= 10 yrs
+>= 7 yrs
+>= 5 yrs
+>=  2 yrs or verified relationship
+No verified relationship
+Deteriorating relationship
+Not cooperative
+NA
+
+Cash Flow History
+Positive <= 5 yrs
+Positive <= 3 yrs
+Positive <= 2 yrs
+Positive <= 1 yr
+Breakeven
+Negative  > 1 yr
+Significant deficit
+NA
+
+Leverage:  Debt / Net Worth CmB
+RMA 1st Quartile
+RMA 2nd Quartile
+RMA 3rd Quartile
+RMA 4th Quartile
+NA
+
+Return on Assets:  Net Income / Total Assets CmB
+RMA 1st Quartile
+RMA 2nd Quartile
+RMA 3rd Quartile
+RMA 4th Quartile
+NA
+
+Total Revenue to Total Assets CmB
+RMA 1st Quartile
+RMA 2nd Quartile
+RMA 3rd Quartile
+RMA 4th Quartile
+NA
+
+Stated Liquidity (as a % of loan amount) CmB
+RMA 1st Quartile
+RMA 2nd Quartile
+RMA 3rd Quartile
+RMA 4th Quartile
+NA
+
+Market Strength and Diversity
+All prop in Quad QI-A
+Most prop Quad QI-A
+Most prop Quad QII-A or QI-B
+Most prop Quad QIII-A or QII-B
+Most prop Quad QIV-A or QIII-B
+Most prop Quad QIV-B
+Most prop unrated markets
+
+Property Type
+Apartment
+MHP
+Office
+Industrial - Warehouse
+Industrial - Other
+Retail - Grocery Anchored
+Retail - Strong Anchor/Urban
+Retail - Other Anchored
+Retail - Non Anchor/OO
+Hotel
+Healthcare
+
+Interest Rate Type
+Fixed
+Floating
+
+Interest Rate Index
+12 MTA
+"Treasury Bond, 1 Year Rate"
+"Treasury Bill, 6 Month Rate"
+"Treasury Bond, 3 Year Rate"
+"Treasury Bond, 2 Year Rate"
+"Treasury Bond, 5 Year Rate"
+"Treasury Bond, 10 Year Rate"
+"Treasury Bond, 7 Year Rate"
+11th District COFI
+"LIBOR, 12 Month Rate"
+"LIBOR, 6 Month Rate"
+"LIBOR, 3 Month Rate"
+"LIBOR, 1 Month Rate"
+Prime Rate
+
+Latest Property Condition
+Excellent
+Good
+Average
+Fair
+Poor
+NA 
+
+Deferred Maintenance Issue
+Issues exist
+No issues exist
+NA
+
+Environmental Issue
+Issues exist
+No issues exist
+NA
+
+Property Grade/Class
+A
+B
+C
+D
+NA
+
+Twelve Month Payment History
+0
+1 incident
+2 incidents
+3 incidents
+4+ incidents
+NA
+
+Quadrant Score
+QIA
+QIIA
+QIB
+QIIIA or QIIB
+QIVA
+QIIIB
+QIVB
+NA
+
+Property Management Experience
+Experienced long-term property mgt with proven success through market down cycles.
+Strong regional management/retained property mgt company with expertise and depth.
+Proven mgt or retained professional mgt company.
+Limited property mgt skills.
+No property mgt experience or ineffective
+
+Leasing Status During Lease Up
+Exceeds underwriting
+Meets underwriting
+Currently below underwriting
+Significantly below underwriting
+
+Construction Progress
+On schedule/budget
+Slightly behind sch/budget
+Well behind sch/budget
+Significantly behind sch/budget
+
+Delinquent Payment Status
+Yes (2 Payments)
+Yes (3 Payments)
+Yes (4+ Payments)

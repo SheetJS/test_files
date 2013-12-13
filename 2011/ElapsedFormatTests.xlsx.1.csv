@@ -1,0 +1,215 @@
+Result (expected),Format,Value,Categories
+75:23:53.376,[h]:m:s.000,3.14159,Elapsed
+4523:53.376,[m]:s.000,3.14159,Elapsed
+271433.376,[s].000,3.14159,Elapsed
+75:23:53.4,[hh]:mm:ss.0,3.14159,Elapsed
+4523:53.4,[mm]:ss.0,3.14159,Elapsed
+271433.376,[ss].000,3.14159,Elapsed
+53:23 @ hour 1293,"s:m"" @ hour ""[hh]",3.14159,Elapsed
+53 secs and 77581 mins,"s"" secs and ""[m]"" mins""",3.14159,Elapsed
+"It was 75 [yes, 75] hours and 23:53","""It was ""[h]"" [yes, ""h""] hours and ""mm:ss",3.14159,"Elapsed, Debug"
+"271433 [yes, 271433] seconds","[s]"" [yes, ""ss""] seconds""",3.14159,Elapsed
+2:3:4.000,[h]:m:s.000,0.085462963,Elapsed
+123:4.000,[m]:s.000,0.085462963,Elapsed
+7384.000,[s].000,0.085462963,Elapsed
+02:03:04.0,[hh]:mm:ss.0,0.085462963,Elapsed
+123:04.0,[mm]:ss.0,0.085462963,Elapsed
+7384.000,[ss].000,0.085462963,Elapsed
+4:3 @ hour 108,"s:m"" @ hour ""[hh]",0.085462963,Elapsed
+4 secs and 6480 mins,"s"" secs and ""[m]"" mins""",0.085462963,Elapsed
+"It was 2 [yes, 2] hours and 03:04","""It was ""[h]"" [yes, ""h""] hours and ""mm:ss",0.085462963,Elapsed
+"7384 [yes, 7384] seconds","[s]"" [yes, ""ss""] seconds""",0.085462963,Elapsed
+0:0:0.000,[h]:m:s.000,0,Elapsed
+0:0.000,[m]:s.000,0,Elapsed
+0.000,[s].000,0,Elapsed
+00:00:00.0,[hh]:mm:ss.0,0,Elapsed
+00:00.0,[mm]:ss.0,0,Elapsed
+00.000,[ss].000,0,Elapsed
+0:0 @ hour 12,"s:m"" @ hour ""[hh]",0,Elapsed
+0 secs and 720 mins,"s"" secs and ""[m]"" mins""",0,Elapsed
+"It was 0 [yes, 0] hours and 00:00","""It was ""[h]"" [yes, ""h""] hours and ""mm:ss",0,Elapsed
+"0 [yes, 00] seconds","[s]"" [yes, ""ss""] seconds""",0,Elapsed
+-2:3:4.000,[h]:m:s.000,-0.085462963,Elapsed
+-123:4.000,[m]:s.000,-0.085462963,Elapsed
+-7384.000,[s].000,-0.085462963,Elapsed
+-02:03:04.0,[hh]:mm:ss.0,-0.085462963,Elapsed
+-123:04.0,[mm]:ss.0,-0.085462963,Elapsed
+-7384.000,[ss].000,-0.085462963,Elapsed
+-4:3 @ hour 108,"s:m"" @ hour ""[hh]",-0.085462963,Elapsed
+-4 secs and 6480 mins,"s"" secs and ""[m]"" mins""",-0.085462963,Elapsed
+"-It was 2 [yes, 2] hours and 03:04","""It was ""[h]"" [yes, ""h""] hours and ""mm:ss",-0.085462963,Elapsed
+"-7384 [yes, 7384] seconds","[s]"" [yes, ""ss""] seconds""",-0.085462963,Elapsed
+-75:23:53.376,[h]:m:s.000,-3.14159,Elapsed
+-4523:53.376,[m]:s.000,-3.14159,Elapsed
+-271433.376,[s].000,-3.14159,Elapsed
+-75:23:53.4,[hh]:mm:ss.0,-3.14159,Elapsed
+-4523:53.4,[mm]:ss.0,-3.14159,Elapsed
+-271433.376,[ss].000,-3.14159,Elapsed
+-53:23 @ hour 1293,"s:m"" @ hour ""[hh]",-3.14159,Elapsed
+-53 secs and 77581 mins,"s"" secs and ""[m]"" mins""",-3.14159,Elapsed
+"-It was 75 [yes, 75] hours and 23:53","""It was ""[h]"" [yes, ""h""] hours and ""mm:ss",-3.14159,Elapsed
+"-271433 [yes, 271433] seconds","[s]"" [yes, ""ss""] seconds""",-3.14159,Elapsed
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

@@ -1,0 +1,8 @@
+Several properties in cell Test,,
+Name: ${bean.name},,
+Other.Name,Date Value,
+"${bean.other.name} - ${bean.doubleValue},${bean.other.intValue}",${bean.dateValue},
+,,
+Other.Name,Double Value,Combination!
+[${listBean.beans.name}],${listBean.beans.doubleValue} yeah,${listBean.beans.name} : ${listBean.beans.doubleValue}!
+Last Row,,

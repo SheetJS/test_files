@@ -1,0 +1,8 @@
+Description,Data
+Non-latin1 text,______ ______
+formula number,0.142857143
+formula text,ABCDEF
+formula zero-length text,
+formula boolean,TRUE
+formula error,#DIV/0!
+formula non-latin1 text,______ ______

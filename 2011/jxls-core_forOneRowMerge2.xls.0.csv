@@ -1,0 +1,1 @@
+"<jx:forEach items=""${itDep.staff}"" var=""employee"">",${employee.name},,"<jx:if test=""${employee.payment >=2000}"">",${employee.payment},</jx:if>,"<jx:if test=""${employee.payment <2000}"">",${employee.payment},</jx:if>,</jx:forEach>,${itDep.name},,

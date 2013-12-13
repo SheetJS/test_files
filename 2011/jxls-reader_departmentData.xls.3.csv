@@ -1,0 +1,14 @@
+Department,IT,,,,,
+Chief,,,,,,
+Name,Age,Birth date,Payment,Bonus,Total,
+Maxim,30,20-Dec-76,3000.00,25.00%,3750,
+,,,,,,
+Employees,,,,,,
+Name,Age,Birth Date,Payment,Bonus,Total,Superior Name
+Oleg,,2-Jan-74,2000,20.00%,2400,Maxim
+Yuri,29,26-Sep-77,1800,15.00%,2070,Oleg
+Leonid,30a,12-Feb-76,1700,20.00%,2040,Oleg
+Alex,28,18-Aug-78,1600,20.00%,1920,Oleg
+Employee Payment Totals:,,,7100,,8430,
+,,,,,,
+Total payment:,,,10100,,12180,

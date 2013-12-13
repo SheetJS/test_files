@@ -1,0 +1,5 @@
+Employees,,
+Name,Payment,Timestamp
+"<jx:forEach items=""${rm.exec(""SELECT e.name empname, payment, birthtimestamp FROM employee e where birthtimestamp > '2005-06-22 01:30:11.840' "" )}"" var=""employee"">",,
+${employee.empname},${employee.payment},${employee.birthtimestamp}
+</jx:forEach>,,

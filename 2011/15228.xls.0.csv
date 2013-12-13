@@ -1,0 +1,73 @@
+,REFDATE,TRENDFAC,,Title1,BLOCK CLAIM LIABILITY REPORT
+,8/1/98,0.8437,,Title2,The Millennium-2000 Sample Life Insurance Company
+,9/1/98,0.8478,,Title4,Experience Period:  01-Aug-1998  to  31-Jul-2001.  Runout Date:  31-Jul-2001
+,10/1/98,0.8519,,,
+,11/1/98,0.8561,,,
+,12/1/98,0.8603,,6196,Scenario ID
+,1/1/99,0.8644,,Arvind,Scenario Name
+,2/1/99,0.8686,,332970,Total Current Premium
+,3/1/99,0.8729,,IBNR,"Liability Basis 'IBNR','IBNP'"
+,4/1/99,0.8771,,1-Aug-98,Experience Date (ExpDat)
+,5/1/99,0.8814,,31-Jul-01,Valuation Date (ValDat)
+,6/1/99,0.8857,,31-Jul-01,Runout Date (RunDat)
+,7/1/99,0.89,,1,Claim Maturity Factor (CMF)
+,8/1/99,0.8943,,0.04,Discount Rate
+,9/1/99,0.8987,,0.02,Adjudication Expense Factor
+,10/1/99,0.9031,,,
+,11/1/99,0.9075,,,
+,12/1/99,0.9119,, -   ,Months of Runout (MRO)
+,1/1/00,0.9163,, 36 ,Months in Experience Period (MEP)
+,2/1/00,0.9208,,,
+,3/1/00,0.9252,, 12 ,Number of Months for Calculation of Average Claim (AvgNoClm)
+,4/1/00,0.9298,, 36 ,Maximum Number of Rows (MNR)
+,5/1/00,0.9343,, 4 ,Number of Months for Calculation Completion Factors (MCF)
+,6/1/00,0.9388,,,
+,7/1/00,0.9434,,,
+,8/1/00,0.948,,,
+,9/1/00,0.9526,,,
+,10/1/00,0.9572,,,
+,11/1/00,0.9619,,,
+,12/1/00,0.9666,,,
+,1/1/01,0.9713,,,
+,2/1/01,0.976,,,
+,3/1/01,0.9808,,,
+,4/1/01,0.9855,,,
+,5/1/01,0.9903,,,
+,6/1/01,0.9952,,,
+,7/1/01,1,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+6196,,,,,
+887523-4476395452341293-82637-02,,,,,
+ssss,,,,,
+a0770-w2kp-engg,,,,,
+wgates.csv,,,,,

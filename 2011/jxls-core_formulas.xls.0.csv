@@ -1,0 +1,25 @@
+Formulas Test,,,,
+Name:,${listBean.name},,,
+Other.Name,Double Value,Integer Value,Date Value,Double + Integer
+${listBean.beans.name},${listBean.beans.doubleValue},${listBean.beans.other.intValue},${listBean.beans.dateValue},$[B#+C#]di//listBean.beans
+Totals:,$[SUM(@listBean.beans.doubleValue@)]doubleSum,$[SUM(@listBean.beans.other.intValue@)]intSum,,$[SUM(@di@)]
+,,,,
+Maximum:,"$[MAX(@doubleSum@, @intSum@)]",,,
+,,,,
+Totals 2:,$[SUM(B4)],$[SUM(C4)],,$[SUM(E4)]
+,,,,
+Maximum 2:,"$[MAX(B5, C5)]",,,
+,,,,
+"<jx:forEach items=""${departments}"" var=""department"">",,,,
+Department,${department.name},,,
+Employees,,,,
+Name,Payment,Bonus,Total,
+Bonus Total,,$[SUM(C19)],,
+"<jx:forEach items=""${department.staff}"" var=""employee"">",,,,
+${employee.name},${employee.payment},${employee.bonus},$[B19*(1+C19)],
+</jx:forEach>,,,,
+Totals:,$[SUM(B19)],,$[SUM(D19)],
+</jx:forEach>,,,,
+Department Totals:,$[SUM(B21)],,$[SUM(D21)],
+,,,,
+,$['Sheet 2'!B18],,,

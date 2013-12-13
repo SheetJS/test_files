@@ -1,0 +1,12 @@
+Quantity Sold,Product,Salesperson
+5,Apples,1
+4,Apples,2
+15,Artichokes,1
+3,Artichokes,2
+22,Bananas,1
+12,Bananas,2
+10,Carrots,1
+33,Carrots,2
+Formula,Description,Result
+"""=SUMIFS(A2:A9, B2:B9, ""=A*"", C2:C9, 1)""","Adds the total number of products sold that begin with ""A"" and that were sold by Salesperson 1.",20
+"""=SUMIFS(A2:A9, B2:B9, ""<>Bananas"", C2:C9, 1)""",Adds the total number of products (not including Bananas) sold by Salesperson 1.,30

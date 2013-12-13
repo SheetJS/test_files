@@ -1,0 +1,8 @@
+Target Range Name,Data Source (Report URI),Preprocessor,Postprocessor,Comment
+ComplianceByDivision,/Shared Reports/System/Entity Distribution/Compliance by Division,,,"Top N, stacked column chart"
+EntityCriticalityByDivisionAndCompliance,/Shared Reports/System/Entity Distribution/Entity Criticality (filter by division and compliance),,,"Summary, 2D pie chart"
+EntityComplianceByDivision,/Shared Reports/System/Entity Distribution/Entity Compliance (filter by Division),,,"Summary, 2D pie chart"
+EntityDetailsByComplianceAndCriticality,/Shared Reports/System/Entity Distribution/Entity Details by Compliance and Criticality,,,"Detail, tabular"
+EntityDistributionByCriticality,/Shared Reports/System/Entity Distribution/Entity Distribution by Criticality,,,"Summary, column chart"
+,,,,
+,,,,

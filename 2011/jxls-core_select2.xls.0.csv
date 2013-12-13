@@ -1,0 +1,5 @@
+"<jx:forEach items=""${employees}"" var=""employee"" select=""${employee.payment > 3000}"">",,
+"<jx:out expr=""employee.name"" />","<jx:out expr=""employee.payment"" />","<jx:out expr=""employee.bonus"" />"
+</jx:forEach>,,
+"<jx:forEach items=""${employees}"" var=""employee"" select=""${employee.payment > 3000}"">","<jx:out expr=""employee.name""/>",</jx:forEach>
+Last line,,

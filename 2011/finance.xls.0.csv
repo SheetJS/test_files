@@ -1,0 +1,8 @@
+Data,Description,,,,
+10%,Annual interest,,,,
+1,Period for which you want to find the interest,,,,
+3,Years of loan,,,,
+8000,Present value of loan,,,,
+Formula,Description (Result),,,,
+($22.41),Interest due in the first month for a loan with the terms above (-22.41),,,,
+($292.45),"Interest due in the last year for a loan with the terms above, where payments are made yearly (-292.45)",,,,

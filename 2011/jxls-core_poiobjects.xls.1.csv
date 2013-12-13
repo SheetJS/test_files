@@ -1,0 +1,9 @@
+Some data,${hssfRow.rowNum},
+"${sheet.getHeader().setLeft(sheet.getHeader().font(""Stencil-Normal"", ""Italic"") + sheet.getHeader().fontSize(16) + ""Stencil-Normal Italic font and size 16"")}",,
+,,
+Employees,,
+Name,Comment,
+"<jx:forEach items=""${employees}"" var=""employee"">",,
+${employee.name},${employee.comment},"${hssfRow.setHeightInPoints(13.5 * size(employee.comment.split(""\r\n"")));}"
+</jx:forEach>,,
+${hssfRow.rowNum},,

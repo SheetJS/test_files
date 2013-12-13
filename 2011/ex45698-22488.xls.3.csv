@@ -1,0 +1,13 @@
+Source d'informations: GRD,,,,,,Source d'informations: GRD et GRT,,Source d'informations: GRD ,,,Source d'informations: GRD ,,,,,,,,,Source d'informations: GRT,,,,,,,,,,Observations
+Communes,,,,,,PITD,,,,,GRD de rang 1,,,GRD de rang 2,,,GRD de rang 3,,,GRT,,,,,,,,,,
+ Code Insee,Libellé,Dates Prévisionnelles de mise en service de la       ND,,Distribution gérée par              un GRD DE     rang 1 ou  2   ,Coefficient tarif de proximité,Code,Libellé,Code de la station météo rattachée au PITD,Nom de la station météo rattachée au PITD,Zone climatique du PITD,Code,Nom ,Contact,Code,Nom ,Contact,Code,Nom ,Contact,Code,Nom,Nombre de postes de livraison Transport/Distribution rattachés au PITD, Type de gaz, Niveau Tarifaire Régional (NTR),Zone de Sortie,GDTF,TIGF, Zone Equilbrage, Contact ,
+,,,,,,,,,,,,,,,,,,,,,,,,,,Niveau Tarifaire de Sortie (NTS), Prix de Sortie (TCS) (€/MWh/j),,,
+,,Dernière date connue,Date antérieure ,,,,,,,,,,,,,,,,,,,,,,,,,,,
+9000,test,,,1,,PITDH,PITD H,  ,  ,,ASAD,Aire-sur-l'Adour,marc.bouillant@wanadoo.fr,  ,  ,,  ,  ,,GDFT,GRT Gaz,,H,,,,,,acces-reseau-accueil@grtgaz.com,  
+9001,TEST,,,2,,PITDH,PITD H,  ,  ,,GDFD,Gaz de France Distribution,acces-reseau-distribution@gazdefrance.com,BNVL,Bonneville,philippe.muller@nerim.net,  ,  ,,GDFT,GRT Gaz,,H,,,,,,acces-reseau-accueil@grtgaz.com,  
+9002,Commune GDFD rang1,,,1,,GD0969,ABBEVILLE,59343001,Lille-Lesquin,H1,GDFD,Gaz de France Distribution,acces-reseau-distribution@gazdefrance.com,  ,  ,,  ,  ,,GDFT,GRT Gaz,4,B,7,NORD B,2,,ZONE NORD,acces-reseau-accueil@grtgaz.com,  
+9003,Commune GDFD rang2,,,2,,GD0969,ABBEVILLE,59343001,Lille-Lesquin,H1,CRMX,Carmaux,jacquesliaubet@rmgecarmaux.fr,GDFD,Gaz de France Distribution,acces-reseau-distribution@gazdefrance.com,  ,  ,,GDFT,GRT Gaz,4,B,7,NORD B,2,,ZONE NORD,acces-reseau-accueil@grtgaz.com,  
+9996,GDFD,,,1,,PIPAPE,PITD PAPE,  ,  ,,GDFD,Gaz de France Distribution,acces-reseau-distribution@gazdefrance.com,  ,  ,,  ,  ,,GDFT,GRT Gaz,,B,,,,,,acces-reseau-accueil@grtgaz.com,  
+9998,CommmuneNonGDFD,,,1,,PITDB,PITD B,  ,  ,,ASAD,Aire-sur-l'Adour,marc.bouillant@wanadoo.fr,  ,  ,,  ,  ,,TIGF,Total Infrastructure Gaz France,,B,0,,,,,info-ATR-ATS@tigf.fr,(*) titi d En attente d'informations sur la date prévisionnelle de mise en gaz et sur le rattachement au PITD 
+9999,CommuneGDFD,,,1,,GD0747,ABLIS,76116001,Rouen-Boos,H1,GDFD,Gaz de France Distribution,acces-reseau-distribution@gazdefrance.com,  ,  ,,  ,  ,,GDFT,GRT Gaz,1,H,18,BEAUCE,9,,ZONE NORD,acces-reseau-accueil@grtgaz.com,  
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

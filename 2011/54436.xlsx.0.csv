@@ -1,0 +1,15 @@
+Category,Question,Score
+Category 1,Question 1,1
+Category 1,Question 2,2
+Category 2,Question 3,3
+Category 2,Question 4,4
+Category 2,Question 5,5
+,,
+Row Labels,Sum of Score,
+Category 1,3,
+Category 2,12,
+Grand Total,15,
+,,
+,,
+3,,
+$placeholder,,

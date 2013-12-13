@@ -1,0 +1,11 @@
+"<jx:forEach items=""${departments}"" var=""department"">",,,
+Department,${department.name},,
+<jx:outline>,,,
+Employees,,,
+Name,Payment,Bonus,Total
+"<jx:forEach items=""${department.staff}"" var=""employee"" group=""true"">",,,
+${employee.name},${employee.payment},${employee.bonus},$[B#*(1+C#)]
+</jx:forEach>,,,
+Totals:,,,
+</jx:outline>,,,
+</jx:forEach>,,,

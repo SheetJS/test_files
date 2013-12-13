@@ -1,0 +1,61 @@
+description,entered,calculated,
+empty string,,,
+len near 128,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,127
+len near 128,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,128
+len near 128,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx,129
+non-ascii,Ð,–,
+zero,0,0,
+one,1,1,
+minus 1,-1,-1,
+1.23,1.23,1.23,
+1.234,1.234,1.234,
+123456,123456,123456,
+1.23456789012345,1.234568,2.234568,
+one third,0.333333,0.333333,
+true,TRUE,TRUE,
+false,FALSE,FALSE,
+#div/0!,#DIV/0!,#DIV/0!,
+#na,#N/A,#N/A,
+#name?,#NAME?,#NAME?,
+#num!,#NUM!,#NUM!,
+#value!,#VALUE!,#VALUE!,
+#ref!,#REF!,#REF!,
+#null!,#NULL!,#NULL!,
+no data (formatting),,,more guff
+rich text 1,boldplain,boldplainboldplain,
+rich text 2,ArialCourier,ArialCourierArialCourier,
+no data (no formatting),,,filler
+Short Date,12/31/99,1/1/00,
+dd-mmm,18-Jan,19-Jan,
+dd/mm/yy,18/01/08,19/01/08,
+dd/mm/yyyy,18/01/2008,19/01/2008,
+Long Date,"Friday, January 18, 08","Saturday, January 19, 08",
+Hard newline (Alt-Enter),"Line1Line2Line3","Line1
+Line2
+Line3",
+NBSP,foonly frabjous farnarklingliness,,
+2 internal spaces,foo  bar,foo  bar,
+1 leading space, foo, foo,
+2 leading spaces,  foo,  foo,
+1 trailing space,foo ,foo ,
+2 trailing spaces,foo  ,foo  ,
+Hard newline (Alt-Enter),"Line1Line2","Line1
+Line2",
+Hard newline (Alt-Enter) with leading trailing & internal spaces,"  Li  ne1     Li   ne2       Li    ne3    ",,
+embedded control chars,,"	
+",
+embedded CC with u/score,,"	
+P_xQ_x000F_R_x000C_S",
+currency,"$1,234.56","AUD 1,234.56",
+time,02:10:55,2:10:55 AM,
+more underscores,_x000F__x000f_,_x000F__x000f_,
+less/greater/ampersand,1 < 2 & 4 > 3,1 < 2 & 4 > 3,
+rich text and spaces,   x      bold      y   ,,
+spaces in font name,this is Times New Roman,,
+empty cells,,,guff
+datetime,2009-07-06T021054.545,2009-07-07T021054.545,
+pseudofloat inf,123E999,123E999,
+pseudofloat big,12E99,12E99,
+pseudofloat tiny,12E-99,12E-99,
+text with custom date format,"text, dammit","text, dammit",
+text with standard date format,"text, dammit","text, dammit",

@@ -1,0 +1,9 @@
+,,,,,,,,,,,,,,
+Static table 1,,,,,Name: ${list1.name},,Static table 2,,Name: ${list2.name},,,,Static table 3,
+Header 1,Header 2,Name,Value 1,,Double Value,Sum,First,Second,Formula,,Int Value,Int Value,1,2
+Name: ${bean.name},${bean.doubleValue},Name: ${list1.beans.name},${list1.beans.name} - ${list1.beans.name} : ${list1.beans.intValue},,${list1.beans.doubleValue},$[F4 + M4]//list1.beans,Name: ${bean.name},,$[K4+L4]//list2.beans,${list2.beans.doubleValue},${list2.beans.intValue},${list1.beans.intValue},Name: ${staticBean.name},
+Merged - ${bean.intValue},,,,,$[SUM(F4)],,Int value:,${bean.intValue},$[SUM(J4)],,$[SUM(L4)],,Int value:,${staticBean.intValue}
+Final Row,,,,,,,Final Row,${bean.doubleValue},,,,,Final Row,${staticBean.doubleValue}
+,,,,,,,Constant 1,,,,,,Constant 11,
+,,,,,,,Constant 2,,,,,,Constant 22,
+,,,,,,,,,,,,,Constant 33,

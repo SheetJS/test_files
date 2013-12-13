@@ -1,0 +1,9 @@
+Department//departments,${departments.name}//:8,,,
+Chief,,,,
+Name,Age,Payment,Bonus,
+${departments.chief.name},${departments.chief.age},${departments.chief.payment},${departments.chief.bonus},
+,,,,
+Employees,,,,
+Name,Age,Payment,Bonus,Total
+${departments.staff.name},${departments.staff.age},${departments.staff.payment},${departments.staff.bonus},$[C8*(1+D8)]//departments.staff
+Totals:,,$[SUM(C8)],,$[SUM(E8)]

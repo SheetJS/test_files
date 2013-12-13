@@ -1,0 +1,18 @@
+"<jx:forEach items=""${departments}"" var=""department"">",,,,
+Department,${department.name},,,
+Chief,,,,
+Name,Age,Payment,Bonus,
+${department.chief.name},${department.chief.age},${department.chief.payment},${department.chief.bonus},
+,,,,
+Employees,,,,
+Name,Age,Payment,Bonus,Total
+"<jx:forEach items=""${department.staff}"" var=""employee"">",,,,
+"<jx:if test=""${employee.payment < 2000}"">",,,,
+${employee.name},${employee.age},${employee.payment},${employee.bonus},$[C#*(1+D#)]
+</jx:if>,,,,
+"<jx:if test=""${employee.payment >= 2000}"">",,,,
+${employee.name},${employee.age},${employee.payment},${employee.bonus},$[C#*(1+D#)]
+</jx:if>,,,,
+</jx:forEach>,,,,
+,,,,
+</jx:forEach>,,,,
