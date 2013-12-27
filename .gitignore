@@ -1,0 +1,10 @@
+*.xls
+*.xlsx
+*.xlsm
+*.tests
+apachepoi
+excel-reader-xlsx
+jxls-*
+openpyxl
+pyExcelerator
+xlrd
