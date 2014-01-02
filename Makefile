@@ -29,7 +29,7 @@ clean:
 
 # Resources acquired via subversion
 .PHONY: svn
-svn: apachepoi jxls xlrd excel-reader-xlsx pyExcelerator
+svn: apachepoi jxls xlrd excel-reader-xlsx pyExcelerator roo
 
 # Resources acquired via mercurial 
 .PHONY: hg
@@ -87,3 +87,9 @@ jxls-examples:
 jxls-src:
 	$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/src/site/resources/xls/ $@
 	$(CPUP)
+
+# roo (Ruby)
+.PHONY: roo
+
+roo:
+	$(call github,Empact/roo,test/files)
