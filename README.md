@@ -28,6 +28,8 @@ string table was pulled from <http://longwords.org/longwordslist.html>
 
 `RkNumber` tests all styles of RkNumber records.  Records were verified by hand.
 
+`merge_cells` tests vertical, horizontal, and rectangular merged cells. 
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate 
