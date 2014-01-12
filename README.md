@@ -30,6 +30,10 @@ string table was pulled from <http://longwords.org/longwordslist.html>
 
 `merge_cells` tests vertical, horizontal, and rectangular merged cells. 
 
+`LONumbers` tests LO number format deviations from Excel.  The `LONumbers.xls*`
+files are directly from LibreOffice 4.1.4.2.  These files were opened in Excel,
+"repaired", and saved as `LONumbers-EXCELVERSION.xls*`.
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate 
