@@ -1,6 +1,3 @@
-*.xls
-*.xlsx
-*.xlsm
 *.tests
 apachepoi
 excel-reader-xlsx
@@ -9,3 +6,10 @@ openpyxl
 pyExcelerator
 xlrd
 roo
+apachepoi_*.xls*
+excel-reader-xlsx_*.xls*
+jxls-*_*.xls*
+openpyxl_*.xls*
+pyExcelerator_*.xls*
+xlrd_*.xls*
+roo_*.xls*

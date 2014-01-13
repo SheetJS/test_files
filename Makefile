@@ -4,7 +4,6 @@
 # usage: $(call github,user/repo_name,path/to/test/files)
 GSVN=svn co --trust-server-cert --non-interactive
 CPUP=cd $@; for i in *.xls*; do cp "$$i" ../"$@_$$i"; done
-CPU2=cd $@; for i in *.xls*; do cp "$$i" ../"$$i"; done
 github = $(GSVN) https://github.com/$(1)/trunk/$(2) $@; $(CPUP)
 
 ## Make Targets 
@@ -47,7 +46,7 @@ hg: openpyxl
 .PHONY: apachepoi
 apachepoi:
 	svn co http://svn.apache.org/repos/asf/poi/trunk/test-data/spreadsheet/ apachepoi
-	$(CPU2)
+	$(CPUP)
 
 # xlrd (Python)
 .PHONY: xlrd

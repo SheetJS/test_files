@@ -71,4 +71,6 @@ At the time of this writing, the test files are covered under the MIT License
 
 All files contained in this repository are licensed under the Apache 2 License. 
 Files external to this repo (acquired via `make`) are licensed under separate
-terms (as indicated in the External Test Files section) 
+terms (as indicated in the External Test Files section)
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/1a1b91956aee094414d49d818560a2b5 "githalytics.com")](http://githalytics.com/SheetJS/test_files)
