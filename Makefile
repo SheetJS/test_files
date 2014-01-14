@@ -28,7 +28,7 @@ clean:
 
 # Resources acquired via subversion
 .PHONY: svn
-svn: apachepoi jxls xlrd excel-reader-xlsx pyExcelerator roo
+svn: apachepoi jxls xlrd excel-reader-xlsx pyExcelerator roo spreadsheet-parsexlsx
 
 # Resources acquired via mercurial 
 .PHONY: hg
@@ -92,3 +92,10 @@ jxls-src:
 
 roo:
 	$(call github,Empact/roo,test/files)
+
+# Spreadsheet::ParseXLSX (Perl)
+
+.PHONY: spreadsheet-parsexlsx
+spreadsheet-parsexlsx:
+	$(call github,doy/spreadsheet-parsexlsx,t/data)
+

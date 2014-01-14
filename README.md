@@ -67,6 +67,10 @@ At the time of this writing, it is covered under the GNU Lesser GPL License
 `roo` pulls the test battery from the roo project: <http://roo.rubyforge.org/>
 At the time of this writing, the test files are covered under the MIT License 
 
+`spreadsheet-parsexlsx` pulls the test battery from the ParseXLSX project:
+<https://metacpan.org/release/Spreadsheet-ParseXLSX>
+At the time of this writing, it is covered under the MIT (X11) License
+
 # License
 
 All files contained in this repository are licensed under the Apache 2 License. 
