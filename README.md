@@ -38,7 +38,10 @@ files are directly from LibreOffice 4.1.4.2.  These files were opened in Excel,
 
 All external test files are pulled using the Makefile and fall under separate 
 licensing terms (as described below).  None of the files directly contained in 
-this repo are encumbered by external licenses.
+this repo are encumbered by external licenses.  They are acquired by cloning:
+
+- Github repos are cloned using SVN access (just pulls the relevant directory)
+- Bitbucket repos are cloned using HG access 
 
 `apachepoi` pulls only the spreadsheet test battery from the Apache POI project:
 <https://poi.apache.org/spreadsheet/index.html>.  

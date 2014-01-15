@@ -10,7 +10,7 @@ github = $(GSVN) https://github.com/$(1)/trunk/$(2) $@; $(CPUP)
 
 # Entry Point (init)
 .PHONY: init clean
-init: svn
+init: all 
 
 # All files
 .PHONY: all
