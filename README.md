@@ -17,6 +17,9 @@ separate licenses (see below).
 formula.  It includes a pivot table as well as array formulae, inline arrays,
 errors, booleans, and other cell types and formula elements.
 
+`comments_stress_test` tests various types of comments and functions.  The XLS 
+version uses VBA to extract comments.
+
 `number_format` tests every implied format from ECMA-376 as well as every format
 available within the Excel 2011 UI.  Ultimately there will be international
 versions to test certain features (some require an east-Asian version -- if you
