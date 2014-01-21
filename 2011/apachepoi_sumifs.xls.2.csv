@@ -1,0 +1,7 @@
+Daily Measurements,First Day,Second Day,Third Day,Fourth Day
+Rain (total inches),3.3,0.8,5.5,5.5
+Average temperature (degrees),55,39,39,57.5
+Average wind speed (miles per hour),6.5,19.5,6,6.5
+Formula,Description,Result,,
+"""=SUMIFS(B2:E2, B3:E3, "">=40"", B4:E4, ""<10"")""",Adds the total amount of rainfall for days when the average temperature was at least 40 degrees Fahrenheit and the average wind speed was less than 10 miles per hour.,8.8,,
+,"Only cells B2 and E2 are summed because, for each column (B through E), the values in both rows 3 and 4 must meet criteria1 and criteria2, respectively. Cells B3 and B4 meet both criteria, as do E3 and E4. However, neither C3 nor C4 meet either criteria. Finally, although D4 meets criteria2, D3 fails to meet criteria1.",,,

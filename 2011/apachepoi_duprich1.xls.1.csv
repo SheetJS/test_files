@@ -1,0 +1,10 @@
+Proj NO,Phase NO,Proj ID,Phase ID,Task ID,Task Desc,Subtask ID,Subtask Desc,01/05 (Wed),02/05 (Thu),03/05 (Fri),04/05 (Sat),05/05 (Sun),06/05 (Mon),07/05 (Tue),08/05 (Wed),09/05 (Thu),10/05 (Fri),11/05 (Sat),12/05 (Sun),13/05 (Mon),14/05 (Tue),15/05 (Wed),16/05 (Thu),17/05 (Fri),18/05 (Sat),19/05 (Sun),20/05 (Mon),21/05 (Tue),22/05 (Wed),23/05 (Thu),24/05 (Fri),25/05 (Sat),26/05 (Sun),27/05 (Mon),28/05 (Tue),29/05 (Wed),30/05 (Thu),31/05 (Fri)
+805,4150,ITSDADMN,ITSDADMN,ODUT,Duty of Non-timesheet Rpt Rank,0001,Duty of Non-timesheet Rpt Rank,01/05 (Wed),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+805,4150,ITSDADMN,ITSDADMN,TRNG,General Training,0001,General Training,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+805,4150,ITSDADMN,ITSDADMN,LEAV,Leave,0001,Leave,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+805,4150,ITSDADMN,ITSDADMN,ADMN,Non-Project Related Admin. Work,0001,Non-Project Related Admin. Work,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+805,4150,ITSDADMN,ITSDADMN,NWRK,Non-Working Entry,0001,Non-Working Entry,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+805,4150,ITSDADMN,ITSDADMN,MEET,Non-project Related Meeting,0001,Non-Project Related Meeting,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+805,4150,ITSDADMN,ITSDADMN,PSER,Public Service,0001,Public Service,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+805,4150,ITSDADMN,ITSDADMN,TOFF,Timeoff,0001,Timeoff,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+924,4669,TSSC_EX_DE,TSSC_EX_DE,PROM,TSSC Exhibition & Demonstration,0001,Promotion of Gov't Use of IT,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

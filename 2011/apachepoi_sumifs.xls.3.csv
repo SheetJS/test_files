@@ -1,0 +1,11 @@
+Morning and Evening Measurements,First Day,Second Day,Third Day,Fourth Day
+AM: rain (total inches),1.3,0,1.5,3
+PM: rain (total inches),2,0.8,4,2.5
+AM: average temperature (degrees),56,44,40,38
+PM: average temperature (degrees),54,34,38,77
+AM: average wind speed (miles per hour),13,6,8,1
+PM: average wind speed (miles per hour),0,33,4,12
+Formula,Description,Result,,
+"""=SUMIFS(B2:E3, B4:E5, "">=40"", B6:E7, ""<10"")""",Adds the total amount of rainfall for 12-hour periods when the average temperature was at least 40 degrees Fahrenheit and the average wind speed was less than 10 miles per hour.,3.5,,
+,"Only cells B3, C2, and D2 are summed, because their corresponding cells meet both criteria. The corresponding cells for B3 are B5 and B7, the corresponding cells for C2 are C4 and C6, and the corresponding cells for D2 are D4 and D6.",,,
+,"As an example of data excluded from the operation, the corresponding cells of B2 (B4 and B6) do not meet both criteria; specifically, cell B6 fails because its value (13) is greater than criteria2 (10).",,,

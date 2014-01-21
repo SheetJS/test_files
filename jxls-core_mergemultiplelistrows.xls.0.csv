@@ -1,0 +1,8 @@
+Several Rows with Merged Cells per List Item Test,,,
+Name:,${listBean.name},,
+,,,
+${listBean.beans.name}//:3,,,${listBean.beans.doubleValue}
+,Date:,,
+,${listBean.beans.dateValue},,
+Left Cell,,,
+Last Row,,,

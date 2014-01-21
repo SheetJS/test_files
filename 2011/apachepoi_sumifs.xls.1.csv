@@ -1,0 +1,8 @@
+Totals,Account 1,Account 2,Account 3,Account 4
+Amount in dollars,100,390,8321,500
+Interest paid (2000),1%,0.50%,3%,4%
+Interest paid (2001),1%,1.30%,2.10%,2%
+Interest paid (2002),0.50%,3%,1%,4%
+Formula,Description,Result,,
+"""=SUMIFS(B2:E2, B3:E3, "">3%"", B4:E4, "">=2%"")""",Total amounts from each bank account where the interest was greater than 3% for the year 2000 and greater than or equal to 2% for the year 2001.,500,,
+"""=SUMIFS(B2:E2, B5:E5, "">=1%"", B5:E5, ""<=3%"", B4:E4, "">1%"")""",Total amounts from each bank account where the interest was between 1% and 3% for the year 2002 and greater than 1% for the year 2001.,8711,,

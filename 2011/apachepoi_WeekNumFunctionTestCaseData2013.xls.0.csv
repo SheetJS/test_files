@@ -1,0 +1,11 @@
+This spreadsheet contains various test cases for the functions: WeekNum
+Name of the main junit test class which uses this spreadsheet:
+org.apache.poi.ss.formula.functions.TestWeekNumFunctionsFromSpreadsheet2013
+(The content of cell 'Read Me'!A3 is confirmed by the test)
+
+Every sheet besides this first one contains formula evaluation test cases in a standardised format.
+"On row 4 of each sheet, in columns B,C,D there are the column headings ""Formula"", ""Expected Result"" and ""Comment"""
+"The test iterates down from row 5 onward  until a the text ""<end>"" is found in column A.   Rows with ""<skip>"" in column A are ignored (useful for currently unsupported behaviour).  Otherwise column A can be used for commenting the group of rows below. "
+"If the evaluated result of column B does not match the expected result in column C, the junit test will report a failure.  Test failures get annotated with the section and row comments, if any."
+"Besides the first 4 columns, row 5 onwards, the junit test does not inspect any other cells in the sheet.  The other cells can be used freely to set up test data."
+"Care should be taken to not only make the values in column C match those in column B, but also to make sure column C contains only simple literal values.  This can be achieved easily by 'pasting special' from column B to C, selecting the 'as values' option."

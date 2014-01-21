@@ -1,0 +1,1 @@
+${itDep.name},"<jx:forEach items=""${itDep.staff}"" var=""employee"">",${employee.name},${employee.payment},</jx:forEach>,${mgrDep.name},"<jx:forEach items=""${mgrDep.staff}"" var=""employee"">",${employee.name},${employee.payment},</jx:forEach>,${mgrDep.name}

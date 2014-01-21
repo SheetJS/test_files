@@ -1,0 +1,14 @@
+"<jx:forEach items=""${departments}"" var=""department"">",,,,
+Department,${department.name},,,
+Chief,,,,
+Name,Age,Payment,Bonus,
+${department.chief.name},${department.chief.age},${department.chief.payment},${department.chief.bonus},
+,,,,
+Employees,,,,
+Name,Age,Payment,Bonus,Total
+"<jx:forEach items=""${department.staff}"" var=""employee"">",,,,
+${employee.name},${employee.age},${employee.payment},${employee.bonus},$[C10*(1+D10)]
+</jx:forEach>,,,,
+Total,,,,$[SUM(E10)]
+</jx:forEach>,,,,
+Grand Total,,,,$[SUM(E12)]

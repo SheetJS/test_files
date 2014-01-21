@@ -1,0 +1,6 @@
+Sheet,ZZ Account Codes[0-9],,
+Segments,,,
+Name,SegmentHead1,Another Segment,NOTSUBJECTIVE
+Description,A description of the header to the left,Some other description,stuff
+Max Code Length,10,20,20
+Default Code,16,35,123

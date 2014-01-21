@@ -1,0 +1,8 @@
+Expressions Test,,
+Name: ${bean.name},,
+Other.Name,Value,
+"${bean.other.name} - ${bean.doubleValue*2},${(bean.other.intValue + bean.doubleValue)/0.5}",${10*bean.doubleValue + 2.55},
+,,
+Other.Name,Double Value,Combination!
+[${listBean.beans.name}],${(listBean.beans.doubleValue*10.2)/ 10 + 1.567} yeah,${listBean.beans.doubleValue + listBean.beans.intValue*2.1} - ${listBean.beans.intValue* (10 + 1.1)}
+Last Row,,

@@ -1,0 +1,14 @@
+Data,Data,
+apples,Yes,
+,,
+oranges,NO,
+peaches,No,
+,,
+apples,yes,
+Formula,Description,Result
+4,"Number of cells ending with the letters ""es"" in cells A2 through A7.",4
+2,"Number of cells ending with the letters ""les"" and having exactly 7 letters in cells A2 through A7.",2
+4,Number of cells containing any text in cells A2 through A7.,4
+2,Number of cells not containing text in cells A2 through A7.,2
+0.333333333,The average number of No votes (including blank cells) in cells B2 through B7.,0.333333333
+0.5,The average number of Yes votes (excluding blank cells) in cells B2 through B7.,0.5

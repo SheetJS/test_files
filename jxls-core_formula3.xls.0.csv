@@ -1,0 +1,4 @@
+"<jx:forEach items=""${department.staff}"" var=""employee"">",,
+${employee.name},${employee.payment},"$[ROUND(B10/1000,3)]"
+</jx:forEach>,,
+Totals:,$[SUM(B10)],

@@ -1,0 +1,3 @@
+"<jx:forEach items=""${list}"" var=""item"">",,,
+${item.key},"<jx:forEach items=""${item.values}"" var=""value"">",${value},</jx:forEach>
+</jx:forEach>,,,

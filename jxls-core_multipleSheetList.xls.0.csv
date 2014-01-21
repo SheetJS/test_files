@@ -1,0 +1,9 @@
+Department,${department.name},,
+Employees,,,
+Name,Payment,Bonus,Total
+"<jx:forEach items=""${department.staff}"" var=""employee"">",,,
+${employee.name},${employee.payment},${employee.bonus},$[B5*(1+C5)]
+</jx:forEach>,,,
+Totals:,$[SUM(B5)],,$[SUM(D5)]
+,,,
+Merged Cell,,,

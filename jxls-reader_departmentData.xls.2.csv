@@ -1,0 +1,37 @@
+Department,IT,,,
+Chief,,,,
+Name,Age,Payment,Bonus,
+Derek,35,3000,30.00%,
+,,,,
+Employees,,,,
+Name,Age,Payment,Bonus,Total
+Elsa,28,1500,15.00%,1725
+Oleg,32,2300,25.00%,2875
+Neil,34,2500,0.00%,2500
+Maria,34,1700,15.00%,1955
+John,35,2800,20.00%,3360
+Employee Payment Totals:,,10800,,12415
+Department,HR,,,
+Chief,,,,
+Name,Age,Payment,Bonus,
+Betsy,37,2200,30.00%,
+,,,,
+Employees,,,,
+Name,Age,Payment,Bonus,Total
+Olga,26,1400,20.00%,1680
+Helen,30,2100,10.00%,2310
+Keith,24,1800,15.00%,2070
+Cat,34,1900,15.00%,2185
+Employee Payment Totals:,,7200,,8245
+Department,BA,,,
+Chief,,,,
+Name,Age,Payment,Bonus,
+Wendy,35,2900,35.00%,
+,,,,
+Employees,,,,
+Name,Age,Payment,Bonus,Total
+Denise,30,2400,20.00%,2880
+LeAnn,32,2200,15.00%,2530
+Natali,28,2600,10.00%,2860
+Martha,33,2150,25.00%,2687.5
+Employee Payment Totals:,,9350,,10957.5

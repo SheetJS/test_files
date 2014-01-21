@@ -1,0 +1,8 @@
+Skip,Path,Source URL,Content,Include Subdirectories,Target URL,Document Library,Folder - Project Content,SubFolder,Target Folder,Property:TypeOfDocument,Audit for conditional formatting,Pathbuilder Class,Since,Doc library indirect,Folder lookup indirect
+, A406 (AG013736 VEGF-Onc) AXITINIB Team,/A406 (AG013736 VEGF-Onc) AXITINIB Team,0,,,,,,,,FALSE,,,StudyDocLibrary,Study_Folders
+,    04 Regulatory,/A406 (AG013736 VEGF-Onc) AXITINIB Team/04 Regulatory,0,,,,,,,,FALSE,,,StudyDocLibrary,Study_Folders
+,    01 Project Management,/A406 (AG013736 VEGF-Onc) AXITINIB Team/01 Project Management,0,,,,,,,,FALSE,,,StudyDocLibrary,Study_Folders
+,       Goals,/A406 (AG013736 VEGF-Onc) AXITINIB Team/01 Project Management/Goals,0,y,Development/A406,Project Management,,Goals,Goals,Goals,FALSE,DevelopmentDrugProjectDocument,,DocLibrary,
+,          2006,/A406 (AG013736 VEGF-Onc) AXITINIB Team/01 Project Management/Goals/2006,1,,,,,,,,FALSE,,,StudyDocLibrary,Study_Folders
+,          2008,/A406 (AG013736 VEGF-Onc) AXITINIB Team/01 Project Management/Goals/2008,0,,,,,,,,FALSE,,,StudyDocLibrary,Study_Folders
+,          2007,/A406 (AG013736 VEGF-Onc) AXITINIB Team/01 Project Management/Goals/2007,0,,,,,,,,FALSE,,,StudyDocLibrary,Study_Folders

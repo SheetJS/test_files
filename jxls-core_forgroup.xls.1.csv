@@ -1,0 +1,7 @@
+"<jx:forEach items=""${departments}"" var=""department"">",,,,,,,,
+Department,${department.name},,,,,,,
+Employees,,,,,,,,
+Name,Payment,Bonus,Total,,,,,
+"<jx:forEach items=""${department.staff}"" groupBy=""age"">",Age: ${group.item.age},"<jx:forEach items=""${group.items}"" var=""employee"">",${employee.name},${employee.payment},${employee.bonus},,</jx:forEach>,</jx:forEach>
+Totals:,,,,,,,,
+</jx:forEach>,,,,,,,,

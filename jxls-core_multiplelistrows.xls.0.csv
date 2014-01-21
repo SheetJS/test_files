@@ -1,0 +1,8 @@
+Several Rows per List Item Test,,,
+Name:,${listBean.name},,
+,,,
+${listBean.beans.name}//:3,//listBean.beans,Int Value://listBean.beans,${listBean.beans.other.intValue}
+Double Value:,${listBean.beans.doubleValue},,
+,,,
+,,Date:,${listBean.beans.dateValue}
+Last Row,,,

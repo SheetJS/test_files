@@ -1,0 +1,8 @@
+Employees,
+Name:,Notes:
+"<jx:forEach items=""${employees}"" var=""emp"">",
+${emp.name},${emp.notes[0]}
+"<jx:forEach items=""${emp.notes.subList(1, emp.notes.size())}"" var=""note"">",
+,${note}
+</jx:forEach>,
+</jx:forEach>,

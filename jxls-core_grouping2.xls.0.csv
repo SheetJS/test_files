@@ -1,0 +1,6 @@
+Grouping multiple rows Test,,
+Name://mainBean.beans,${mainBean.beans.name}//:4,
+Other.Name,,
+${mainBean.beans.beans.name}//:1,,
+Double Value:,${mainBean.beans.beans.doubleValue},${mainBean.name}//mainBean.beans.beans
+Last Row,,

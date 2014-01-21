@@ -1,0 +1,13 @@
+"<jx:if test=""${!empty(items)}"">",
+"<jx:forEach items=""${items}"" var=""item"">",
+Name:,${item.name}
+</jx:forEach>,
+</jx:if>,
+,
+"<jx:if test=""${empty(emptyItems)}"">",
+This collection is empty,
+</jx:if>,
+,
+"<jx:if test=""${empty(nullItems)}"">",
+This collection detected as null,
+</jx:if>,

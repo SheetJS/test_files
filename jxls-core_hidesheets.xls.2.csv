@@ -1,0 +1,5 @@
+Sheet 3,,,
+Name:,${bean.name},,
+Other.Name,Double Value,Integer Value,Date Value
+${bean.other.name},${bean.doubleValue},${bean.other.intValue},${bean.dateValue}
+Last Row,,,

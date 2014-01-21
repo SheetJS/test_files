@@ -1,0 +1,4 @@
+"<jx:forEach items=""${employees}"" var=""employee"">",,,,,
+${employee.name},${employee.age},${employee.payment},${employee.bonus},$[C2*(1+D2)],${employee.birthDate}
+</jx:forEach>,,,,,
+,,,,$[SUM(E2)],

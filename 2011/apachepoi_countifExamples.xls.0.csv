@@ -1,0 +1,52 @@
+Criteria,Range,Actual,Expected,Comments
+>5,4,0,0,
+>5,5,0,0,
+>5,6,1,1,
+>abc,aba,0,0,
+>abc,abc,0,0,
+>abc,abd,1,1,
+1,1,1,1,
+1,1,1,1,
+1,1,1,1,
+=22,22,1,1,
+=22,22,1,1,
+1,1,1,1,
+,,0,0,Blank criteria does not match blank value
+,,0,0,Blank criteria does not match empty string
+,,1,1,Empty string criteria matches blank value
+,,1,1,Empty string criteria matches empty string value
+=,,1,1,Explicit equals operator with empty string matches blank value
+=,,0,0,Explicit equals operator with empty string does not match empty string value
+<>,,1,1,
+<>,,0,0,
+A*B,A123BC,0,0,
+<>A*B,ABF,1,1,
+A~?B,A?B,1,1,
+>A~*B,A~+C,1,1,
+0,0,1,1,
+0,0,1,1,
+0,,0,0,
+0,0,1,1,
+0,0,1,1,
+0,,0,0,
+1*2,12342,0,0,
+1*2,12322,1,1,
+*,,1,1,
+=*,,1,1,
+<>,,1,1,
+>,,0,0,
+<,,0,0,
+<=,,0,0,
+>=,,0,0,
+TRUE,TRUE,1,1,
+<TRUE,FALSE,1,1,
+<TRUE,FALSE,0,0,
+<TRUE,TA,0,0,String 'TA' does not compare with boolean TRUE
+>FALSE,FB,0,0,
+>FALSE,TRUE,1,1,
+>FALSE,TRUE,0,0,String 'TRUE' does not compare with boolean FALSE
+>4t3,500,0,0,
+>4t3,500,1,1,
+500,500,1,1,
+TRUE,TRUE,0,0,
+a*b,ab,1,1,

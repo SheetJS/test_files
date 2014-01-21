@@ -1,0 +1,3 @@
+Department:,Name,Payment,Bonus,Total,Department:,,,Payment,Bonus,Total
+${depIT.name},${depIT.staff.name},${depIT.staff.payment},${depIT.staff.bonus},$[C2*(1+D2)]//depIT.staff,${depHR.name},Employee://depHR.staff,${depHR.staff.name},${depHR.staff.payment},${depHR.staff.bonus},$[I2*(1+J2)]//depHR.staff
+,Totals:,$[SUM(C2)],,$[SUM(E2)],,,,,,

@@ -1,0 +1,11 @@
+,,,,,,,,,,,,,,,
+Contractnummer(s),${header.contractnummer},,,,,,,,,,,,,,
+Valutadatum van,${header.valutadatumvan},,,,,,,,,,,,,,
+Valutadatum tot,${header.valutadatumtot},,,,,,,,,,,,,,
+Draaidatum,${header.draaidatum},,,,,,,,,,,,,,
+,,,,,,,,,,,"<jx:forEach items=""${cols}"" var=""col"">",Fund: ${col.name} ,,,</jx:forEach>
+,,,,,,,,,,,"<jx:forEach items=""${cols}"" var=""col"">",${col.rate} ,,,</jx:forEach>
+REKENINGNUMMER,DLNRNR,PAKKETNR,ECHTSNR,VERZNR,TARLGNR,SRT_BRK_BRK,NM_DLNR_BRK,GESL_BRK,GEBDAT_BRK,AFVDAT_BRK,"<jx:forEach items=""${cols}"" var=""col"">",Eenheden,Waarde,Verkoopkosten,</jx:forEach>
+"<jx:forEach items=""${records}"" var=""record"">",,,,,,,,,,,,,,,
+${record.rekeningnummer},${record.dlnrnr},${record.pakketnr},${record.echtsnr},${record.verznr},${record.tarlgnr},${record.srt_brk_brk},${record.nm_dlnr_brk},${record.gesl_brk},${record.gebdat_brk},${record.afvdat_brk},"<jx:forEach items=""${record.fund}"" var=""fund"">",${fund.eenheden},${fund.waarde},${fund.verkoopkosten},</jx:forEach>
+</jx:forEach>,,,,,,,,,,,,,,,

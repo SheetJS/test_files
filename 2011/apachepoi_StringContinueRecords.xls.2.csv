@@ -1,0 +1,5 @@
+SQL requests
+"delete from QRTZ_FIRED_TRIGGERS t where t.TRIGGER_NAME in ('cbt1cbj1', 'cbt2cbj2', 'cbt3cbj3', 'cbt4cbj4');"
+"update QRTZ_TRIGGERS t set t.TRIGGER_STATE = 'WAITING', t.NEXT_FIRE_TIME = (select ((sysdate - (1/24)) - TO_DATE('19700101', 'YYYYMMDD')) * 86400000 from dual) where t.JOB_NAME in ('cbj1', 'cbj2', 'cbj3','cbj4');"
+"update EAI_COB_CONFIGURATION t set t.RUNNING_STATUS = 1, t.COB_STATUS = 1;"
+delete Test_Pack_Result;

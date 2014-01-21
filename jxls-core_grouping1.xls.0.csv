@@ -1,0 +1,5 @@
+Bean with List Test,,
+Name://mainBean.beans,${mainBean.beans.name}//:3,
+Other.Name,Double Value,Root Bean Name
+${mainBean.beans.beans.name},${mainBean.beans.beans.doubleValue},${mainBean.name}//mainBean.beans.beans
+Last Row,,
