@@ -1,0 +1,9 @@
+"<jx:forEach items=""${departments}"" var=""department"">",,,,,
+Department name:,${department.name},,,,
+Manager:,${department.chief.name},,,,
+Staff:,,,,,
+"<jx:forEach items=""${department.staff}"" var=""employee"">",,,,,
+${employee.name},${employee.age},${employee.payment},${employee.bonus},$[C6*(1+D6)],${employee.birthDate}
+</jx:forEach>,,,,,
+,,,,$[SUM(E6)],
+</jx:forEach>,,,,,

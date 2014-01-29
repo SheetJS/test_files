@@ -1,0 +1,42 @@
+Result (expected),Format,Value,Categories
+11-10-52,d-m-y,11-Oct-1952 14:35:27.000,Date
+11-10-52,dd-mm-yy,11-Oct-1952 14:35:27.000,Date
+Sat-Oct-1952,ddd-mmm-yyy,11-Oct-1952 14:35:27.000,Date
+Saturday-October-1952,dddd-mmmm-yyyy,11-Oct-1952 14:35:27.000,Date
+11-10-52,D-M-Y,11-Oct-1952 14:35:27.000,Date
+11-10-52,DD-MM-YY,11-Oct-1952 14:35:27.000,Date
+Sat-Oct-1952,DDD-MMM-YYY,11-Oct-1952 14:35:27.000,Date
+Saturday-October-1952,DDDD-MMMM-YYYY,11-Oct-1952 14:35:27.000,Date
+14:35:27,h:m:s,11-Oct-1952 14:35:27.000,Time
+02:35:27 p,hh:mm:ss a/p,11-Oct-1952 14:35:27.000,Time
+2:35:27.000 P,h:m:s.000 A/P,11-Oct-1952 14:35:27.000,"Time, Debug"
+02:35:27.000 PM,hh:mm:ss.000 am/pm,11-Oct-1952 14:35:27.000,Time
+11-10-52 14:35:27,d-m-y h:m:s,11-Oct-1952 14:35:27.000,Time
+14:35:27,H:M:S,11-Oct-1952 14:35:27.000,Time
+02:35:27 P,HH:MM:SS A/P,11-Oct-1952 14:35:27.000,Time
+2:35:27.00 p,H:M:S.00 a/p,11-Oct-1952 14:35:27.000,Time
+02:35:27.000 PM,HH:MM:SS.000 AM/PM,11-Oct-1952 14:35:27.000,Time
+11-10-52 14:35:27,d-m-y h:m:s,11-Oct-1952 14:35:27.000,"Date,Time"
+Saturday-October-1952 2:35:27 PM,dddd-mmmm-yyyy H:M:S am/pm,11-Oct-1952 14:35:27.000,"Date,Time"
+1-2-03,d-m-y,01-Feb-2003 04:05:06.009,Date
+01-02-03,dd-mm-yy,01-Feb-2003 04:05:06.009,Date
+Sat-Feb-2003,ddd-mmm-yyy,01-Feb-2003 04:05:06.009,Date
+Saturday-February-2003,dddd-mmmm-yyyy,01-Feb-2003 04:05:06.009,Date
+1-2-03,D-M-Y,01-Feb-2003 04:05:06.009,Date
+01-02-03,DD-MM-YY,01-Feb-2003 04:05:06.009,Date
+Sat-Feb-2003,DDD-MMM-YYY,01-Feb-2003 04:05:06.009,Date
+Saturday-February-2003,DDDD-MMMM-YYYY,01-Feb-2003 04:05:06.009,Date
+4:5:6,h:m:s,01-Feb-2003 04:05:06.009,Time
+04:05:06 a,hh:mm:ss a/p,01-Feb-2003 04:05:06.009,Time
+4:5:6.01 A,h:m:s.00 A/P,01-Feb-2003 04:05:06.009,Time
+04:05:06.009 AM,hh:mm:ss.000 am/pm,01-Feb-2003 04:05:06.009,Time
+1-2-03 4:5:6,d-m-y h:m:s,01-Feb-2003 04:05:06.009,Time
+4:5:6,H:M:S,01-Feb-2003 04:05:06.009,Time
+04:05:06 A,HH:MM:SS A/P,01-Feb-2003 04:05:06.009,Time
+4:5:6.01 a,H:M:S.00 a/p,01-Feb-2003 04:05:06.009,Time
+04:05:06.009 AM,HH:MM:SS.000 AM/PM,01-Feb-2003 04:05:06.009,Time
+1-2-03 4:5:6,d-m-y h:m:s,01-Feb-2003 04:05:06.009,"Date,Time"
+Saturday-February-2003 4:5:6 AM,dddd-mmmm-yyyy H:M:S am/pm,01-Feb-2003 04:05:06.009,"Date,Time"
+4:5:6.01,h:m:s.00,01-Feb-2003 04:05:06.009,Time
+01-01-2025,dd-mm-yyyy,01-Jan-2025 00:00:00.000,Date
+14:35,h:m,11-Oct-1952 14:35:27.000,Time

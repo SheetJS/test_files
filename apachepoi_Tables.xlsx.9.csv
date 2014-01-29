@@ -1,0 +1,26 @@
+EXAMPLE 10,,,,,,,,,,
+"   Married couple, one income, two children (under the age of 6)  ",,,,,,,,,,
+   Taxed under Schedule D,,,,,,,,,,
+GROSS,     PRSI Liability,,Levy Liability,,    Tax Liability,,Child Benefit,Total,Total,Gain as % of
+INCOME,Existing,Proposed,Existing,Proposed,Existing,Proposed,Increase (a),Gain (b),Gain,Net Income (d)
+,,,,,,,,(Per Year),(Per Week) ( c),
+€,€,€,€,€,€,€,€,€,€,%
+"17,500",525,525,0,0,0,0,180,680,13,3.1
+"25,000 (e)",749,749,499,0,962,702,180,"1,439",28,5.2
+"30,000",900,900,600,600,"1,970","1,710",180,940,18,3.0
+"35,000","1,050","1,050",700,700,"2,970","2,710",180,940,18,2.7
+"40,000","1,200","1,200",800,800,"3,970","3,710",180,940,18,2.4
+"45,000","1,350","1,350",900,900,"5,850","5,130",180,"1,400",27,3.3
+"50,000","1,500","1,500","1,000","1,000","7,950","7,180",180,"1,450",28,3.3
+"60,000","1,800","1,800","1,200","1,200","12,150","11,280",180,"1,550",30,3.1
+"80,000","2,400","2,400","1,600","1,600","20,550","19,480",180,"1,750",34,2.9
+"100,000","3,000","3,000","2,000","2,000","28,950","27,680",180,"1,950",38,2.7
+"120,000","3,600","3,600","2,400","2,500","37,350","35,880",180,"2,051",39,2.5
+"200,000","6,000","6,000","4,000","4,500","70,950","68,680",180,"2,451",47,2.0
+,,,,,,,,,,
+Variations can arise due to rounding,,,,,,,,,,
+"(a)  Value during 2007 of the increase in Child Benefit (CB) made in the Budget, which is effective from April, 2007 (i.e. assuming 9 months of CB increase).",,,,,,,,,,
+(b) Includes payment of an additional quarter of ECS (€250 per child) in 2007 as compared with 2006,,,,,,,,,,
+(c) Gains per week are based on a 52 week year,,,,,,,,,,
+"(d) Net income includes CB and ECS less deductions of tax, levy and PRSI (where appropriate) and so may be higher than the gross income.",,,,,,,,,,
+"(e) Recte €24,960",,,,,,,,,,

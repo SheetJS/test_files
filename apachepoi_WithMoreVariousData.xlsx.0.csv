@@ -1,0 +1,17 @@
+A1,B1,C1
+22.3,Foo,"This is a really long cell, with lots of text in it"
+24.5,Bar,
+26.7,Foo Foo,Link to http://poi.apache.org/
+41.1,Bar Bar,I have a comment
+42.1,FooFoo,
+42.5,BarBar,I have a comments with two bits
+,,
+,,We have a header
+,,We have a footer
+,,
+,,
+,,Torchbox commented
+,,
+,,Internal hyperlink to A2
+,,Link to WithVariousData.xlsx
+,,Email to dev@poi

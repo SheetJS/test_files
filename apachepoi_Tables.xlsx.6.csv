@@ -1,0 +1,29 @@
+EXAMPLE 7,,,,,,,,,,,,
+"   Married couple, two incomes, two children (under the age of 6)",,,,,,,,,,,,
+   Modified rate PRSI contributors,,,,,,,,,,,,
+GROSS,PRSI Liability,,Levy Liability,,Tax Liability,,Child Benefit,Total,Gain as % of,Total Gain where,Total Gain where,Gain including FIS
+INCOME,Existing,Proposed,Existing,Proposed,Existing,Proposed,Increase (a),Gain (b),Net Income (c),FIS applies (d),FIS applies (e),as % of Net Income (f)
+,,,,,,,,,,(Per Year),(Per Week),
+€,€,€,€,€,€,€,€,€,%,€,,%
+"20,000",0,0,0,0,0,0,180,680,2.7,"1,928",37,6.6
+"30,000",163,163,0,0,0,0,180,680,1.9,680,13,1.9
+"35,000",193,193,0,0,760,0,180,"1,440",3.7,"1,440",28,3.7
+"40,000",222,222,520,520,"1,760",960,180,"1,480",3.5,"1,480",28,3.5
+"45,000",381,251,585,585,"2,760","1,960",180,"1,610",3.5,"1,610",31,3.5
+"50,000",426,280,650,650,"3,760","2,960",180,"1,625",3.2,"1,625",31,3.2
+"60,000",516,516,780,780,"5,760","4,960",180,"1,480",2.6,"1,480",28,2.6
+"70,000",606,606,"1,400",910,"9,080","7,485",180,"2,765",4.3,"2,765",53,4.3
+"80,000",648,668,"1,600","1,600","13,280","11,480",180,"2,461",3.5,"2,461",47,3.5
+"100,000",713,733,"2,000","2,000","21,680","19,680",180,"2,661",3.3,"2,661",51,3.3
+"120,000",778,797,"2,400","2,400","30,080","27,880",180,"2,860",3.1,"2,860",55,3.1
+"200,000",826,865,"4,000","4,150","63,680","60,680",180,"3,492",2.6,"3,492",67,2.6
+,,,,,,,,,,,,
+Variations can arise due to rounding,,,,,,,,,,,,
+This example assumes that the joint income is divided 65% and 35% between spouses.,,,,,,,,,,,,
+"(a)  Value during 2007 of the increase in Child Benefit (CB) made in the Budget, which is effective from April, 2007 (i.e. assuming 9 months of CB increase).",,,,,,,,,,,,
+(b) Includes payment of an additional quarter of ECS (€250 per child) in 2007 as compared with 2006,,,,,,,,,,,,
+"(c) Net income includes CB and ECS less deductions of tax, levy and PRSI (where appropriate) and so may be higher than the gross income.",,,,,,,,,,,,
+(d) The last three columns show the total gain where Family Income Supplement (FIS) is taken up in both years.  The gain includes the value during 2007  of the,,,,,,,,,,,,
+"      improvement in FIS made in this Budget which takes effect from January, 2007.",,,,,,,,,,,,
+(e) Gains per week are based on a 52 week year,,,,,,,,,,,,
+"(f) Net income includes CB, ECS and FIS (where relevant) less deductions of tax, levy and PRSI (where appropriate) and so may be higher than the gross income.",,,,,,,,,,,,
