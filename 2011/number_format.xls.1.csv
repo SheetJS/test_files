@@ -1,4 +1,4 @@
-Format,Valuie,B Fmt,VBA Fmt,Fmt,,
+Format,Value,B Fmt,VBA Fmt,Fmt,,
 0,-12345.6789,General,,,,
 1,-12346,0,,0,TRUE,
 2,-12345.68,0.00,,0.00,TRUE,
