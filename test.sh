@@ -15,7 +15,7 @@ do_test() {
 
 case "$1" in
 "prep")
-	npm install -g xlsjs xlsx
+	npm install -g j 
 	pip install -r requirements.txt --use-mirrors
 	;;
 "clean")
@@ -24,12 +24,22 @@ case "$1" in
 "all") 
 	for i in *.xls; do
 		echo $i >&2
-		do_test "$i" core "xls2csv --dev"
+		do_test "$i" core "j"
 		do_test "$i" xlrd "python tests/xlrd.py"
 	done
 	for i in *.xlsx; do
 		echo $i >&2
-		do_test "$i" core "xlsx2csv --dev"
+		do_test "$i" core "j"
+		do_test "$i" xlrd "python tests/xlrd.py"
+	done
+	for i in *.xlsm; do
+		echo $i >&2
+		do_test "$i" core "j"
+		do_test "$i" xlrd "python tests/xlrd.py"
+	done
+	for i in *.xlsb; do
+		echo $i >&2
+		do_test "$i" core "j"
 		do_test "$i" xlrd "python tests/xlrd.py"
 	done
 	grep -- "^- [^0]" *.tests
