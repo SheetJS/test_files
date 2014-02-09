@@ -17,30 +17,17 @@ case "$1" in
 "prep")
 	npm install -g j 
 	pip install -r requirements.txt --use-mirrors
+	gem install roo spreadsheet
 	;;
 "clean")
 	rm -f *.tests
 	;;
 "all") 
-	for i in *.xls; do
+	for i in *.xls *.xlsb *.xlsm *.xlsx; do
 		echo $i >&2
 		do_test "$i" core "j"
 		do_test "$i" xlrd "python tests/xlrd.py"
-	done
-	for i in *.xlsx; do
-		echo $i >&2
-		do_test "$i" core "j"
-		do_test "$i" xlrd "python tests/xlrd.py"
-	done
-	for i in *.xlsm; do
-		echo $i >&2
-		do_test "$i" core "j"
-		do_test "$i" xlrd "python tests/xlrd.py"
-	done
-	for i in *.xlsb; do
-		echo $i >&2
-		do_test "$i" core "j"
-		do_test "$i" xlrd "python tests/xlrd.py"
+		do_test "$i" roo "ruby tests/roo.rb"
 	done
 	grep -- "^- [^0]" *.tests
 	;;

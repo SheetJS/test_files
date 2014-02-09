@@ -1,0 +1,6 @@
+Colored Cell,Wide Cell (25.00),Bordered Cell w/ Text Wrap,Middle Valigned,Right Aligned and text wrapped
+,,,,
+10,,,,
+20,,,$2.50,<< currency cell
+30,,,,
+60,<< formula cell,,,

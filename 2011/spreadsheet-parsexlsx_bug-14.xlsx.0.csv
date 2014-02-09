@@ -1,0 +1,7 @@
+normal,bold,italic,underline,strikeout,subscript,superscript
+bold,bold,italic,underline,strikeout,subscript,superscript
+italic,,italic,underline,strikeout,subscript,superscript
+underline,,,underline,strikeout,subscript,superscript
+strikeout,,,,strikeout,subscript,superscript
+subscript,,,,,subscript,
+superscript,,,,,,superscript

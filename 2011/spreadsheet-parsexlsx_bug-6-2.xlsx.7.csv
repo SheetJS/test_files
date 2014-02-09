@@ -1,0 +1,127 @@
+,Sales and Service Intranet security access form - for use with the Call Centers,,,,,,,,,
+,,,,,,,,,,
+,Model Account After:,FALSE,,,<-enter pre-defined template,,,,,
+,,,,,,,,,,
+,Administration,,,,Call Center,,,,Viewer Management,
+,Information Systems,,,,Associate Information,,,,Viewer System,
+,Birthday Viewer,FALSE,,,AIM Administrator,FALSE,,,Treasury Override,FALSE
+,Communication Specialist,FALSE,,,AIM Associate Build/Remove,FALSE,,,Viewer System Admin,FALSE
+,Contest Admin,FALSE,,,AIM Associate Editor,FALSE,,,Bus Sales Support,
+,Customers Are Calling Viewer,FALSE,,,AIM Associate Listings,FALSE,,,BS Support Admin,FALSE
+,Master List Admin,FALSE,,,Call Center Roles,,,,BS Support User,FALSE
+,Master List History,FALSE,,,Administration,FALSE,,,Coaching Tools,
+,Security System Admin,FALSE,,,Assist Line,FALSE,,,Coaching Tool Admin,FALSE
+,SSI Banner Updates,FALSE,,,Clerical,FALSE,,,Coaching Tool User,FALSE
+,SSI Calendar Updates,FALSE,,,CS/S Support,FALSE,,,CS/S Contacts,
+,SSI Link Management,FALSE,,,E-Commerce Support,FALSE,,,CS/S Contact Admin,FALSE
+,SSI Tab Administration,FALSE,,,Executive Services,FALSE,,,CS/S Contact User,FALSE
+,Intranet Database Portal,FALSE,,,Instructor/Coach,FALSE,,,CS/S Letters,
+,Administration,FALSE,,,Mail Support,FALSE,,,CS/S Letter Admin,FALSE
+,Business,FALSE,,,Manager,FALSE,,,CS/S Letter User,FALSE
+,Information Coordination Team,FALSE,,,Quality Assurance,FALSE,,,CS/S Manager,
+,Intranet Development Team,FALSE,,,Scheduler/Direction Desk,FALSE,,,CS/S Manager Admin,FALSE
+,OBT,FALSE,,,Seasonal Teamleader,FALSE,,,CS/S Manager User,FALSE
+,QA,FALSE,,,Shaklee Assist,FALSE,,,CS/S Requests,
+,SHAKLEE TEAM LEADERS,FALSE,,,Shaklee Support,FALSE,,,CS/S Requests Admin,FALSE
+,System Problem Line,FALSE,,,Shaklee Tech,FALSE,,,CS/S Requests User,FALSE
+,Training Department,FALSE,,,Supervisor,FALSE,,,CS/S Research,
+,Workforce Management,FALSE,,,Supervisor Assistant,FALSE,,,CS/S Research Admin,FALSE
+,Intranet Development,,,,Timekeeping,,,,CS/S Research User,FALSE
+,Intranet Developer,FALSE,,,Quality Assurance,,,,CS/S Store Issues,
+,Intranet Migration Tool Admin,FALSE,,,QA Messenger User,FALSE,,,CS/S Stores Admin,FALSE
+,Intranet Migration Tool Auditor,FALSE,,,QA Scripting Tool User,FALSE,,,CS/S Stores User,FALSE
+,Intranet Migration Tool Developer,FALSE,,,Quality Assurance Admin,FALSE,,,CS/S Supervisors,
+,Intranet Migration Tool Manager,FALSE,,,Review System,,,,CS/S Supervisor Admin,FALSE
+,Intranet Migration Tool User,FALSE,,,Review System Admin,FALSE,,,CS/S Supervisor User,FALSE
+,Online Timecard,,,,Review System Managers,FALSE,,,CS/S Updates,
+,OTC Admin,FALSE,,,Review System User,FALSE,,,CS/S Update Admin,FALSE
+,OTC Manager,FALSE,,,Tally Manager,,,,CS/S Update User,FALSE
+,OTC Supervisor,FALSE,,,TallyMan Admin,FALSE,,,Executive Services,
+,OTC TimeKeeper,FALSE,,,TallyMan User,FALSE,,,Exec Services Admin,FALSE
+,OTC View All Sites,FALSE,,,Production,FALSE,,,Exec Services User,FALSE
+,Timekeeper,FALSE,,,BCO,FALSE,,,Mailing Services,
+,System Problems,,,,OSI Giftcard Lookup,FALSE,,,Mailing Services Admin,FALSE
+,System Problems,FALSE,,,Order Logs,FALSE,,,Mailing Services User,FALSE
+,System Problems Admin,FALSE,,,Order Log Admininistrator,FALSE,,,MOE Gratis,
+,PERL System,,,,Order Log Bankcards,FALSE,,,MOE Gratis Admin,FALSE
+,PERL Admin,FALSE,,,Order Log Report Viewer,FALSE,,,MOE Gratis User,FALSE
+,PERL User,FALSE,,,Order Log User - Business,FALSE,,,Quality Assurance,
+,Remote Desktop,FALSE,,,Tab Management,,,,Quality Assurance Admin,FALSE
+,System Editor,FALSE,,,Intranet Site,,,,Quality Assurance User,FALSE
+,System Exploring,FALSE,,,Administration,FALSE,,,Treasury - BML,
+,Workforce,,,,Business Support,FALSE,,,Treasury BML Admin,FALSE
+,Workforce Manager,FALSE,,,C/S Support,FALSE,,,Treasury BML User,FALSE
+,Scheduling,FALSE,,,Call Center Support,FALSE,,,Treasury AP - Refunds,
+,Schedulers Only,FALSE,,,Customer Service,FALSE,,,Treasury AP Admin,FALSE
+,View Schedules,FALSE,,,Direction Desk/Scheduling,FALSE,,,Treasury AP User,FALSE
+,Order Research Tools,,,,Distribution Center,FALSE,,,Treasury BC - Refunds,
+,Holds Worker Console,,,,E-Commerce,FALSE,,,Treasury BC Admin,FALSE
+,Holds Worker Admin,FALSE,,,Mail,FALSE,,,Treasury BC User,FALSE
+,Holds Worker Mass Change,FALSE,,,Order Entry,FALSE,,,Treasury Research,
+,Holds Worker User,FALSE,,,Outbound Telemarketing,FALSE,,,Treasury Research Admin,FALSE
+,Pkg Error Handling,,,,Shaklee,FALSE,,,Treasury Research User,FALSE
+,Package Error Admin,FALSE,,,System Testing/Development,FALSE,,,,
+,Package Error User,FALSE,,,Team Leader,FALSE,,,,
+,Scheduling Suite,FALSE,,,,,,,,
+,Administration,,,,,,,,,
+,SS Coordinator,FALSE,,,,,,,,
+,SS Scheduling Administration,FALSE,,,,,,,,
+,SS Separations Administration,FALSE,,,,,,,,
+,SS System Administration,FALSE,,,,,,,,
+,SS Training Administration,FALSE,,,,,,,,
+,Attendance Tracking,FALSE,,,,,,,,
+,Call in Log Attendance Manager,FALSE,,,,,,,,
+,Call in Log Comment Viewer,FALSE,,,,,,,,
+,Call in Log Viewer,FALSE,,,,,,,,
+,DC Employee Importing,FALSE,,,,,,,,
+,DC Log Editor,FALSE,,,,,,,,
+,DC Log Viewer,FALSE,,,,,,,,
+,CBT System,FALSE,,,,,,,,
+,CBT Admin,FALSE,,,,,,,,
+,CBT Reset Admin,FALSE,,,,,,,,
+,CBT Supervisor,FALSE,,,,,,,,
+,CBT Viewer,FALSE,,,,,,,,
+,Scheduling,,,,,,,,,
+,SS Scheduler,FALSE,,,,,,,,
+,SS Time Off/Layoff,FALSE,,,,,,,,
+,SS Trial Sequencing,FALSE,,,,,,,,
+,Separations,,,,,,,,,
+,Call in Log Admin,,,,,,,,,
+,Call in Log Editor,FALSE,,,,,,,,
+,Call in Log PS Report,FALSE,,,,,,,,
+,Call in Log Separation Manager,,,,,,,,,
+,PIA Reasons Admin,FALSE,,,,,,,,
+,RTA (Return to Active),FALSE,,,,,,,,
+,Training / Hiring,,,,,,,,,
+,SS Interviewer,FALSE,,,,,,,,
+,SS Trainer,FALSE,,,,,,,,
+,Skills,,,,,,,,,
+,Associate Skills,FALSE,,,,,,,,
+,Administration (ADM),FALSE,,,,,,,,
+,Business Sales Division (BSD),FALSE,,,,,,,,
+,Chat (CHT),FALSE,,,,,,,,
+,Data Entry (DEA),FALSE,,,,,,,,
+,eWorkforce Management (WRK),FALSE,,,,,,,,
+,Internet Helpline (INH),FALSE,,,,,,,,
+,Mailing Services (MSV),FALSE,,,,,,,,
+,Order Research (AOR),FALSE,,,,,,,,
+,Quality Assurance (QUA),FALSE,,,,,,,,
+,Trainer (COA),FALSE,,,,,,,,
+,Ask Me (ASK),FALSE,,,,,,,,
+,Business Sales Supt (BUS),FALSE,,,,,,,,
+,CS Support (SUP),FALSE,,,,,,,,
+,Document Services (SSV),FALSE,,,,,,,,
+,Executive Services (EXE),FALSE,,,,,,,,
+,Lead Trainer (FAC),FALSE,,,,,,,,
+,Order Blaster (OBL),FALSE,,,,,,,,
+,Outbound Business (OBB),FALSE,,,,,,,,
+,System Solutions (SYS),FALSE,,,,,,,,
+,Assist Line (AST),FALSE,,,,,,,,
+,Call Center Support (CCS),FALSE,,,,,,,,
+,Customer Service (ACS),FALSE,,,,,,,,
+,Ecommerce (INT),FALSE,,,,,,,,
+,Held Order Processing (HLD),FALSE,,,,,,,,
+,Leadership (LDR),FALSE,,,,,,,,
+,Order Entry (AOE),FALSE,,,,,,,,
+,Outbound Telemarketing (OBT),FALSE,,,,,,,,
+,Team Leader (TEM),FALSE,,,,,,,,
