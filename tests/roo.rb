@@ -7,5 +7,5 @@ require 'spreadsheet'
 p ARGV[0]
 f = Roo::Spreadsheet.open(ARGV[0])
 f.each_with_pagename do |name, sheet|
-	p sheet.row(1);
+	p sheet;
 end
