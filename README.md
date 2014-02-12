@@ -37,6 +37,11 @@ string table was pulled from <http://longwords.org/longwordslist.html>
 files are directly from LibreOffice 4.1.4.2.  These files were opened in Excel,
 "repaired", and saved as `LONumbers-EXCELVERSION.xls*`.
 
+`rich_text_stress` tests various types of rich text, applying formatting to the
+entire cell as well as parts of the cell.
+
+`named_ranges` tests named ranges (including valid and invalid expressions).
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate 
