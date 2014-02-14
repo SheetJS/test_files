@@ -42,6 +42,8 @@ entire cell as well as parts of the cell.
 
 `named_ranges` tests named ranges (including valid and invalid expressions).
 
+`custom_properties` tests custom properties
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate 
