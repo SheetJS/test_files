@@ -44,6 +44,8 @@ entire cell as well as parts of the cell.
 
 `custom_properties` tests custom properties
 
+`xlsx-stream-d-date-cell` tests the ECMA-376 `d` date type
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate 
