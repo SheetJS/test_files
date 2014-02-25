@@ -54,6 +54,8 @@ entire cell as well as parts of the cell.
 
 `xlsx-stream-d-date-cell` tests the ECMA-376 `d` date type
 
+`pivot_table_test` tests different types of pivot tables
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate

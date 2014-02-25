@@ -26,8 +26,8 @@ case "$1" in
 	for i in *.xls *.xlsb *.xlsm *.xlsx; do
 		echo $i >&2
 		do_test "$i" core "j"
-		do_test "$i" xlrd "python tests/xlrd.py"
-		do_test "$i" roo "ruby tests/roo.rb"
+		#do_test "$i" xlrd "python tests/xlrd.py"
+		#do_test "$i" roo "ruby tests/roo.rb"
 	done
 	grep -- "^- [^0]" *.tests
 	;;
