@@ -1,7 +1,7 @@
-____________________100_____80_____________110_____90_,,
-______________________(100_80)________________(110_90)_,,
-"$R[]{A,copyRowHeight=true,rowShift=true}",,C3
+実行前の行の高さ⇒上側結合セル「３行目＝100、４行目＝80」、下側結合セル「５行目＝110、６行目＝90」,,
+実行後の行の高さ⇒上側結合セル「３～１２行目(100、80)」、下側結合セル「１３～２２行目(110、90)」,,
+$R[]{A,copyRowHeight=true,rowShift=true},,C3
 ,,C4
-"$R[]{A,copyRowHeight=true,rowShift=true}",,C5
+$R[]{A,copyRowHeight=true,rowShift=true},,C5
 ,,C6
 A7,B7,C7
