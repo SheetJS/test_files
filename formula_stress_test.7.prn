@@ -1,0 +1,71 @@
+         1          2         3         4         5         6         7         8         9        10        11
+ABS                 2         5         6         7         8
+ACOS       ########
+ACOSH      ########
+AGGREGATE           7
+ASIN       ########
+ASINH      ########
+ATAN       ########
+ATAN2      ########
+ATANH      ########
+CEILING             3
+CEILING.PR          3
+COMBIN              4
+COS        ########
+COSH       ########
+DEGREES    ########
+ECMA.CEILI          2                              * not mentioned in summary
+EVEN                2
+EXP        ########
+FACT                2
+FACTDOUBLE         15                              * originally in engineering
+FLOOR               0
+FLOOR.PREC          0
+GAMMALN    ########           5                    * originally in statistical
+GAMMALN.PR ########                                * originally in statistical
+GCD                 2
+INT                 2
+ISO.CEILIN          6
+LCM                18
+LN         ########
+LOG                 1
+LOG10      ########
+MDETERM            -2
+MINVERSE           -3
+MMULT              43
+MOD                 2
+MROUND              4
+MULTINOMIA    2450448
+ODD                 7
+PERMUT           6720                              * originally in statistical
+PI         ########
+POWER              81
+PRODUCT            60
+QUOTIENT            2
+RADIANS    ########
+RAND       ########
+RANDBETWEE          6
+ROMAN     II         II
+ROUND               5
+ROUNDDOWN           6
+ROUNDUP             3
+SERIESSUM  ########
+SIGN                1
+SIN        ########
+SINH       ########
+SQRT       ########
+SQRTPI     ########
+STANDARDIZ        0.2         3         2         5* originally in statistical
+SUBTOTAL          6.5
+SUM                 2        65        93
+SUMIF               5         6
+SUMIFS              3
+SUMPRODUCT         63       122
+SUMSQ              45       125
+SUMX2MY2          -88
+SUMX2PY2          260
+SUMXMY2            16
+TAN        ########
+TANH       ########
+TRUNC               3
+

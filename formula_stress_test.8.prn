@@ -1,0 +1,145 @@
+Distributions
+BETA.DIST                1.5       0.5         2         2  FALSE
+BETA.INV                 0.5       0.5         2         2
+BETADIST                 0.5       0.5         2         2
+BETAINV                  0.5       0.5         2         2
+BINOM.DIST        ########           5        10       0.3   TRUE
+BINOM.INV                  7        20       0.5       0.1   TRUE
+BINOMDIST         ########           5        10       0.3  FALSE
+CHIDIST           ########           5         7
+CHIINV                     5
+CHISQ.DIST        ########           5         7   TRUE
+CHISQ.DIST.RT     ########
+CHISQ.INV                  5
+CHISQ.INV.RT               5
+CONFIDENCE        ########         0.3         1       100
+CONFIDENCE.NORM   ########         0.3         1       100
+CONFIDENCE.T      ########         0.3         1       100
+CRITBINOM                 64       120       0.5      0.75
+EXPON.DIST        ########           1         2   TRUE
+EXPONDIST         ########           1         2  FALSE
+F.DIST            ########           1         2         3   TRUE
+F.DIST.RT         ########
+F.INV                      1
+F.INV.RT                   1
+FDIST             ########           5         4         2
+FINV                       5
+FISHER            ########         0.5
+FISHERINV                0.5
+GAMMA.DIST        ########           4         2         3   TRUE
+GAMMA.INV                  4
+GAMMADIST         ########
+GAMMAINV                   4
+HYPGEOM.DIST      ########           1         2         7         9         5
+HYPGEOMDIST       ########           2         3         6         8
+LOGINV            ########         0.5         5         5
+LOGNORM.DIST      ########           1         2         5   TRUE
+LOGNORM.INV                1
+LOGNORMDIST       ########
+NEGBINOM.DIST     ########           5         7       0.3   TRUE
+NEGBINOMDIST      ########           5         7       0.3
+NORM.DIST         ########           0        -1         3   TRUE
+NORM.INV          ########
+NORM.S.DIST       ########           3   TRUE
+NORM.S.INV                 3
+NORMDIST          ########
+NORMINV           ########
+NORMSDIST         ########           2
+NORMSINV                   2
+POISSON           ########           1         2   TRUE
+POISSON.DIST      ########           1         2  FALSE
+T.DIST            ########           3         7   TRUE
+T.DIST.2T         ########
+T.DIST.RT         ########
+T.INV                      3
+T.INV.2T                   3
+TDIST             ########           3         7         2
+TINV                       3
+WEIBULL           ########         0.5         2         1   TRUE
+WEIBULL.DIST      ########         0.5         2         1  FALSE
+
+Descriptive Statistics
+AVEDEV              31.78125         1         2         4         8        16        32   TRUE          128
+AVERAGE                31.75         1         2         4         8        16        32   TRUE          128
+AVERAGEA          ########           1         2         4         8        16        32   TRUE          128
+AVERAGEIF               3.75         1         2         4         8        16        32   TRUE   <10
+AVERAGEIFS        ########           1         2         4         8        16        32   TRUE   <10
+CORREL            ########           1         2         3         5         8        13
+COUNT                      6         1         2         4         8        16        32   TRUE
+COUNTA                     7         1         2         4         8        16        32   TRUE
+COUNTBLANK                 1         1         2         4         8        16        32   TRUE
+COUNTIF                    2         1         2         4         8        16        32   TRUE   >10
+COUNTIFS                   1         1         2         4         8        16        32   TRUE   <30
+COVAR             ########           1         2         4         8        16        32   TRUE
+COVARIANCE.P      ########           2         1         3         4         7        11        18
+COVARIANCE.S            43.6
+DEVSQ                  703.5         1         2         4         8        16        32   TRUE
+GEOMEAN           ########           1         2         4         8        16        32   TRUE
+HARMEAN           ########           1         2         4         8        16        32   TRUE
+KURT              ########           1         2         4         8        16        32   TRUE
+LARGE                      8         1         2         4         8        16        32         3
+MAX                       32         1         2         4         8        16        32         3
+MAXA                      32         1         2         4         8        16        32         3
+MEDIAN                     4         1         2         4         8        16        32         3
+MIN                        1         1         2         4         8        16        32         3
+MINA                       1         1         2         4         8        16        32         3
+MODE                      16         1         2         4         8        16        16         3
+MODE.MULT                  8         1         2         4         8         8        32         3
+MODE.SNGL                  2
+PERCENTILE                 3         1         2         4         8        16        32       0.3
+PERCENTILE.EXC             6         1         2         4         8        16        32       0.5
+PERCENTILE.INC            12         1         2         4         8        16        32       0.7
+PERCENTRANK             0.65         1         2         4         8        16        32        10
+PERCENTRANK.EXC         0.75         1         2         4         8        16        32        20
+PERCENTRANK.INC        0.975         1         2         4         8        16        32        30
+QUARTILE                  14         1         2         4         8        16        32         3
+QUARTILE.EXC               6         1         2         4         8        16        32         2
+QUARTILE.INC             2.5         1         2         4         8        16        32         1
+RANK                       4         1         2         4         8        16        32RANK(2,{4,6,8,7,5,3,1,2},2)
+RANK.AVG                   4         1         2         4         8        16        32* note that the docs say you can specify an array
+RANK.EQ                    4         1         2         4         8        16        32* but it appears that excel 2011 falters on those
+SKEW              ########           1         2         4         8        16        32
+SMALL                      4         1         2         4         8        16        32         3
+STDEV             ########           1         2         4         8        16        32        30
+STDEV.P           ########           1         2         4         8        16        32        30
+STDEV.S           ########           1         2         4         8        16        32        30
+STDEVA            ########           1         2         4         8        16        32        30
+STDEVP            ########           1         2         4         8        16        32        30
+STDEVPA           ########           1         2         4         8        16        32        30
+TRIMMEAN
+VAR               ########           1         2         4         8        16        32        30
+VAR.P             ########           1         2         4         8        16        32        30
+VAR.S             ########           1         2         4         8        16        32        30
+VARA              ########           1         2         4         8        16        32        30
+VARP              ########           1         2         4         8        16        32        30
+VARPA             ########           1         2         4         8        16        32        30
+
+Statistical Tests
+CHISQ.TEST        ########                     1         2         3         4         5         6
+CHITEST           ########                   1.1       2.2       3.1         7         4         9
+F.TEST            ########
+FTEST             ########
+T.TEST            ########           2         3
+TTEST             ########
+Z.TEST            ########           3         1         2         3         4         5         4
+ZTEST             ########           5
+
+Regression and Friends
+FORECAST          ########          10         1         2         3         4         5         6
+FREQUENCY                  2                   2         4         6         8        11        11
+GROWTH            ########                   0.1       0.1       0.2       0.2       0.2       0.2
+INTERCEPT                0.2
+PROB                     0.4       2.1       4.5
+PEARSON           ########
+RSQ               ########
+SLOPE             ########
+STEYX             ########
+                                      LINEST (n+1 by 5)                       LOGEST (n+1 by 5)
+LINEST            ########             #######         0.2                     #######   #######
+LOGEST            ########             #######   #######                       #######   #######
+TREND             ########             #######   #######                       #######   #######
+                                             136         4                     #######           4
+                                       #######   #######                       #######   #######
+
+TREND                                  #######   #######   #######   #######   #######   #######
+

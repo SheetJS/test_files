@@ -1,0 +1,13 @@
+Singletons
+FALSE       FALSE
+TRUE         TRUE
+
+Operators
+AND         FALSE      TRUE     FALSE
+NOT         FALSE
+OR           TRUE
+
+Conditionals
+IF               123       123       456
+IFERROR          456 #DIV/0!         456
+

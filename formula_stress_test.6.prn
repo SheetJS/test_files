@@ -1,0 +1,27 @@
+Reference Info
+COLUMN             3
+ROW                3
+COLUMNS            4
+ROWS              12
+INDIRECT  ADDRESS   A10
+AREAS              3
+
+Relative
+ADDRESS   $B$2
+OFFSET             0C14               -1         0
+
+Lookup
+CHOOSE    CHOOSE             3
+HLOOKUP   LOOKUP (arADDRESS
+INDEX (refADDRESS            6         2
+INDEX (arr         3         2         1
+LOOKUP (reMATCH     NIGGLER
+LOOKUP (ar       2.5
+MATCH             11NIGGLER
+VLOOKUP   MATCH     NIGGLER            1
+
+HYPERLINK niggler
+
+Array Formula
+TRANSPOSE COLUMN    ROW       COLUMNS
+

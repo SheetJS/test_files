@@ -1,0 +1,63 @@
+Conversion
+DOLLARDE         1.125                1.02        16
+DOLLARFR          1.02
+EFFECT     #########                 5.25%         4
+NOMINAL         0.0525
+
+Cash Flows
+IRR                 9%              -70000     12000     15000      18000     21000     26000
+MIRR               13%             -120000     39000     30000      21000     37000     46000       10%       12%
+NPV         $1,188.44                  10%    -10000      3000       4200      6800
+XIRR       #########                        1-Jan-13  1-Feb-13   1-Mar-13  1-Apr-13
+XNPV       #########
+FVSCHEDULE     1.33089   1.33089      0.09      0.11       0.1
+
+Annuities                       rate      nper      pmt       pv
+FV          $2,581.40                   6%        10      -200       -500
+IPMT          ($22.41)                 10%         3                 8000
+ISPMT         ($64.81)                 10%         3                 8000
+NPER       #########                   12%                -100      -1000
+PMT        #########
+PPMT       #########
+PV         #########                    8%        20       500
+RATE                9%                             4      -200       8000
+CUMIPMT    #########                    9%        30    125000         13        24
+CUMPRINC   #########
+
+Securities                      settlementmaturity  discount  pr         redemption
+TBILLEQ    #########                                     9.14%
+TBILLPRICE       98.45           #######    1-Jun-08        9%      98.45
+TBILLYIELD #########
+PRICE      #########             #######   #######       5.75%      6.50%       100         2
+YIELD      #########             #######   #######       5.75%   95.04287       100         2
+DISC       #########             #######   #######                 97.975       100
+PRICEDISC  #########             #######    1-Mar-08     5.25%                  100
+YIELDDISC  #########                                               99.795
+PRICEMAT   #########             #######   #######   #######        6.10%  0-Jan-00
+YIELDMAT   #########             #######    3-Nov-08  8-Nov-07      6.25%  100.0123         0
+DURATION   #########              1-Jan-08  1-Jan-16        8%         9%         2         1
+MDURATION  #########
+ACCRINT    #########                3/1/08   8/31/08    5/1/08        10%      1000         2         0
+ACCRINTM   #########                4/1/08   6/15/08                  10%      1000         3
+INTRATE        0.05768             2/15/08   5/15/08   1000000    1014420         2
+RECEIVED   #########               2/15/08   5/15/08   1000000      5.75%         2
+ODDFPRICE  #########             #######    1-Mar-21 #######     1-Mar-09     7.85%     6.25%       100         2         1
+ODDFYIELD  #########             #######    1-Mar-21 #######     1-Mar-09     5.75%      84.5       100         2         0
+ODDLPRICE  #########             #######    1-Mar-21 #######        7.85%     6.25%       100         2         0
+ODDLYIELD  #########             #######    1-Mar-21 #######        5.75%      84.5       100         2         0
+COUPDAYBS           71             1/25/07 #######           2          1
+COUPDAYS           181
+COUPDAYSNC         110
+COUPNCD        5/15/07
+COUPNUM              4
+COUPPCD          39036
+
+Depreciation                    cost      salvage   life      period
+DB         #########               1000000    100000         6          6         7
+DDB             $1.31                 2400       300        10          2
+SLN         $2,250.00
+SYD           $409.09                30000      7500        10         10
+VDB             $5.24           cost      salvage   rate      period     datepurc  datefirst
+AMORDEGRC          767
+AMORLINC           360                2400       300       15%          1    8/9/08 #######
+

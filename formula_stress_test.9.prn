@@ -1,0 +1,50 @@
+Operators
+CONCATENATFoobarbazqFoo       bar       baz       qux
+EXACT       FALSE   foo       Foo
+LEN               15foo bar baz qux
+LENB              15
+
+Casing
+LOWER     foo bar bafoo bAR BAZ Qux
+PROPER    Foo Bar Bafoo bAR BAZ Qux
+UPPER     FOO BAR BAfoo bAR BAZ Qux
+
+Formatting
+DOLLAR    $4.57          4.567
+FIXED     0.12346    #######
+TEXT      1977-07-07    7/7/77ee-mm-dd
+T                     FALSE
+VALUE             1212
+
+Codepoints
+CHAR      ð                240
+CODE             240ð
+
+Extracting Text
+LEFT      foo       foo bar ba         3
+LEFTB     foo
+MID       bar       foo bar ba         5         3
+MIDB      baz       foo bar ba         9         3
+RIGHT     qux
+RIGHTB    qux
+
+Searching
+FIND               9b         foo Bar baz qux
+FINDB              9
+SEARCH             5
+SEARCHB            5
+
+Manipulatibadger badger badger badger badger badger badger badger badger badger badger badger MUSHROOM! MUSHROOM!
+CLEAN     7         7
+REPT      badgerbadgbadger             3
+REPLACE   foo FOO bafoo bar ba         4         4 FOO
+REPLACEB  foo FOO baz qux
+SUBSTITUTEfoo bor bafoo bar baa         o                  1
+TRIM      there are   there are two spaces here
+
+Asian Features
+ASC
+PHONETIC     #N/A   foo bar baz qux
+JIS         #NAME?
+YEN         #NAME?           5
+
