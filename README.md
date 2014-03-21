@@ -56,6 +56,8 @@ entire cell as well as parts of the cell.
 
 `pivot_table_test` tests different types of pivot tables
 
+`AutoFilter` tests different uses of AutoFilter
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate
