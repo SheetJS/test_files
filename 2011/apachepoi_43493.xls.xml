@@ -1,0 +1,1003 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>2014-03-22T22:15:38Z</Created>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>2</Index>
+    <RGB>#FF0000</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#00FF00</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>6</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>7</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>8</Index>
+    <RGB>#6666CC</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#CCCCCC</RGB>
+   </Color>
+   <Color>
+    <Index>10</Index>
+    <RGB>#505050</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#333333</RGB>
+   </Color>
+   <Color>
+    <Index>12</Index>
+    <RGB>#333399</RGB>
+   </Color>
+   <Color>
+    <Index>13</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>14</Index>
+    <RGB>#993300</RGB>
+   </Color>
+   <Color>
+    <Index>15</Index>
+    <RGB>#333300</RGB>
+   </Color>
+   <Color>
+    <Index>16</Index>
+    <RGB>#003300</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#33CC66</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#003366</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#969696</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#666699</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF6600</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#FF9900</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#FFCC00</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#99CC00</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#33CCCC</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#3366FF</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#FFCC99</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#CC99FF</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#FF99CC</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#99CCFF</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#FFFF99</RGB>
+   </Color>
+   <Color>
+    <Index>32</Index>
+    <RGB>#CCFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>34</Index>
+    <RGB>#00CCFF</RGB>
+   </Color>
+   <Color>
+    <Index>35</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>36</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>37</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>38</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>39</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>40</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>41</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>42</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>43</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>44</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>45</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>46</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>47</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>48</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>49</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>50</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>51</Index>
+    <RGB>#808080</RGB>
+   </Color>
+   <Color>
+    <Index>52</Index>
+    <RGB>#C0C0C0</RGB>
+   </Color>
+   <Color>
+    <Index>53</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>54</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>55</Index>
+    <RGB>#808000</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8040</WindowHeight>
+  <WindowWidth>14260</WindowWidth>
+  <WindowTopX>20</WindowTopX>
+  <WindowTopY>440</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <MaxChange>0</MaxChange>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s29">
+   <Borders/>
+   <Interior ss:Color="#6666CC" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s49">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#6666CC" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s51">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#6666CC" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s52">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s54">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#6666CC" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s55">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s56">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s57">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s58">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#505050" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s59">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s60">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#6666CC" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s61">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:Color="#000000" ss:Italic="1"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="26" ss:ExpandedRowCount="84" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="35"/>
+   <Column ss:AutoFitWidth="0" ss:Width="14"/>
+   <Column ss:AutoFitWidth="0" ss:Width="11"/>
+   <Column ss:AutoFitWidth="0" ss:Width="74" ss:Span="1"/>
+   <Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="14"/>
+   <Column ss:AutoFitWidth="0" ss:Width="98"/>
+   <Column ss:AutoFitWidth="0" ss:Width="11"/>
+   <Column ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:AutoFitWidth="0" ss:Width="25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="11"/>
+   <Column ss:AutoFitWidth="0" ss:Width="25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:AutoFitWidth="0" ss:Width="11"/>
+   <Column ss:AutoFitWidth="0" ss:Width="3"/>
+   <Column ss:AutoFitWidth="0" ss:Width="85"/>
+   <Column ss:AutoFitWidth="0" ss:Width="11"/>
+   <Column ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:AutoFitWidth="0" ss:Width="11"/>
+   <Column ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:AutoFitWidth="0" ss:Width="11"/>
+   <Column ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:AutoFitWidth="0" ss:Width="11"/>
+   <Column ss:AutoFitWidth="0" ss:Width="98"/>
+   <Column ss:AutoFitWidth="0" ss:Width="14"/>
+   <Column ss:AutoFitWidth="0" ss:Width="49"/>
+   <Row ss:AutoFitHeight="0" ss:Height="72"/>
+   <Row ss:AutoFitHeight="0" ss:Height="26">
+    <Cell ss:Index="3" ss:MergeAcross="12" ss:StyleID="s58"><Data ss:Type="String">BMS Cases : Status of Patient Assistance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="7"/>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="2" ss:StyleID="s57"><Data ss:Type="String">Start Date:</Data></Cell>
+    <Cell ss:Index="7" ss:MergeAcross="2" ss:StyleID="s59"><Data ss:Type="String">09/24/2007</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="2" ss:StyleID="s57"><Data ss:Type="String">End Date:</Data></Cell>
+    <Cell ss:Index="7" ss:MergeAcross="2" ss:StyleID="s59"><Data ss:Type="String">09/28/2007</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="33"/>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="9" ss:StyleID="s57"><Data ss:Type="String">SUMMARY OF PAP CASES TO DATE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s49"><Data ss:Type="String">Activity (Open Cases)</Data></Cell>
+    <Cell ss:MergeAcross="8" ss:StyleID="s49"><Data ss:Type="String">Cases</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31">
+    <Cell ss:Index="3" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s51"><Data ss:Type="String">Current  Week</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s51"><Data ss:Type="String">Current  Month</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s51"><Data ss:Type="String">Current Year</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Total # of Case Opend</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">103</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Open - Pending Benefit Investigation</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">83</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Open - Pending Prior Authorization</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Open - Incomplete</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s49"><Data ss:Type="String">Outcomes (Open Cases)</Data></Cell>
+    <Cell ss:MergeAcross="8" ss:StyleID="s49"><Data ss:Type="String">Cases</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31">
+    <Cell ss:Index="3" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s51"><Data
+      ss:Type="String">Current Week</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s51"><Data
+      ss:Type="String">Current Month</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s51"><Data
+      ss:Type="String">Current Year</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="2">
+    <Cell ss:Index="3" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:Index="18" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Total # of Closed Cases</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">19</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Closed - PAP Approved</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">13</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Closed - PAP Denied</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Closed - No Longer Eligible</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Closed - Assistance No Longer Needed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="11" ss:StyleID="s57"><Data ss:Type="String">DETAIL OF CLOSED PAP CASES TO DATE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s49"><Data ss:Type="String">Approved PAP Cases</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="s51"><Data ss:Type="String">Week To Date</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="String">Month To Date</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s51"><Data ss:Type="String">Year To Date</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31">
+    <Cell ss:Index="3" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">#</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">#</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">#</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="2">
+    <Cell ss:Index="3" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:Index="24" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Total Cases Approved</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">75.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">13</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">68.42%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Approved - No Charges</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Approved - Appeals Denied(Treatment Ongoing)</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Approved - Refund Only (Treatment Not Ongoing)</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Approved - Eligibility Appeal</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Approved – Benefits Pending</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="1" ss:Span="2"/>
+   <Row ss:Index="38" ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s49"><Data ss:Type="String">Denied PAP Cases</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="s51"><Data ss:Type="String">Week To Date</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="String">Month To Date</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s51"><Data ss:Type="String">Year To Date</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31">
+    <Cell ss:Index="3" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">#</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">#</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">#</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="2">
+    <Cell ss:Index="3" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:Index="24" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Total Cases Denied</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">5.26%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Denied - Benefits Available</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Denied - Appeals Pending</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Denied - Non FDA/ Compendia Accepted</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Denied - Not Financially Qualified</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Denied - Not US Citizen / Legal Alien</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Denied - Not Treated in US</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Denied - Patient is Incarcerated</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Denied - Eligibility Appeal Denied</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Denied - Treatment is Not Ongoing</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Denied - Does Not Meet  Program Guidelines</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s49"><Data ss:Type="String">Discontinued PAP Cases</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="s51"><Data ss:Type="String">Week To Date</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="String">Month To Date</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s51"><Data ss:Type="String">Year To Date</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31">
+    <Cell ss:Index="3" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">#</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">#</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">#</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">%</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="2">
+    <Cell ss:Index="3" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:Index="24" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Total Cases No Longer Eligible </Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">25.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">15.79%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Closed - No Longer Eligible - Benefits Available</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Closed - No Longer Eligible - Patient Expired</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Closed - No Longer Eligible - Drug Discontinued</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Closed - Assistance No Longer Needed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="2" ss:MergeAcross="5" ss:MergeDown="2" ss:StyleID="s51"><Data
+      ss:Type="String">                               Days To Completion                                   (Average And Maximum)</Data></Cell>
+    <Cell ss:MergeAcross="5" ss:StyleID="s51"><Data ss:Type="String">Week To Date</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="String">Month To Date</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s51"><Data ss:Type="String">Year To Date</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31">
+    <Cell ss:Index="8" ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">Avg</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">Max</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">Avg</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">Max</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">Avg</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s54"><Data
+      ss:Type="String">Max</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="2">
+    <Cell ss:Index="23" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Total Cases Completed</Data></Cell>
+    <Cell ss:MergeAcross="2"/>
+    <Cell ss:MergeAcross="2"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s55"><Data ss:Type="String">15</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">44</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">5</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s55"><Data ss:Type="String">44</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">Closed - Assistance No Longer Needed</Data></Cell>
+    <Cell ss:MergeAcross="2"/>
+    <Cell ss:MergeAcross="2"/>
+    <Cell ss:MergeAcross="2"/>
+    <Cell ss:MergeAcross="1"/>
+    <Cell ss:MergeAcross="1"/>
+    <Cell ss:MergeAcross="1"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="86"/>
+   <Row ss:AutoFitHeight="0" ss:Height="1" ss:Span="2"/>
+   <Row ss:Index="72" ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="16" ss:StyleID="s57"><Data ss:Type="String">Time Analysis - Case Copmletion (Includes Time Application Incomplete)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="16" ss:StyleID="s61"><Data ss:Type="String">Reflects Time from Date of Enrollment receipt to Date case Processed</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:MergeDown="3" ss:StyleID="s60"><Data
+      ss:Type="String">Cases</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="9" ss:MergeAcross="2" ss:StyleID="s51"><Data ss:Type="String">Week To Date</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s51"><Data ss:Type="String">Month To Date</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s51"><Data ss:Type="String">Year To Date</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="9" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="2">
+    <Cell ss:Index="9" ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">% Completed in 1 Business Day</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">% Completed in 2 Business Day</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">% Completed in 3 Business Day</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="3" ss:MergeAcross="5" ss:StyleID="s52"><Data ss:Type="String">% Completed in 4 Business Day</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s56"><Data ss:Type="String">0.00%</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="376"/>
+   <Row ss:AutoFitHeight="0" ss:Height="1" ss:Span="1"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <PageMargins x:Left="1"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <DoNotDisplayZeros/>
+   <DoNotDisplayHeadings/>
+   <DoNotDisplayOutline/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

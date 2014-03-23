@@ -1,0 +1,454 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-16T00:00:00Z</Created>
+  <LastSaved>2012-03-05T12:03:13Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8020</WindowHeight>
+  <WindowWidth>14800</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>100</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#333333" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#333333"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#333333" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#333333"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Font x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Vertical="Bottom"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Example 1">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s69" ss:DefaultColumnWidth="55"
+   ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s69" ss:AutoFitWidth="0" ss:Width="147"/>
+   <Column ss:StyleID="s69" ss:AutoFitWidth="0" ss:Width="111"/>
+   <Column ss:StyleID="s69" ss:AutoFitWidth="0" ss:Width="157"/>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Data</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">3.5</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3.5</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Formula</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Description (Result)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s66" ss:Formula="=RANK(R[-5]C,R[-6]C:R[-2]C,1)"><Data
+      ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Rank of 3.5 in the list above (3)</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s68" ss:Formula="=RANK(R[-7]C,R[-7]C:R[-3]C,1)"><Data
+      ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Rank of 7 in the list above (5)</Data></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Example 2">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Student</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Scores</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Rank</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Al</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-1],R2C2:R11C2)"><Data
+      ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ben</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-1],R2C2:R11C2)"><Data
+      ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cam</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-1],R2C2:R11C2)"><Data
+      ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Dee</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-1],R2C2:R11C2)"><Data
+      ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ed</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-1],R2C2:R11C2)"><Data
+      ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Flo</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-1],R2C2:R11C2)"><Data
+      ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gil</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-1],R2C2:R11C2)"><Data
+      ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hal</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-1],R2C2:R11C2)"><Data
+      ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ivy</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-1],R2C2:R11C2)"><Data
+      ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Joe</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-1],R2C2:R11C2)"><Data
+      ss:Type="Number">4</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Example 3">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Student</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Scores</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Time</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Rank</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">TieBreak</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">FinalRank</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Al</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-2],R2C2:R11C2)"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell
+     ss:Formula="=IF(COUNTIF(R2C2:R11C2,RC[-3])&gt;1,RANK(RC[-2],R2C3:R11C3,1)/100,0)"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ben</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-2],R2C2:R11C2)"><Data
+      ss:Type="Number">8</Data></Cell>
+    <Cell
+     ss:Formula="=IF(COUNTIF(R2C2:R11C2,RC[-3])&gt;1,RANK(RC[-2],R2C3:R11C3,1)/100,0)"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Cam</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-2],R2C2:R11C2)"><Data
+      ss:Type="Number">3</Data></Cell>
+    <Cell
+     ss:Formula="=IF(COUNTIF(R2C2:R11C2,RC[-3])&gt;1,RANK(RC[-2],R2C3:R11C3,1)/100,0)"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Dee</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-2],R2C2:R11C2)"><Data
+      ss:Type="Number">7</Data></Cell>
+    <Cell
+     ss:Formula="=IF(COUNTIF(R2C2:R11C2,RC[-3])&gt;1,RANK(RC[-2],R2C3:R11C3,1)/100,0)"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ed</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-2],R2C2:R11C2)"><Data
+      ss:Type="Number">6</Data></Cell>
+    <Cell
+     ss:Formula="=IF(COUNTIF(R2C2:R11C2,RC[-3])&gt;1,RANK(RC[-2],R2C3:R11C3,1)/100,0)"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Flo</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-2],R2C2:R11C2)"><Data
+      ss:Type="Number">10</Data></Cell>
+    <Cell
+     ss:Formula="=IF(COUNTIF(R2C2:R11C2,RC[-3])&gt;1,RANK(RC[-2],R2C3:R11C3,1)/100,0)"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Gil</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-2],R2C2:R11C2)"><Data
+      ss:Type="Number">2</Data></Cell>
+    <Cell
+     ss:Formula="=IF(COUNTIF(R2C2:R11C2,RC[-3])&gt;1,RANK(RC[-2],R2C3:R11C3,1)/100,0)"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Hal</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-2],R2C2:R11C2)"><Data
+      ss:Type="Number">9</Data></Cell>
+    <Cell
+     ss:Formula="=IF(COUNTIF(R2C2:R11C2,RC[-3])&gt;1,RANK(RC[-2],R2C3:R11C3,1)/100,0)"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ivy</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-2],R2C2:R11C2)"><Data
+      ss:Type="Number">4</Data></Cell>
+    <Cell
+     ss:Formula="=IF(COUNTIF(R2C2:R11C2,RC[-3])&gt;1,RANK(RC[-2],R2C3:R11C3,1)/100,0)"><Data
+      ss:Type="Number">0.09</Data></Cell>
+    <Cell ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">4.09</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Joe</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s73" ss:Formula="=RANK(RC[-2],R2C2:R11C2)"><Data
+      ss:Type="Number">4</Data></Cell>
+    <Cell
+     ss:Formula="=IF(COUNTIF(R2C2:R11C2,RC[-3])&gt;1,RANK(RC[-2],R2C3:R11C3,1)/100,0)"><Data
+      ss:Type="Number">0.05</Data></Cell>
+    <Cell ss:Formula="=RC[-2]+RC[-1]"><Data ss:Type="Number">4.05</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>k-shunji</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2011-05-05T08:02:16Z</Created>
+  <LastSaved>2012-06-20T04:49:25Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>1</Index>
+    <RGB>#E6E6FF</RGB>
+   </Color>
+   <Color>
+    <Index>2</Index>
+    <RGB>#FF0000</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#00FF00</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>6</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>7</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>8</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#008000</RGB>
+   </Color>
+   <Color>
+    <Index>10</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#808000</RGB>
+   </Color>
+   <Color>
+    <Index>12</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>16</Index>
+    <RGB>#999999</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>38</Index>
+    <RGB>#B3B3B3</RGB>
+   </Color>
+   <Color>
+    <Index>39</Index>
+    <RGB>#CCCCCC</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13380</WindowHeight>
+  <WindowWidth>21240</WindowWidth>
+  <WindowTopX>6640</WindowTopX>
+  <WindowTopY>-80</WindowTopY>
+  <TabRatio>451</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s108">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s109">
+   <Font x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s110">
+   <Borders/>
+   <Font x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s111">
+   <Font x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s112">
+   <Borders/>
+   <Font x:Family="Swiss"/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s113">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font x:Family="Swiss"/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s114">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s115">
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="April_AllKST" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="August_AllKST" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Dezember_AllKST" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Excel_BuiltIn_Print_Titles_1_1" ss:RefersTo="=(#REF!,#REF!)"/>
+  <NamedRange ss:Name="Excel_BuiltIn_Print_Titles_12_1"
+   ss:RefersTo="=Tabelle1!#REF!"/>
+  <NamedRange ss:Name="Excel_BuiltIn_Print_Titles_3 1" ss:RefersTo="=(#REF!,#REF!)"/>
+  <NamedRange ss:Name="Excel_BuiltIn_Print_Titles_6" ss:RefersTo="=(#REF!,#REF!)"/>
+  <NamedRange ss:Name="Februar_AllKST" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Januar_AllKST" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Juli_AllKST" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Juni_AllKST" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Mai_AllKST" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="März_AllKST" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="November_AllKST" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Oktober_AllKST" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="September_AllKST" ss:RefersTo="=#REF!"/>
+ </Names>
+ <Worksheet ss:Name="Tabelle1">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=Tabelle1!#REF!"/>
+   <NamedRange ss:Name="Print_Titles" ss:RefersTo="=Tabelle1!#REF!"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="69" ss:DefaultRowHeight="12">
+   <Column ss:Index="2" ss:StyleID="s108" ss:AutoFitWidth="0"/>
+   <Column ss:Index="4" ss:StyleID="s109" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:StyleID="s110" ss:AutoFitWidth="0" ss:Width="163"/>
+   <Column ss:StyleID="s112" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s113" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s111" ss:AutoFitWidth="0" ss:Span="1"/>
+   <Row ss:Index="2">
+    <Cell ss:Index="2"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s115"
+     ss:Formula="=SUBTOTAL(9,RC[-2]:R[6]C[-2],RC[-1]:R[6]C[-1])"><Data
+      ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Subtotal 9:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s115"
+     ss:Formula="=SUBTOTAL(2,R[-1]C[-2]:R[5]C[-2],R[-1]C[-1]:R[5]C[-1])"><Data
+      ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Subtotal 2:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s114" ss:Formula="=SUBTOTAL(9,R[-2]C:R[-1]C)"><Data
+      ss:Type="Number">30</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s115"
+     ss:Formula="=SUBTOTAL(3,R[-2]C[-2]:R[4]C[-2],R[-2]C[-1]:R[4]C[-1])"><Data
+      ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Subtotal 3:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Text</Data></Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell ss:Index="2"><Data ss:Type="String">Text</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.39374999999999999"
+     x:Data="&amp;L&amp;&quot;FrnkGothITC Bk BT,Standard&quot;IconParc GmbH&amp;C&amp;&quot;FrnkGothITC Bk BT,Standard&quot;Planung für eBusiness Unit&amp;R&amp;&quot;FrnkGothITC Bk BT,Standard&quot;Stand: &amp;D"/>
+    <Footer x:Margin="0.39374999999999999"
+     x:Data="&amp;L&amp;&quot;FrnkGothITC Bk BT,Standard&quot;- vertraulich -&amp;R&amp;&quot;FrnkGothITC Bk BT,Standard&quot;Seite &amp;P von &amp;N"/>
+    <PageMargins x:Bottom="0.78749999999999998" x:Left="0.39374999999999999"
+     x:Right="0.39374999999999999" x:Top="0.78749999999999998"/>
+   </PageSetup>
+   <FitToPage/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+    <Gridlines/>
+    <RowColHeadings/>
+   </Print>
+   <PageLayoutZoom>85</PageLayoutZoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>2</SplitHorizontal>
+   <TopRowBottomPane>2</TopRowBottomPane>
+   <SplitVertical>7</SplitVertical>
+   <LeftColumnRightPane>7</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>37</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

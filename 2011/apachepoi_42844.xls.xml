@@ -1,0 +1,210 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <LastPrinted>2007-05-11T22:59:38Z</LastPrinted>
+  <Created>2007-04-26T18:45:52Z</Created>
+  <LastSaved>2007-09-11T17:05:10Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16060</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21" ss:Name="Hyperlink">
+   <Font ss:Color="#0000D4" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s23">
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s25">
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Font/>
+  </Style>
+  <Style ss:ID="s27">
+   <Font/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s28" ss:Parent="s21">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s29">
+   <Font x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="9-7-07">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="='9-7-07'!R2C1:R20C12"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="25" ss:ExpandedRowCount="17" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:Width="248"/>
+   <Column ss:Width="109"/>
+   <Column ss:Width="200"/>
+   <Column ss:Width="75"/>
+   <Column ss:Width="133"/>
+   <Column ss:Width="840"/>
+   <Column ss:Width="120"/>
+   <Column ss:Width="87"/>
+   <Column ss:Width="69"/>
+   <Column ss:Width="30"/>
+   <Column ss:StyleID="s23" ss:Width="59"/>
+   <Column ss:Index="13" ss:Width="82"/>
+   <Column ss:Width="88"/>
+   <Column ss:Width="96"/>
+   <Column ss:Width="219"/>
+   <Column ss:Width="57"/>
+   <Column ss:Width="743"/>
+   <Column ss:Width="61"/>
+   <Column ss:Width="89"/>
+   <Column ss:Width="1534"/>
+   <Column ss:Width="60"/>
+   <Column ss:Width="99"/>
+   <Column ss:Width="743"/>
+   <Column ss:Width="96"/>
+   <Row ss:Index="12" ss:StyleID="s26">
+    <Cell ss:Index="11" ss:StyleID="s27"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="14" ss:StyleID="s24"/>
+   </Row>
+   <Row ss:StyleID="s24">
+    <Cell ss:Index="11" ss:StyleID="s25"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="18" ss:StyleID="s28"/>
+   </Row>
+   <Row ss:StyleID="s24">
+    <Cell ss:Index="11" ss:StyleID="s25"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:StyleID="s24">
+    <Cell ss:Index="11" ss:StyleID="s25"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="18" ss:StyleID="s29"/>
+    <Cell ss:Index="24" ss:StyleID="s29"/>
+   </Row>
+   <Row ss:StyleID="s24">
+    <Cell ss:Index="11" ss:StyleID="s25"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+   <Row ss:StyleID="s24">
+    <Cell ss:Index="11" ss:StyleID="s25"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+   </PageSetup>
+   <FitToPage/>
+   <Print>
+    <FitHeight>3</FitHeight>
+    <ValidPrinterInfo/>
+    <Scale>90</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,492 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>cedric</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2008-02-17T20:34:32Z</Created>
+  <LastSaved>2013-03-18T15:29:43Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14500</WindowHeight>
+  <WindowWidth>14440</WindowWidth>
+  <WindowTopX>14380</WindowTopX>
+  <WindowTopY>-20</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s66">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s69">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s70">
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="numberArea" ss:RefersTo="=Indirect!R125C11:R127C14"/>
+  <NamedRange ss:Name="oneByOne" ss:RefersTo="=Indirect!R7C13"/>
+  <NamedRange ss:Name="singleColumn" ss:RefersTo="=Indirect!R5C12:R11C12"/>
+  <NamedRange ss:Name="singleRow" ss:RefersTo="=Indirect!R6C11:R6C15"/>
+  <NamedRange ss:Name="threeByThree" ss:RefersTo="=Indirect!R6C12:R8C14"/>
+ </Names>
+ <Worksheet ss:Name="Read Me">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Width="651"/>
+   <Row>
+    <Cell><Data ss:Type="String">This spreadsheet contains various test cases for INDIRECT functions</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Name of the main junit test class which uses this spreadsheet:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">org.apache.poi.ss.formula.functions.TestIndirectFunctionFromSpreadsheet</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">(The content of cell 'Read Me'!A3 is confirmed by the test)</Data></Cell>
+   </Row>
+   <Row ss:Index="6">
+    <Cell><Data ss:Type="String">Every sheet besides this first one contains formula evaluation test cases in a standardised format.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">On row 4 of each sheet, in columns B,C,D there are the column headings &quot;Formula&quot;, &quot;Expected Result&quot; and &quot;Comment&quot;</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">The test iterates down from row 5 onward  until a the text &quot;&lt;end&gt;&quot; is found in column A.   Rows with &quot;&lt;skip&gt;&quot; in column A are ignored (useful for currently unsupported behaviour).  Otherwise column A can be used for commenting the group of rows below. </Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">If the evaluated result of column B does not match the expected result in column C, the junit test will report a failure.  Test failures get annotated with the section and row comments, if any.</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Besides the first 4 columns, row 5 onwards, the junit test does not inspect any other cells in the sheet.  The other cells can be used freely to set up test data.</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Care should be taken to not only make the values in column C match those in column B, but also to make sure column C contains only simple literal values.  This can be achieved easily by 'pasting special' from column B to C, selecting the 'as values' option.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Indirect">
+  <Table ss:ExpandedColumnCount="15" ss:ExpandedRowCount="141" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Width="118"/>
+   <Column ss:Width="96"/>
+   <Column ss:Width="287"/>
+   <Column ss:AutoFitWidth="0" ss:Width="377"/>
+   <Column ss:AutoFitWidth="0" ss:Width="58"/>
+   <Column ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="16"/>
+   <Column ss:Width="29"/>
+   <Column ss:StyleID="s68" ss:Width="29"/>
+   <Column ss:Width="69"/>
+   <Column ss:Width="29"/>
+   <Column ss:Width="38"/>
+   <Column ss:Width="24" ss:Span="1"/>
+   <Column ss:Index="15" ss:Width="13"/>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">Sheet Comment:</Data></Cell>
+    <Cell><Data ss:Type="String">Simple tests of indirect using basic argument values</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s67"><Data ss:Type="String">data</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">data</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">sheet name</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">data</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">data</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="String">I2</Data></Cell>
+    <Cell><Data ss:Type="String">K2</Data></Cell>
+    <Cell><Data ss:Type="String">Indirect</Data></Cell>
+    <Cell><Data ss:Type="String">L2</Data></Cell>
+    <Cell><Data ss:Type="Number">1.333</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">A1-style reference</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Formula</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Expected Result</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Comment</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:Index="8"><Data ss:Type="String">I3</Data></Cell>
+    <Cell><Data ss:Type="String">K3</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">L3</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="=INDIRECT(R2C8, RC[3])"><Data ss:Type="String">K2</Data></Cell>
+    <Cell><Data ss:Type="String">K2</Data></Cell>
+    <Cell><Data ss:Type="String">simple</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">I4</Data></Cell>
+    <Cell><Data ss:Type="String">K4</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">L4</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="=INDIRECT(R3C8, RC[3])"><Data ss:Type="String">K3</Data></Cell>
+    <Cell><Data ss:Type="String">K3</Data></Cell>
+    <Cell><Data ss:Type="String">simple</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">I5</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">L5</Data></Cell>
+    <Cell><Data ss:Type="Number">62</Data><NamedCell ss:Name="singleColumn"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="=INDIRECT(&quot;I&quot;&amp;R6C8, R[-1]C[3])"><Data
+      ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">dynamic column</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="=INDIRECT(R3C8&amp;&quot;:&quot;&amp;R3C8)"><Data
+      ss:Type="String">K3</Data></Cell>
+    <Cell><Data ss:Type="String">K3</Data></Cell>
+    <Cell><Data ss:Type="String">using range</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s68">
+    <Cell ss:Index="2" ss:Formula="=INDIRECT(&quot;Indirect&quot;&amp;&quot;!&quot;&amp;R3C8&amp;&quot;:&quot;&amp;R3C8,RC[3])"><Data
+      ss:Type="String">K3</Data></Cell>
+    <Cell><Data ss:Type="String">K3</Data></Cell>
+    <Cell><Data ss:Type="String">fix sheet name &amp; dynamic range with colum indirection I3:I3</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"
+     ss:Formula="=INDIRECT(&quot;Indirect&quot;&amp;&quot;!&quot;&amp;R7C8&amp;&quot;:&quot;&amp;R7C8,RC[3])"><Data
+      ss:Type="String">K3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">K3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">fix sheet name &amp; dynamic range with row area 8:8</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"
+     ss:Formula="=INDIRECT(&quot;Indirect&quot;&amp;&quot;!&quot;&amp;&quot;8:8&quot;,R[1]C[3])"><Data
+      ss:Type="String">K3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">K3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">fix sheet name &amp; fix range with row area 8:8</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68" ss:Formula="=INDIRECT(R[-3],RC[3])"><Data
+      ss:Type="String">L3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">L3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">indirect with fix range with row area 8:8</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"
+     ss:Formula="=INDIRECT(R2C10&amp;&quot;!&quot;&amp;&quot;8&quot;&amp;&quot;:&quot;&amp;&quot;8&quot;,R[-6]C[3])"><Data
+      ss:Type="String">K3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">K3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">dynamic sheet name &amp; dynamic range with row area 8:8</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"
+     ss:Formula="=INDIRECT(&quot;8&quot;&amp;&quot;:&quot;&amp;&quot;8&quot;,R[-5]C[3])"><Data
+      ss:Type="String">K3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">K3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">building range with concatenation</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68" ss:Formula="=INDIRECT(C[6],RC[3])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s68"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"
+     ss:Formula="=INDIRECT(&quot;Indirect&quot;&amp;&quot;!&quot;&amp;&quot;H:H&quot;,RC[3])"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s68"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s68"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:Index="18">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">R1C1-style reference</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;skip&gt;</Data></Cell>
+    <Cell ss:Formula="=INDIRECT(R[-11],RC[3])"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="String">R1C1 style not supported yet</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;skip&gt;</Data></Cell>
+    <Cell ss:Formula="=INDIRECT(R7C8:R7C8, RC[3])"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="String">R1C1 style not supported yet</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;skip&gt;</Data></Cell>
+    <Cell ss:Formula="=INDIRECT(R3C8, RC[3])"><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="String">R1C1 style not supported yet</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;skip&gt;</Data></Cell>
+    <Cell ss:Formula="=INDIRECT(&quot;I&quot;&amp;R5C8, R[-1]C[3])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="String">R1C1 style not supported yet</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;skip&gt;</Data></Cell>
+    <Cell ss:Formula="=INDIRECT(R3C8&amp;&quot;!&quot;&amp;R3C9&amp;&quot;:&quot;&amp;R3C9)"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="String">R1C1 style not supported yet</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;end&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row ss:Index="31">
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row ss:Index="40">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:Index="6" ss:StyleID="s67"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row ss:Index="48">
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s68"/>
+   </Row>
+   <Row ss:Index="141">
+    <Cell><Data ss:Type="String">&lt;end&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>145</Zoom>
+   <PageLayoutZoom>145</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>15</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

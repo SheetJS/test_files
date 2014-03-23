@@ -1,0 +1,702 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>2014-03-22T22:20:51Z</Created>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>0</Index>
+    <RGB>#D4D0C8</RGB>
+   </Color>
+   <Color>
+    <Index>1</Index>
+    <RGB>#000000</RGB>
+   </Color>
+   <Color>
+    <Index>2</Index>
+    <RGB>#000000</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9300</WindowHeight>
+  <WindowWidth>15140</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>120</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:Size="8.25" ss:Color="#000000"/>
+   <Interior ss:Color="#D4D0C8" ss:Pattern="Solid"/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:Size="8.25"/>
+   <Interior/>
+   <NumberFormat ss:Format="yyyy\-m\-d\ h:mm\ AM/PM"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:Size="8.25"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="46" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="59" ss:DefaultRowHeight="12.75">
+   <Column ss:AutoFitWidth="0" ss:Width="77"/>
+   <Column ss:AutoFitWidth="0" ss:Width="86" ss:Span="4"/>
+   <Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="89"/>
+   <Column ss:AutoFitWidth="0" ss:Width="86" ss:Span="1"/>
+   <Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="69" ss:Span="1"/>
+   <Row ss:Height="12">
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Auction Date</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">County</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Year</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Code</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Parcel #</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Legal Description</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Known Liens</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Owner</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Min Bid</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Taxes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2005-07-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S4</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">28-1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-00966-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">LOT 53 BRIARCLIFF SEC 9 32-19-12 Acreage: 0</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">JOE M CLARK</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1081.5663999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2005-07-14T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S4</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">30-6</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02210-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">LOT 82 BRIARCLIFF SEC 14 Acreage: 0</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">TRAVIS C GRISSOM, SR</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1081.5663999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">20-3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-00368-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 6**SD 61B Section: 29 Township: 19N Range: 12W Lot: 177</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">HAROLD ROBERT &amp; ROSEMARY FARLEY</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">813.49900000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">20-4</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-00428-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 6 SD 61B Section: 29 Township: 19N Range: 12W Lot: 242</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">MICHAEL &amp; TERRI AARON</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">736.00459999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">20-6</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-00485-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 6 SD 61B Section: 29 Township: 19N Range: 12W Lot: 305</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">ERNEST L. &amp; INEZ J. TAYLOR</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">798.38430000000005</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">21-1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-00698-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 7 SD 61B Section: 29 Township: 19N Range: 12W Lot: 216</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">W. C. DINNING JR.</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">798.38430000000005</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">21-2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01182-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 9 SD 61B Section: 32 Township: 19N Range: 12W Lot: 308</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RUTH K. VEDDER, ESTATE</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">905.13800000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">21-3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01564-445</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 10 SD 61B Section: 33 Township: 19N Range: 12W Lot: 445</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">FLORA MAE SEXTON %</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">905.13800000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">21-4</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01680-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 11 SD 61B Section: 04 Township: 18N Range: 12W Lot: 179</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">KEITH &amp; WILDA J. HEAD</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">976.27930000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">21-5</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01686-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 11 SD 61B Section: 04 Township: 18N Range: 12W Lot: 196</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">JAMES &amp; JOYCE W. BAKER</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">905.13800000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">21-7</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01785-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 11 SD 61B Section: 04 Township: 18N Range: 12W Lot: 348</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">THOMAS G. &amp; LETHA Y. REYNOLDS</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">905.13800000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">21-8</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01900-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 11 SD 61B Section: 04 Township: 18N Range: 12W Lot: 474</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">C 2 C PROPERTIES INC.</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">905.13800000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">22-1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01981-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 12 SD 61B Section: 04 Township: 18N Range: 12W Lot: 125</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">VIRGIL PANKEY</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">976.27930000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">22-10</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02502-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 16 SD 61B Section: 04 Township: 18N Range: 12W Lot: 335</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">HARRY J. &amp; BONNIE JENSEN</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">890.92650000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">22-2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02015-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 12 SD 61B Section: 04 Township: 18N Range: 12W Lot: 185</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">JOSEPH B. WILL, JR.</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">812.67939999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">22-3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02060-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 12 SD 61B Section: 04 Township: 18N Range: 12W Lot: 236</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">DONALD W. DUTY, ETUX</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">833.99670000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">22-4</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02063-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 12 SD 61B Section: 04 Township: 18N Range: 12W Lot: 239</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">MARY POLK</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">876.71489999999994</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">22-6</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02292-316</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 14 SD 61B Section: 04 Township: 18N Range: 12W Lot: 316</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">JAMES L. MINICK, ETUX</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">976.27930000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">22-7</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02311-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 14 SD 61B Section: 04 Township: 18N Range: 12W Lot: 292</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">JOE E. DODD, ETUX</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">976.27930000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">22-8</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02456-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 16 SD 61B Section: 04 Township: 18N Range: 12W Lot: 223</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">JESSIE L. &amp; SHIRLEY A. MANIS</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">976.27930000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">22-9</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02465-257</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 16 SD 61B Section: 04 Township: 18N Range: 12W Lot: 257</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BUSTER B. JR. &amp; KAREN GRIGGS</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">905.13800000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">23-1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02528-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 16 SD 61B Section: 04 Township: 18N Range: 12W Lot: 372</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">ARTHUR L. &amp; LOIS J. RITTHALER</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">976.27930000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">23-2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02596-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRIARCLIFF SEC 16 SD 61B Section: 04 Township: 18N Range: 12W Lot: 457</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">EUGENE FRANKLIN &amp; JOAN GLOVER</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">890.92650000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2006-05-10T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2001</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">23-8</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-10007-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">PT W1/2 SE1/4 75' X125' SD 61B Section: 33 Township: 19N Range: 12W Acreage: .21</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">TOM STODDARD</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">794.20439999999996</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">10-10</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01302-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 33 Township: 19N Range: 12W Acreage: 0 Lot: 88 Addition: BRIARCLIFF SEC 10 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">GEORGE E. SCHLATTERER</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">667.62249999999995</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">10-2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-00609-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 29 Township: 19N Range: 12W Acreage: 0 Lot: 114 Addition: BRIARCLIFF SEC 7 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">IRA F. &amp; LAUREAM TERRY</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">739.47140000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">10-3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-00632-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 29 Township: 19N Range: 12W Acreage: 0 Lot: 143 Addition: BRIARCLIFF SEC 7 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">GARLAND B. &amp; MARIA LEA</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">796.62829999999997</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">10-4</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-00701-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 29 Township: 19N Range: 12W Acreage: 0 Lot: 219 Addition: BRIARCLIFF SEC 7 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BURNEY E. &amp; MAGGIE C. BEAN</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">779.50139999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">10-5</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-00734-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 29 Township: 19N Range: 12W Acreage: 0 Lot: 254 Addition: BRIARCLIFF SEC 7 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">CITY OF BRIARCLIFF</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">739.47140000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">10-6</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-00762-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 29 Township: 19N Range: 12W Acreage: 0 Lot: 283 Addition: BRIARCLIFF SEC 7 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BILLY D. &amp; LEDA HUDSON</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">739.47140000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">10-7</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-00949-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 32 Township: 19N Range: 12W Acreage: 0 Lot: 36 Addition: BRIARCLIFF SEC 9 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">DONALD D. REW%</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">739.47140000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">11-1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01537-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 33 Township: 19N Range: 12W Acreage: 0 Lot: 386 Addition: BRIARCLIFF SEC 10 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">DAVID STEPHENSON, ETAL</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">810.54830000000004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">11-2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01554-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 33 Township: 19N Range: 12W Acreage: 0 Lot: 403 Addition: BRIARCLIFF SEC 10 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BILL &amp; CAROL PHILLIPS</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">739.47140000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">11-3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01648-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 4 Township: 18N Range: 12W Acreage: 0 Lot: 132 Addition: BRIARCLIFF SEC 11 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">ARNIE C. &amp; DOROTHY L. GREEN</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">750.88940000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">11-5</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01887-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 4 Township: 18N Range: 12W Acreage: 0 Lot: 459 Addition: BRIARCLIFF SEC 11 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">FRANK M. COYLE, ETUX</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">796.62829999999997</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">11-6</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-01910-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 4 Township: 18N Range: 12W Acreage: 0 Lot: 497 Addition: BRIARCLIFF SEC 11 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">HAROLD VAUGHAN &amp; JEANNE HAMMOCK%</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">768.0163</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">11-7</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02042-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 4 Township: 18N Range: 12W Acreage: 0 Lot: 213 Addition: BRIARCLIFF SEC 12 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">GEORGE ARTHUR, ETUX</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">734.05939999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">11-8</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02225-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 4 Township: 18N Range: 12W Acreage: 0 Lot: 100 Addition: BRIARCLIFF SEC 14 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BRENDA L. THROCKMORTON</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">810.54830000000004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">11-9</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02464-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 4 Township: 18N Range: 12W Acreage: 0 Lot: 231 Addition: BRIARCLIFF SEC 16 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">VIRGINIA E PABST, TRUSTEE OF LIVING TRUST%</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">739.47140000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">12-2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-02574-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 4 Township: 18N Range: 12W Acreage: 0 Lot: 432 Addition: BRIARCLIFF SEC 16 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">KATHRYN K. JOHANSEN</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">758.03139999999996</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">12-3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-05436-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 32 Township: 19N Range: 12W Acreage: 0 Lot: 17 Addition: HOLIDAY HILLS ESTATE 1 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BARBARA M. SANTOS &amp; LARCHE N. MCLEOD, JR.</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">240</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">859.995</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">12-7</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-05575-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 32 Township: 19N Range: 12W Acreage: 0 Lot: 178 Addition: HOLIDAY HILLS ESTATES 3 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">EULA LOIS RODMAN</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">200</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">732.90369999999996</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">12-8</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">010-10002-000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">PT W1/2 SE1/4 Section: 33 Township: 19N Range: 12W Acreage: .21 School Dist: 61B</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">FREDERICK &amp; NANCY KILLAM</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">650.34429999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">8-3</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">002-09948-030</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 36 Township: 20N Range: 15W Acreage: 0 Lot: 30 Addition: SURREY LANE School Dist: 9R</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RONALD LEE MCGAUGHEY</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">280.44459999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:StyleID="s22"><Data ss:Type="DateTime">2007-08-02T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">S2</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">BAXT</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">2002</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">8-5</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">002-09956-029</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String"> Section: 36 Township: 20N Range: 15W Acreage: 0 Lot: 29 Addition: SURREY LANE School Dist: 9R</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">RONALD LEE MCGAUGHEY</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">280.44459999999998</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

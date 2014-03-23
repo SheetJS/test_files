@@ -1,0 +1,345 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Crystal Decisions</Author>
+  <Description>Powered by Crystal</Description>
+  <LastAuthor>God</LastAuthor>
+  <Created>2014-03-22T22:33:10Z</Created>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Business_x0020_Objects_x0020_Context_x0020_Information dt:dt="string">01AD9DCB40AA5E628AA330AE71794C0F2BA738E1E7015B3B58178F7C190DB4426C3249EE4B0564339CD84937D198000C48AE417251FC2087C81407E2C48377602D9298C1D329A2D2EFB4C3706744F4CA29B4065FCE72EEBCAC2F6E58DC27AD0DCDB797E127695158D784F772252F89A274510ABBF71233CCBDAED6B1452C7D5</Business_x0020_Objects_x0020_Context_x0020_Information>
+  <Business_x0020_Objects_x0020_Context_x0020_Information1 dt:dt="string">6C51BD33FAAD60156EBAF74526C7943E2723AAC0BC440D89B764FEF9F62E3F6FFB8FF02D9964CB9E044F949B6FCE59A5A890F5151556754D370CBCBA6885C824C9B956B33EC5BDBB32440177826DA452D89095B51902560E954BCA51C08060383CEB08870551382EF2EA4F5054704F7629C0D6DEA1F72E0CFE243C9558C8795</Business_x0020_Objects_x0020_Context_x0020_Information1>
+  <Business_x0020_Objects_x0020_Context_x0020_Information2 dt:dt="string">DA555DF9624A708DF8DC7E8EA8F8BA65F09213E8F32BBB787974A20D6E39D35E51B8909A1F6DB2A191D7EFCE74297A2B3740174E4915EBD288900C056FCD595C489FE1E21A6DBCCFDDA43A12584FF460111708E3E40EB343879B063C4566D28211DF739BCECE02695913171FFFE08DC1562176F07457ED6E29EBDE2DE45D187</Business_x0020_Objects_x0020_Context_x0020_Information2>
+  <Business_x0020_Objects_x0020_Context_x0020_Information3 dt:dt="string">C6CF480BFDD24F01A7FBBFC6C01E22502B85AE6B8DB8DED63750B153FB35BFCAFC4BAA672FACC97EAE2EB75A5C26E735BC428E7FFD4FDCA3C140A56585A73BAE441671FBD0FBC8E13D9C5EB8E1D2FEECA047EEA82A1B8070658C9666B75190E3AB68AC9248732EFCBE883E28285E65AF7CA84247205417B1765B022A1FD7C64</Business_x0020_Objects_x0020_Context_x0020_Information3>
+  <Business_x0020_Objects_x0020_Context_x0020_Information4 dt:dt="string">696F25F88A52A9B2BAA65CAEE91D8CCA0B851BF5EC15BAF9C6284342CD133FEE870D3A095BE2F55A69EF64A98B015CC3154D4CF1CE53B50A542BC741F85798E62ABCB001E47E04218DF5731C4B5E52FC03977408FCA5F76E55F036FF5E1373A4142CE309A12C24C9E9CDBA7AE3E7E53CB4C4C7EDDA5CD4902DA9D3F37EE5209</Business_x0020_Objects_x0020_Context_x0020_Information4>
+  <Business_x0020_Objects_x0020_Context_x0020_Information5 dt:dt="string">836397D0D2D69F09DE2C7D6F531A452DCF5EDAE4D3DCA24643762B7E35C4416099C828E5D4C3B1B430A9426FA56C1A88A2DC82A750DE04911368D69326FB00249AD5A809FC2A17EC06ACD5E5DEF104CF797CA696595904C22DC61BC522F95EF91A7DFD893F432B6CC3C1749FC8A4E7B1B3D7E445080AFAC9E4FBEC5E2074615</Business_x0020_Objects_x0020_Context_x0020_Information5>
+  <Business_x0020_Objects_x0020_Context_x0020_Information6 dt:dt="string">872C20FE39CE658A4DAFE98D321BB15F3FB8E3E846D6A7B8930465810580B2A2EFEE7E4EEEBE14AC5A7F69D261482915182FCC155488B23194C634C2F62A6BD2F8791CD62FBD4440156AEF010F22CDB68077020CD9F8631D6353E420A59DAA8386ACED8DBAC2A5C3B68EFA9790ACFA862A9FB24C381644E7C879BAE4AD6D4F3</Business_x0020_Objects_x0020_Context_x0020_Information6>
+  <Business_x0020_Objects_x0020_Context_x0020_Information7 dt:dt="string">79E9F9C6FFF3F241D6849734A795C63B76A67D175414689BAA4F30B366FF8BA85BC3F00903841962475196467E4E25E24FCB250C5EBE2CBBF6AE53E854836EA56066BA04B</Business_x0020_Objects_x0020_Context_x0020_Information7>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>2</Index>
+    <RGB>#FF0000</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#00FF00</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>6</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>7</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>8</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#008000</RGB>
+   </Color>
+   <Color>
+    <Index>10</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#808000</RGB>
+   </Color>
+   <Color>
+    <Index>12</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>39</Index>
+    <RGB>#E3E3E3</RGB>
+   </Color>
+   <Color>
+    <Index>40</Index>
+    <RGB>#33CCCC</RGB>
+   </Color>
+   <Color>
+    <Index>41</Index>
+    <RGB>#99CC00</RGB>
+   </Color>
+   <Color>
+    <Index>42</Index>
+    <RGB>#FFCC00</RGB>
+   </Color>
+   <Color>
+    <Index>43</Index>
+    <RGB>#FF9900</RGB>
+   </Color>
+   <Color>
+    <Index>44</Index>
+    <RGB>#FF6600</RGB>
+   </Color>
+   <Color>
+    <Index>45</Index>
+    <RGB>#666699</RGB>
+   </Color>
+   <Color>
+    <Index>46</Index>
+    <RGB>#969696</RGB>
+   </Color>
+   <Color>
+    <Index>47</Index>
+    <RGB>#003366</RGB>
+   </Color>
+   <Color>
+    <Index>48</Index>
+    <RGB>#339966</RGB>
+   </Color>
+   <Color>
+    <Index>49</Index>
+    <RGB>#003300</RGB>
+   </Color>
+   <Color>
+    <Index>50</Index>
+    <RGB>#333300</RGB>
+   </Color>
+   <Color>
+    <Index>51</Index>
+    <RGB>#993300</RGB>
+   </Color>
+   <Color>
+    <Index>52</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>53</Index>
+    <RGB>#333399</RGB>
+   </Color>
+   <Color>
+    <Index>54</Index>
+    <RGB>#333333</RGB>
+   </Color>
+   <Color>
+    <Index>55</Index>
+    <RGB>#999999</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8640</WindowHeight>
+  <WindowWidth>14400</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="14" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:Size="9" ss:Color="#000000" ss:Italic="1"/>
+   <NumberFormat ss:Format="dd\/mm\/yy"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="18" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="47" ss:DefaultRowHeight="12.75">
+   <Column ss:AutoFitWidth="0" ss:Width="13"/>
+   <Column ss:AutoFitWidth="0" ss:Width="36"/>
+   <Column ss:AutoFitWidth="0" ss:Width="23"/>
+   <Column ss:AutoFitWidth="0" ss:Width="7"/>
+   <Column ss:AutoFitWidth="0" ss:Width="13"/>
+   <Column ss:AutoFitWidth="0" ss:Width="58"/>
+   <Column ss:AutoFitWidth="0" ss:Width="33"/>
+   <Column ss:AutoFitWidth="0" ss:Width="7" ss:Span="1"/>
+   <Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:AutoFitWidth="0" ss:Width="39"/>
+   <Column ss:AutoFitWidth="0" ss:Width="49"/>
+   <Column ss:AutoFitWidth="0" ss:Width="43"/>
+   <Column ss:AutoFitWidth="0" ss:Width="58"/>
+   <Column ss:AutoFitWidth="0" ss:Width="17"/>
+   <Column ss:AutoFitWidth="0" ss:Width="9"/>
+   <Column ss:AutoFitWidth="0" ss:Width="72"/>
+   <Column ss:AutoFitWidth="0" ss:Width="41" ss:Span="238"/>
+   <Row ss:AutoFitHeight="0" ss:Height="19">
+    <Cell ss:Index="2" ss:MergeAcross="10" ss:StyleID="s29"><Data ss:Type="String">Expiring contracts</Data></Cell>
+   </Row>
+   <Row ss:Height="12">
+    <Cell ss:Index="2" ss:MergeAcross="10" ss:StyleID="s30"><Data ss:Type="String">in next 0 months starting from 08.08.2007</Data></Cell>
+   </Row>
+   <Row ss:Height="22">
+    <Cell ss:Index="2" ss:StyleID="s23"><Data ss:Type="String">Datum:</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s31"><Data ss:Type="DateTime">2007-08-08T00:00:00.000</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8"/>
+   <Row ss:Height="12">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s30"><Data ss:Type="String">Site</Data></Cell>
+    <Cell ss:Index="5" ss:MergeAcross="5" ss:StyleID="s30"><Data ss:Type="String">Tenant</Data></Cell>
+    <Cell ss:Index="14" ss:MergeAcross="1" ss:StyleID="s25"><Data ss:Type="String">Actual rent</Data></Cell>
+    <Cell ss:Index="17" ss:StyleID="s25"><Data ss:Type="String">Potential rent</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="6"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="6" ss:MergeAcross="1" ss:StyleID="s26"><Data ss:Type="String">Unit</Data></Cell>
+    <Cell ss:Index="9" ss:MergeAcross="2" ss:StyleID="s26"><Data ss:Type="String">Type of usage</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Surface</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="3"/>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="5" ss:MergeAcross="5" ss:StyleID="s34"><Data ss:Type="String">, </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11"/>
+   <Row ss:AutoFitHeight="0" ss:Height="4"/>
+   <Row ss:AutoFitHeight="0" ss:Height="8"/>
+   <Row ss:AutoFitHeight="0" ss:Height="3"/>
+   <Row ss:AutoFitHeight="0" ss:Height="10">
+    <Cell ss:Index="10" ss:MergeAcross="1" ss:StyleID="s35"><Data ss:Type="String">Total:</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="4"/>
+   <Row ss:AutoFitHeight="0" ss:Height="6"/>
+   <Row ss:AutoFitHeight="0" ss:Height="653"/>
+   <Row ss:Height="12">
+    <Cell ss:Index="14" ss:MergeAcross="3" ss:StyleID="s25"><Data ss:Type="String">Page:1/1</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0"/>
+    <Footer x:Margin="0"/>
+    <PageMargins x:Bottom="0.19652777777777777" x:Left="0.67013888888888884"
+     x:Right="0.66666666666666663" x:Top="0.19652777777777777"/>
+   </PageSetup>
+   <Unsynced/>
+   <NoSummaryRowsBelowDetail/>
+   <NoSummaryColumnsRightDetail/>
+   <DisplayPageBreak/>
+   <Print>
+    <FitWidth>0</FitWidth>
+    <FitHeight>0</FitHeight>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <VerticalResolution>0</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <DoNotDisplayOutline/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

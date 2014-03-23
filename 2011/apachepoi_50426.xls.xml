@@ -1,0 +1,1102 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>2014-03-22T22:25:44Z</Created>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>2</Index>
+    <RGB>#FF0000</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#00FF00</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>6</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>7</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>8</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#008000</RGB>
+   </Color>
+   <Color>
+    <Index>10</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#808000</RGB>
+   </Color>
+   <Color>
+    <Index>12</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#D3DCE9</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#E4ECF7</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#A9C4E9</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10120</WindowHeight>
+  <WindowWidth>17100</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>20</WindowTopY>
+  <MaxIterations>1</MaxIterations>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Microsoft Sans Serif" ss:Size="8.25"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Center"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior ss:Color="#D3DCE9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Interior ss:Color="#D3DCE9" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior ss:Color="#E4ECF7" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior ss:Color="#A9C4E9" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Vertical="Center"/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Vertical="Center"/>
+   <NumberFormat ss:Format="###0.00;\-###0.00"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Vertical="Center"/>
+   <NumberFormat ss:Format="###0.00000;\-###0.00000"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Vertical="Top"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <NumberFormat ss:Format="###0;\-###0"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="0">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="97" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s21" ss:DefaultColumnWidth="50"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s24" ss:AutoFitWidth="0" ss:Width="7"/>
+   <Column ss:StyleID="s26" ss:AutoFitWidth="0" ss:Width="42"/>
+   <Column ss:StyleID="s26" ss:AutoFitWidth="0" ss:Span="1"/>
+   <Column ss:Index="5" ss:StyleID="s26" ss:AutoFitWidth="0" ss:Width="58"
+    ss:Span="1"/>
+   <Column ss:Index="7" ss:StyleID="s27" ss:AutoFitWidth="0" ss:Width="42"/>
+   <Column ss:StyleID="s28" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Row ss:AutoFitHeight="0" ss:StyleID="s22">
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Well</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Fluor</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Target</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Content</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Sample</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Cq</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">SQ</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">A01</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-01</Data></Cell>
+    <Cell><Data ss:Type="String">Control1</Data></Cell>
+    <Cell><Data ss:Type="Number">19.363661227776717</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">A02</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-05</Data></Cell>
+    <Cell><Data ss:Type="String">Salt2</Data></Cell>
+    <Cell><Data ss:Type="Number">19.911149992800844</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">A03</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-01</Data></Cell>
+    <Cell><Data ss:Type="String">C NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">25.211214279934293</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">A04</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-09</Data></Cell>
+    <Cell><Data ss:Type="String">Control1</Data></Cell>
+    <Cell><Data ss:Type="Number">23.515366167953157</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">A05</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-13</Data></Cell>
+    <Cell><Data ss:Type="String">Salt2</Data></Cell>
+    <Cell><Data ss:Type="Number">19.358636986836245</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">A06</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-04</Data></Cell>
+    <Cell><Data ss:Type="String">C NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">25.290066785363059</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">A07</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-17</Data></Cell>
+    <Cell><Data ss:Type="String">Control1</Data></Cell>
+    <Cell><Data ss:Type="Number">19.491800238226439</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">A08</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-21</Data></Cell>
+    <Cell><Data ss:Type="String">Salt2</Data></Cell>
+    <Cell><Data ss:Type="Number">19.526723557047074</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">A09</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-07</Data></Cell>
+    <Cell><Data ss:Type="String">C NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">25.170324632075964</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">A10</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-25</Data></Cell>
+    <Cell><Data ss:Type="String">Control1</Data></Cell>
+    <Cell><Data ss:Type="Number">17.855185947489861</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">A11</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-29</Data></Cell>
+    <Cell><Data ss:Type="String">Salt2</Data></Cell>
+    <Cell><Data ss:Type="Number">18.599684928837867</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">A12</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-10</Data></Cell>
+    <Cell><Data ss:Type="String">C NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">25.215992910887042</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">B01</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-01</Data></Cell>
+    <Cell><Data ss:Type="String">Control1</Data></Cell>
+    <Cell><Data ss:Type="Number">19.323245466843577</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">B02</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-05</Data></Cell>
+    <Cell><Data ss:Type="String">Salt2</Data></Cell>
+    <Cell><Data ss:Type="Number">19.665674758604869</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">B03</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-01</Data></Cell>
+    <Cell><Data ss:Type="String">C NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">25.276822346181802</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">B04</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-09</Data></Cell>
+    <Cell><Data ss:Type="String">Control1</Data></Cell>
+    <Cell><Data ss:Type="Number">23.631939295025557</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">B05</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-13</Data></Cell>
+    <Cell><Data ss:Type="String">Salt2</Data></Cell>
+    <Cell><Data ss:Type="Number">19.356055376330595</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">B06</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-04</Data></Cell>
+    <Cell><Data ss:Type="String">C NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">25.566423541734103</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">B07</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-17</Data></Cell>
+    <Cell><Data ss:Type="String">Control1</Data></Cell>
+    <Cell><Data ss:Type="Number">19.309023107773626</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">B08</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-21</Data></Cell>
+    <Cell><Data ss:Type="String">Salt2</Data></Cell>
+    <Cell><Data ss:Type="Number">19.499782710869006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">B09</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-07</Data></Cell>
+    <Cell><Data ss:Type="String">C NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">25.288683288585766</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">B10</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-25</Data></Cell>
+    <Cell><Data ss:Type="String">Control1</Data></Cell>
+    <Cell><Data ss:Type="Number">17.828627744664789</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">B11</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-29</Data></Cell>
+    <Cell><Data ss:Type="String">Salt2</Data></Cell>
+    <Cell><Data ss:Type="Number">18.565408475881249</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">B12</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-10</Data></Cell>
+    <Cell><Data ss:Type="String">C NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">25.158172627299219</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">C01</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-02</Data></Cell>
+    <Cell><Data ss:Type="String">Control2</Data></Cell>
+    <Cell><Data ss:Type="Number">19.326936805356588</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">C02</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-06</Data></Cell>
+    <Cell><Data ss:Type="String">Salt3</Data></Cell>
+    <Cell><Data ss:Type="Number">19.545530752324236</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">C03</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-02</Data></Cell>
+    <Cell><Data ss:Type="String">S NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">22.59656985377633</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">C04</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-10</Data></Cell>
+    <Cell><Data ss:Type="String">Control2</Data></Cell>
+    <Cell><Data ss:Type="Number">23.228860530280038</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">C05</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-14</Data></Cell>
+    <Cell><Data ss:Type="String">Salt3</Data></Cell>
+    <Cell><Data ss:Type="Number">19.220759354138686</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">C06</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-05</Data></Cell>
+    <Cell><Data ss:Type="String">S NoRT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">C07</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-18</Data></Cell>
+    <Cell><Data ss:Type="String">Control2</Data></Cell>
+    <Cell><Data ss:Type="Number">19.297458355583945</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">C08</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-22</Data></Cell>
+    <Cell><Data ss:Type="String">Salt3</Data></Cell>
+    <Cell><Data ss:Type="Number">19.385321446732984</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">C09</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-08</Data></Cell>
+    <Cell><Data ss:Type="String">S NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">22.743717451576526</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">C10</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-26</Data></Cell>
+    <Cell><Data ss:Type="String">Control2</Data></Cell>
+    <Cell><Data ss:Type="Number">17.677440362075409</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">C11</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-30</Data></Cell>
+    <Cell><Data ss:Type="String">Salt3</Data></Cell>
+    <Cell><Data ss:Type="Number">18.481149578651685</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">C12</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-11</Data></Cell>
+    <Cell><Data ss:Type="String">S NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">22.424155643887079</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">D01</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-02</Data></Cell>
+    <Cell><Data ss:Type="String">Control2</Data></Cell>
+    <Cell><Data ss:Type="Number">19.235943492893181</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">D02</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-06</Data></Cell>
+    <Cell><Data ss:Type="String">Salt3</Data></Cell>
+    <Cell><Data ss:Type="Number">19.504337409063918</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">D03</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-02</Data></Cell>
+    <Cell><Data ss:Type="String">S NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">22.536858109624621</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">D04</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-10</Data></Cell>
+    <Cell><Data ss:Type="String">Control2</Data></Cell>
+    <Cell><Data ss:Type="Number">23.2084137954912</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">D05</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-14</Data></Cell>
+    <Cell><Data ss:Type="String">Salt3</Data></Cell>
+    <Cell><Data ss:Type="Number">19.223563324854112</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">D06</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-05</Data></Cell>
+    <Cell><Data ss:Type="String">S NoRT</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">D07</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-18</Data></Cell>
+    <Cell><Data ss:Type="String">Control2</Data></Cell>
+    <Cell><Data ss:Type="Number">19.184490914607252</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">D08</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-22</Data></Cell>
+    <Cell><Data ss:Type="String">Salt3</Data></Cell>
+    <Cell><Data ss:Type="Number">19.467720455501059</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">D09</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-08</Data></Cell>
+    <Cell><Data ss:Type="String">S NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">22.360478331429807</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">D10</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-26</Data></Cell>
+    <Cell><Data ss:Type="String">Control2</Data></Cell>
+    <Cell><Data ss:Type="Number">17.650006496877428</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">D11</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-30</Data></Cell>
+    <Cell><Data ss:Type="String">Salt3</Data></Cell>
+    <Cell><Data ss:Type="Number">18.263114432047047</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">D12</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-11</Data></Cell>
+    <Cell><Data ss:Type="String">S NoRT</Data></Cell>
+    <Cell><Data ss:Type="Number">22.374785544618224</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">E01</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-03</Data></Cell>
+    <Cell><Data ss:Type="String">Control3</Data></Cell>
+    <Cell><Data ss:Type="Number">19.200216741626907</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">E02</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-07</Data></Cell>
+    <Cell><Data ss:Type="String">iScript C</Data></Cell>
+    <Cell><Data ss:Type="Number">29.154999998458713</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">E03</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-03</Data></Cell>
+    <Cell><Data ss:Type="String">iScript</Data></Cell>
+    <Cell><Data ss:Type="Number">35.749900843744889</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">E04</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-11</Data></Cell>
+    <Cell><Data ss:Type="String">Control3</Data></Cell>
+    <Cell><Data ss:Type="Number">22.618641445959998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">E05</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-15</Data></Cell>
+    <Cell><Data ss:Type="String">iScript C</Data></Cell>
+    <Cell><Data ss:Type="Number">33.083652201459827</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">E06</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-06</Data></Cell>
+    <Cell><Data ss:Type="String">iScript</Data></Cell>
+    <Cell><Data ss:Type="Number">22.579302575546954</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">E07</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-19</Data></Cell>
+    <Cell><Data ss:Type="String">Control3</Data></Cell>
+    <Cell><Data ss:Type="Number">19.208416466577912</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">E08</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-23</Data></Cell>
+    <Cell><Data ss:Type="String">iScript C</Data></Cell>
+    <Cell><Data ss:Type="Number">29.134773390241236</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">E09</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-09</Data></Cell>
+    <Cell><Data ss:Type="String">iScript</Data></Cell>
+    <Cell><Data ss:Type="Number">35.289492222271086</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">E10</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-27</Data></Cell>
+    <Cell><Data ss:Type="String">Control3</Data></Cell>
+    <Cell><Data ss:Type="Number">17.767532998976201</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">E11</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-31</Data></Cell>
+    <Cell><Data ss:Type="String">iScript C</Data></Cell>
+    <Cell><Data ss:Type="Number">27.531260414929594</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">E12</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-12</Data></Cell>
+    <Cell><Data ss:Type="String">iScript</Data></Cell>
+    <Cell><Data ss:Type="Number">33.848628785673384</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">F01</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-03</Data></Cell>
+    <Cell><Data ss:Type="String">Control3</Data></Cell>
+    <Cell><Data ss:Type="Number">19.042643166605483</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">F02</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-07</Data></Cell>
+    <Cell><Data ss:Type="String">iScript C</Data></Cell>
+    <Cell><Data ss:Type="Number">29.075049864383075</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">F03</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-03</Data></Cell>
+    <Cell><Data ss:Type="String">iScript</Data></Cell>
+    <Cell><Data ss:Type="Number">34.60937691245892</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">F04</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-11</Data></Cell>
+    <Cell><Data ss:Type="String">Control3</Data></Cell>
+    <Cell><Data ss:Type="Number">22.685848606604349</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">F05</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-15</Data></Cell>
+    <Cell><Data ss:Type="String">iScript C</Data></Cell>
+    <Cell><Data ss:Type="Number">32.735135317700198</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">F06</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-06</Data></Cell>
+    <Cell><Data ss:Type="String">iScript</Data></Cell>
+    <Cell><Data ss:Type="Number">34.041566847096021</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">F07</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-19</Data></Cell>
+    <Cell><Data ss:Type="String">Control3</Data></Cell>
+    <Cell><Data ss:Type="Number">19.329762871509061</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">F08</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-23</Data></Cell>
+    <Cell><Data ss:Type="String">iScript C</Data></Cell>
+    <Cell><Data ss:Type="Number">29.19635401587345</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">F09</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-09</Data></Cell>
+    <Cell><Data ss:Type="String">iScript</Data></Cell>
+    <Cell><Data ss:Type="Number">34.944600834594496</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">F10</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-27</Data></Cell>
+    <Cell><Data ss:Type="String">Control3</Data></Cell>
+    <Cell><Data ss:Type="Number">17.816203273219006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">F11</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-31</Data></Cell>
+    <Cell><Data ss:Type="String">iScript C</Data></Cell>
+    <Cell><Data ss:Type="Number">27.525052403791101</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">F12</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">NRT-12</Data></Cell>
+    <Cell><Data ss:Type="String">iScript</Data></Cell>
+    <Cell><Data ss:Type="Number">33.945614118366365</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">G01</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-04</Data></Cell>
+    <Cell><Data ss:Type="String">Salt1</Data></Cell>
+    <Cell><Data ss:Type="Number">19.518541271067924</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">G02</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-08</Data></Cell>
+    <Cell><Data ss:Type="String">iScript S</Data></Cell>
+    <Cell><Data ss:Type="Number">30.861526189264353</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">G03</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">NTC</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">G04</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-12</Data></Cell>
+    <Cell><Data ss:Type="String">Salt1</Data></Cell>
+    <Cell><Data ss:Type="Number">19.020733155340562</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">G05</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-16</Data></Cell>
+    <Cell><Data ss:Type="String">iScript S</Data></Cell>
+    <Cell><Data ss:Type="Number">31.345878263121637</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">G06</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">NTC</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">G07</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-20</Data></Cell>
+    <Cell><Data ss:Type="String">Salt1</Data></Cell>
+    <Cell><Data ss:Type="Number">19.451365941683171</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">G08</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-24</Data></Cell>
+    <Cell><Data ss:Type="String">iScript S</Data></Cell>
+    <Cell><Data ss:Type="Number">30.400727270665598</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">G09</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">NTC</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">G10</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-28</Data></Cell>
+    <Cell><Data ss:Type="String">Salt1</Data></Cell>
+    <Cell><Data ss:Type="Number">18.522797883290103</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">G11</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-32</Data></Cell>
+    <Cell><Data ss:Type="String">iScript S</Data></Cell>
+    <Cell><Data ss:Type="Number">29.446767308370461</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">G12</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">NTC</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">36.329338794637678</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">H01</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-04</Data></Cell>
+    <Cell><Data ss:Type="String">Salt1</Data></Cell>
+    <Cell><Data ss:Type="Number">19.608139408855791</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">H02</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-08</Data></Cell>
+    <Cell><Data ss:Type="String">iScript S</Data></Cell>
+    <Cell><Data ss:Type="Number">31.044349836752716</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">H03</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">HXK</Data></Cell>
+    <Cell><Data ss:Type="String">NTC</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">H04</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-12</Data></Cell>
+    <Cell><Data ss:Type="String">Salt1</Data></Cell>
+    <Cell><Data ss:Type="Number">19.115810274631862</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">H05</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-16</Data></Cell>
+    <Cell><Data ss:Type="String">iScript S</Data></Cell>
+    <Cell><Data ss:Type="Number">31.614752608185146</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">H06</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">GPP2</Data></Cell>
+    <Cell><Data ss:Type="String">NTC</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">H07</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-20</Data></Cell>
+    <Cell><Data ss:Type="String">Salt1</Data></Cell>
+    <Cell><Data ss:Type="Number">20.244033085078268</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">H08</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-24</Data></Cell>
+    <Cell><Data ss:Type="String">iScript S</Data></Cell>
+    <Cell><Data ss:Type="Number">30.322002463511865</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">H09</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">ACT</Data></Cell>
+    <Cell><Data ss:Type="String">NTC</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">H10</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-28</Data></Cell>
+    <Cell><Data ss:Type="String">Salt1</Data></Cell>
+    <Cell><Data ss:Type="Number">18.501206422514787</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">H11</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">Unkn-32</Data></Cell>
+    <Cell><Data ss:Type="String">iScript S</Data></Cell>
+    <Cell><Data ss:Type="Number">29.407568806677119</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="2"><Data ss:Type="String">H12</Data></Cell>
+    <Cell><Data ss:Type="String">SYBR</Data></Cell>
+    <Cell><Data ss:Type="String">IPP1</Data></Cell>
+    <Cell><Data ss:Type="String">NTC</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">36.544456814966026</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:StartPageNumber="1"/>
+    <Header x:Margin="0"/>
+    <Footer x:Margin="0"/>
+    <PageMargins x:Bottom="0" x:Left="0" x:Right="0" x:Top="0"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <LeftToRight/>
+    <BlackAndWhite/>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>0</PaperSizeIndex>
+    <Scale>0</Scale>
+    <NoOrientation/>
+    <VerticalResolution>0</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+    <Gridlines/>
+    <RowColHeadings/>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <FreezePanes/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Experiment Information">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="13" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s29" ss:DefaultColumnWidth="50"
+   ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s29" ss:AutoFitWidth="0" ss:Width="116"/>
+   <Column ss:StyleID="s29" ss:AutoFitWidth="0" ss:Width="168"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">File Name</Data></Cell>
+    <Cell><Data ss:Type="String">Cust_training_boysgroup_ nov 2010.pcrd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Created By User</Data></Cell>
+    <Cell><Data ss:Type="String">admin</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Notes</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">ID</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Run Started</Data></Cell>
+    <Cell><Data ss:Type="String">17/11/2010 15:16:17 UTC +01:00</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Run Ended</Data></Cell>
+    <Cell><Data ss:Type="String">17/11/2010 16:23:15 UTC +01:00</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Sample Vol</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Lid Temp</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">105</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Protocol File Name</Data></Cell>
+    <Cell><Data ss:Type="String">gene expression S.C..prcl</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Plate Setup File Name</Data></Cell>
+    <Cell><Data ss:Type="String">training nov 2010.pltd</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Base Serial Number</Data></Cell>
+    <Cell><Data ss:Type="String">CC012199</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Optical Head Serial Number</Data></Cell>
+    <Cell><Data ss:Type="String">785BR4844</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">CFX Manager Version</Data></Cell>
+    <Cell><Data ss:Type="String">1.5.534.0511. </Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:StartPageNumber="1"/>
+    <Header x:Margin="0"/>
+    <Footer x:Margin="0"/>
+    <PageMargins x:Bottom="0" x:Left="0" x:Right="0" x:Top="0"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <LeftToRight/>
+    <BlackAndWhite/>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>0</PaperSizeIndex>
+    <Scale>0</Scale>
+    <NoOrientation/>
+    <VerticalResolution>0</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+    <Gridlines/>
+    <RowColHeadings/>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

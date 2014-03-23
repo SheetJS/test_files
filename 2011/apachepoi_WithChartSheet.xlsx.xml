@@ -1,0 +1,1568 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Scintilla Wang</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2010-05-11T07:47:47Z</Created>
+  <LastSaved>2010-09-29T06:27:40Z</LastSaved>
+  <Company>Microstrategy, Inc.</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9600</WindowHeight>
+  <WindowWidth>18960</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <NumberFormat ss:Format="&quot;$&quot;#,##0_);[Red]\(&quot;$&quot;#,##0\)"/>
+  </Style>
+  <Style ss:ID="s17">
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:Indent="1"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s25">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="Background"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s26">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="Background"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s27">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="Background"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s29">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s30">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s31">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="Background"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s32">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s33">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s34">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s35">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s36">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s37">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s38">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s39">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s40">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s41">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="13" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Index="3" ss:Width="72"/>
+   <Column ss:Width="71"/>
+   <Column ss:Index="6" ss:Width="71"/>
+   <Row>
+    <Cell><Data ss:Type="String">Year</Data></Cell>
+    <Cell><Data ss:Type="String">Category</Data></Cell>
+    <Cell><Data ss:Type="String">Cost</Data></Cell>
+    <Cell><Data ss:Type="String">Revenue</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2005</Data></Cell>
+    <Cell><Data ss:Type="String">Books</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">889017</Data></Cell>
+    <Cell><Data ss:Type="Number">1140362.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2005</Data></Cell>
+    <Cell><Data ss:Type="String">Electronics</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">13114909</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">15883893</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2005</Data></Cell>
+    <Cell><Data ss:Type="String">mMovies</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">768187</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">823227.875</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2005</Data></Cell>
+    <Cell><Data ss:Type="String">MMusic</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">583350</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">626592.1875</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2006</Data></Cell>
+    <Cell><Data ss:Type="String">Books</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">1025796</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">1320585.375</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2006</Data></Cell>
+    <Cell><Data ss:Type="String">Electronics</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">15910763</Data></Cell>
+    <Cell><Data ss:Type="Number">19299870</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2006</Data></Cell>
+    <Cell><Data ss:Type="String">mMovies</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">961323</Data></Cell>
+    <Cell><Data ss:Type="Number">1032390.813</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2006</Data></Cell>
+    <Cell><Data ss:Type="String">MMusic</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">695300</Data></Cell>
+    <Cell><Data ss:Type="Number">748966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2007</Data></Cell>
+    <Cell><Data ss:Type="String">Books</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">1218726</Data></Cell>
+    <Cell><Data ss:Type="Number">1563287.125</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2007</Data></Cell>
+    <Cell><Data ss:Type="String">Electronics</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">19524378</Data></Cell>
+    <Cell><Data ss:Type="Number">23654030</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2007</Data></Cell>
+    <Cell><Data ss:Type="String">mMovies</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">1241525</Data></Cell>
+    <Cell><Data ss:Type="Number">1333126.375</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2007</Data></Cell>
+    <Cell><Data ss:Type="String">MMusic</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="Number">875455</Data></Cell>
+    <Cell><Data ss:Type="Number">940136.1875</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet6">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="66"/>
+   <Column ss:AutoFitWidth="0" ss:Width="93" ss:Span="5"/>
+   <Column ss:Index="8" ss:Width="99"/>
+   <Column ss:Width="123"/>
+   <Row ss:Index="3">
+    <Cell ss:Index="2"><Data ss:Type="String">Year</Data></Cell>
+    <Cell><Data ss:Type="String">Values</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">2007</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Category</Data></Cell>
+    <Cell><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell><Data ss:Type="String">Sum of Revenue</Data></Cell>
+    <Cell><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell><Data ss:Type="String">Sum of Revenue</Data></Cell>
+    <Cell><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell><Data ss:Type="String">Sum of Revenue</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Books</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">889017</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1140362.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1025796</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1320585.375</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1218726</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1563287.125</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Electronics</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">13114909</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">15883893</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">15910763</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">19299870</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">19524378</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">23654030</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">mMovies</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">768187</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">823227.875</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">961323</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1032390.813</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1241525</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1333126.375</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MMusic</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">583350</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">626592.1875</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">695300</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">748966</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">875455</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">940136.1875</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <PivotTable xmlns="urn:schemas-microsoft-com:office:excel">
+   <Name>PivotTable1</Name>
+   <NoRowGrand/>
+   <NoColumnGrand/>
+   <ImmediateItemsOnDrop/>
+   <ShowPageMultipleItemLabel/>
+   <CompactRowIndent>1</CompactRowIndent>
+   <Location>R3C1:R9C7</Location>
+   <VersionLastUpdate>3</VersionLastUpdate>
+   <VersionUpdateableMin>3</VersionUpdateableMin>
+   <DefaultVersion>3</DefaultVersion>
+   <PivotField>
+    <Name>Year</Name>
+    <Orientation>Column</Orientation>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <Position>1</Position>
+    <DataType>Integer</DataType>
+    <PivotItem>
+     <Name>2005</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>2006</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>2007</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Category</Name>
+    <Orientation>Row</Orientation>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <Position>1</Position>
+    <PivotItem>
+     <Name>Books</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Electronics</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>mMovies</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>MMusic</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Cost</Name>
+    <NumberFormat>&quot;$&quot;#,##0_);[Red]\(&quot;$&quot;#,##0\)</NumberFormat>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <DataType>Integer</DataType>
+   </PivotField>
+   <PivotField>
+    <Name>Revenue</Name>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <DataType>Number</DataType>
+   </PivotField>
+   <PivotField>
+    <DataField/>
+    <Name>Values</Name>
+    <SourceName>Data</SourceName>
+    <Orientation>Column</Orientation>
+    <Position>2</Position>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Cost</Name>
+    <ParentField>Cost</ParentField>
+    <Orientation>Data</Orientation>
+    <Position>1</Position>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Revenue</Name>
+    <ParentField>Revenue</ParentField>
+    <Orientation>Data</Orientation>
+    <Position>2</Position>
+   </PivotField>
+   <PTLineItems>
+    <PTLineItem>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>2</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>3</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTLineItems>
+    <Orientation>Column</Orientation>
+    <PTLineItem>
+     <Item>0</Item>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>2</Item>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTSource>
+    <CacheIndex>1</CacheIndex>
+    <VersionLastRefresh>3</VersionLastRefresh>
+    <VersionRefreshableMin>3</VersionRefreshableMin>
+    <RefreshName>Scintilla Wang</RefreshName>
+    <RefreshDate>2010-05-11T18:33:55</RefreshDate>
+    <RefreshDateCopy>2010-05-11T18:33:55</RefreshDateCopy>
+    <ConsolidationReference>
+     <FileName>[apachepoi_WithChartSheet.xlsx.xml]Sheet1</FileName>
+     <Reference>R1C1:R13C4</Reference>
+    </ConsolidationReference>
+   </PTSource>
+  </PivotTable>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet5">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="91"/>
+   <Column ss:Width="110"/>
+   <Column ss:Width="93"/>
+   <Column ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Width="93"/>
+   <Column ss:Width="69"/>
+   <Column ss:Width="93"/>
+   <Column ss:Width="99"/>
+   <Column ss:Width="123"/>
+   <Row ss:Index="3">
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Column Labels</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s23"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s23"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s23"><Data ss:Type="Number">2007</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Row Labels</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Sum of Revenue</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Sum of Revenue</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Sum of Revenue</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Books</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">889017</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1140362.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1025796</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1320585.375</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1218726</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1563287.125</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Electronics</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">13114909</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">15883893</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">15910763</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">19299870</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">19524378</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">23654030</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">mMovies</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">768187</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">823227.875</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">961323</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1032390.813</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1241525</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1333126.375</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">MMusic</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">583350</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">626592.1875</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">695300</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">748966</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">875455</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">940136.1875</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <PivotTable xmlns="urn:schemas-microsoft-com:office:excel">
+   <Name>PivotTable2</Name>
+   <NoRowGrand/>
+   <NoColumnGrand/>
+   <MergeLabels/>
+   <ImmediateItemsOnDrop/>
+   <ShowPageMultipleItemLabel/>
+   <CompactRowIndent>1</CompactRowIndent>
+   <Location>R3C1:R9C7</Location>
+   <VersionLastUpdate>3</VersionLastUpdate>
+   <VersionUpdateableMin>3</VersionUpdateableMin>
+   <DefaultVersion>3</DefaultVersion>
+   <PivotField>
+    <Name>Year</Name>
+    <Orientation>Column</Orientation>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <LayoutCompactRow/>
+    <Position>1</Position>
+    <DataType>Integer</DataType>
+    <PivotItem>
+     <Name>2005</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>2006</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>2007</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Category</Name>
+    <Orientation>Row</Orientation>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <LayoutCompactRow/>
+    <Position>1</Position>
+    <PivotItem>
+     <Name>Books</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Electronics</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>mMovies</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>MMusic</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Cost</Name>
+    <NumberFormat>&quot;$&quot;#,##0_);[Red]\(&quot;$&quot;#,##0\)</NumberFormat>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <LayoutCompactRow/>
+    <DataType>Integer</DataType>
+   </PivotField>
+   <PivotField>
+    <Name>Revenue</Name>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <LayoutCompactRow/>
+    <DataType>Number</DataType>
+   </PivotField>
+   <PivotField>
+    <DataField/>
+    <Name>Values</Name>
+    <SourceName>Data</SourceName>
+    <Orientation>Column</Orientation>
+    <Position>2</Position>
+    <LayoutCompactRow/>
+    <LayoutForm>Outline</LayoutForm>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Cost</Name>
+    <ParentField>Cost</ParentField>
+    <Orientation>Data</Orientation>
+    <Position>1</Position>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Revenue</Name>
+    <ParentField>Revenue</ParentField>
+    <Orientation>Data</Orientation>
+    <Position>2</Position>
+   </PivotField>
+   <PTLineItems>
+    <PTLineItem>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>2</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>3</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTLineItems>
+    <Orientation>Column</Orientation>
+    <PTLineItem>
+     <Item>0</Item>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>2</Item>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTSource>
+    <CacheIndex>1</CacheIndex>
+    <VersionLastRefresh>3</VersionLastRefresh>
+    <VersionRefreshableMin>3</VersionRefreshableMin>
+    <RefreshName>Scintilla Wang</RefreshName>
+    <RefreshDate>2010-05-11T18:33:55</RefreshDate>
+    <RefreshDateCopy>2010-05-11T18:33:55</RefreshDateCopy>
+    <ConsolidationReference>
+     <FileName>[apachepoi_WithChartSheet.xlsx.xml]Sheet1</FileName>
+     <Reference>R1C1:R13C4</Reference>
+    </ConsolidationReference>
+   </PTSource>
+  </PivotTable>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet4">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="21" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Width="79"/>
+   <Column ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Width="93" ss:Span="1"/>
+   <Row ss:Index="3">
+    <Cell ss:Index="2"><Data ss:Type="String">Values</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Row Labels</Data></Cell>
+    <Cell><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell><Data ss:Type="String">Sum of Revenue</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Books</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3133539</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">4024235</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">889017</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1140362.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1025796</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1320585.375</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">2007</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1218726</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1563287.125</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Electronics</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">48550050</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">58837793</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">13114909</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">15883893</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">15910763</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">19299870</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">2007</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">19524378</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">23654030</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">mMovies</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2971035</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3188745.0630000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">768187</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">823227.875</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">961323</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1032390.813</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">2007</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1241525</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1333126.375</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">MMusic</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2154105</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2315694.375</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">583350</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">626592.1875</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">695300</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">748966</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">2007</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">875455</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">940136.1875</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">Grand Total</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">56808729</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">68366467.437999994</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+     <RangeSelection>R3C2:R3C3</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <PivotTable xmlns="urn:schemas-microsoft-com:office:excel">
+   <Name>PivotTable1</Name>
+   <ImmediateItemsOnDrop/>
+   <ShowPageMultipleItemLabel/>
+   <CompactRowIndent>1</CompactRowIndent>
+   <Location>R3C1:R21C3</Location>
+   <VersionLastUpdate>3</VersionLastUpdate>
+   <VersionUpdateableMin>3</VersionUpdateableMin>
+   <DefaultVersion>3</DefaultVersion>
+   <PivotField>
+    <Name>Year</Name>
+    <Orientation>Row</Orientation>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <LayoutCompactRow/>
+    <Position>2</Position>
+    <DataType>Integer</DataType>
+    <PivotItem>
+     <Name>2005</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>2006</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>2007</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Category</Name>
+    <Orientation>Row</Orientation>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <LayoutCompactRow/>
+    <Position>1</Position>
+    <PivotItem>
+     <Name>Books</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Electronics</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>mMovies</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>MMusic</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Cost</Name>
+    <NumberFormat>&quot;$&quot;#,##0_);[Red]\(&quot;$&quot;#,##0\)</NumberFormat>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <LayoutCompactRow/>
+    <DataType>Integer</DataType>
+   </PivotField>
+   <PivotField>
+    <Name>Revenue</Name>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <LayoutCompactRow/>
+    <DataType>Number</DataType>
+   </PivotField>
+   <PivotField>
+    <DataField/>
+    <Name>Values</Name>
+    <SourceName>Data</SourceName>
+    <Orientation>Column</Orientation>
+    <LayoutCompactRow/>
+    <LayoutForm>Outline</LayoutForm>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Cost</Name>
+    <ParentField>Cost</ParentField>
+    <Orientation>Data</Orientation>
+    <Position>1</Position>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Revenue</Name>
+    <ParentField>Revenue</ParentField>
+    <Orientation>Data</Orientation>
+    <Position>2</Position>
+   </PivotField>
+   <PTLineItems>
+    <PTLineItem>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>2</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>2</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>2</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>2</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>3</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>2</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <ItemType>Grand</ItemType>
+     <Item>0</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTLineItems>
+    <Orientation>Column</Orientation>
+    <PTLineItem>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <Item>1</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTSource>
+    <CacheIndex>1</CacheIndex>
+    <VersionLastRefresh>3</VersionLastRefresh>
+    <VersionRefreshableMin>3</VersionRefreshableMin>
+    <RefreshName>Scintilla Wang</RefreshName>
+    <RefreshDate>2010-05-11T18:33:55</RefreshDate>
+    <RefreshDateCopy>2010-05-11T18:33:55</RefreshDateCopy>
+    <ConsolidationReference>
+     <FileName>[apachepoi_WithChartSheet.xlsx.xml]Sheet1</FileName>
+     <Reference>R1C1:R13C4</Reference>
+    </ConsolidationReference>
+   </PTSource>
+  </PivotTable>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="12" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Width="69"/>
+   <Column ss:Width="93"/>
+   <Column ss:Width="72" ss:Span="4"/>
+   <Row ss:Index="3">
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Category</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Year</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Data</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Books</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">Electronics</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">mMovies</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">MMusic</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Grand Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">889017</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">13114909</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">768187</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">583350</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">15355463</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Sum of Revenue</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="Number">1140362.5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">15883893</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">823227.875</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">626592.1875</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">18474075.5625</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1025796</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">15910763</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">961323</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">695300</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">18593182</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Sum of Revenue</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="Number">1320585.375</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">19299870</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1032390.813</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">748966</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">22401812.188000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">2007</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1218726</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19524378</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">1241525</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">875455</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">22860084</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Sum of Revenue</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="Number">1563287.125</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">23654030</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1333126.375</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">940136.1875</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">27490579.6875</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Total Sum of Cost</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">3133539</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">48550050</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">2971035</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">2154105</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">56808729</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Total Sum of Revenue</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">4024235</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">58837793</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">3188745.0630000001</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="Number">2315694.375</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">68366467.437999994</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <PivotTable xmlns="urn:schemas-microsoft-com:office:excel">
+   <Name>PivotTable4</Name>
+   <ImmediateItemsOnDrop/>
+   <ShowPageMultipleItemLabel/>
+   <CompactRowIndent>1</CompactRowIndent>
+   <Location>R3C1:R12C7</Location>
+   <VersionLastUpdate>2</VersionLastUpdate>
+   <DefaultVersion>1</DefaultVersion>
+   <PivotField>
+    <Name>Year</Name>
+    <Orientation>Row</Orientation>
+    <Position>1</Position>
+    <DataType>Integer</DataType>
+    <PivotItem>
+     <Name>2005</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>2006</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>2007</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Category</Name>
+    <Orientation>Column</Orientation>
+    <Position>1</Position>
+    <PivotItem>
+     <Name>Books</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Electronics</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>mMovies</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>MMusic</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Cost</Name>
+    <NumberFormat>&quot;$&quot;#,##0_);[Red]\(&quot;$&quot;#,##0\)</NumberFormat>
+    <DataType>Integer</DataType>
+   </PivotField>
+   <PivotField>
+    <Name>Revenue</Name>
+    <DataType>Number</DataType>
+   </PivotField>
+   <PivotField>
+    <DataField/>
+    <Name>Data</Name>
+    <Orientation>Row</Orientation>
+    <Position>2</Position>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Cost</Name>
+    <ParentField>Cost</ParentField>
+    <Orientation>Data</Orientation>
+    <Position>1</Position>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Revenue</Name>
+    <ParentField>Revenue</ParentField>
+    <Orientation>Data</Orientation>
+    <Position>2</Position>
+   </PivotField>
+   <PTLineItems>
+    <PTLineItem>
+     <Item>0</Item>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>2</Item>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <ItemType>Grand</ItemType>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <ItemType>Grand</ItemType>
+     <DataField>2</DataField>
+     <Item>0</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTLineItems>
+    <Orientation>Column</Orientation>
+    <PTLineItem>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>2</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>3</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <ItemType>Grand</ItemType>
+     <Item>0</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTSource>
+    <CacheIndex>3</CacheIndex>
+    <VersionLastRefresh>2</VersionLastRefresh>
+    <RefreshName>cuwang</RefreshName>
+    <RefreshDate>2010-09-29T02:25:05</RefreshDate>
+    <RefreshDateCopy>2010-09-29T02:25:05</RefreshDateCopy>
+    <ConsolidationReference>
+     <FileName>[apachepoi_WithChartSheet.xlsx.xml]Sheet1</FileName>
+     <Reference>R1C1:R13C4</Reference>
+    </ConsolidationReference>
+   </PTSource>
+  </PivotTable>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Width="69"/>
+   <Column ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:Width="72"/>
+   <Row ss:Index="3">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Year</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Data</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">2005</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">15355463</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Sum of Revenue</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">18474075.5625</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">2006</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">18593182</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Sum of Revenue</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">22401812.188000001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">2007</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Sum of Cost</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">22860084</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Sum of Revenue</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="Number">27490579.6875</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Total Sum of Cost</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">56808729</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Total Sum of Revenue</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">68366467.437999994</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>29</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <PivotTable xmlns="urn:schemas-microsoft-com:office:excel">
+   <Name>PivotTable2</Name>
+   <ImmediateItemsOnDrop/>
+   <ShowPageMultipleItemLabel/>
+   <CompactRowIndent>1</CompactRowIndent>
+   <Location>R3C1:R11C3</Location>
+   <VersionLastUpdate>2</VersionLastUpdate>
+   <DefaultVersion>1</DefaultVersion>
+   <PivotField>
+    <Name>Year</Name>
+    <Orientation>Row</Orientation>
+    <Position>1</Position>
+    <DataType>Integer</DataType>
+    <PivotItem>
+     <Name>2005</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>2006</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>2007</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Category</Name>
+   </PivotField>
+   <PivotField>
+    <Name>Cost</Name>
+    <NumberFormat>&quot;$&quot;#,##0_);[Red]\(&quot;$&quot;#,##0\)</NumberFormat>
+    <DataType>Integer</DataType>
+   </PivotField>
+   <PivotField>
+    <Name>Revenue</Name>
+    <DataType>Number</DataType>
+   </PivotField>
+   <PivotField>
+    <DataField/>
+    <Name>Data</Name>
+    <Orientation>Row</Orientation>
+    <Position>2</Position>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Cost</Name>
+    <ParentField>Cost</ParentField>
+    <Orientation>Data</Orientation>
+    <Position>1</Position>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Revenue</Name>
+    <ParentField>Revenue</ParentField>
+    <Orientation>Data</Orientation>
+    <Position>2</Position>
+   </PivotField>
+   <PTLineItems>
+    <PTLineItem>
+     <Item>0</Item>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>2</Item>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <DataField>2</DataField>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <ItemType>Grand</ItemType>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <ItemType>Grand</ItemType>
+     <DataField>2</DataField>
+     <Item>0</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTSource>
+    <CacheIndex>2</CacheIndex>
+    <VersionLastRefresh>2</VersionLastRefresh>
+    <RefreshName>cuwang</RefreshName>
+    <RefreshDate>2010-09-29T02:19:49</RefreshDate>
+    <RefreshDateCopy>2010-09-29T02:19:49</RefreshDateCopy>
+    <ConsolidationReference>
+     <FileName>[apachepoi_WithChartSheet.xlsx.xml]Sheet1</FileName>
+     <Reference>R1C1:R13C4</Reference>
+    </ConsolidationReference>
+   </PTSource>
+  </PivotTable>
+ </Worksheet>
+ <PivotCache xmlns="urn:schemas-microsoft-com:office:excel">
+  <CacheIndex>2</CacheIndex>
+  <Schema s:id="RowsetSchema" xmlns="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882">
+   <ElementType s:name="row" s:content="eltOnly">
+    <attribute s:type="Col1"/>
+    <attribute s:type="Col2"/>
+    <attribute s:type="Col3"/>
+    <attribute s:type="Col4"/>
+    <extends s:type="rs:rowbase"/>
+   </ElementType>
+   <AttributeType s:name="Col1" rs:name="Year">
+    <datatype dt:type="int"/>
+   </AttributeType>
+   <AttributeType s:name="Col2" rs:name="Category">
+    <datatype dt:maxLength="255"/>
+   </AttributeType>
+   <AttributeType s:name="Col3" rs:name="Cost">
+    <datatype dt:type="int"/>
+   </AttributeType>
+   <AttributeType s:name="Col4" rs:name="Revenue">
+    <datatype dt:type="float"/>
+   </AttributeType>
+  </Schema>
+  <data xmlns="urn:schemas-microsoft-com:rowset">
+   <row Col1="2005" Col2="Books" Col3="889017" Col4="1140362.5"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2005" Col2="Electronics" Col3="13114909" Col4="15883893"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2005" Col2="mMovies" Col3="768187" Col4="823227.875"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2005" Col2="MMusic" Col3="583350" Col4="626592.1875"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2006" Col2="Books" Col3="1025796" Col4="1320585.375"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2006" Col2="Electronics" Col3="15910763" Col4="19299870"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2006" Col2="mMovies" Col3="961323" Col4="1032390.813"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2006" Col2="MMusic" Col3="695300" Col4="748966"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2007" Col2="Books" Col3="1218726" Col4="1563287.125"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2007" Col2="Electronics" Col3="19524378" Col4="23654030"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2007" Col2="mMovies" Col3="1241525" Col4="1333126.375"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2007" Col2="MMusic" Col3="875455" Col4="940136.1875"
+   xmlns="#RowsetSchema"/>
+  </data>
+ </PivotCache>
+ <PivotCache xmlns="urn:schemas-microsoft-com:office:excel">
+  <CacheIndex>3</CacheIndex>
+  <Schema s:id="RowsetSchema" xmlns="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882">
+   <ElementType s:name="row" s:content="eltOnly">
+    <attribute s:type="Col1"/>
+    <attribute s:type="Col2"/>
+    <attribute s:type="Col3"/>
+    <attribute s:type="Col4"/>
+    <extends s:type="rs:rowbase"/>
+   </ElementType>
+   <AttributeType s:name="Col1" rs:name="Year">
+    <datatype dt:type="int"/>
+   </AttributeType>
+   <AttributeType s:name="Col2" rs:name="Category">
+    <datatype dt:maxLength="255"/>
+   </AttributeType>
+   <AttributeType s:name="Col3" rs:name="Cost">
+    <datatype dt:type="int"/>
+   </AttributeType>
+   <AttributeType s:name="Col4" rs:name="Revenue">
+    <datatype dt:type="float"/>
+   </AttributeType>
+  </Schema>
+  <data xmlns="urn:schemas-microsoft-com:rowset">
+   <row Col1="2005" Col2="Books" Col3="889017" Col4="1140362.5"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2005" Col2="Electronics" Col3="13114909" Col4="15883893"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2005" Col2="mMovies" Col3="768187" Col4="823227.875"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2005" Col2="MMusic" Col3="583350" Col4="626592.1875"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2006" Col2="Books" Col3="1025796" Col4="1320585.375"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2006" Col2="Electronics" Col3="15910763" Col4="19299870"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2006" Col2="mMovies" Col3="961323" Col4="1032390.813"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2006" Col2="MMusic" Col3="695300" Col4="748966"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2007" Col2="Books" Col3="1218726" Col4="1563287.125"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2007" Col2="Electronics" Col3="19524378" Col4="23654030"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2007" Col2="mMovies" Col3="1241525" Col4="1333126.375"
+   xmlns="#RowsetSchema"/>
+   <row Col1="2007" Col2="MMusic" Col3="875455" Col4="940136.1875"
+   xmlns="#RowsetSchema"/>
+  </data>
+ </PivotCache>
+</Workbook>

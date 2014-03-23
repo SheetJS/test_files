@@ -98,6 +98,10 @@ At the time of this writing, the test files are covered under the MIT License
 <https://metacpan.org/release/Spreadsheet-ParseXLSX>
 At the time of this writing, it is covered under the MIT (X11) License
 
+`oo34xml` pulls the XML test battery from the OpenOffice project:
+<http://www.openoffice.org/>
+At the time of this writing, it is covered under Apache License, version 2.0
+
 # Requests for Removal
 
 This repo includes derivatives of files from external sources.  According to the

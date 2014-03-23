@@ -1,0 +1,2872 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author> </Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2008-02-17T20:34:32Z</Created>
+  <LastSaved>2013-03-14T08:44:11Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14940</WindowHeight>
+  <WindowWidth>14440</WindowWidth>
+  <WindowTopX>14380</WindowTopX>
+  <WindowTopY>-20</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s68">
+   <NumberFormat ss:Format="Scientific"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Consolas" x:Family="Modern" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Consolas" x:Family="Modern" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Consolas" x:Family="Modern" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s80">
+   <Font x:Family="Swiss"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s81">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Read Me">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="592"/>
+   <Row>
+    <Cell><Data ss:Type="String">This spreadsheet contains various test cases for lookup functions: VLOOKUP, HLOOKUP, LOOKUP and MATCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Name of the main junit test class which uses this spreadsheet:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">org.apache.poi.ss.formula.functions.TestLookupFunctionsFromSpreadsheet</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">(The content of cell 'Read Me'!A3 is confirmed by the test)</Data></Cell>
+   </Row>
+   <Row ss:Index="6">
+    <Cell><Data ss:Type="String">Every sheet besides this first one contains formula evaluation test cases in a standardised format.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">On row 4 of each sheet, in columns B,C,D there are the column headings &quot;Formula&quot;, &quot;Expected Result&quot; and &quot;Comment&quot;</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">The test iterates down from row 5 onward  until a the text &quot;&lt;end&gt;&quot; is found in column A.   Rows with &quot;&lt;skip&gt;&quot; in column A are ignored (useful for currently unsupported behaviour).  Otherwise column A can be used for commenting the group of rows below. </Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">If the evaluated result of column B does not match the expected result in column C, the junit test will report a failure.  Test failures get annotated with the section and row comments, if any.</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Besides the first 4 columns, row 5 onwards, the junit test does not inspect any other cells in the sheet.  The other cells can be used freely to set up test data.</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Care should be taken to not only make the values in column C match those in column B, but also to make sure column C contains only simple literal values.  This can be achieved easily by 'pasting special' from column B to C, selecting the 'as values' option.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="VL-basic">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="106" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="133"/>
+   <Column ss:Width="96"/>
+   <Column ss:Width="297"/>
+   <Column ss:Width="249"/>
+   <Column ss:AutoFitWidth="0" ss:Width="27"/>
+   <Column ss:Width="98"/>
+   <Column ss:Width="88"/>
+   <Column ss:AutoFitWidth="0" ss:Width="270"/>
+   <Column ss:AutoFitWidth="0" ss:Width="51"/>
+   <Column ss:AutoFitWidth="0" ss:Width="147"/>
+   <Column ss:Width="88"/>
+   <Column ss:Width="18"/>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">Sheet Comment:</Data></Cell>
+    <Cell><Data ss:Type="String">Simple tests of VLOOKUP using basic argument values</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s64"><Data ss:Type="String">Lookup Table</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="10"><Data ss:Type="Number">-2</Data></Cell>
+    <Cell><Data ss:Type="String">r-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">Formula</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Expected Result</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Comment</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lookup_value</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">col_index_num</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">range_lookup</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">rZero</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="10"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">r0</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">first occurence of 30</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="10"><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">r4</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">last occurence of 30</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">r7</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="10"><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">81</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">-5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="String">rZero</Data></Cell>
+    <Cell><Data ss:Type="String">rZero</Data></Cell>
+    <Cell><Data ss:Type="String">blank lookup val</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">bad col index param</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Error">#DIV/0!</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Error">#NUM!</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">abc</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="String">#DIV/0</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">#DIV/0</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R13C[9], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Index="30">
+    <Cell><Data ss:Type="String">string lookup col</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="=VLOOKUP(RC[4], R2C11:R13C12, RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="String">blank lookup does not match empty string</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="=VLOOKUP(RC[4], R2C11:R13C12, RC[5],RC[6])"><Data
+      ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">empty string matches empty string</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Index="34" ss:Height="28">
+    <Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">If FALSE, HLOOKUP will find an exact match.  &#13;If one is not found, the error value #N/A is returned.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Simple values wilcard</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[1]C[8]:R[15]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">only find an exact match.</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s64"><Data ss:Type="String">lookup_value</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">col_index_num</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71" ss:Formula="=VLOOKUP(RC[4],RC[8]:R[14]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">only find an exact match with double wildcard</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">*Bla*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s74"><Data ss:Type="String">BLA16</Data></Cell>
+    <Cell><Data ss:Type="String">something1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-1]C[8]:R[11]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla?45</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">BLA23567</Data></Cell>
+    <Cell><Data ss:Type="String">something2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-2]C[8]:R[12]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla?4?</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">BLA245</Data></Cell>
+    <Cell><Data ss:Type="String">something3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-3]C[8]:R[11]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla?4*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">BLA</Data></Cell>
+    <Cell><Data ss:Type="String">something4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-4]C[8]:R[10]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">having BLA + 5 any letters</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">BLA?????</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">BLATST234</Data></Cell>
+    <Cell><Data ss:Type="String">something5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-5]C[8]:R[9]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something7</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something7</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">????BLA</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">MEIER3456</Data></Cell>
+    <Cell><Data ss:Type="String">something6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-6]C[8]:R[8]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CanNotBefound*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">SOMEBLA</Data></Cell>
+    <Cell><Data ss:Type="String">something7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-7]C[8]:R[7]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CanNotBefou?d</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"><Data ss:Type="String">Apache POI for excel</Data></Cell>
+    <Cell><Data ss:Type="String">something8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-8]C[8]:R[6]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something8</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something8</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">*POI for*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"><Data ss:Type="String">Got bugs?</Data></Cell>
+    <Cell><Data ss:Type="String">something9</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-9]C[8]:R[5]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something9</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something9</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">*bugs~?</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"><Data ss:Type="String">Oh...is this a bug now??</Data></Cell>
+    <Cell><Data ss:Type="String">something10</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-10]C[8]:R[4]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something10</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something10</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">*now~?~?</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"><Data ss:Type="String">3*2=6</Data></Cell>
+    <Cell><Data ss:Type="String">something11</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-10]C[8]:R[3]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something11</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something11</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3~*2=6</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"><Data ss:Type="String">(Apache)(POI)</Data></Cell>
+    <Cell><Data ss:Type="String">something12</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-12]C[8]:R[2]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something13</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something13</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">$not*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"><Data ss:Type="String">$not beginning</Data></Cell>
+    <Cell><Data ss:Type="String">something13</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-13]C[8]:R[1]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something14</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something14</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">*[2*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"><Data ss:Type="String">simple vector [2,3,4]</Data></Cell>
+    <Cell><Data ss:Type="String">something14</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-14]C[8]:RC[9],RC[5],RC[6])"><Data
+      ss:Type="String">something15</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something15</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">*^</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"><Data ss:Type="String">not at the end ^</Data></Cell>
+    <Cell><Data ss:Type="String">something15</Data></Cell>
+   </Row>
+   <Row ss:Index="54" ss:Height="56">
+    <Cell ss:Index="2" ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">If TRUE or omitted, an approximate match is&#13;returned. In other words, if an exact match is&#13;not found, the next largest value that is less &#13;than lookup_value is returned. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-19]C[8]:R[-13]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-20]C[8]:R[-14]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">*Bla*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-21]C[8]:R[-15]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla?45</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-22]C[8]:R[-16]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla?4?</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-23]C[8]:R[-17]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla?4*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-24]C[8]:R[-18]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">BLA?????</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-25]C[8]:R[-19]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">????BLA</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-26]C[8]:R[-20]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something5</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">something5</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CanNotBefound*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-27]C[8]:R[-21]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something5</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">something5</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CanNotBefou?d</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-28]C[8]:R[-18]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">*POI for*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-29]C[8]:R[-15]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">*bugs~?</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-30]C[8]:R[-16]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">*now~?~?</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-31]C[8]:R[-17]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3~*2=6</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-32]C[8]:R[-18]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">$not*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-33]C[8]:R[-19]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">*[2*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-34]C[8]:R[-20]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">*^</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell><Data ss:Type="String">Complex values wilcard</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">If FALSE, HLOOKUP will find an exact match.  &#13;If one is not found, the error value #N/A is returned.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;*&quot;,R[-36]C[8]:R[-22]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something1</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">value column &amp; *</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;*&quot;,R[-37]C[8]:R[-23]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something1</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something1</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">value  * &amp; column &amp; *</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Bla</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;?45&quot;,R[-38]C[8]:R[-26]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">value &amp;&quot;?45&quot;</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;?4?&quot;,R[-39]C[8]:R[-27]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">value &amp;&quot;?4?&quot;</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;?4*&quot;,R[-40]C[8]:R[-28]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">value &amp;&quot;?4*&quot;</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;?????&quot;,R[-41]C[8]:R[-29]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something2</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">value &amp;&quot;?????&quot;</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">BLA</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;????&quot;&amp;RC[4],R[-42]C[8]:R[-30]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something7</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something7</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&quot;????&quot;&amp; value</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">BLA</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;*&quot;,R[-43]C[8]:R[-31]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CanNotBefound</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;?d&quot;,R[-44]C[8]:R[-32]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CanNotBefou</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;*&quot;,R[-45]C[8]:R[-33]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something8</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something8</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">&quot;*&quot;&amp;value&amp;&quot;*&quot;</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">POI for</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;~?&quot;,R[-46]C[8]:R[-34]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something9</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something9</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">bugs</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;~?~?&quot;,R[-47]C[8]:R[-35]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something10</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something10</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">now</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;3~*&quot;&amp;RC[4],R[-48]C[8]:R[-36]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something11</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something11</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">2=6</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;*&quot;,R[-49]C[8]:R[-37]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something13</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something13</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">$not</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;*&quot;,R[-50]C[8]:R[-36]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something14</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something14</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">[2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4],R[-51]C[8]:R[-37]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something15</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">something15</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">*^</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Index="89" ss:Height="56">
+    <Cell ss:Index="2" ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">If TRUE or omitted, an approximate match is&#13;returned. In other words, if an exact match is&#13;not found, the next largest value that is less &#13;than lookup_value is returned. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;*&quot;,R[-54]C[8]:R[-48]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;*&quot;,R[-55]C[8]:R[-49]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Bla</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;?&quot;&amp;&quot;45&quot;,R[-56]C[8]:R[-50]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;?&quot;&amp;&quot;4?&quot;,R[-57]C[8]:R[-51]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;?&quot;&amp;&quot;4&quot;&amp;&quot;*&quot;,R[-58]C[8]:R[-52]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bla</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;?????&quot;,R[-59]C[8]:R[-53]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">BLA</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;????&quot; &amp;RC[4],R[-60]C[8]:R[-54]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">BLA</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;*&quot;,R[-61]C[8]:R[-55]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something5</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">something5</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CanNotBefound</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;?d&quot;,R[-62]C[8]:R[-56]C[9],RC[5],RC[6])"><Data
+      ss:Type="String">something5</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">something5</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CanNotBefou</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;*&quot;,R[-63]C[8]:R[-53]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">POI for</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;~?&quot;,R[-64]C[8]:R[-50]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">bugs</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;~?~?&quot;,R[-65]C[8]:R[-51]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">now</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;~*&quot;&amp;&quot;2=6&quot;,R[-66]C[8]:R[-52]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;*&quot;,R[-67]C[8]:R[-53]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">$not</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;*&quot;,R[-68]C[8]:R[-54]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">[2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4],R[-69]C[8]:R[-55]C[9],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">^</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;end&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <TopRowVisible>81</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>91</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="VL-oddArgs">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="41" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="49"/>
+   <Column ss:AutoFitWidth="0" ss:Width="97"/>
+   <Column ss:AutoFitWidth="0" ss:Width="85"/>
+   <Column ss:AutoFitWidth="0" ss:Width="113"/>
+   <Column ss:AutoFitWidth="0" ss:Width="27"/>
+   <Column ss:AutoFitWidth="0" ss:Width="90" ss:Span="2"/>
+   <Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="29"/>
+   <Column ss:AutoFitWidth="0" ss:Width="82"/>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">Sheet Comment:</Data></Cell>
+    <Cell><Data ss:Type="String">Tests of VLOOKUP using some unusual argument values</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s64"><Data ss:Type="String">Lookup Table</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="10"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">r0</Data></Cell>
+    <Cell><Data ss:Type="String">s0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">Formula</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Expected Result</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Comment</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lookup_value</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">col_index_num</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">range_lookup</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String">s1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:Index="10"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">s2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Odd values for col_index_num</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">s3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">key column</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">r4</Data></Cell>
+    <Cell><Data ss:Type="String">s4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">s5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">s5</Data></Cell>
+    <Cell><Data ss:Type="String">s5</Data></Cell>
+    <Cell><Data ss:Type="String">something besides 2</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="String">s6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="String">column 4 out of range</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">r7</Data></Cell>
+    <Cell><Data ss:Type="String">s7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">scientific notation</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="Number">2.99</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">r8</Data></Cell>
+    <Cell><Data ss:Type="String">s8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">scientific notation</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2.99</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="Number">81</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="String">s9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">0.9</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">5.1</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;skip&gt;</Data></Cell>
+    <Cell ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">text scientific notation not supported yet</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">29.9e-1</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">TRUE</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">FALSE</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell><Data ss:Type="String">blank</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Index="22">
+    <Cell><Data ss:Type="String">Odd values for range_lookup</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell><Data ss:Type="String">no range_lookup arg</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">&lt;arg not passed&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String">blank</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String">text false</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">false</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">text true</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">TRUE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell><Data ss:Type="String">text 1</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">-0.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0.01</Data></Cell>
+   </Row>
+   <Row ss:Index="35">
+    <Cell><Data ss:Type="String">Out of range lookup_value:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R2C[8]:R11C[10], RC[5],RC[6])"><Data
+      ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Index="41">
+    <Cell><Data ss:Type="String">&lt;end&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>19</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="VL-unsorted">
+  <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="37" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="36"/>
+   <Column ss:AutoFitWidth="0" ss:Width="106"/>
+   <Column ss:AutoFitWidth="0" ss:Width="88"/>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">Sheet Comment:</Data></Cell>
+    <Cell><Data ss:Type="String">Tests of unspecified behaviour of VLOOKUP when the table array is not sorted</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">For all these tests range_lookup=TRUE and col_num=2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">Formula</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Expected Result</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Comment</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lookup_value</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:Index="9" ss:StyleID="s64"><Data ss:Type="String">Lookup Table 1</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s64"><Data ss:Type="String">Lookup Table 2</Data></Cell>
+    <Cell ss:Index="13" ss:StyleID="s64"><Data ss:Type="String">Lookup Table 3</Data></Cell>
+    <Cell ss:Index="15" ss:StyleID="s64"><Data ss:Type="String">Lookup Table 4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r0</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r0</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r0</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">r0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;skip&gt;</Data></Cell>
+    <Cell ss:Formula="= VLOOKUP(RC[4], R4C[7]:R13C[8], 2, TRUE)"><Data
+      ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="String">tab 1</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;skip&gt;</Data></Cell>
+    <Cell ss:Formula="= VLOOKUP(RC[4], R4C[9]:R13C[10], 2, TRUE)"><Data
+      ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">tab 2</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;skip&gt;</Data></Cell>
+    <Cell ss:Formula="= VLOOKUP(RC[4], R4C[11]:R13C[12], 2, TRUE)"><Data
+      ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">tab 3</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;skip&gt;</Data></Cell>
+    <Cell ss:Formula="= VLOOKUP(RC[4], R4C[13]:R13C[14], 2, TRUE)"><Data
+      ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">tab 4</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r4</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">r4</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r4</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">r4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;skip&gt;</Data></Cell>
+    <Cell ss:Formula="= VLOOKUP(RC[4], R[8]C[7]:R[28]C[8], 2, TRUE)"><Data
+      ss:Type="String">r15</Data></Cell>
+    <Cell><Data ss:Type="String">r15</Data></Cell>
+    <Cell><Data ss:Type="String">tab 5</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;skip&gt;</Data></Cell>
+    <Cell ss:Formula="= VLOOKUP(RC[4], R17C[7]:R37C[8], 2, TRUE)"><Data
+      ss:Type="String">r10</Data></Cell>
+    <Cell><Data ss:Type="String">r10</Data></Cell>
+    <Cell><Data ss:Type="String">tab 5</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= VLOOKUP(RC[4], R17C[9]:R37C[10], 2, TRUE)"><Data
+      ss:Type="String">r07</Data></Cell>
+    <Cell><Data ss:Type="String">r07</Data></Cell>
+    <Cell><Data ss:Type="String">tab 6</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r7</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r7</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r7</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">r7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r8</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r8</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">r8</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">r8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+   </Row>
+   <Row ss:Index="16">
+    <Cell ss:Index="9" ss:StyleID="s64"><Data ss:Type="String">Lookup Table 5</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s64"><Data ss:Type="String">Lookup Table 6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r00</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;end&gt;</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r01</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r02</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r03</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r03</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r04</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">r04</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r05</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r05</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r06</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r06</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r07</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r07</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r08</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">r08</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r09</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r09</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">r10</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">r10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r11</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r12</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">r13</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r14</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r15</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">r16</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r17</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r18</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r19</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="9"><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">r20</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">r20</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="HL-basic">
+  <Table ss:ExpandedColumnCount="24" ss:ExpandedRowCount="78" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="165"/>
+   <Column ss:Width="96"/>
+   <Column ss:Width="297"/>
+   <Column ss:Width="114"/>
+   <Column ss:AutoFitWidth="0" ss:Width="27"/>
+   <Column ss:Width="98"/>
+   <Column ss:Width="88"/>
+   <Column ss:Width="159"/>
+   <Column ss:AutoFitWidth="0" ss:Width="29"/>
+   <Column ss:Width="76"/>
+   <Column ss:Width="69" ss:Span="5"/>
+   <Column ss:Index="17" ss:Width="117"/>
+   <Column ss:Width="69"/>
+   <Column ss:Width="153"/>
+   <Column ss:Width="75"/>
+   <Column ss:Width="85"/>
+   <Column ss:Width="91"/>
+   <Column ss:Width="135"/>
+   <Column ss:Width="104"/>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">Sheet Comment:</Data></Cell>
+    <Cell><Data ss:Type="String">Simple tests of HLOOKUP using basic argument values</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s64"><Data ss:Type="String">Lookup Table</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="10"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">Formula</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Expected Result</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Comment</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lookup_value</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">col_index_num</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">range_lookup</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">r0</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">r4</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="String">r7</Data></Cell>
+    <Cell><Data ss:Type="String">r8</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell ss:Index="2" ss:Formula="=1+1"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">first occurence of 30</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">last occurence of 30</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Index="14">
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">bad row arg</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">#DIV/0</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="Error">#REF!</Data></Cell>
+    <Cell><Data ss:Type="String">col index too high</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R2C[8]:R3C[17], RC[5],RC[6])"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Index="24" ss:Height="56">
+    <Cell><Data ss:Type="String">Wildcard values</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">If FALSE, HLOOKUP will find an exact match.  &#13;If one is not found, the error value #N/A is returned.</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s64"><Data ss:Type="String">Lookup Table</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something1</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something1</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BLA*</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">BLA16</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">BLA23567</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">MEIER1234</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">BLA</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">BLATST234</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">MEIER3456</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">SOMEBLA</Data></Cell>
+    <Cell><Data ss:Type="String">Apache POI for excel</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Got bugs?</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Oh...is this a bug now??</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">3*2=6</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">(Apache)(POI)</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">$not beginning</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">simple vector [2,3,4]</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">not at the end ^</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something2</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something2</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BLA2*</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">something1</Data></Cell>
+    <Cell><Data ss:Type="String">something2</Data></Cell>
+    <Cell><Data ss:Type="String">something3</Data></Cell>
+    <Cell><Data ss:Type="String">something4</Data></Cell>
+    <Cell><Data ss:Type="String">something5</Data></Cell>
+    <Cell><Data ss:Type="String">something6</Data></Cell>
+    <Cell><Data ss:Type="String">something7</Data></Cell>
+    <Cell><Data ss:Type="String">something8</Data></Cell>
+    <Cell><Data ss:Type="String">something9</Data></Cell>
+    <Cell><Data ss:Type="String">something10</Data></Cell>
+    <Cell><Data ss:Type="String">something11</Data></Cell>
+    <Cell><Data ss:Type="String">something12</Data></Cell>
+    <Cell><Data ss:Type="String">something13</Data></Cell>
+    <Cell><Data ss:Type="String">something14</Data></Cell>
+    <Cell><Data ss:Type="String">something15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something6</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something6</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">*IER3*</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something3</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">*IER1*</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s70"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something7</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something7</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">SOME???</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s76"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something2</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something2</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BLA?3567</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something5</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something5</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BLA*34</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">CanNotBefound*</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[22], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">CanNotBefou?d</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">*POI for*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"/>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">*bugs~?</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"/>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">*now~?~?</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"/>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3~*2=6</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s75"/>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">$not*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">*[2*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">*^</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Index="43" ss:Height="98">
+    <Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">If TRUE or omitted, an approximate match is&#13;returned. In other words, if an exact match is&#13;not found, the next largest value that is less &#13;than lookup_value is returned. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BLA*</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BLA2*</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">*IER3*</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">*IER1*</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something6</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something6</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">SOME???</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BLA?3567</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something4</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something4</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BLA*34</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something5</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something5</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">CanNotBefound*</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= HLOOKUP(RC[4], R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something5</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something5</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">CanNotBefou?d</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">*POI for*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">*bugs~?</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">*now~?~?</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">3~*2=6</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">$not*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">*[2*</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">*^</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell><Data ss:Type="String">Complex Wildcards values</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s65"><Data ss:Type="String">If FALSE, HLOOKUP will find an exact match.  &#13;If one is not found, the error value #N/A is returned.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"
+     ss:Formula="= HLOOKUP(RC[4]&amp;&quot;*&quot;, R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something1</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something1</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BLA</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"
+     ss:Formula="= HLOOKUP(RC[4]&amp;&quot;*&quot;, R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something2</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something2</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BLA2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"
+     ss:Formula="= HLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;*&quot;, R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something6</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something6</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">IER3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"
+     ss:Formula="= HLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;*&quot;, R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something3</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something3</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">IER1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"
+     ss:Formula="= HLOOKUP(RC[4]&amp;&quot;???&quot;, R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something7</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something7</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">SOME</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"
+     ss:Formula="= HLOOKUP(RC[4]&amp;&quot;?&quot;&amp;&quot;3567&quot;, R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something2</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something2</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BLA</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"
+     ss:Formula="= HLOOKUP(RC[4]&amp;&quot;*&quot;&amp;&quot;34&quot;, R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="String">something5</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">something5</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">BLA</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"
+     ss:Formula="= HLOOKUP(RC[4]&amp;&quot;*&quot;, R25C[8]:R26C[14], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">CanNotBefound</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"
+     ss:Formula="= HLOOKUP(RC[4]&amp;&quot;?&quot;&amp;&quot;d&quot;, R25C[8]:R26C[22], RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">CanNotBefou</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;*&quot;, R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">POI for</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;~?&quot;, R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">bugs</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;~?~?&quot;, R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">now</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;~*&quot;&amp;&quot;2=6&quot;, R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(RC[4]&amp;&quot;*&quot;, R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">$not</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4]&amp;&quot;*&quot;, R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s70"><Data ss:Type="String">[2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:Index="2" ss:StyleID="s71"
+     ss:Formula="=VLOOKUP(&quot;*&quot;&amp;RC[4], R25C[8]:R26C[22],RC[5],RC[6])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">literal characters that &#13;have special meaning in regex</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">^</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Index="78">
+    <Cell><Data ss:Type="String">&lt;end&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Zoom>85</Zoom>
+   <PageLayoutZoom>85</PageLayoutZoom>
+   <TopRowVisible>58</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>69</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="L-basic">
+  <Table ss:ExpandedColumnCount="19" ss:ExpandedRowCount="36" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="30"/>
+   <Column ss:AutoFitWidth="0" ss:Width="97"/>
+   <Column ss:AutoFitWidth="0" ss:Width="85"/>
+   <Column ss:AutoFitWidth="0" ss:Width="113"/>
+   <Column ss:AutoFitWidth="0" ss:Width="27"/>
+   <Column ss:AutoFitWidth="0" ss:Width="90"/>
+   <Column ss:AutoFitWidth="0" ss:Width="29"/>
+   <Column ss:AutoFitWidth="0" ss:Width="82"/>
+   <Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="21" ss:Span="9"/>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">Sheet Comment:</Data></Cell>
+    <Cell><Data ss:Type="String">Simple tests of LOOKUP using basic argument values</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s64"><Data ss:Type="String">Lookup Table</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s64"><Data ss:Type="String">Lookup Table</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">r0</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">Formula</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Expected Result</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Comment</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">lookup_value</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String">r0</Data></Cell>
+    <Cell><Data ss:Type="String">r1</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">r4</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="String">r7</Data></Cell>
+    <Cell><Data ss:Type="String">r8</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">both vectors columns</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[6]:R11C[6],R2C[7]:R11C[7])"><Data
+      ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">r4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[6]:R11C[6],R2C[7]:R11C[7])"><Data
+      ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">last occurence of 30</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">r5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[6]:R11C[6],R2C[7]:R11C[7])"><Data
+      ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[6]:R11C[6],R2C[7]:R11C[7])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">r7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[6]:R11C[6],R2C[7]:R11C[7])"><Data
+      ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">r8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8"><Data ss:Type="Number">81</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">both vectors rows</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[8]:R2C[17],R3C[8]:R3C[17])"><Data
+      ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[8]:R2C[17],R3C[8]:R3C[17])"><Data
+      ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">last occurence of 30</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[8]:R2C[17],R3C[8]:R3C[17])"><Data
+      ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">55</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[8]:R2C[17],R3C[8]:R3C[17])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[8]:R2C[17],R3C[8]:R3C[17])"><Data
+      ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">90</Data></Cell>
+   </Row>
+   <Row ss:Index="19">
+    <Cell><Data ss:Type="String">lookup column result row</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[6]:R11C[6],R3C[8]:R3C[17])"><Data
+      ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[6]:R11C[6],R3C[8]:R3C[17])"><Data
+      ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">last occurence of 30</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[6]:R11C[6],R3C[8]:R3C[17])"><Data
+      ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">55</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[6]:R11C[6],R3C[8]:R3C[17])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[6]:R11C[6],R3C[8]:R3C[17])"><Data
+      ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">90</Data></Cell>
+   </Row>
+   <Row ss:Index="26">
+    <Cell><Data ss:Type="String">lookup row result column</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[8]:R2C[17],R2C[7]:R11C[7])"><Data
+      ss:Type="String">r3</Data></Cell>
+    <Cell><Data ss:Type="String">r3</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[8]:R2C[17],R2C[7]:R11C[7])"><Data
+      ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String">r2</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">last occurence of 30</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[8]:R2C[17],R2C[7]:R11C[7])"><Data
+      ss:Type="String">r6</Data></Cell>
+    <Cell><Data ss:Type="String">r6</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">55</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[8]:R2C[17],R2C[7]:R11C[7])"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[8]:R2C[17],R2C[7]:R11C[7])"><Data
+      ss:Type="String">r9</Data></Cell>
+    <Cell><Data ss:Type="String">r9</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">90</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:Formula="= LOOKUP(RC[4], R2C[8]:R2C[17],R2C[7]:R11C[7])"><Data
+      ss:Type="String">r8</Data></Cell>
+    <Cell><Data ss:Type="String">r8</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="Number">80</Data></Cell>
+   </Row>
+   <Row ss:Index="36">
+    <Cell><Data ss:Type="String">&lt;end&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>32</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

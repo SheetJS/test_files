@@ -1,0 +1,476 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-16T00:00:00Z</Created>
+  <LastSaved>2009-12-27T00:26:54Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4260</WindowHeight>
+  <WindowWidth>14800</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>100</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000D4"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000D4"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#DD0806"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#DD0806"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#DD0806"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#DD0806"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="14" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Instance1">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="45" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="27"/>
+   <Column ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="109"/>
+   <Column ss:AutoFitWidth="0" ss:Width="92"/>
+   <Column ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:AutoFitWidth="0" ss:Width="71"/>
+   <Row ss:Height="18">
+    <Cell ss:Index="2" ss:StyleID="s24"><Data ss:Type="String">Basic Operators and Functions</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Excel</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Melody</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Pass/Fail</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x1</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s20"><Data ss:Type="String">y1 (x1+x2)</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=RC[-3]+R[1]C[-3]"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y2 (x1-x2)</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=R[-1]C[-3]-RC[-3]"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x3</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">-2.2999999999999998</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y3 (x1*x2)</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=R[-2]C[-3]*R[-1]C[-3]"><Data
+      ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3.5</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y4 (x1/x2)</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=R[-3]C[-3]/R[-2]C[-3]"><Data
+      ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y5 (abs(x3))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=ABS(R[-2]C[-3])"><Data ss:Type="Number">2.2999999999999998</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y6 (ceil(x4))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=CEILING(R[-2]C[-3],1)"><Data
+      ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y7 (floor(x4))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=FLOOR(R[-3]C[-3],1)"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y8 (round(x4))</Data><Comment
+      ss:Author="Author"><Data><B xmlns="http://www.w3.org/TR/REC-html40"><Font
+         html:Face="Tahoma" x:Family="Swiss" html:Color="#000000">Author:</Font></B><Font
+        html:Face="Tahoma" x:CharSet="1" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;Round to the nearest integer. If equidistant from two integers, then round to the nearest even integer.</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s22"
+     ss:Formula="=IF(R[-4]C[-3]= (ROUNDUP(R[-4]C[-3],0) + ROUNDDOWN(R[-4]C[-3],0))/2, MROUND(R[-4]C[-3],2),ROUND(R[-4]C[-3],0))"><Data
+      ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y9 (mod(x5,x6))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=MOD(R[-4]C[-3],R[-3]C[-3])"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y10 (pow(x5,x6))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=POWER(R[-5]C[-3],R[-4]C[-3])"><Data
+      ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y12 (sqrt(x7))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SQRT(R[-5]C[-3])"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row ss:Height="18">
+    <Cell ss:Index="2" ss:StyleID="s24"><Data ss:Type="String">Trignometric Functions</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Excel</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Melody</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Pass/Fail</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x1</Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=PI()/4"><Data ss:Type="Number">0.78539816339744828</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y1 (sin(x1))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SIN(RC[-3])"><Data ss:Type="Number">0.70710678118654746</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y2 (cos(x1))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=COS(R[-1]C[-3])"><Data ss:Type="Number">0.70710678118654757</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x3</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y3 (tan(x1))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=TAN(R[-2]C[-3])"><Data ss:Type="Number">0.99999999999999989</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y4 (asin(x2))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=ASIN(R[-2]C[-3])"><Data ss:Type="Number">0.52359877559829893</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y5 (acos(x2))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=ACOS(R[-3]C[-3])"><Data ss:Type="Number">1.0471975511965976</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y6 (atan(x2))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=ATAN(R[-4]C[-3])"><Data ss:Type="Number">0.46364760900080609</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y7 (atan2(x2,x3))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=ATAN2(R[-5]C[-3],R[-4]C[-3])"><Data
+      ss:Type="Number">0.78539816339744828</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:Index="4" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row ss:Height="18">
+    <Cell ss:Index="2" ss:StyleID="s24"><Data ss:Type="String">Stat Functions</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Excel</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Melody</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Pass/Fail</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x1</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y1 (avg(x1))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=AVERAGE(RC[-3]:R[9]C[-3])"><Data
+      ss:Type="Number">5.5</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y2 (max(x1))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=MAX(R[-1]C[-3]:R[8]C[-3])"><Data
+      ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y3 (min(x1))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=MIN(R[-2]C[-3]:R[7]C[-3])"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y4 (sum(x2))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=SUM(R[-3]C[-3]:R[6]C[-3])"><Data
+      ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y5 (std(x2))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=STDEV(R[-4]C[-3]:R[5]C[-3])"><Data
+      ss:Type="Number">3.0276503540974917</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y6 (var(x2))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=VAR(R[-5]C[-3]:R[4]C[-3])"><Data
+      ss:Type="Number">9.1666666666666661</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s17"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y7 (min(x2,..,x7))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=MIN(RC[-3]:R[5]C[-3])"><Data
+      ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x3</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"><Data ss:Type="String">y8 (min(x2,..,x7))</Data></Cell>
+    <Cell ss:StyleID="s22" ss:Formula="=MAX(R[-1]C[-3]:R[4]C[-3])"><Data
+      ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s19"/>
+    <Cell ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">x7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>1200</HorizontalResolution>
+    <VerticalResolution>1200</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <TopRowVisible>24</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>42</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R3C7:R12C7,R14C7,R19C7:R25C7,R30C7:R36C7</Range>
+   <Condition>
+    <Qualifier>Equal</Qualifier>
+    <Value1>0</Value1>
+    <Format Style='background:red'/>
+   </Condition>
+   <Condition>
+    <Qualifier>Equal</Qualifier>
+    <Value1>1</Value1>
+    <Format Style='background:#66FF33'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+ <Worksheet ss:Name="Instance2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

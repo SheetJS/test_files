@@ -1,0 +1,1208 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>2014-03-22T23:25:22Z</Created>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11620</WindowHeight>
+  <WindowWidth>25360</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>680</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Market Rates">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="23" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Market Rates</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Indications as of 01/31/2014 at 08:38 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Description</Data></Cell>
+    <Cell><Data ss:Type="String">Rate</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Prime</Data></Cell>
+    <Cell><Data ss:Type="String">0.032500</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Overnight LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">0.000860</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Week LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">0.001220</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2 Week LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">0.001710</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Month LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">0.001570</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Month LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">0.002370</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">6 Month LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">0.003360</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">7 Month LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">0.004670</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">8 Month LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">0.005120</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">9 Month LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">0.005510</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Month LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">0.005900</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">11 Month LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">0.006390</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Year LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">0.005650</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">30 Day T-Bill</Data></Cell>
+    <Cell><Data ss:Type="String">0.000300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">91 Day T-Bill</Data></Cell>
+    <Cell><Data ss:Type="String">0.000100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">182 Day T-Bill</Data></Cell>
+    <Cell><Data ss:Type="String">0.000500</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2 Year Treasury</Data></Cell>
+    <Cell><Data ss:Type="String">0.003280</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Year Treasury</Data></Cell>
+    <Cell><Data ss:Type="String">0.006720</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Year Treasury</Data></Cell>
+    <Cell><Data ss:Type="String">0.014950</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Year Treasury</Data></Cell>
+    <Cell><Data ss:Type="String">0.026480</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Deposit Rates">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="20" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Deposit Rates</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Indications as of 01/31/2014 at 08:38 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Prev Days Daily Time =  0.01%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Prev Days DDA =  0.01%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Term</Data></Cell>
+    <Cell><Data ss:Type="String">Rate</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Week</Data></Cell>
+    <Cell><Data ss:Type="String">0.000100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2 Weeks</Data></Cell>
+    <Cell><Data ss:Type="String">0.000100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Weeks</Data></Cell>
+    <Cell><Data ss:Type="String">0.000100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.000100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.000100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.000200</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">4 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.000200</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.000300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">6 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.000300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">7 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.000400</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">8 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.000500</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">9 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.000600</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">9 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.000600</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">11 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.000700</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">12 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.000800</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Fixed-Rate Advances">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="32" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Fixed-Rate Advances</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Indications as of 01/31/2014 at 08:38 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Term</Data></Cell>
+    <Cell><Data ss:Type="String">Advance Rate</Data></Cell>
+    <Cell><Data ss:Type="String">CIA Rate</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Prev Overnight</Data></Cell>
+    <Cell><Data ss:Type="String">0.002800</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Overnight</Data></Cell>
+    <Cell><Data ss:Type="String">0.002800</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Week</Data></Cell>
+    <Cell><Data ss:Type="String">0.002900</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2 Weeks</Data></Cell>
+    <Cell><Data ss:Type="String">0.003000</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Weeks</Data></Cell>
+    <Cell><Data ss:Type="String">0.003000</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.003000</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.003200</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.003300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">4 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.003400</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.003500</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">6 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.003700</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">7 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.003700</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">8 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.003800</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">9 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.003900</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.004000</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">11 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.004000</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Year</Data></Cell>
+    <Cell><Data ss:Type="String">0.004200</Data></Cell>
+    <Cell><Data ss:Type="String">0.002700</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1.5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.005000</Data></Cell>
+    <Cell><Data ss:Type="String">0.003400</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.006400</Data></Cell>
+    <Cell><Data ss:Type="String">0.004800</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.010200</Data></Cell>
+    <Cell><Data ss:Type="String">0.008600</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">4 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.015200</Data></Cell>
+    <Cell><Data ss:Type="String">0.013500</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.019200</Data></Cell>
+    <Cell><Data ss:Type="String">0.017400</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">6 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.023500</Data></Cell>
+    <Cell><Data ss:Type="String">0.021700</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.027100</Data></Cell>
+    <Cell><Data ss:Type="String">0.025200</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">8 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.030300</Data></Cell>
+    <Cell><Data ss:Type="String">0.028400</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">9 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.032800</Data></Cell>
+    <Cell><Data ss:Type="String">0.030900</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.034600</Data></Cell>
+    <Cell><Data ss:Type="String">0.032700</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">15 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.040900</Data></Cell>
+    <Cell><Data ss:Type="String">0.039000</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">20 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.043600</Data></Cell>
+    <Cell><Data ss:Type="String">0.041700</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Amortizing Advances">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="21" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Amortizing Advances</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Indications as of 01/31/2014 at 08:38 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Amortization</Data></Cell>
+    <Cell><Data ss:Type="String">Term</Data></Cell>
+    <Cell><Data ss:Type="String">Amortization Frequency</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-Pay Option</Data></Cell>
+    <Cell><Data ss:Type="String">Advance Rate</Data></Cell>
+    <Cell><Data ss:Type="String">CIA Rate</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Annual</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">0.013600</Data></Cell>
+    <Cell><Data ss:Type="String">0.011900</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">15 Years</Data></Cell>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">0.018000</Data></Cell>
+    <Cell><Data ss:Type="String">0.016200</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">20 Years</Data></Cell>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">0.025500</Data></Cell>
+    <Cell><Data ss:Type="String">0.023600</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">25 Years</Data></Cell>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">0.026000</Data></Cell>
+    <Cell><Data ss:Type="String">0.024100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">30 Years</Data></Cell>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">0.026200</Data></Cell>
+    <Cell><Data ss:Type="String">0.024300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">20 Years</Data></Cell>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">0.025500</Data></Cell>
+    <Cell><Data ss:Type="String">0.023600</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">25 Years</Data></Cell>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">0.026000</Data></Cell>
+    <Cell><Data ss:Type="String">0.024100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">15 Years</Data></Cell>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.032500</Data></Cell>
+    <Cell><Data ss:Type="String">0.030700</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">30 Years</Data></Cell>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">0.026200</Data></Cell>
+    <Cell><Data ss:Type="String">0.024300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">20 Years</Data></Cell>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.034000</Data></Cell>
+    <Cell><Data ss:Type="String">0.030100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">20 Years</Data></Cell>
+    <Cell><Data ss:Type="String">12 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.035800</Data></Cell>
+    <Cell><Data ss:Type="String">0.033900</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">15 Years</Data></Cell>
+    <Cell><Data ss:Type="String">15 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.034500</Data></Cell>
+    <Cell><Data ss:Type="String">0.032600</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">15 Years</Data></Cell>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.032500</Data></Cell>
+    <Cell><Data ss:Type="String">0.030700</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">30 Years</Data></Cell>
+    <Cell><Data ss:Type="String">15 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.041500</Data></Cell>
+    <Cell><Data ss:Type="String">0.039600</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">20 Years</Data></Cell>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.034000</Data></Cell>
+    <Cell><Data ss:Type="String">0.030100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">20 Years</Data></Cell>
+    <Cell><Data ss:Type="String">12 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.035800</Data></Cell>
+    <Cell><Data ss:Type="String">0.033900</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">15 Years</Data></Cell>
+    <Cell><Data ss:Type="String">15 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.034500</Data></Cell>
+    <Cell><Data ss:Type="String">0.032600</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">30 Years</Data></Cell>
+    <Cell><Data ss:Type="String">15 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.041500</Data></Cell>
+    <Cell><Data ss:Type="String">0.039600</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Member Option Fixed-Rate Advanc">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Member Option Fixed-Rate Advances</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Indications as of 01/31/2014 at 08:38 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Term</Data></Cell>
+    <Cell><Data ss:Type="String">Pre-Payment Option Period</Data></Cell>
+    <Cell><Data ss:Type="String">Option Frequency</Data></Cell>
+    <Cell><Data ss:Type="String">Advance Rate</Data></Cell>
+    <Cell><Data ss:Type="String">CIA Rate</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">2 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String">0.021100</Data></Cell>
+    <Cell><Data ss:Type="String">0.019300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Year</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String">0.038700</Data></Cell>
+    <Cell><Data ss:Type="String">0.036800</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String">0.037300</Data></Cell>
+    <Cell><Data ss:Type="String">0.035400</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String">0.036500</Data></Cell>
+    <Cell><Data ss:Type="String">0.034600</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Member Option Variable-Rate Adv">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Member Option Variable-Rate Advances</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Indications as of 01/31/2014 at 08:38 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Term</Data></Cell>
+    <Cell><Data ss:Type="String">Rate Reset Frequency</Data></Cell>
+    <Cell><Data ss:Type="String">Advance Amount &lt; $15 M</Data></Cell>
+    <Cell><Data ss:Type="String">Advance Amount ≥ $15 M</Data></Cell>
+    <Cell><Data ss:Type="String">Advance Amount ≥ $25 M</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.003000</Data></Cell>
+    <Cell><Data ss:Type="String">0.002600</Data></Cell>
+    <Cell><Data ss:Type="String">0.002200</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.003300</Data></Cell>
+    <Cell><Data ss:Type="String">0.002900</Data></Cell>
+    <Cell><Data ss:Type="String">0.002500</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.003000</Data></Cell>
+    <Cell><Data ss:Type="String">0.002600</Data></Cell>
+    <Cell><Data ss:Type="String">0.002200</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.003300</Data></Cell>
+    <Cell><Data ss:Type="String">0.002900</Data></Cell>
+    <Cell><Data ss:Type="String">0.002500</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.003000</Data></Cell>
+    <Cell><Data ss:Type="String">0.002600</Data></Cell>
+    <Cell><Data ss:Type="String">0.002200</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Months</Data></Cell>
+    <Cell><Data ss:Type="String">0.003300</Data></Cell>
+    <Cell><Data ss:Type="String">0.002900</Data></Cell>
+    <Cell><Data ss:Type="String">0.002500</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Prime Rate Indexed Advances">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Prime Rate Indexed Advances</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Indications as of 01/31/2014 at 08:38 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Prime =  3.25%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Term</Data></Cell>
+    <Cell><Data ss:Type="String">Spread to Prime</Data></Cell>
+    <Cell><Data ss:Type="String">Initial Advance Rate</Data></Cell>
+    <Cell><Data ss:Type="String">CIA Spread to Prime</Data></Cell>
+    <Cell><Data ss:Type="String">Initial CIA Rate</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">6 Months</Data></Cell>
+    <Cell><Data ss:Type="String">-0.028500</Data></Cell>
+    <Cell><Data ss:Type="String">0.004000</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">12 Months</Data></Cell>
+    <Cell><Data ss:Type="String">-0.028200</Data></Cell>
+    <Cell><Data ss:Type="String">0.004300</Data></Cell>
+    <Cell><Data ss:Type="String">-0.030000</Data></Cell>
+    <Cell><Data ss:Type="String">0.002500</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">18 Months</Data></Cell>
+    <Cell><Data ss:Type="String">-0.027800</Data></Cell>
+    <Cell><Data ss:Type="String">0.004700</Data></Cell>
+    <Cell><Data ss:Type="String">-0.029600</Data></Cell>
+    <Cell><Data ss:Type="String">0.002900</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">24 Months</Data></Cell>
+    <Cell><Data ss:Type="String">-0.027500</Data></Cell>
+    <Cell><Data ss:Type="String">0.005000</Data></Cell>
+    <Cell><Data ss:Type="String">-0.029300</Data></Cell>
+    <Cell><Data ss:Type="String">0.003200</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Convertible Advances">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Convertible Advances</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Indications as of 01/31/2014 at 08:38 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Term</Data></Cell>
+    <Cell><Data ss:Type="String">Initial FHLB Option Period</Data></Cell>
+    <Cell><Data ss:Type="String">Strike Rate</Data></Cell>
+    <Cell><Data ss:Type="String">Option Frequency</Data></Cell>
+    <Cell><Data ss:Type="String">Advance Rate</Data></Cell>
+    <Cell><Data ss:Type="String">CIA Rate</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">2 Years</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String">0.007300</Data></Cell>
+    <Cell><Data ss:Type="String">0.005500</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">2 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.07</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String">0.018600</Data></Cell>
+    <Cell><Data ss:Type="String">0.016800</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">2 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.06</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">0.016800</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Year</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String">0.007500</Data></Cell>
+    <Cell><Data ss:Type="String">0.005600</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Years</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String">0.014200</Data></Cell>
+    <Cell><Data ss:Type="String">0.012300</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">None</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String">0.021900</Data></Cell>
+    <Cell><Data ss:Type="String">0.020000</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Year</Data></Cell>
+    <Cell><Data ss:Type="String">0.07</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String">0.034000</Data></Cell>
+    <Cell><Data ss:Type="String">0.032100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Year</Data></Cell>
+    <Cell><Data ss:Type="String">0.06</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">0.032100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.07</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String">0.034000</Data></Cell>
+    <Cell><Data ss:Type="String">0.032100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.06</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">0.032100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.07</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String">0.034100</Data></Cell>
+    <Cell><Data ss:Type="String">0.032200</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">0.06</Data></Cell>
+    <Cell><Data ss:Type="String">Quarterly</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">0.032200</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="LIBOR Indexed Advances">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="18" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">LIBOR Indexed Advances</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Indications as of 01/31/2014 at 08:38 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Month LIBOR =  0.157%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Month LIBOR =  0.237%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">6 Month LIBOR =  0.336%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Term</Data></Cell>
+    <Cell><Data ss:Type="String">LIBOR Index</Data></Cell>
+    <Cell><Data ss:Type="String">Spread to LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">Initial Advance Rate</Data></Cell>
+    <Cell><Data ss:Type="String">CIA Spread to LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">Initial CIA Rate</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Year</Data></Cell>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.002100</Data></Cell>
+    <Cell><Data ss:Type="String">0.003670</Data></Cell>
+    <Cell><Data ss:Type="String">0.000600</Data></Cell>
+    <Cell><Data ss:Type="String">0.002170</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Year</Data></Cell>
+    <Cell><Data ss:Type="String">3 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.001600</Data></Cell>
+    <Cell><Data ss:Type="String">0.003970</Data></Cell>
+    <Cell><Data ss:Type="String">-0.000100</Data></Cell>
+    <Cell><Data ss:Type="String">0.002270</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.002500</Data></Cell>
+    <Cell><Data ss:Type="String">0.004070</Data></Cell>
+    <Cell><Data ss:Type="String">0.001000</Data></Cell>
+    <Cell><Data ss:Type="String">0.002570</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">2 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.001800</Data></Cell>
+    <Cell><Data ss:Type="String">0.004170</Data></Cell>
+    <Cell><Data ss:Type="String">0.000300</Data></Cell>
+    <Cell><Data ss:Type="String">0.002670</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.002900</Data></Cell>
+    <Cell><Data ss:Type="String">0.004470</Data></Cell>
+    <Cell><Data ss:Type="String">0.001400</Data></Cell>
+    <Cell><Data ss:Type="String">0.002970</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.002200</Data></Cell>
+    <Cell><Data ss:Type="String">0.004570</Data></Cell>
+    <Cell><Data ss:Type="String">0.000700</Data></Cell>
+    <Cell><Data ss:Type="String">0.003070</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.004000</Data></Cell>
+    <Cell><Data ss:Type="String">0.005570</Data></Cell>
+    <Cell><Data ss:Type="String">0.002400</Data></Cell>
+    <Cell><Data ss:Type="String">0.003970</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.003300</Data></Cell>
+    <Cell><Data ss:Type="String">0.005670</Data></Cell>
+    <Cell><Data ss:Type="String">0.001700</Data></Cell>
+    <Cell><Data ss:Type="String">0.004070</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.005900</Data></Cell>
+    <Cell><Data ss:Type="String">0.007470</Data></Cell>
+    <Cell><Data ss:Type="String">0.004300</Data></Cell>
+    <Cell><Data ss:Type="String">0.005870</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">7 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.005200</Data></Cell>
+    <Cell><Data ss:Type="String">0.007570</Data></Cell>
+    <Cell><Data ss:Type="String">0.003600</Data></Cell>
+    <Cell><Data ss:Type="String">0.005970</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.007700</Data></Cell>
+    <Cell><Data ss:Type="String">0.009270</Data></Cell>
+    <Cell><Data ss:Type="String">0.006100</Data></Cell>
+    <Cell><Data ss:Type="String">0.007670</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.007100</Data></Cell>
+    <Cell><Data ss:Type="String">0.009470</Data></Cell>
+    <Cell><Data ss:Type="String">0.005500</Data></Cell>
+    <Cell><Data ss:Type="String">0.007870</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Capped LIBOR Indexed Advances">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell><Data ss:Type="String">Capped LIBOR Indexed Advances</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Indications as of 01/31/2014 at 08:38 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Month LIBOR =  0.157%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Month LIBOR =  0.237%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Term</Data></Cell>
+    <Cell><Data ss:Type="String">LIBOR Index</Data></Cell>
+    <Cell><Data ss:Type="String">Cap Strike</Data></Cell>
+    <Cell><Data ss:Type="String">Spread to LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">Initial Advance Rate</Data></Cell>
+    <Cell><Data ss:Type="String">Cap Rate</Data></Cell>
+    <Cell><Data ss:Type="String">CIA Spread to LIBOR</Data></Cell>
+    <Cell><Data ss:Type="String">Initial CIA Rate</Data></Cell>
+    <Cell><Data ss:Type="String">CIA Cap Rate</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Year</Data></Cell>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.030000</Data></Cell>
+    <Cell><Data ss:Type="String">0.003000</Data></Cell>
+    <Cell><Data ss:Type="String">0.004575</Data></Cell>
+    <Cell><Data ss:Type="String">0.033000</Data></Cell>
+    <Cell><Data ss:Type="String">0.001500</Data></Cell>
+    <Cell><Data ss:Type="String">0.003080</Data></Cell>
+    <Cell><Data ss:Type="String">0.031500</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1 Year</Data></Cell>
+    <Cell><Data ss:Type="String">3 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.030000</Data></Cell>
+    <Cell><Data ss:Type="String">0.001600</Data></Cell>
+    <Cell><Data ss:Type="String">0.003976</Data></Cell>
+    <Cell><Data ss:Type="String">0.031600</Data></Cell>
+    <Cell><Data ss:Type="String">0.000100</Data></Cell>
+    <Cell><Data ss:Type="String">0.002480</Data></Cell>
+    <Cell><Data ss:Type="String">0.030100</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.030000</Data></Cell>
+    <Cell><Data ss:Type="String">0.004500</Data></Cell>
+    <Cell><Data ss:Type="String">0.006101</Data></Cell>
+    <Cell><Data ss:Type="String">0.034500</Data></Cell>
+    <Cell><Data ss:Type="String">0.003000</Data></Cell>
+    <Cell><Data ss:Type="String">0.004600</Data></Cell>
+    <Cell><Data ss:Type="String">0.033000</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">3 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.030000</Data></Cell>
+    <Cell><Data ss:Type="String">0.003100</Data></Cell>
+    <Cell><Data ss:Type="String">0.005502</Data></Cell>
+    <Cell><Data ss:Type="String">0.033100</Data></Cell>
+    <Cell><Data ss:Type="String">0.001600</Data></Cell>
+    <Cell><Data ss:Type="String">0.004000</Data></Cell>
+    <Cell><Data ss:Type="String">0.031600</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">1 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.030000</Data></Cell>
+    <Cell><Data ss:Type="String">0.008500</Data></Cell>
+    <Cell><Data ss:Type="String">0.010048</Data></Cell>
+    <Cell><Data ss:Type="String">0.038500</Data></Cell>
+    <Cell><Data ss:Type="String">0.006900</Data></Cell>
+    <Cell><Data ss:Type="String">0.008450</Data></Cell>
+    <Cell><Data ss:Type="String">0.036900</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5 Years</Data></Cell>
+    <Cell><Data ss:Type="String">3 Month</Data></Cell>
+    <Cell><Data ss:Type="String">0.030000</Data></Cell>
+    <Cell><Data ss:Type="String">0.007100</Data></Cell>
+    <Cell><Data ss:Type="String">0.009449</Data></Cell>
+    <Cell><Data ss:Type="String">0.037100</Data></Cell>
+    <Cell><Data ss:Type="String">0.005500</Data></Cell>
+    <Cell><Data ss:Type="String">0.007850</Data></Cell>
+    <Cell><Data ss:Type="String">0.035500</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

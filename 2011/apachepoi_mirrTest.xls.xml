@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Carlos Delgado</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2013-05-29T07:13:53Z</Created>
+  <LastSaved>2013-11-04T22:26:01Z</LastSaved>
+  <Company>Amadeus</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>13700</WindowHeight>
+  <WindowWidth>19980</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>100</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s60" ss:Name="Percent">
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s64">
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s65">
+   <NumberFormat ss:Format="0.000000000%"/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s60">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s68">
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Mirr">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="46" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Width="96"/>
+   <Column ss:Width="255"/>
+   <Row>
+    <Cell><Data ss:Type="String">Data</Data></Cell>
+    <Cell><Data ss:Type="String">Description</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">-120000</Data></Cell>
+    <Cell><Data ss:Type="String">Initial cost</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">39000</Data></Cell>
+    <Cell><Data ss:Type="String">Return first year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">30000</Data></Cell>
+    <Cell><Data ss:Type="String">Return second year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21000</Data></Cell>
+    <Cell><Data ss:Type="String">Return third year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">37000</Data></Cell>
+    <Cell><Data ss:Type="String">Return fourth year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">46000</Data></Cell>
+    <Cell><Data ss:Type="String">Return fifth year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="String">Annual interest rate for the 120,000 loan</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.12</Data></Cell>
+    <Cell><Data ss:Type="String">Annual interest rate for the reinvested profits</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=MIRR(R[-8]C:R[-3]C, R[-2]C, R[-1]C)"><Data ss:Type="Number">0.12609413036590511</Data></Cell>
+    <Cell><Data ss:Type="String">MIRR</Data></Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell><Data ss:Type="Number">-7500</Data></Cell>
+    <Cell><Data ss:Type="String">Initial cost</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3000</Data></Cell>
+    <Cell><Data ss:Type="String">Return first year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+    <Cell><Data ss:Type="String">Return second year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1200</Data></Cell>
+    <Cell><Data ss:Type="String">Return third year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4000</Data></Cell>
+    <Cell><Data ss:Type="String">Return fourth year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell><Data ss:Type="String">Annual interest rate</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0.08</Data></Cell>
+    <Cell><Data ss:Type="String">Annual interest rate for the reinvested profits</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=MIRR(R[-7]C:R[-3]C, R[-2]C, R[-1]C)"><Data
+      ss:Type="Number">0.18736225093283743</Data></Cell>
+    <Cell><Data ss:Type="String">MIRR</Data></Cell>
+   </Row>
+   <Row ss:Index="22">
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:Index="24">
+    <Cell><Data ss:Type="Number">-10000</Data></Cell>
+    <Cell><Data ss:Type="String">Initial cost</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3400</Data></Cell>
+    <Cell><Data ss:Type="String">Return first year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6500</Data></Cell>
+    <Cell><Data ss:Type="String">Return second year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">Return third year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6.5000000000000002E-2</Data></Cell>
+    <Cell><Data ss:Type="String">Annual interest rate</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="String">Annual interest rate for the reinvested profits</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=MIRR(R[-6]C:R[-3]C, R[-2]C, R[-1]C)"><Data
+      ss:Type="Number">7.0394939660276767E-2</Data></Cell>
+    <Cell><Data ss:Type="String">MIRR</Data></Cell>
+   </Row>
+   <Row ss:Index="32">
+    <Cell><Data ss:Type="Number">10000</Data></Cell>
+    <Cell><Data ss:Type="String">Initial cost</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3400</Data></Cell>
+    <Cell><Data ss:Type="String">Return first year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6500</Data></Cell>
+    <Cell><Data ss:Type="String">Return second year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1000</Data></Cell>
+    <Cell><Data ss:Type="String">Return third year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">6.5000000000000002E-2</Data></Cell>
+    <Cell><Data ss:Type="String">Annual interest rate</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="String">Annual interest rate for the reinvested profits</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=MIRR(R[-6]C:R[-3]C, R[-2]C, R[-1]C)"><Data
+      ss:Type="Error">#DIV/0!</Data></Cell>
+    <Cell><Data ss:Type="String">MIRR</Data></Cell>
+   </Row>
+   <Row ss:Index="40">
+    <Cell><Data ss:Type="Number">-10000</Data></Cell>
+    <Cell><Data ss:Type="String">Initial cost</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">-3400</Data></Cell>
+    <Cell><Data ss:Type="String">Return first year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">-6500</Data></Cell>
+    <Cell><Data ss:Type="String">Return second year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">-1000</Data></Cell>
+    <Cell><Data ss:Type="String">Return third year</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">7.0000000000000007E-2</Data></Cell>
+    <Cell><Data ss:Type="String">Annual interest rate</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.01</Data></Cell>
+    <Cell><Data ss:Type="String">Annual interest rate for the reinvested profits</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68" ss:Formula="=MIRR(R[-6]C:R[-3]C, R[-2]C, R[-1]C)"><Data
+      ss:Type="Number">-1</Data></Cell>
+    <Cell><Data ss:Type="String">MIRR</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <TopRowVisible>9</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>23</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

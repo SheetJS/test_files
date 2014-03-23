@@ -1,0 +1,2831 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <LastPrinted>2002-08-19T02:02:09Z</LastPrinted>
+  <Created>1997-01-08T22:48:59Z</Created>
+  <LastSaved>2002-09-12T07:16:25Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4720</WindowHeight>
+  <WindowWidth>8480</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <TabRatio>231</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="ＭＳ Ｐゴシック" x:CharSet="128" ss:Size="11"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"
+    ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"
+    ss:Bold="1"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s38">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"
+    ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s43">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s44">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s45">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s46">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s47">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s48">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s49">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s50">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s51">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"
+    ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s52">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s53">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s54">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s55">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s56">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s57">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s58">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s59">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s60">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s61">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"
+    ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Double" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"
+    ss:Bold="1"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3"/>
+   </Borders>
+   <Font ss:FontName="ＭＳ ゴシック" x:CharSet="128" x:Family="Modern" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="227" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s24" ss:DefaultColumnWidth="54">
+   <Column ss:StyleID="s24" ss:AutoFitWidth="0" ss:Width="5"/>
+   <Column ss:StyleID="s38" ss:Width="88"/>
+   <Column ss:StyleID="s38" ss:Width="389"/>
+   <Column ss:StyleID="s24" ss:AutoFitWidth="0" ss:Width="76" ss:Span="4"/>
+   <Row ss:Index="2" ss:Height="14" ss:StyleID="s22">
+    <Cell ss:Index="2" ss:StyleID="s21"><Data ss:Type="String">機能大分類</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">機能中分類</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">重要度(A＞Ｃ)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">i-mode(c-html)</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">J-SKY(mml)</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">EZweb(hdml)</Data></Cell>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">EZweb(xhtml)</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s23"><Data ss:Type="String">ログイン</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">●ログイン画面表示</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・認証機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・失敗時リトライ画面表示</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">・トップメニュー画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">ログアウト</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">●ログアウト画面表示</Data></Cell>
+    <Cell ss:StyleID="s43"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">・ログイン画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">トップメニュー</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">●トップメニュー画面表示(wisewalker_show_phone_folder=off)</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">●トップメニュー画面表示(wisewalker_show_phone_folder=on)</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・受信未読画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・受信箱画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メール作成画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・フォルダ選択画面へ移行する機能(wisewalker_show_phone_folder=on)</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・POP受信画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・設定編集画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・ログアウトしログイン画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">・ログアウトしログアウト画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">メール表示</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">●メール一覧画面表示</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・エントリを選択しメール表示画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・頁選択する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">・前画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・表示内容の切り替え(題名を表示/差出人を表示)する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・フォルダ操作画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">●メールヘッダ表示(EZweb)</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・メール表示画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・添付ファイル一覧画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">・前画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・頁メールへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・メール作成(返信)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・メール作成(全員返信)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・メール作成(転送)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・メール作成(編集)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・メールを削除しメール一覧画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・フォルダ選択(移動)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">●メール表示画面表示</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・MobileCache</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・添付ファイル一覧画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・前画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・トップ頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・次メールへ移動する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メール作成(返信)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メール作成(全員返信)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メール作成(転送)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メール作成(編集)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メールを削除しメール一覧画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・フォルダ選択(移動)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">添付ファイル表示</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">●添付ファイル一覧画面表示</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・エントリを選択し添付ファイル表示画面へ移行する機能(要DocCat)</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・メールヘッダ表示画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・頁選択する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・トップ頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メール作成(返信)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メール作成(全員返信)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メール作成(転送)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メール作成(編集)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メールを削除しメール一覧画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・フォルダ選択(移動)画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・前メールへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・次メールへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メール表示画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">●添付ファイル表示画面表示(要DocCat)</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・頁選択する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・添付ファイル一覧画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・トップ頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">メール移動</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">●フォルダ一覧画面表示</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">・エントリを選択し内容に応じた画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・頁選択する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">・前画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・このフォルダにメールを移動し移動元のメール一覧画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・このフォルダにメールを移動し移動元のメールの次のメールヘッダ表示画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×(バグ?)</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">・移動を中止し元のメール表示画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">メール作成</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">●メール作成画面表示</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・住所録選択へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・定型文選択へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・送信しトップメニューへ移行する機能(新規作成時)</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・保存しトップメニューへ移行する機能(新規作成時、wisewalker_show_phone_folder=on)</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・中止しトップメニューへ移行する機能(新規作成時)</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・送信し元メール表示画面へ移行する機能(転送・返信時)</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・保存し元メール表示画面へ移行する機能(転送・返信時、wisewalker_show_phone_folder=on)</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・中止し元メール表示画面へ移行する機能(転送・返信時)</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">・入力値異常時の画面表示</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">メール作成住所録</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">●メール作成住所録の初期画面を切り替え表示する機能</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">●メール作成住所録一覧画面表示</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・選択しエントリ画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・宛先にエントリを追加しメール作成画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・頁選択する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・キー選択する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メール作成画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">●メール作成住所録画面表示</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・住所録一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・宛先にエントリを追加しメール作成画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">メール作成定型文</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">●メール作成定型文の初期画面を切り替え表示する機能</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">●メール作成定型文一覧画面表示</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・選択したエントリ画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・選択したエントリを本文最後に挿入しメール作成画面へ移行する機能(INPUT機能無し)</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">×</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・頁選択する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・キー選択する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・メール作成画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">●メール作成定型文画面表示(INPUT機能有り)</Data></Cell>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・定型文一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・本文最初に挿入しメール作成画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・本文最後に挿入しメール作成画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">フォルダ選択</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">●フォルダ一覧画面表示</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・エントリを選択し内容に応じた画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・頁選択する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・前画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・フォルダ操作画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">●フォルダ操作画面表示</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・親フォルダへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・フォルダを新規作成しフォルダ操作画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・名前変更しトップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・削除しトップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">POP受信</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">●POP一覧画面表示</Data></Cell>
+    <Cell ss:StyleID="s48"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・選択したPOPへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・頁選択する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">●POP画面表示</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・POP一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・ログイン＆ダウンロードしトップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s49"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">・入力値異常時の画面表示</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">設定編集</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">●設定編集メニュー画面表示</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・フォルダ設定画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・メール作成設定画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・住所録設定画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・定型文設定画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">・ＰＯＰ設定画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">フォルダ設定編集</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">●フォルダ設定編集画面表示</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・設定編集へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・設定値を更新し設定編集へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">メール作成設定編集</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">●メール作成設定編集画面表示</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・設定編集へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・設定値を更新し設定編集へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">住所録設定編集</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">●住所録設定編集の初期画面を切り替え表示する機能</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">●住所録一覧画面表示</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・選択した住所録の編集画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・頁選択する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・キー選択する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・設定編集へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・新規作成へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">●住所録編集画面表示</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・住所録一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・エントリを追加し住所録一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・エントリを更新し住所録一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・エントリを削除し住所録一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">・入力値異常時の画面表示</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">定型文設定編集</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">●定型文設定編集の初期画面を切り替え表示する機能</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">●定型文一覧画面表示</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・選択した定型文の編集画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・頁選択する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・キー選択する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・設定編集へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・新規作成へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">●定型文編集画面表示</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・定型文一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・%INPUT%を追加し定型文編集へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・エントリを追加し定型文一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・エントリを更新し定型文一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・エントリを削除し定型文一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s27"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">・入力値異常時の画面表示</Data></Cell>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">POP設定編集</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">●POP一覧画面表示</Data></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・選択したPOPの編集画面へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・頁選択する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・設定編集へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・新規作成へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">●POP編集画面表示</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・POP一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・エントリを追加しPOP一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・エントリを更新しPOP一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・エントリを削除しPOP一覧へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・前頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・次頁へ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・トップメニューへ移行する機能</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">×</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11">
+    <Cell ss:Index="2" ss:StyleID="s25"/>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">・入力値異常時の画面表示</Data></Cell>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">○</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="String">○</Data></Cell>
+   </Row>
+   <Row ss:Height="14"/>
+   <Row ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">工数合計(人・日)</Data></Cell>
+    <Cell ss:StyleID="s25"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s91" ss:Formula="=SUM(RC[-6]:RC[-1])"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:Height="14"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0" x:Data="&amp;L&amp;F&amp;R&amp;D"/>
+    <Footer x:Margin="0" x:Data="&amp;C&amp;P / &amp;N"/>
+    <PageMargins x:Bottom="0.39370078740157483" x:Left="0.19685039370078741"
+     x:Right="0.19685039370078741" x:Top="0.39370078740157483"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>80</Scale>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>29</ActiveRow>
+     <ActiveCol>11</ActiveCol>
+     <RangeSelection>R30C11:R30C12</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

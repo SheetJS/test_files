@@ -1,0 +1,508 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Gerhard Wilhelms</Author>
+  <LastAuthor>God</LastAuthor>
+  <TotalTime>0</TotalTime>
+  <Created>2012-02-20T07:39:42Z</Created>
+  <LastSaved>2012-02-20T09:15:23Z</LastSaved>
+  <Company>Universität Augsburg</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8260</WindowHeight>
+  <WindowWidth>18800</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000D4"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s17" ss:Parent="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s19" ss:Parent="s16">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Tabelle1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="44" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell ss:StyleID="s17" ss:HRef="" x:HRefScreenTip="Sort on ID"><Data
+      ss:Type="String">ID</Data></Cell>
+    <Cell ss:StyleID="s17" ss:HRef="" x:HRefScreenTip="Sort on Titel"><Data
+      ss:Type="String">Titel</Data></Cell>
+    <Cell ss:StyleID="s17" ss:HRef="" x:HRefScreenTip="Sort on Vorname"><Data
+      ss:Type="String">Vorname</Data></Cell>
+    <Cell ss:StyleID="s17" ss:HRef="" x:HRefScreenTip="Sort on Nachname"><Data
+      ss:Type="String">Nachname</Data></Cell>
+    <Cell ss:StyleID="s17" ss:HRef="" x:HRefScreenTip="Sort on Dienststelle"><Data
+      ss:Type="String">Dienststelle</Data></Cell>
+    <Cell ss:StyleID="s17" ss:HRef="" x:HRefScreenTip="Sort on E-Mail"><Data
+      ss:Type="String">E-Mail</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=19551"><Data
+      ss:Type="Number">19551</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Stefan</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Abel</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">PhilHi, Sprachatlas von Bayerisch-Schwaben</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">stfabl@aol.com</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=31737"><Data
+      ss:Type="Number">31737</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Salamu</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Abudu</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">abdusalamde@yahoo.de</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=64120"><Data
+      ss:Type="Number">64120</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">M.Sc.</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Benjamin</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Achzet</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">WZU</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">benjamin.achzet@wzu.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=54723"><Data
+      ss:Type="Number">54723</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Sabine</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Ackermann</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Teilbibl. Sozialwiss.</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">sabine.ackermann@bibliothek.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=22860"><Data
+      ss:Type="Number">22860</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Dipl. Päd.</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Frederic</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Adler</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">IMB - Professur für Medienpädagogik</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Frederic.Adler@Phil.Uni-Augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=48482"><Data
+      ss:Type="Number">48482</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Bettina</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Adolf</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Personalreferat II/4</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">bettina.adolf@zv.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=15019"><Data
+      ss:Type="Number">15019</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Frank</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Aechtner</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Ref. V/2</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Frank.Aechtner@zv.Uni-Augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=44320"><Data
+      ss:Type="Number">44320</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Ulli</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Aha</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Referat III/6</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ulli.aha@zv.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=15192"><Data
+      ss:Type="Number">15192</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Sezin</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Akay</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">PhilHi, Lst. Bublitz, Englische Sprachwissenschaft</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">sezinakay@web.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=31059"><Data
+      ss:Type="Number">31059</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Christiane</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Albert</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Lehrstuhl für Religionspädagogik</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">christiane.albert@t-online.de</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=71822"><Data
+      ss:Type="Number">71822</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Astrid</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Alex</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">bibliothek</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">astrid.alex@bibliothek.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=45308"><Data
+      ss:Type="Number">45308</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Katrin</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Alt-Rudin</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">AAA</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">katrin.alt-rudin@aaa.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=43368"><Data
+      ss:Type="Number">43368</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Adem</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Altay</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Studierender</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">adem.altay@t-online.de</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=26899"><Data
+      ss:Type="Number">26899</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Vicente</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Alvarez</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Lst. f. Romanistik</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=51968"><Data
+      ss:Type="Number">51968</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Ingrid</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Amann</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Hochschule Augsburg</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ingrid.amann@hs-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=72968"><Data
+      ss:Type="Number">72968</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Ingrid</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Amann</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ITW</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ingrid.amann@hs-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=31537"><Data
+      ss:Type="Number">31537</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Andrea</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Amend</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Andrea.Amend@Student.Uni-Augsburg.DE</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=71697"><Data
+      ss:Type="Number">71697</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Marion</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Amling</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Theo2</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">marion.amling@physik.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=62168"><Data
+      ss:Type="Number">62168</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">M.A.</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Deniz</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Anan</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Politikwissenschaft, Friedens-/ Konfliktforschung</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">deniz.anan@phil.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=32617"><Data
+      ss:Type="Number">32617</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Olga</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Anapreenko</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">olga.anapreenko@web.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=42421"><Data
+      ss:Type="Number">42421</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Christian</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Anders</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Rechenzentrum</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">christian.anders@rz.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=66073"><Data
+      ss:Type="Number">66073</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Birgit</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Andree</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Sportzentrum</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">birgit.andree@sport.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=53726"><Data
+      ss:Type="Number">53726</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Birgit</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Andree-Schneider</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Jura</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">birgit.andree@jura.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=43088"><Data
+      ss:Type="Number">43088</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Cristina</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Andriuca</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Studierende</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">cristina22051987@yahoo.com</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=43066"><Data
+      ss:Type="Number">43066</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Lorena Mihaela</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Andriuca</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Studierende</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">lothcri@yahoo.com</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=18328"><Data
+      ss:Type="Number">18328</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Karin</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Andrä</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">UB/TN</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">karin.andrae@bibliothek.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=66110"><Data
+      ss:Type="Number">66110</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Danielo</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Angerer</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Studierender</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">danielo.angerer@i-pac.de</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=32547"><Data
+      ss:Type="Number">32547</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Maria</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Appelganz</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">M.Appelganz@gmx.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=34849"><Data
+      ss:Type="Number">34849</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Jenny</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Arendholz</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Kommunikationswissenschaft</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">jennyarendholz@yahoo.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=24933"><Data
+      ss:Type="Number">24933</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Kenan</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Arkan</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">WiWi, Lst. Ebers</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">kenan.arkan@wiwi.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=37694"><Data
+      ss:Type="Number">37694</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Hartmut</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Arnholz</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Zentrales Prüfungsamt</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">hartmut.arnholz@zv.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=60950"><Data
+      ss:Type="Number">60950</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Marlen</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Arnold</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Professur für BWL / TUM</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">marlen.arnold@wi.tum.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=67843"><Data
+      ss:Type="Number">67843</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Peter</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Arnold</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">sportzentrum uni augsburg</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">jomaina@web.de</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=32241"><Data
+      ss:Type="Number">32241</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Dipl.Sozpäd.</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Elisabeth</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Asam</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">IKBU</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">LizAsam@gmx.de</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=63359"><Data
+      ss:Type="Number">63359</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Sabrina</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Asam</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Lehrstuhl Didaktik der Mathematik</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">sabrina.asam@math.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=42136"><Data
+      ss:Type="Number">42136</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Dr.</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Claudia</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Augste</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Bew. und Trainingswissenschaft</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">claudia.augste@sport.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=20900"><Data
+      ss:Type="Number">20900</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Gudrun</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Augste</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Jura</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=10180"><Data
+      ss:Type="Number">10180</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Ludwig</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Aumann</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Referat V/3 Uni-Augsburg</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">l-aumann@t-online.de</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=18489"><Data
+      ss:Type="Number">18489</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Hildegard</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Aumüller</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Professur für Christliche Sozialethik</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">hildegard.aumueller@kthf.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=73175"><Data
+      ss:Type="Number">73175</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Hildegard</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Aumüller</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">KThF - Christliche Sozialethik</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">hildegard.aumueller@kthf.uni-augsburg.de</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=44974"><Data
+      ss:Type="Number">44974</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Natalia</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Avella-Ramirez</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Hilfskraft UB</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">navellaramirez@yahoo.com</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=62371"><Data
+      ss:Type="Number">62371</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Elias</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Awad</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Hiwi im Akademischen Auslandsamt</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">elias.awad85@yahoo.com</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s19" ss:HRef="http://db.zww.uni-augsburg.de/db/ksdb3/admin/enter-adresse.ehtml?P_ID=49978"><Data
+      ss:Type="Number">49978</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Yildirim</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">Ayhan</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">ayhanyildirim@arcor.de</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>44</ActiveRow>
+     <RangeSelection>R45:R1924</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Tabelle2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Tabelle3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.7" x:Right="0.7"
+     x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

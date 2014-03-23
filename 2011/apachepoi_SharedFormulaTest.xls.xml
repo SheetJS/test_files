@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>2008-01-17T15:21:51Z</Created>
+  <LastSaved>2008-01-17T15:21:51Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8200</WindowHeight>
+  <WindowWidth>16380</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>181</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="_JB65536" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="_KB65536" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="_PZ65536" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="_ZZ65536" ss:RefersTo="=#REF!"/>
+ </Names>
+ <Worksheet ss:Name="0">
+  <Table ss:ExpandedColumnCount="130" ss:ExpandedRowCount="32770"
+   x:FullColumns="1" x:FullRows="1" ss:DefaultColumnWidth="70"
+   ss:DefaultRowHeight="12">
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=R1C[-1]*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="129" ss:Formula="=RC[1]*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=R1C[-1]*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="129" ss:Formula="=RC[1]*2"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Formula="=R1C[-1]*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="129" ss:Formula="=RC[1]*2"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Formula="=R1C[-1]*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="129" ss:Formula="=RC[1]*2"><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Formula="=R1C[-1]*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="129" ss:Formula="=RC[1]*2"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Formula="=R1C[-1]*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="129" ss:Formula="=RC[1]*2"><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:Formula="=R1C[-1]*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="129" ss:Formula="=RC[1]*2"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:Formula="=R1C[-1]*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="129" ss:Formula="=RC[1]*2"><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C1*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=R[-1]C1*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=R[-1]C1*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=R[-1]C1*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=R[-1]C1*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=R[-1]C1*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=R[-1]C1*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=R[-1]C1*2"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Index="32769">
+    <Cell ss:Formula="=R[1]C*2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Formula="=R[1]C*2"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Formula="=R[1]C*2"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Formula="=R[1]C*2"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:Formula="=R[1]C*2"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Formula="=R[1]C*2"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:Formula="=R[1]C*2"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:Formula="=R[1]C*2"><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Standard&quot;&amp;12&amp;A"/>
+    <Footer x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Standard&quot;&amp;12Seite &amp;P"/>
+    <PageMargins x:Bottom="1.0527777777777778" x:Left="0.78749999999999998"
+     x:Right="0.78749999999999998" x:Top="1.0527777777777778"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <TopRowVisible>32740</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>32760</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,1396 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>jkim</Author>
+  <LastAuthor>God</LastAuthor>
+  <LastPrinted>2006-01-05T22:24:14Z</LastPrinted>
+  <Created>2001-12-18T17:53:12Z</Created>
+  <LastSaved>2008-09-14T17:30:13Z</LastSaved>
+  <Company>Warner Bros.</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Path>PBS_KIDS_Sprout_JUL20061</Path>
+   <SheetName>Data</SheetName>
+   <SheetName>Metadata</SheetName>
+   <SheetName>Defaults</SheetName>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>1</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>26</Count>
+    <SheetIndex>2</SheetIndex>
+    <Crn>
+     <Row>3</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>5</ColLast>
+     <Text>SPROUT</Text>
+     <Text>SPROUT</Text>
+     <Text>None</Text>
+     <Text>Tier3/En español/Infantiles/PBS Sprout</Text>
+     <Text>N</Text>
+     <Text>Advertisement</Text>
+    </Crn>
+    <Crn>
+     <Row>4</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>5</ColLast>
+     <Text>SPROUT_ESP</Text>
+     <Text>SPROUT_ESP</Text>
+     <Text>TV-Y</Text>
+     <Text>Tier3/Kids/PBS Sprout/Angelina Ballerina</Text>
+     <Text>Y</Text>
+     <Text>Miniseries</Text>
+    </Crn>
+    <Crn>
+     <Row>5</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>INSIGHT</Text>
+     <Text>TV-Y7</Text>
+     <Text>Tier3/Kids/PBS Sprout/Barney &amp; Friends</Text>
+    </Crn>
+    <Crn>
+     <Row>5</Row>
+     <ColFirst>5</ColFirst>
+     <ColLast>5</ColLast>
+     <Text>Movie</Text>
+    </Crn>
+    <Crn>
+     <Row>6</Row>
+     <ColFirst>2</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>TV-G</Text>
+     <Text>Tier3/Kids/PBS Sprout/Berenstain Bears</Text>
+    </Crn>
+    <Crn>
+     <Row>6</Row>
+     <ColFirst>5</ColFirst>
+     <ColLast>5</ColLast>
+     <Text>Music</Text>
+    </Crn>
+    <Crn>
+     <Row>7</Row>
+     <ColFirst>2</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>TV-PG</Text>
+     <Text>Tier3/Kids/PBS Sprout/Bob the Builder</Text>
+    </Crn>
+    <Crn>
+     <Row>7</Row>
+     <ColFirst>5</ColFirst>
+     <ColLast>5</ColLast>
+     <Text>Series</Text>
+    </Crn>
+    <Crn>
+     <Row>8</Row>
+     <ColFirst>2</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>TV-14</Text>
+     <Text>Tier3/Kids/PBS Sprout/Boohbah</Text>
+    </Crn>
+    <Crn>
+     <Row>8</Row>
+     <ColFirst>5</ColFirst>
+     <ColLast>5</ColLast>
+     <Text>Sports</Text>
+    </Crn>
+    <Crn>
+     <Row>9</Row>
+     <ColFirst>2</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>TV-MA</Text>
+     <Text>Tier3/Kids/PBS Sprout/Caillou</Text>
+    </Crn>
+    <Crn>
+     <Row>10</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Dragon Tales</Text>
+    </Crn>
+    <Crn>
+     <Row>11</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/En español</Text>
+    </Crn>
+    <Crn>
+     <Row>12</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Fireman Sam</Text>
+    </Crn>
+    <Crn>
+     <Row>13</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Jay Jay Jet Plane</Text>
+    </Crn>
+    <Crn>
+     <Row>14</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Kids Favorites</Text>
+    </Crn>
+    <Crn>
+     <Row>15</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Kipper</Text>
+    </Crn>
+    <Crn>
+     <Row>16</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Noddy</Text>
+    </Crn>
+    <Crn>
+     <Row>17</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Pingu</Text>
+    </Crn>
+    <Crn>
+     <Row>18</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Sagwa</Text>
+    </Crn>
+    <Crn>
+     <Row>19</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Seasonal</Text>
+    </Crn>
+    <Crn>
+     <Row>20</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Sesame Street</Text>
+    </Crn>
+    <Crn>
+     <Row>21</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Sprout Specials</Text>
+    </Crn>
+    <Crn>
+     <Row>22</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Teletubbies</Text>
+    </Crn>
+    <Crn>
+     <Row>23</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Thomas &amp; Friends</Text>
+    </Crn>
+    <Crn>
+     <Row>24</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Tier3/Kids/PBS Sprout/Zoboomafoo</Text>
+    </Crn>
+   </Xct>
+  </SupBook>
+  <SupBook>
+   <Path>Playboy Classic planner Sep 081</Path>
+   <SheetName>Data</SheetName>
+   <SheetName>Defaults</SheetName>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>0</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>27</Count>
+    <SheetIndex>1</SheetIndex>
+    <Crn>
+     <Row>2</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>PLAYBOY</Text>
+    </Crn>
+    <Crn>
+     <Row>3</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>2</ColLast>
+     <Text>PLAYBOY_CLASSIC</Text>
+     <Text>PLAYBOY_CLASSIC</Text>
+     <Text>TV-MA</Text>
+    </Crn>
+    <Crn>
+     <Row>3</Row>
+     <ColFirst>4</ColFirst>
+     <ColLast>5</ColLast>
+     <Text>N</Text>
+     <Text>Advertisement</Text>
+    </Crn>
+    <Crn>
+     <Row>4</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>2</ColLast>
+     <Text>PLAYBOYOUT</Text>
+     <Text>PLAYBOY_X_30</Text>
+     <Text>NC-17</Text>
+    </Crn>
+    <Crn>
+     <Row>4</Row>
+     <ColFirst>4</ColFirst>
+     <ColLast>5</ColLast>
+     <Text>Y</Text>
+     <Text>Miniseries</Text>
+    </Crn>
+    <Crn>
+     <Row>5</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>2</ColLast>
+     <Text>PLAYBOY_X_30_INSIGHT</Text>
+     <Text>X</Text>
+    </Crn>
+    <Crn>
+     <Row>5</Row>
+     <ColFirst>5</ColFirst>
+     <ColLast>5</ColLast>
+     <Text>Movie</Text>
+    </Crn>
+    <Crn>
+     <Row>6</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>2</ColLast>
+     <Text>PLAYBOY_X_50_GDMX</Text>
+     <Text>XX</Text>
+    </Crn>
+    <Crn>
+     <Row>6</Row>
+     <ColFirst>5</ColFirst>
+     <ColLast>5</ColLast>
+     <Text>Music</Text>
+    </Crn>
+    <Crn>
+     <Row>7</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>2</ColLast>
+     <Text>PLAYBOY_X_50_ITC</Text>
+     <Text>XXX</Text>
+    </Crn>
+    <Crn>
+     <Row>7</Row>
+     <ColFirst>5</ColFirst>
+     <ColLast>5</ColLast>
+     <Text>Series</Text>
+    </Crn>
+    <Crn>
+     <Row>8</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>2</ColLast>
+     <Text>PLAYBOY_TVOD_30_CHTR</Text>
+     <Text>NR</Text>
+    </Crn>
+    <Crn>
+     <Row>8</Row>
+     <ColFirst>5</ColFirst>
+     <ColLast>5</ColLast>
+     <Text>Sports</Text>
+    </Crn>
+    <Crn>
+     <Row>9</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>PLAYBOYOUT</Text>
+    </Crn>
+    <Crn>
+     <Row>19</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Naked Happy Girls</Text>
+    </Crn>
+    <Crn>
+     <Row>20</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Naked Happy SF</Text>
+    </Crn>
+    <Crn>
+     <Row>21</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Naughty Amateur</Text>
+    </Crn>
+    <Crn>
+     <Row>22</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Original Movies</Text>
+    </Crn>
+    <Crn>
+     <Row>23</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Playmate Paradise</Text>
+    </Crn>
+    <Crn>
+     <Row>24</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Playmate Power!</Text>
+    </Crn>
+    <Crn>
+     <Row>25</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Private Calls</Text>
+    </Crn>
+    <Crn>
+     <Row>26</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Sexcetera</Text>
+    </Crn>
+    <Crn>
+     <Row>27</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Sex School</Text>
+    </Crn>
+    <Crn>
+     <Row>28</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Sexual Reality</Text>
+    </Crn>
+    <Crn>
+     <Row>29</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Showcase</Text>
+    </Crn>
+    <Crn>
+     <Row>30</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Totally Busted</Text>
+    </Crn>
+    <Crn>
+     <Row>31</Row>
+     <ColFirst>3</ColFirst>
+     <ColLast>3</ColLast>
+     <Text>Playboy/Trashy Tour Girls</Text>
+    </Crn>
+   </Xct>
+  </SupBook>
+  <WindowHeight>16060</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="yyyy\-mm\-dd"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss"/>
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss"/>
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss"/>
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="yyyy\-mm\-dd"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss"/>
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss"/>
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="0"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="3"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss"/>
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss"/>
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss"/>
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Size="8"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s79">
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Size="8"/>
+   <Interior/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Size="8"/>
+   <Interior/>
+   <NumberFormat ss:Format="Short Date"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Size="8"/>
+   <Interior/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Size="8"/>
+   <Interior/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Size="8"/>
+   <Interior/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Size="8"/>
+   <Interior/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Size="8"/>
+   <Interior/>
+   <NumberFormat ss:Format="yyyy\-mm\-dd"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Size="8"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+   <Protection ss:Protected="0"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Century Gothic" x:Family="Swiss" ss:Size="8"/>
+   <Interior/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat ss:Format="hh:mm:ss"/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat ss:Format="yyyy\-mm\-dd"/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat ss:Format="mm/dd/yy;@"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="hh:mm:ss"/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="yyyy\-mm\-dd"/>
+  </Style>
+  <Style ss:ID="s96">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s99">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior ss:Color="#DD0806" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="12"/>
+   <Interior ss:Color="#DD0806" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s101">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior ss:Color="#DD0806" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="CLUB_JENNA"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="Club_Jenna_Adult_A_Z"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="CLUB_JENNA_XX"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="MovieAssetMetadata_w" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Package_PCT"
+   ss:RefersTo="=[PBS_KIDS_Sprout_JUL20061]Defaults!R4C2:R6C2"/>
+  <NamedRange ss:Name="PackageAssetMetadata_w" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PLAYBOY1"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="PreviewAssetMetadata_w" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Provider"
+   ss:RefersTo="=[PBS_KIDS_Sprout_JUL20061]Defaults!R4C1:R5C1"/>
+  <NamedRange ss:Name="SPICE"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="SPICE_COX"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="SPICE_SUNFLOWER"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="SPICE_X_84_ITC"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="SPICE_XX_30"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="SPICE_XX_45_75"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="SPICE_XX_84_ITC"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="SPICE_XX5"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="SPICE_XXX"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!#REF!"/>
+  <NamedRange ss:Name="StillImageAssetMetadata_w" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Title_Category1"
+   ss:RefersTo="=[PBS_KIDS_Sprout_JUL20061]Defaults!R4C4:R25C4"/>
+  <NamedRange ss:Name="Title_CC"
+   ss:RefersTo="=[PBS_KIDS_Sprout_JUL20061]Defaults!R4C5:R5C5"/>
+  <NamedRange ss:Name="Title_Genre1"
+   ss:RefersTo="=[PBS_KIDS_Sprout_JUL20061]Defaults!R4C6:R9C6"/>
+  <NamedRange ss:Name="Title_Rating"
+   ss:RefersTo="=[PBS_KIDS_Sprout_JUL20061]Defaults!R3C3:R10C3"/>
+  <NamedRange ss:Name="TitleAssetMetadata_w" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="YesNo"
+   ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!R4C5:R5C5"/>
+ </Names>
+ <Worksheet ss:Name="Schedule">
+  <Names>
+   <NamedRange ss:Name="Print_Area" ss:RefersTo="=Schedule!R1C2:R2C29"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="40" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s66" ss:DefaultColumnWidth="55"
+   ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s66" ss:Width="115"/>
+   <Column ss:StyleID="s66" ss:Width="114"/>
+   <Column ss:StyleID="s66" ss:Width="134"/>
+   <Column ss:StyleID="s66" ss:Width="115" ss:Span="1"/>
+   <Column ss:Index="7" ss:StyleID="s93" ss:Width="104"/>
+   <Column ss:StyleID="s98" ss:AutoFitWidth="0" ss:Width="415"/>
+   <Column ss:StyleID="s66" ss:Width="56"/>
+   <Column ss:StyleID="s91" ss:Width="75"/>
+   <Column ss:StyleID="s66" ss:Width="38"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="51"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="61"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="51"/>
+   <Column ss:StyleID="s66" ss:Width="147"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="129"/>
+   <Column ss:StyleID="s92" ss:AutoFitWidth="0" ss:Width="129"/>
+   <Column ss:StyleID="s66" ss:Width="112"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="119"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="128"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="130"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="81"/>
+   <Column ss:StyleID="s66" ss:Width="83"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="61"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="140"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="114"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="139"/>
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0" ss:Width="51"/>
+   <Column ss:StyleID="s92" ss:Width="91"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s90">
+    <Cell ss:StyleID="s100"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Package_Name</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Provider</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s93"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s98"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s91"
+     ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, IF(Data!#REF!&lt;&gt;&quot;&quot;,Data!#REF!,&quot;&quot;), &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s94" ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, Data!#REF!, &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"
+     ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, IF(Data!#REF!&lt;&gt;&quot;&quot;, Data!#REF!, &quot;2008&quot;), &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s95"
+     ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, IF(LEFT(Data!#REF!,6)=&quot;SPROUT&quot;,SUBSTITUTE(Data!#REF!,&quot;Tier3/Kids/&quot;, &quot;&quot;), IF(LEFT(Data!#REF!,3)=&quot;RHI&quot;, SUBSTITUTE(Data!#REF!,&quot;RHI/&quot;, &quot;&quot;), SUBSTITUTE(Data!#REF!,&quot;Tier3/Kids/&quot;, &quot;&quot;))),&quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s92"
+     ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, IF(#REF!=&quot;SHALOM_FOD&quot;,Data!#REF!+1462, Data!#REF!), &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s92"
+     ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, IF(#REF!=&quot;SHALOM_FOD&quot;,Data!#REF!+1462, Data!#REF!), &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s96"
+     ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, IF(LEFT(Data!#REF!,3)=&quot;RHI&quot;, 60, 0), &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s96" ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, 0, &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, 0, &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s92"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:StyleID="s65">
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s64" ss:Formula="=Data!RC1"><Data ss:Type="String">69 Sexy 3some</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Playboy Classic</Data><NamedCell
+      ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s93"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s98"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s91"
+     ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, IF(Data!#REF!&lt;&gt;&quot;&quot;,Data!#REF!,&quot;&quot;), &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s94" ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, Data!#REF!, &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"
+     ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, IF(Data!#REF!&lt;&gt;&quot;&quot;, Data!#REF!, &quot;2008&quot;), &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s95"
+     ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, IF(LEFT(Data!#REF!,6)=&quot;SPROUT&quot;,SUBSTITUTE(Data!#REF!,&quot;Tier3/Kids/&quot;, &quot;&quot;), IF(LEFT(Data!#REF!,3)=&quot;RHI&quot;, SUBSTITUTE(Data!#REF!,&quot;RHI/&quot;, &quot;&quot;), SUBSTITUTE(Data!#REF!,&quot;Tier3/Kids/&quot;, &quot;&quot;))),&quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s92"
+     ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, IF(#REF!=&quot;SHALOM_FOD&quot;,Data!#REF!+1462, Data!#REF!), &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s92"
+     ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, IF(#REF!=&quot;SHALOM_FOD&quot;,Data!#REF!+1462, Data!#REF!), &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s96"
+     ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, IF(LEFT(Data!#REF!,3)=&quot;RHI&quot;, 60, 0), &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s96" ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, 0, &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66" ss:Formula="=IF(#REF!&lt;&gt;&quot;&quot;, 0, &quot;&quot;)"><Data
+      ss:Type="Error">#REF!</Data><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:StyleID="s66"><NamedCell ss:Name="Print_Area"/></Cell>
+    <Cell ss:Index="29" ss:StyleID="s95"><NamedCell ss:Name="Print_Area"/></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <PageMargins x:Bottom="0.83" x:Top="0.52"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>5</PaperSizeIndex>
+    <Scale>33</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Zoom>75</Zoom>
+   <PageBreakZoom>60</PageBreakZoom>
+   <PageLayoutZoom>75</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <Sorting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Sort>Genre</Sort>
+  </Sorting>
+ </Worksheet>
+ <Worksheet ss:Name="Data">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Data!C1:C82" ss:Hidden="1"/>
+   <NamedRange ss:Name="Package_PCT"
+    ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!R4C2:R10C2"/>
+   <NamedRange ss:Name="Provider"
+    ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!R3C1:R5C1"/>
+   <NamedRange ss:Name="Title_Category1"
+    ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!R20C4:R32C4"/>
+   <NamedRange ss:Name="Title_Genre1"
+    ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!R4C6:R9C6"/>
+   <NamedRange ss:Name="Title_Rating"
+    ss:RefersTo="='[Playboy Classic planner Sep 081]Defaults'!R4C3:R9C3"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="189" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="0" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="162"/>
+   <Column ss:Width="93"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="48"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="86"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="161"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="171" ss:Span="1"/>
+   <Column ss:Index="13" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="104"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="138"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="148"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="147"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="81"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="85"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="48"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="86"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="52"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="71"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="33"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="65"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="33"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="82"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="68"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="120"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="98"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="159"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="96"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="116"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="114"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="48"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="86"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="52"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="71"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="33" ss:Span="1"/>
+   <Column ss:Index="54" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="123"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="96"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="116"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="96"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="48"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="86"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="52"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="71"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="33"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="58"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="33"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="82"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88"/>
+   <Column ss:StyleID="s88" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="68"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="120"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="95"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="115"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="58" ss:Span="1"/>
+   <Column ss:Index="85" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="101"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="86"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="93"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="82" ss:Span="14"/>
+   <Column ss:Index="103" ss:Hidden="1" ss:AutoFitWidth="0" ss:Span="5"/>
+   <Column ss:Index="109" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="90"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="129"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="99"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="147"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="158"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="127"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="94"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="161"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="171" ss:Span="1"/>
+   <Column ss:Index="120" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="104"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="138"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="148"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="147"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="81"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="85"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="48"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="86"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="52"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="71"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="33"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="65"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="33"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="82"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="68"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="120"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="98"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="159"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="96"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="116"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="114"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="48"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="86"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="52"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="71"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="33" ss:Span="1"/>
+   <Column ss:Index="161" ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="123"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="96"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="116"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="96"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="48"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="75"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="86"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="52"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="71"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="33"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="62"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="58"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="33"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="82"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="68"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="120"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="95"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="115"/>
+   <Column ss:Hidden="1" ss:AutoFitWidth="0" ss:Width="88"/>
+   <Row ss:Height="13" ss:StyleID="s77">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Asset Name</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Provider</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s67"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s67"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s67"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s67"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s67"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s68"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s67"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s70"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s71"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s72"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s74"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s75"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s72"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s74"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s76"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s69"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s72"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s73"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row ss:Height="11" ss:StyleID="s82">
+    <Cell ss:StyleID="s78"><Data ss:Type="String">69 Sexy 3some</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">PLAYBOY_CLASSIC</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s80"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s80"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s79"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s84"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s85"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="40" ss:StyleID="s86"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s86"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s81"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s86"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s86"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s87"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s83"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:Index="81" ss:StyleID="s86"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell ss:StyleID="s86"><NamedCell ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Data="&amp;C&amp;&quot;Arial,Bold&quot;&amp;16EVALUATION DRAFT COPY&#13;"/>
+   </PageSetup>
+   <FitToPage/>
+   <Print>
+    <ValidPrinterInfo/>
+    <Scale>38</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <FreezePanes/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <SplitVertical>1</SplitVertical>
+   <LeftColumnRightPane>1</LeftColumnRightPane>
+   <ActivePane>0</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>1</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>2</ActiveRow>
+    </Pane>
+    <Pane>
+     <Number>0</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>0</ActiveCol>
+     <RangeSelection>R3:R684</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowSort/>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C19,R1C10</Range>
+   <InputMessage>#.##</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C76</Range>
+   <Type>List</Type>
+   <Value>#REF!</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C1:R2C2</Range>
+   <InputHide/>
+   <InputTitle>Provider</InputTitle>
+   <InputMessage>Please select the appropriate provider name from the list.</InputMessage>
+  </DataValidation>
+  <Sorting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Sort>Column CN</Sort>
+   <Sort>Column A</Sort>
+  </Sorting>
+ </Worksheet>
+</Workbook>

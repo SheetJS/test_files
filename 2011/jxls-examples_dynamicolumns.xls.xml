@@ -1,0 +1,361 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Leonid</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2005-05-26T19:27:15Z</Created>
+  <LastSaved>2006-07-15T19:52:59Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16060</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <DoNotCalculateBeforeSave/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#333399" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s22">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#333399" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Font x:Family="Swiss" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#33CCCC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s27">
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#008080" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#008080" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Font ss:Color="#FFFFFF" ss:Italic="1"/>
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Font x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s37">
+   <Font x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s38">
+   <Font ss:Color="#FF6600"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Font/>
+  </Style>
+  <Style ss:ID="s40">
+   <Font ss:Color="#FF6600"/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Font/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="18" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="235"/>
+   <Column ss:AutoFitWidth="0" ss:Width="130"/>
+   <Column ss:AutoFitWidth="0" ss:Width="154"/>
+   <Column ss:AutoFitWidth="0" ss:Width="91"/>
+   <Column ss:AutoFitWidth="0" ss:Width="131"/>
+   <Row>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">&lt;jx:forEach items=&quot;${departments}&quot; var=&quot;department&quot;&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="18" ss:StyleID="s23">
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Department</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">${department.name}</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+    <Cell ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Chief</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Age</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Payment</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Bonus</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${department.chief.name}</Data></Cell>
+    <Cell><Data ss:Type="String">${department.chief.age}</Data></Cell>
+    <Cell><Data ss:Type="String">${department.chief.payment}</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">${department.chief.bonus}</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s26">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:Index="5" ss:StyleID="s28"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Employees</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Age</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Payment</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Bonus</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">&lt;jx:forEach items=&quot;${department.staff}&quot; var=&quot;employee&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s35"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">&lt;jx:if test=&quot;${employee.payment &lt; 2000}&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s35"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">${employee.name}</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">${employee.age}</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">${employee.payment}</Data></Cell>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">${employee.bonus}</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">$[C#*(1+D#)]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">&lt;/jx:if&gt;</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">&lt;jx:if test=&quot;${employee.payment &gt;= 2000}&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s35"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">${employee.name}</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">${employee.age}</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">${employee.payment}</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="String">${employee.bonus}</Data></Cell>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">$[C#*(1+D#)]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">&lt;/jx:if&gt;</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s33"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

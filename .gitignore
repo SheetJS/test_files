@@ -1,4 +1,5 @@
 *.tests
+# Directories
 apachepoi
 excel-reader-xlsx
 jxls-*
@@ -7,11 +8,14 @@ pyExcelerator
 xlrd
 roo
 spreadsheet-parsexlsx
-apachepoi_*.xls*
-excel-reader-xlsx_*.xls*
-jxls-*_*.xls*
-openpyxl_*.xls*
-pyExcelerator_*.xls*
-xlrd_*.xls*
-roo_*.xls*
-spreadsheet-parsexlsx_*.xls*
+oo34xml
+# Files
+apachepoi_*.x*
+excel-reader-xlsx_*.x*
+jxls-*_*.x*
+openpyxl_*.x*
+pyExcelerator_*.x*
+xlrd_*.x*
+roo_*.x*
+spreadsheet-parsexlsx_*.x*
+oo34xml_*.x*

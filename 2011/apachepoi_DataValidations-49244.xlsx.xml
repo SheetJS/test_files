@@ -1,0 +1,637 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-16T00:00:00Z</Created>
+  <LastSaved>2010-05-08T19:41:07Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4260</WindowHeight>
+  <WindowWidth>14800</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>100</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="39" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="153" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s16"><Data ss:Type="String">Explicit</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Formula</Data></Cell>
+    <Cell><Data ss:Type="String">UK</Data></Cell>
+    <Cell><Data ss:Type="String">IN</Data></Cell>
+    <Cell><Data ss:Type="String">IT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">List Validation</Data></Cell>
+    <Cell><Data ss:Type="String">IN</Data></Cell>
+    <Cell><Data ss:Type="String">UK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s16"><Data ss:Type="String">Constant value in formulae</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s19"><Data ss:Type="String">Cells Referenced in Formulae</Data></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Integer Constraints</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Greater than</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Greater than equal to</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Less than</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Less than equal to</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Equal to</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Not Equal to</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Between</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">1,5</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Not Between</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell ss:Index="4" ss:StyleID="s16"><Data ss:Type="String">Constant value in formulae</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s19"><Data ss:Type="String">Cells Referenced in Formulae</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Decimal Constraint</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Greater than</Data></Cell>
+    <Cell><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell><Data ss:Type="Number">1.1000000000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">0.05</Data></Cell>
+    <Cell><Data ss:Type="Number">1.05</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Greater than equal to</Data></Cell>
+    <Cell><Data ss:Type="Number">2.0499999999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">3.05</Data></Cell>
+    <Cell><Data ss:Type="Number">2.0499999999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">3.05</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Less than</Data></Cell>
+    <Cell><Data ss:Type="Number">1.1000000000000001</Data></Cell>
+    <Cell><Data ss:Type="Number">2.5</Data></Cell>
+    <Cell><Data ss:Type="Number">4.05</Data></Cell>
+    <Cell><Data ss:Type="Number">5.05</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Less than equal to</Data></Cell>
+    <Cell><Data ss:Type="Number">5.05</Data></Cell>
+    <Cell><Data ss:Type="Number">6.5</Data></Cell>
+    <Cell><Data ss:Type="Number">6.05</Data></Cell>
+    <Cell><Data ss:Type="Number">7.05</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Equal to</Data></Cell>
+    <Cell><Data ss:Type="Number">8.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.01</Data></Cell>
+    <Cell><Data ss:Type="Number">8.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Not Equal to</Data></Cell>
+    <Cell><Data ss:Type="Number">1.0009999999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">2.0099999999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">1.01</Data></Cell>
+    <Cell><Data ss:Type="Number">2.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Between</Data></Cell>
+    <Cell><Data ss:Type="Number">1.01</Data></Cell>
+    <Cell><Data ss:Type="Number">5.01</Data></Cell>
+    <Cell><Data ss:Type="String">1.01,4.99</Data></Cell>
+    <Cell><Data ss:Type="Number">5.01</Data></Cell>
+    <Cell><Data ss:Type="Number">9.99</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Not Between</Data></Cell>
+    <Cell><Data ss:Type="Number">1.0089999999999999</Data></Cell>
+    <Cell><Data ss:Type="Number">5.0090000000000003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s16"><Data ss:Type="String">Constant value in formulae</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Text Length</Data></Cell>
+    <Cell ss:Index="5" ss:MergeAcross="1" ss:StyleID="s19"><Data ss:Type="String">Cells Referenced in Formulae</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Greater than</Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+    <Cell><Data ss:Type="String">BC</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Greater than equal to</Data></Cell>
+    <Cell><Data ss:Type="String">AB</Data></Cell>
+    <Cell><Data ss:Type="String">ABC</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Less than</Data></Cell>
+    <Cell><Data ss:Type="String">ABC</Data></Cell>
+    <Cell><Data ss:Type="String">ABCD</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Less than equal to</Data></Cell>
+    <Cell><Data ss:Type="String">ABCDEF</Data></Cell>
+    <Cell><Data ss:Type="String">ABCDEF</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Equal to</Data></Cell>
+    <Cell><Data ss:Type="String">ABCDEFGH</Data></Cell>
+    <Cell><Data ss:Type="String">abcdefghi</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">Not Equal to</Data></Cell>
+    <Cell><Data ss:Type="String">abcdefghijk</Data></Cell>
+    <Cell><Data ss:Type="String">abcdefghijkl</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Between</Data></Cell>
+    <Cell><Data ss:Type="String">ab</Data></Cell>
+    <Cell><Data ss:Type="String">abcdef</Data></Cell>
+    <Cell><Data ss:Type="String">1,5</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Not Between</Data></Cell>
+    <Cell><Data ss:Type="String">abcdefghijk</Data></Cell>
+    <Cell><Data ss:Type="String">abcd</Data></Cell>
+   </Row>
+   <Row ss:Index="39">
+    <Cell ss:StyleID="s16"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <TopRowVisible>14</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>36</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R6C3</Range>
+   <Type>Whole</Type>
+   <Qualifier>Greater</Qualifier>
+   <Value>Sheet1!R[-5]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R8C3:R9C3</Range>
+   <Type>Whole</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>Sheet1!R[-7]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R10C3</Range>
+   <Type>Whole</Type>
+   <Qualifier>Less</Qualifier>
+   <Value>Sheet1!R[-9]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R12C3</Range>
+   <Type>Whole</Type>
+   <Qualifier>Equal</Qualifier>
+   <Value>Sheet1!R[-11]C</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R13C3</Range>
+   <Type>Whole</Type>
+   <Qualifier>NotEqual</Qualifier>
+   <Value>Sheet1!R[-12]C</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R14C3</Range>
+   <Type>Whole</Type>
+   <Min>Sheet1!R[-13]C</Min>
+   <Max>Sheet1!R[-13]C[1]</Max>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R15C3</Range>
+   <Type>Whole</Type>
+   <Qualifier>NotBetween</Qualifier>
+   <Min>Sheet1!R[1048561]C</Min>
+   <Max>Sheet1!R[1048561]C[1]</Max>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R19C3</Range>
+   <Type>Decimal</Type>
+   <Qualifier>Greater</Qualifier>
+   <Value>Sheet1!R[-18]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R20C3</Range>
+   <Type>Decimal</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>Sheet1!R[-19]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R21C3</Range>
+   <Type>Decimal</Type>
+   <Qualifier>Less</Qualifier>
+   <Value>Sheet1!R[-20]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R22C3</Range>
+   <Type>Decimal</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>Sheet1!R[-21]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R23C3</Range>
+   <Type>Decimal</Type>
+   <Qualifier>Equal</Qualifier>
+   <Value>Sheet1!R[-22]C</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R25C3</Range>
+   <Type>Decimal</Type>
+   <Min>Sheet1!R[-24]C</Min>
+   <Max>Sheet1!R[-24]C[1]</Max>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R26C3</Range>
+   <Type>Decimal</Type>
+   <Qualifier>NotBetween</Qualifier>
+   <Min>Sheet1!R[1048550]C</Min>
+   <Max>Sheet1!R[1048550]C[1]</Max>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R24C3</Range>
+   <Type>Decimal</Type>
+   <Qualifier>NotEqual</Qualifier>
+   <Value>Sheet1!R[-23]C</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R31C3</Range>
+   <Type>TextLength</Type>
+   <Qualifier>Less</Qualifier>
+   <Value>Sheet1!R[-30]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R34C3</Range>
+   <Type>TextLength</Type>
+   <Qualifier>NotEqual</Qualifier>
+   <Value>Sheet1!R[-33]C</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R36C3</Range>
+   <Type>TextLength</Type>
+   <Qualifier>NotBetween</Qualifier>
+   <Min>Sheet1!R[1048540]C</Min>
+   <Max>Sheet1!R[1048540]C[1]</Max>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R40C2</Range>
+   <Type>Custom</Type>
+   <Value>&quot;c66 &lt; b66 and b66 &lt; d66&quot;</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R11C3</Range>
+   <Type>Whole</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>Sheet1!R[-10]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R32C3</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>Sheet1!R[-31]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R7C3</Range>
+   <Type>Whole</Type>
+   <Qualifier>Greater</Qualifier>
+   <Value>Sheet1!R[1048569]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R30C3</Range>
+   <Type>TextLength</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>Sheet1!R[-29]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R29C3</Range>
+   <Type>TextLength</Type>
+   <Qualifier>Greater</Qualifier>
+   <Value>Sheet1!R[-28]C</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R33C3</Range>
+   <Type>TextLength</Type>
+   <Qualifier>Equal</Qualifier>
+   <Value>Sheet1!R[-32]C</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R36C2</Range>
+   <Type>TextLength</Type>
+   <Qualifier>NotBetween</Qualifier>
+   <Min>1</Min>
+   <Max>5</Max>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R35C3</Range>
+   <Type>TextLength</Type>
+   <Min>Sheet1!R[-34]C</Min>
+   <Max>Sheet1!R[-34]C[1]</Max>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R35C2</Range>
+   <Type>TextLength</Type>
+   <Min>1</Min>
+   <Max>5</Max>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R34C2</Range>
+   <Type>TextLength</Type>
+   <Qualifier>NotEqual</Qualifier>
+   <Value>10</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R33C2</Range>
+   <Type>TextLength</Type>
+   <Qualifier>Equal</Qualifier>
+   <Value>8</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R32C2</Range>
+   <Type>TextLength</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>6</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R31C2</Range>
+   <Type>TextLength</Type>
+   <Qualifier>Less</Qualifier>
+   <Value>4</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R30C2</Range>
+   <Type>TextLength</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>2</Value>
+   <InputTitle>Integer Input</InputTitle>
+   <InputMessage>Enter an integer value.</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R29C2</Range>
+   <Type>TextLength</Type>
+   <Qualifier>Greater</Qualifier>
+   <Value>0</Value>
+   <InputTitle>Integer Input</InputTitle>
+   <InputMessage>Enter an integer value.</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R26C2</Range>
+   <Type>Decimal</Type>
+   <Qualifier>NotBetween</Qualifier>
+   <Min>1.01</Min>
+   <Max>4.99</Max>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R25C2</Range>
+   <Type>Decimal</Type>
+   <Min>1.01</Min>
+   <Max>4.99</Max>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R24C2</Range>
+   <Type>Decimal</Type>
+   <Qualifier>NotEqual</Qualifier>
+   <Value>1.01</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R23C2</Range>
+   <Type>Decimal</Type>
+   <Qualifier>Equal</Qualifier>
+   <Value>8.01</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R22C2</Range>
+   <Type>Decimal</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>6.05</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R21C2</Range>
+   <Type>Decimal</Type>
+   <Qualifier>Less</Qualifier>
+   <Value>4.05</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R20C2</Range>
+   <Type>Decimal</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>2.05</Value>
+   <InputTitle>Integer Input</InputTitle>
+   <InputMessage>Enter an integer value.</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R19C2</Range>
+   <Type>Decimal</Type>
+   <Qualifier>Greater</Qualifier>
+   <Value>0.05</Value>
+   <InputTitle>Integer Input</InputTitle>
+   <InputMessage>Enter an integer value.</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R15C2</Range>
+   <Type>Whole</Type>
+   <Qualifier>NotBetween</Qualifier>
+   <Min>1</Min>
+   <Max>5</Max>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R14C2</Range>
+   <Type>Whole</Type>
+   <Min>1</Min>
+   <Max>5</Max>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R13C2</Range>
+   <Type>Whole</Type>
+   <Qualifier>NotEqual</Qualifier>
+   <Value>10</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R12C2</Range>
+   <Type>Whole</Type>
+   <Qualifier>Equal</Qualifier>
+   <Value>8</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R11C2</Range>
+   <Type>Whole</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>6</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R8C2</Range>
+   <Type>Whole</Type>
+   <Qualifier>GreaterOrEqual</Qualifier>
+   <Value>2</Value>
+   <InputTitle>Integer Input</InputTitle>
+   <InputMessage>Enter an integer value.</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R10C2</Range>
+   <Type>Whole</Type>
+   <Qualifier>Less</Qualifier>
+   <Value>4</Value>
+   <InputTitle>Integer Input</InputTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R6C2</Range>
+   <Type>Whole</Type>
+   <Qualifier>Greater</Qualifier>
+   <Value>0</Value>
+   <InputTitle>Integer Input</InputTitle>
+   <InputMessage>Enter an integer value.</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C3</Range>
+   <Type>List</Type>
+   <Value>Sheet1!R1C4:R1C6</Value>
+   <InputTitle>Country code selection</InputTitle>
+   <InputMessage>Choose a country code from the list of options.</InputMessage>
+   <ErrorMessage>The country code specified is not a valid option.</ErrorMessage>
+   <ErrorTitle>Invalid Country code</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C2</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;IN,US,UK&quot;</Value>
+   <InputTitle>Country Code Selection</InputTitle>
+   <InputMessage>Choose a Country Code.</InputMessage>
+   <ErrorMessage>The specified country code is not a valid option.</ErrorMessage>
+   <ErrorTitle>Invalid Country Code</ErrorTitle>
+  </DataValidation>
+ </Worksheet>
+</Workbook>

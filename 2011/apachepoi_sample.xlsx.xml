@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2007-08-15T06:50:14Z</Created>
+  <LastSaved>2008-09-16T09:10:03Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8360</WindowHeight>
+  <WindowWidth>19320</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>100</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000" ss:Underline="Single"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell><Data ss:Type="String">Lorem</Data></Cell>
+    <Cell><Data ss:Type="Number">111</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ipsum</Data></Cell>
+    <Cell><Data ss:Type="Number">222</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">dolor</Data></Cell>
+    <Cell><Data ss:Type="Number">333</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">sit</Data></Cell>
+    <Cell><Data ss:Type="Number">444</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">amet</Data></Cell>
+    <Cell><Data ss:Type="Number">555</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">consectetuer</Data></Cell>
+    <Cell><Data ss:Type="Number">666</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">adipiscing</Data></Cell>
+    <Cell><Data ss:Type="Number">777</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">elit</Data></Cell>
+    <Cell><Data ss:Type="Number">888</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Nunc</Data></Cell>
+    <Cell><Data ss:Type="Number">999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">at</Data></Cell>
+    <Cell ss:Formula="=SUM(R[-9]C:R[-1]C)"><Data ss:Type="Number">4995</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="rich test">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row ss:Height="18">
+    <Cell><Data ss:Type="String"><Font html:Color="#DD0806"
+       xmlns="http://www.w3.org/TR/REC-html40">The</Font><Font html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font><B
+       xmlns="http://www.w3.org/TR/REC-html40"><I><Font html:Color="#000000">quick</Font></I></B><I
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000"> </Font><Font
+        html:Size="8" html:Color="#000000">brown</Font></I><Font html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40"> fox </Font><U
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Size="14"
+        html:Color="#993300">jumps</Font></U><Font html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font><Font html:Face="Courier"
+       x:CharSet="204" x:Family="Roman" html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40">over the lazy</Font><Font
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> </Font><B
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#33CCCC">dog</Font></B></Data></Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell ss:Index="2"><Data ss:Type="String">hello, xssf</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s16"><Data ss:Type="String"><U
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">hello</Font></U><Font
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40">, xssf</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">hello, xssf</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String"><Font html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40">hello, </Font><U
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">xssf</Font></U></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">hello, xssf</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s17"><Data ss:Type="String">hello, xssf</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">hello, xssf</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s16"><Data ss:Type="String"><Font
+       html:Color="#00ABEA" xmlns="http://www.w3.org/TR/REC-html40">hello</Font><Font
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40">, xssf</Font></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>6</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

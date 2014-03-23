@@ -1,9 +1,9 @@
-# Copyright (C) 2013   SheetJS
+# Copyright (C) 2013-2014   SheetJS
 
 # `github` macro uses svn to clone a subfolder and copy resources up
 # usage: $(call github,user/repo_name,path/to/test/files)
 GSVN=svn co --trust-server-cert --non-interactive
-CPUP=cd $@; for i in *.xls*; do cp "$$i" ../"$@_$$i"; done
+CPUP=cd $@; for i in *.x* ; do cp "$$i" ../"$@_$$i"; done
 github = $(GSVN) https://github.com/$(1)/trunk/$(2) $@; $(CPUP)
 
 ## Make Targets 
@@ -27,8 +27,10 @@ clean:
 	git clean -fd
 
 # Resources acquired via subversion
-.PHONY: svn
-svn: apachepoi jxls xlrd excel-reader-xlsx pyExcelerator roo spreadsheet-parsexlsx
+.PHONY: svn ghsvn
+svn: apachepoi jxls oo34xml ghsvn
+
+ghsvn: xlrd excel-reader-xlsx pyExcelerator roo spreadsheet-parsexlsx
 
 # Resources acquired via mercurial 
 .PHONY: hg
@@ -94,8 +96,12 @@ roo:
 	$(call github,Empact/roo,test/files)
 
 # Spreadsheet::ParseXLSX (Perl)
-
 .PHONY: spreadsheet-parsexlsx
 spreadsheet-parsexlsx:
 	$(call github,doy/spreadsheet-parsexlsx,t/data)
 
+# OpenOffice (Java)
+.PHONY: oo34xml
+oo34xml:
+	$(GSVN) https://svn.apache.org/repos/asf/openoffice/branches/AOO34/main/testautomation/xml/optional/input/calc/ExcelXML $@
+	$(CPUP)

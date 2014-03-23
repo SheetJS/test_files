@@ -1,0 +1,1735 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>smile</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2002-11-26T08:40:03Z</Created>
+  <LastSaved>2002-11-27T02:09:14Z</LastSaved>
+  <Company>smile</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11920</WindowHeight>
+  <WindowWidth>18180</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>80</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="新細明體" x:CharSet="136" ss:Size="12"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:FontName="細明體" x:CharSet="136" x:Family="Modern" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="細明體" x:CharSet="136" x:Family="Modern" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="12"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous"/>
+   </Borders>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous"/>
+   </Borders>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous"/>
+   </Borders>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous"/>
+   </Borders>
+   <Font ss:FontName="細明體" x:CharSet="136" x:Family="Modern" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s37">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s38">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous"/>
+   </Borders>
+   <Font ss:FontName="新細明體" x:CharSet="136" x:Family="Roman" ss:Size="11"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="questions">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="93" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="96"/>
+   <Column ss:AutoFitWidth="0" ss:Width="265"/>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">QUESTIONID</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">QUESTION</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">OP_A</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">OP_B</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">OP_C</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">OP_D</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">OP_E</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">ANS</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">LEVELID_LIST</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">CATID_LIST</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">TOPICID_LIST</Data></Cell>
+   </Row>
+   <Row ss:Height="84">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">以下哪一項說法是對的？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">「婆婆買了十兩蘿蔔」一句中的「兩」是量詞。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">「婆婆買了兩斤蘿蔔」一句中的「兩」是量詞。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">在「我去了一趟街，逛了三家商店，買回五張包書紙」這句話中，哪些是量詞？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">了、趟、張</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">趟、家、張</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">以下哪個短語中的「面」是量詞？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">電腦屏面</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">兩面彩旗</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">以下哪個句子中的「門」是量詞？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">弟弟畫了一門大炮。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">弟弟畫了一道門。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">試替下句補上適當的量詞。  「天上有兩 (   ) 飛機飛過。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">個</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">架 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">輛</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">隻</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">在「老師讓我把課文朗讀了一遍」這句話中，「遍」是不是量詞？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">是</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">不是</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">指出「我們全家參加過一次露營」一句中的量詞。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">家</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">次  </Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">與「蟬噪」語意相對的是以下哪個短語？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">林靜</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">海浪</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">與「鳥鳴」語意相對的是以下哪個短語？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">足球</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">山幽</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下哪個短語可與「人歡馬叫」組成對偶？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">輕風細雨</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">鶯歌燕語</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">「細雨」可以與「微風」一詞組成對偶嗎？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">可以</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">不可以</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">「千里目」可以與「一層樓」組成對偶嗎？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">可以</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">不可以</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">「看菜吃飯」可與以下哪一個詞組組成對偶？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">量體裁衣</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">東張西望</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">在這組對偶句中，應分別填入哪兩個字？&#13;「才(  )長江水， 又(  )武昌魚。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">飲、 食</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">聞、吃</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下哪個句子運用了誇張手法？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">翻過了這座山，便是一片綠油油的青草地了。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">翻過了這座山，便是青草地了。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">翻過了這座山，便是延綿萬里的青草地了。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">翻過了這座山，便是放牧牛羊的青草地了。</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="84">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下哪個句子運用了誇張手法？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">這是我嘔心瀝血的作品，你怎麼看也不看一眼？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">這是我用心創作的作品，你怎麼看也不看一眼？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">這是我苦心經營的作品，你怎麼看也不看一眼？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">這是我嚴謹認真的作品，你怎麼看也不看一眼？</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下哪個句子運用了誇張手法？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">球場內外滿是球迷，快把球場擠破了。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">球場內外滿是球迷，把球場擠得密密麻麻的。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">球場內外滿是球迷，把球場擠得水洩不通。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下哪個句子運用了誇張手法？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">他是一個吝嗇的人，把錢看得非常重要。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">他是一個吝嗇的人，把錢看得比地球還要大。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">他是一個吝嗇的人，從來也不願意請客的。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下哪一個句子運用了誇張手法？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">他一口氣就爬到了頂樓。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">他很快就爬到了頂樓。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">他只用二十分鐘就爬到了頂樓。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">在這個句子中，哪部分含有誇張成分？&#13;「李伯伯的年紀雖然不輕，但幹勁仍是不小，體魄仍是強壯，他可以不眠不休地連續工作一星期哩！」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">李伯伯的年紀雖然不輕</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">但幹勁仍是不小</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">體魄仍是強壯</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">他可以不眠不休地連續工作一星期哩！</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">D</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">在這句子中，哪部分含有誇張成分？&#13;「老師挺起胸膛站在小強面前，滿面怒容，眼光炯炯有神，刺得小強縮小了一半。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">老師挺起胸膛站在小強面前</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">滿面怒容</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">眼光炯炯有神</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">刺得小強縮小了一半</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">D</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下各句的分類正確嗎？&#13;今天是星期日。   （陳述句）&#13;今天是星期日嗎？ （疑問句）&#13;今天是星期日！   （感歎句）</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">正確</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">不正確</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">D</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下各句的分類正確嗎？&#13;你溫習好了嗎？ （疑問句）&#13;請你把窗關上。 （祈使句）&#13;今天天氣真好！ （感歎句）&#13;我學會用電腦了。（陳述句）</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">正確 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">不正確</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下這個句子屬於哪一種語氣句子？&#13;「他在歷史上是很有名的。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">疑問句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">祈使句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">陳述句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">感歎句</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下這個句子屬於哪一種語氣句子？&#13; 「我所支持的那位偶像不見得是虛有其表的吧？」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">祈使句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">疑問句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">感歎句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">陳述句</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下這個句子屬於哪一種語氣句子？&#13;「如果一輩子也要忍受這種分離之苦，到外國生活又有甚麼意思呢！」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">祈使句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">疑問句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">陳述句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">感歎句</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">D</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下這個句子屬於哪一種語氣句子？&#13;「請你離棄我。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">祈使句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">感歎句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">陳述句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">疑問句</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">假如把「這孩子將來要做詩人。」改作疑問句，下列哪一句是正確的呢？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">這孩子將來要做詩人嗎？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">這孩子將來是要做詩人啊！</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">假如把「這不是李家的孩子嗎？」改作陳述句，下列哪一句是正確的呢？ </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">這是李家的孩子啊！</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">這是李家的孩子。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">如用正反對比手法續寫「人生最痛苦的事是責任未完」，應選擇以下哪一句？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">最快樂的事是責任完成</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">內心只會忐忑不安</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">下面哪一句是用對比手法寫成的？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String"> 鷸蚌相爭，漁人得利。 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">百尺竿頭，更進一步。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">滿招損，謙受益。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">亡羊補牢，未為晚也。</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">如用正反對比手法續寫「他對上司的態度非常卑恭屈膝」，應選擇以下哪一句？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">對下屬則趾高氣揚</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">對下屬則和藹可親</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">以下這句子是用對比手法寫成的嗎？&#13; 「媽媽心裏只有爸爸、妹妹和我，惟獨沒有她自己。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">是</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">不是</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">指出下句中的定語。&#13;「巨大的浪濤沖擊著我們的船。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">巨大、我們</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">浪濤、船</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">指出下句中的狀語。&#13;「幾百年的時間像流水一樣過去了。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">過去</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">像流水一樣</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">指出下句中的定語和狀語。&#13;「藍色的水面上，黃色的花瓣輕輕地飄盪著，好看極了。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">定語是「藍色」，狀語是「輕輕」。   </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">定語是「藍色、黃色」，狀語是「好看」。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">定語是「藍色、黃色」，狀語是「輕輕」。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">把「花開了」這句話增加定語、狀語，會是以下哪個句子？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">春天的花燦爛地開了。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">春天的花開得真燦爛。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">把「蜜蜂釀蜜」這句話增加定語、狀語，會是以下哪個句子？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">小小的蜜蜂辛辛苦苦地釀蜜。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">蜜蜂辛辛苦苦釀蜜。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">把句子「大家把他的石像立在廣場的中心，真是威風極了」改寫成「大家把他的石像立在廣場的中心，真是威風」，刪去了原句中的甚麼成分？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">狀語</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">補語</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">定語</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「中學生」三字含有多少個音節？<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">二個音節</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">三個音節</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">四個音節</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「中」在粵語中的聲、韻分別是？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">聲母是「dz」，韻母是「ung」 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">聲母是 「d」，韻母是「an」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">聲母是 「d」，韻母是「ang」</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「<Font html:Face="Times New Roman"
+       x:Family="Roman" xmlns="http://www.w3.org/TR/REC-html40">ta</Font><Sup
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Times New Roman"
+        x:Family="Roman">1</Font></Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40">」是以下哪一個字的讀音？</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">他</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">塔</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">踏 </Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「<Font html:Face="Times New Roman"
+       x:Family="Roman" xmlns="http://www.w3.org/TR/REC-html40">sok</Font><Sup
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Times New Roman"
+        x:Family="Roman">8</Font></Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40">」是以下哪一個字的讀音？</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">鎖  </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">說 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">朔</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「<Font html:Face="Times New Roman"
+       x:Family="Roman" xmlns="http://www.w3.org/TR/REC-html40">fa</Font><Sup
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Times New Roman"
+        x:Family="Roman">1</Font></Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40">」是以下哪一個字的讀音？</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">華</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">花</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">話</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「<Font html:Face="Times New Roman"
+       x:Family="Roman" xmlns="http://www.w3.org/TR/REC-html40">liu</Font><Sup
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Times New Roman"
+        x:Family="Roman">4</Font></Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40">」是以下哪一個字的讀音？</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">了</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">料 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">遼   </Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下哪一個字的粵音聲母標示不正確？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">陳「ts」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">李「n」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">張「dz」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">黃「w」</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「詩<Font html:Face="Times New Roman"
+       x:Family="Roman" xmlns="http://www.w3.org/TR/REC-html40"> </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">」和</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">「試」</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">兩字的粵語讀音有哪些不同？</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">聲母不同</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">韻母不同</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">聲調不同</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">48</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下哪一組字本身就是「部首」？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">一、乙、弓、你、我、們</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">牛、馬、魚、蛇、鹿、鼠</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">石、月、王、木、女、食</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「林」字屬於以下哪個部首？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">山</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">木</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">山</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">土</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Height="140">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">試把運用「部首檢字法」的程序順序排列出來。&#13;<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">甲</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">. </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">確定部首的筆畫，在「部首索引」中尋檢出它所在的頁數。&#13;</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">乙</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">. </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">確定部首以外的筆畫，在正文中尋檢出它的讀音和意義。&#13;</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">丙</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">. </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">確定該字的部首（若遇到難於確定部首的字，可按其筆畫總數，在「難檢字」中尋檢。</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">乙→甲→丙</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">丙→甲→乙</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">甲→丙→乙</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「辰」字屬於以下哪一個部首？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">一</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">衣</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">辰</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「丞」字屬於以下哪一個部首？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">一</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">水</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">人</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「前」字屬於以下哪一個部首？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">月</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">刀</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">廿</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「莫」字共有多少筆畫？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">十一畫</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">十二畫</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">十三畫</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「歸」字屬於以下哪一個部首？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">巾</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">月</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">止</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「考」字屬於以下哪一個部首？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">土</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">老</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">十</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「部」字屬於以下哪一個部首？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">邑</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">立</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">阜</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">58</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下哪一項是漢字形體的變化過程？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">甲骨文→小篆→金文→楷書</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">甲骨文→金文→篆書→楷書</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">金文→甲骨文→小篆→楷書</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">金文→甲骨文→楷書→小篆</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">試為下句填上正確的字。&#13;<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">   </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">「（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">    </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">）論對他競選總統甚為不利」。</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">與 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">舉</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">輿</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">興</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">試為下句填上正確的字。&#13;「舞台上<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">(   )</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">布一拉起，大合唱就開始了。」</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">幕</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">暮</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">慕</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">試為下句填上正確的字。&#13;「各國之首在今年十一月將齊集英國舉行全球高<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">(   )</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">會議。」</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">鋒</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">峰</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">烽</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">試為下句填上正確的字。&#13;「我的外公曾經擔任上市公司的總<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">(   )</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">。」</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">栽</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">裁</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">哉</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">試為下句填上正確的字。&#13;「每天早晚<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">(   )</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">口，有助保持口腔健康。」</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">嫩</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">漱</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">嗽</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">試為下句填上正確的字。&#13;「中國選手在冬季奧運會<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">(   )</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">取了五十六面金牌。」 </Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">蠃</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">贏</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String"> 羸  </Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">試為下句填上正確的字。&#13;「家長應阻<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">(   )</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">青少年沈迷於低俗的電腦遊戲之中。」</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">繞</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">饒</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">撓</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下兩詞在詞義上有甚麼關係？&#13;「依從、聽從」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相同</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相近</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相反</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">以下兩詞在詞義上有甚麼關係？「縮短、延長」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相同</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相近</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相反</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">以下兩詞在詞義上有甚麼關係？&#13;「厭倦、愛好」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相同</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相近</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相反</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">69</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">以下兩詞在詞義上有甚麼關係？&#13;「勞累不堪、疲勞不堪 」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相同</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相近</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相反</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下兩詞在詞義上有甚麼關係？&#13;「靜悄悄、鬧哄哄 」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相同</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相近</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相反</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下兩詞在詞義上有甚麼關係？&#13;「憂愁、開心」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相同</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相近</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相反</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下兩詞在詞義上有甚麼關係？&#13;「勇敢、英勇」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相同</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相近</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">詞義相反</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">找出適當的詞語，填在括號內。&#13;<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">「生於這個戰禍的</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">(   )</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">，真是生不如死。」</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">世代 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">年代</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">朝代 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">時期</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">找出適當的詞語，填在括號內。&#13;「重孝道是中華民族的<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">(   )</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">傳統，應該加以發揚光大。」</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">優秀</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">優異 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">優良</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">優質</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">找出適當的詞語，填在括號內。&#13;「陰謀被<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40"> (   )</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">後，他不得不承認了。」</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">揭穿 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">揭曉</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">揭秘</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">揭示</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">找出適當的詞語，填在括號內。&#13;<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">「他出色的演說</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">(   )</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">，使這次演講會生色不少。」</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">技能 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">技術 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">技藝 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">技巧</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">D</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row ss:Height="84">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下哪句話運用了疊字？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">春天到了，天地萬物一片喜氣洋洋。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">春天到了，天地萬物一片喜氣。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">春天到了， 春天到了，天地萬物一片喜氣。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">78</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下哪句話運用了疊字？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">黃昏時分，遠處農舍的炊煙上升著。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">黃昏時分，遠處農舍的炊煙上升著，上升著。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">黃昏時分，遠處農舍的炊煙裊裊上升。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row ss:Height="84">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">79</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下哪句話運用了疊字？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">你為甚麼總愛這樣絮絮不休地說話？真令人討厭！</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">你為甚麼總愛不停地說話？真令人討厭！</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">你為甚麼總愛不停地說話？真令人討厭！討厭！</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下這個句子屬於哪一種語氣句？&#13;「假如空氣中沒有灰塵，大自然將多麼單調啊！」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">陳述句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">疑問句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">祈使句</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">感歎句</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s39"><Data ss:Type="String">Ｄ</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">試找出下列句子中的副詞：「王大明忽然出現在我面前」。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">忽然</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">出現</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">面前</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">試找出下列句子中的副詞：「老師的解釋十分清楚」<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">解釋</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">十分</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">清楚</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">句子中哪個詞語屬於副詞？<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">「從今天起，我必須戒除壞習慣，努力學習，爭取好成績。」</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">  </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">　　　</Font><Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">    </Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">必須</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">爭取</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">壞</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">努力</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">句子中哪些詞語屬於副詞？&#13;<Font
+       html:Face="Times New Roman" x:Family="Roman"
+       xmlns="http://www.w3.org/TR/REC-html40">  </Font><Font
+       xmlns="http://www.w3.org/TR/REC-html40">「那女孩子的頭髮十分稀疏，只能編成一條小辮子。」</Font></Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">十分、稀疏</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">十分、編成</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">十分、只能</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">只能、編成</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">「叮噹」、「嘩啦」、「乒乓」分別摹擬以下哪種聲音？</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">鈴聲、雨聲、爆竹聲</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">鐘擺聲、風聲、敲門聲 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">浪聲、歌聲、車聲</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">86</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">句中的擬聲詞是摹擬哪種聲音？&#13;  「滴答、滴答，時間一分一秒過去了，他躺在床上，老是睡不著。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">「滴答」是擬聲詞，摹擬鐘擺的聲音。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">「滴答」是擬聲詞，摹擬下雨的聲音。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:Height="98">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">87</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下哪個句子用了著色詞？ &#13;    &#13;</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">在青草地上休息，嗅著青草氣味，使人心曠神怡。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">在青草地上休息，嗅著青草香味，使人心曠神怡。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">在綠油油的青草地上休息，嗅著青草香味，使人心曠神怡。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">88</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下哪個句子用了著色詞？ </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">樹的枝葉繁茂，樹葉有著明亮的顏色。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">樹的枝葉繁茂，樹葉有著明亮的翠綠色。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">樹枝繁茂，樹葉鮮活。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">89</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">以下哪個句子用了著色詞？ </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">他的面色反應出病情不輕。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">從他的面色看來，病情不輕。</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">他的面色灰白，看來病情不輕。</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">90</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">試選擇一個合適的著色詞，填在括號內。&#13;   「(   )  的月色映照大地，仿如白晝一般。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">銀白</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">金黃</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">通紅</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">試選擇一個合適的著色詞，填在括號內。&#13;  「(   )葉叢中垂著纍纍的(   )荔枝。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">藍、黃 </Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">綠、紅</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">橙、青</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s31"><Data ss:Type="Number">92</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">試選擇一個合適的著色詞，填在括號內。&#13;  「海面很寬，(   ) 的水上沒有半點(   )的浪花。」</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String"> 白茫茫、綠瑩瑩</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">黃澄澄、紅彤彤</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">金燦燦、黑油油</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">A</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="categories">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="15">
+   <Row ss:Height="26">
+    <Cell ss:StyleID="s25"><Data ss:Type="String">CATID</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">ENG_DESC</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">NATIVE_DESC</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">實詞／量詞</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">修辭／對偶</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">修辭／誇張</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">句子／不同語氣的句子</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">修辭／對比</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">句子／句子成分</Data></Cell>
+   </Row>
+   <Row ss:Height="56">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">漢語的音節／漢語的聲、韻、調</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">漢字的形體／部首</Data></Cell>
+   </Row>
+   <Row ss:Height="42">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">漢字字形辨正／形近字</Data></Cell>
+   </Row>
+   <Row ss:Height="70">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">詞匯／同義詞、反義詞、近義詞、多義詞</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">修辭／疊字</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">實詞／副詞</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">修辭／擬聲詞</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">修辭／著色詞</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="levels">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="96"/>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">LEVELID</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">ENG_DESC</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">NATIVE_DESC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Secondary 1</Data></Cell>
+    <Cell><Data ss:Type="String">中一</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Secondary 2</Data></Cell>
+    <Cell><Data ss:Type="String">中二</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Secondary 3</Data></Cell>
+    <Cell><Data ss:Type="String">中三</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="topics">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="76"/>
+   <Column ss:AutoFitWidth="0" ss:Width="149"/>
+   <Row>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">TOPICID</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">TOPIC_NAME</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">大明湖</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">一件小事</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">背影</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">我是誰</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">蜘蛛</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">少年筆耕</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">看潮</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">一片槐葉</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">楊修之死</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s22"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">我愛鄰居</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>34</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

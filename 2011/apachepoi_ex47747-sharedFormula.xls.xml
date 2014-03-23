@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Scott Pyne</Author>
+  <LastAuthor>God</LastAuthor>
+  <LastPrinted>2008-11-21T13:59:46Z</LastPrinted>
+  <Created>2008-11-20T15:24:37Z</Created>
+  <LastSaved>2009-09-17T20:55:52Z</LastSaved>
+  <Company>Goodyear</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10080</WindowHeight>
+  <WindowWidth>15480</WindowWidth>
+  <WindowTopX>760</WindowTopX>
+  <WindowTopY>260</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="CompressedAirTotal" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="CompressedAirTotalStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCellCure" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCellCuredScrap" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCellCuredScrapStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCellCureLosses" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCellFrictionWaste" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCellFrictionWasteStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCellG3Build" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCellGreenScrap" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCellGreenScrapStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCellS7Build" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCellStock" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCuringCure" ss:RefersTo="=Rev2!R33C1:R33C31"/>
+  <NamedRange ss:Name="DailyCuringCuredScrap" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCuringCuredScrapStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCuringGreenScrap" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCuringGreenScrapStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyCuttingCuredScrap" ss:RefersTo="=Rev2!R8C1:R8C31"/>
+  <NamedRange ss:Name="DailyCuttingCuredScrapStretch"
+   ss:RefersTo="=Rev2!R9C1:R9C31"/>
+  <NamedRange ss:Name="DailyCuttingFrictionWaste" ss:RefersTo="=Rev2!R12C1:R12C31"/>
+  <NamedRange ss:Name="DailyCuttingFrictionWasteStretch"
+   ss:RefersTo="=Rev2!R13C1:R13C31"/>
+  <NamedRange ss:Name="DailyCuttingGreenScrap" ss:RefersTo="=Rev2!R10C1:R10C31"/>
+  <NamedRange ss:Name="DailyCuttingGreenScrapStretch"
+   ss:RefersTo="=Rev2!R11C1:R11C31"/>
+  <NamedRange ss:Name="DailyCuttingMillingWaste" ss:RefersTo="=Rev2!R14C1:R14C31"/>
+  <NamedRange ss:Name="DailyCuttingMillingWasteStretch"
+   ss:RefersTo="=Rev2!R15C1:R15C31"/>
+  <NamedRange ss:Name="DailyCuttingRejectedNPTIDS" ss:RefersTo="=Rev2!R28C1:R28C31"/>
+  <NamedRange ss:Name="DailyCuttingStockLosses" ss:RefersTo="=Rev2!R30C1:R30C31"/>
+  <NamedRange ss:Name="DailyExtrudingCuredScrap" ss:RefersTo="=Rev2!R16C1:R16C31"/>
+  <NamedRange ss:Name="DailyExtrudingCuredScrapStretch"
+   ss:RefersTo="=Rev2!R17C1:R17C31"/>
+  <NamedRange ss:Name="DailyExtrudingGreenScrap" ss:RefersTo="=Rev2!R18C1:R18C31"/>
+  <NamedRange ss:Name="DailyExtrudingGreenScrapStretch"
+   ss:RefersTo="=Rev2!R19C1:R19C31"/>
+  <NamedRange ss:Name="DailyExtrudingMillingWaste" ss:RefersTo="=Rev2!R20C1:R20C31"/>
+  <NamedRange ss:Name="DailyExtrudingMillingWasteStretch"
+   ss:RefersTo="=Rev2!R21C1:R21C31"/>
+  <NamedRange ss:Name="DailyExtrudingRejectedNPTIDS"
+   ss:RefersTo="=Rev2!R29C1:R29C31"/>
+  <NamedRange ss:Name="DailyExtrudingStockLosses" ss:RefersTo="=Rev2!R31C1:R31C31"/>
+  <NamedRange ss:Name="DailyFFBalance" ss:RefersTo="=Rev2!R35C1:R35C31"/>
+  <NamedRange ss:Name="DailyFFCuredScrap" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyFFCuredScrapStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyFFForce" ss:RefersTo="=Rev2!R34C1:R34C31"/>
+  <NamedRange ss:Name="DailyFFStock" ss:RefersTo="=Rev2!R36C1:R36C31"/>
+  <NamedRange ss:Name="DailyMixingCuredScrap" ss:RefersTo="=Rev2!R22C1:R22C31"/>
+  <NamedRange ss:Name="DailyMixingCuredScrapStretch"
+   ss:RefersTo="=Rev2!R23C1:R23C31"/>
+  <NamedRange ss:Name="DailyMixingGreenScrap" ss:RefersTo="=Rev2!R24C1:R24C31"/>
+  <NamedRange ss:Name="DailyMixingGreenScrapStretch"
+   ss:RefersTo="=Rev2!R25C1:R25C31"/>
+  <NamedRange ss:Name="DailyMixingLbs" ss:RefersTo="=Rev2!R32C1:R32C31"/>
+  <NamedRange ss:Name="DailyMixingMillingWaste" ss:RefersTo="=Rev2!R26C1:R26C31"/>
+  <NamedRange ss:Name="DailyMixingMillingWasteStretch"
+   ss:RefersTo="=Rev2!R27C1:R27C31"/>
+  <NamedRange ss:Name="DailyTheoYield" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyTireAssemblyBuild" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyTireAssemblyCuredScrap" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyTireAssemblyCuredScrapStretch"
+   ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyTireAssemblyCureLosses" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyTireAssemblyFrictionWaste" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyTireAssemblyFrictionWasteStretch"
+   ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyTireAssemblyGreenScrap" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="DailyTireAssemblyGreenScrapStretch"
+   ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalBuild" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalContractorTotalHours" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalCure" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalCuredScrap" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalCuredScrapStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalFrictionVarWaste" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalFrictionVarWasteStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalFrictionVlfdWaste" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalFrictionVlfdWasteStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalFrictionWaste" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalFrictionWasteStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalGreenScrap" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalGreenScrapStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalGYContractorTotalHours" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalGYFPJDHours" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalGYHOLHours" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalGYOJHours" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalGYOtherHours" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalGYREGHours" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalGYSchedOTHours" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalGYTotalHours" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalGYUnschedOTHours" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalGYVACHours" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalHydroMWhMTD" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalHydroMWhMTDStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalIncidentRate" ss:RefersTo="=Rev2!R4C1:R4C31"/>
+  <NamedRange ss:Name="FederalMillingWaste" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalMillingWasteStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalOSHACount" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalStock" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalStockStretch" ss:RefersTo="=Rev2!#REF!"/>
+  <NamedRange ss:Name="FederalTMOutOfProcessByDayByCode"
+   ss:RefersTo="=Rev2!R5C1:R5C31"/>
+  <NamedRange ss:Name="FederalTMOutOfProcessByDayByCodeStretch"
+   ss:RefersTo="=Rev2!R6C1:R6C31"/>
+  <NamedRange ss:Name="HoursGroupDept" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="HoursGroupName" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="OSHARate" ss:RefersTo="=Rev2!R3C1"/>
+  <NamedRange ss:Name="ProductionDays" ss:RefersTo="=Rev2!R7C1:R7C31"/>
+  <NamedRange ss:Name="ShiftDay" ss:RefersTo="=Rev2!R2C1:R2C31"/>
+ </Names>
+ <Worksheet ss:Name="Rev2">
+  <Table ss:ExpandedColumnCount="33" ss:ExpandedRowCount="36" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="40" ss:Span="17"/>
+   <Column ss:Index="19" ss:Width="73" ss:Span="12"/>
+   <Column ss:Index="32" ss:Width="130"/>
+   <Column ss:Width="62"/>
+   <Row ss:Index="3" ss:AutoFitHeight="0" ss:Height="15" ss:Span="8"/>
+   <Row ss:Index="12" ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyCuttingFrictionWaste"/></Cell>
+    <Cell ss:Index="17" ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyCuttingFrictionWaste"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="5"/>
+   <Row ss:Index="19" ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyExtrudingGreenScrapStretch"/></Cell>
+    <Cell ss:Index="17" ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyExtrudingGreenScrapStretch"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyExtrudingMillingWaste"/></Cell>
+    <Cell ss:Index="17" ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyExtrudingMillingWaste"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyExtrudingMillingWasteStretch"/></Cell>
+    <Cell ss:Index="17" ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyExtrudingMillingWasteStretch"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyMixingCuredScrap"/></Cell>
+    <Cell ss:Index="17" ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyMixingCuredScrap"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyMixingCuredScrapStretch"/></Cell>
+    <Cell ss:Index="17" ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyMixingCuredScrapStretch"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyMixingGreenScrap"/></Cell>
+    <Cell ss:Index="17" ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyMixingGreenScrap"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyMixingGreenScrapStretch"/></Cell>
+    <Cell ss:Index="17" ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyMixingGreenScrapStretch"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyMixingMillingWaste"/></Cell>
+    <Cell ss:Index="17" ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyMixingMillingWaste"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyMixingMillingWasteStretch"/></Cell>
+    <Cell ss:Index="17" ss:Formula="=RC32*R7C"><Data ss:Type="Number">0</Data><NamedCell
+      ss:Name="DailyMixingMillingWasteStretch"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:Span="7"/>
+   <Row ss:Index="36" ss:AutoFitHeight="0" ss:Height="18"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+   </PageSetup>
+   <FitToPage/>
+   <Print>
+    <ValidPrinterInfo/>
+    <Scale>70</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>115</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <RangeSelection>R13:R18</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowInsertHyperlinks/>
+   <AllowFilter/>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>roberto</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2009-06-18T07:29:49Z</Created>
+  <LastSaved>2009-07-02T16:05:09Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5700</WindowHeight>
+  <WindowWidth>17180</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Foglio1">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="128"/>
+   <Column ss:AutoFitWidth="0" ss:Width="17"/>
+   <Column ss:AutoFitWidth="0" ss:Width="18"/>
+   <Column ss:AutoFitWidth="0" ss:Width="17"/>
+   <Column ss:AutoFitWidth="0" ss:Width="12"/>
+   <Column ss:AutoFitWidth="0" ss:Width="30" ss:Span="1"/>
+   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="18"/>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">ro</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">ro</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">ds</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">gs</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">g</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">gvvv</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">aaaa</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">aa</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">jerhwkj</Data></Cell>
+    <Cell><Data ss:Type="String">lkcnkln</Data></Cell>
+    <Cell><Data ss:Type="String">msdnakjd</Data></Cell>
+    <Cell><Data ss:Type="String">nmne,</Data></Cell>
+    <Cell><Data ss:Type="String">ernemn</Data></Cell>
+    <Cell><Data ss:Type="String">acoco</Data></Cell>
+    <Cell><Data ss:Type="String">cme</Data></Cell>
+    <Cell><Data ss:Type="String">ass</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Foglio2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Foglio3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

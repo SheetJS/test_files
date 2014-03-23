@@ -1,0 +1,325 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>1996-10-14T23:33:28Z</Created>
+  <LastSaved>2012-02-11T12:53:23Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9300</WindowHeight>
+  <WindowWidth>15140</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>120</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="sortrange">
+  <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="35" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Row>
+    <Cell ss:Index="4" ss:Formula="=COUNTIF(R1C2:R35C2,&quot;&quot;)"><Data
+      ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="9" ss:Formula="=COUNTIF(RC[-2]:R[13]C[-2],&quot;&quot;)"><Data
+      ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="14" ss:Formula="=COUNTIF(RC[-2]:R[13]C[-2],&quot;&quot;)"><Data
+      ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">pred '' matches both blank cell but not empty string</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:Formula="=COUNTIF(R1C2:R35C2,&quot;=&quot;)"><Data
+      ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="9" ss:Formula="=COUNTIF(R[-1]C[-2]:R[12]C[-2],&quot;&quot;)"><Data
+      ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="14" ss:Formula="=COUNTIF(R[-1]C[-2]:R[12]C[-2],&quot;&lt;&gt;&quot;)"><Data
+      ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">pred '&lt;&gt;' matches empty string but not blank cell</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:Formula="=COUNTIF(R1C2:R35C2,&quot;=5&quot;)"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="9" ss:Formula="=COUNTIF(R[-2]C[-2]:R[11]C[-2],TRUE)"><Data
+      ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="14" ss:Formula="=COUNTIF(R[-2]C[-2]:R[11]C[-2],&quot;=&quot;)"><Data
+      ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String"> pred '=' matches blank cell but not empty string</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:Formula="=COUNTIF(R1C2:R35C2,&quot;&lt;&gt;5&quot;)"><Data
+      ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:Index="9" ss:Formula="=COUNTIF(R[-3]C[-2]:R[10]C[-2],FALSE)"><Data
+      ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="14" ss:Formula="=COUNTIF(R[-3]C[-2]:R[10]C[-2],&quot;AA&quot;)"><Data
+      ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:Formula="=COUNTIF(R1C2:R35C2,&quot;&lt;15&quot;)"><Data
+      ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:Index="9" ss:Formula="=COUNTIF(R[-4]C[-2]:R[9]C[-2],&quot;&lt;&gt;TRUE&quot;)"><Data
+      ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:Index="14" ss:Formula="=COUNTIF(R[-4]C[-2]:R[9]C[-2],&quot;&lt;&gt;AA&quot;)"><Data
+      ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="4" ss:Formula="=COUNTIF(R1C2:R35C2,&quot;&lt;=15&quot;)"><Data
+      ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="9" ss:Formula="=COUNTIF(R[-5]C[-2]:R[8]C[-2],&quot;&lt;&gt;FALSE&quot;)"><Data
+      ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:Index="14" ss:Formula="=COUNTIF(R[-5]C[-2]:R[8]C[-2],&quot;AA&quot;)"><Data
+      ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="4" ss:Formula="=COUNTIF(R1C2:R35C2,&quot;&gt;15&quot;)"><Data
+      ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="9" ss:Formula="=COUNTIF(R[-6]C[-2]:R[7]C[-2],&quot;&gt;TRUE&quot;)"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">AA</Data></Cell>
+    <Cell ss:Index="14" ss:Formula="=COUNTIF(R[-6]C[-2]:R[7]C[-2],&quot;&gt;aa&quot;)"><Data
+      ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="4" ss:Formula="=COUNTIF(R1C2:R35C2,&quot;&gt;=15&quot;)"><Data
+      ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="9" ss:Formula="=COUNTIF(R[-7]C[-2]:R[6]C[-2],&quot;&lt;TRUE&quot;)"><Data
+      ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">aa</Data></Cell>
+    <Cell ss:Index="14" ss:Formula="=COUNTIF(R[-7]C[-2]:R[6]C[-2],&quot;&lt;Abc&quot;)"><Data
+      ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Abc</Data></Cell>
+    <Cell ss:Index="14" ss:Formula="=COUNTIF(R[-8]C[-2]:R[5]C[-2],&quot;=&quot;)"><Data
+      ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="14" ss:Formula="=COUNTIF(R[-9]C[-2]:R[4]C[-2],&quot;a*&quot;)"><Data
+      ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">ABC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">AAABC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">AAA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">18</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">21</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">22</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">23</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">24</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"/>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">26</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">27</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">28</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">29</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Number">30</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>15</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <Sorting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Sort>Column L</Sort>
+   <Descending/>
+   <Sort>Column M</Sort>
+   <Sort>Column O</Sort>
+   <Descending/>
+  </Sorting>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Nick Burch</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2008-03-31T21:49:23Z</Created>
+  <LastSaved>2008-03-31T21:57:00Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>1820</WindowHeight>
+  <WindowWidth>11300</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>60</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0000D4"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s17" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="AllANumbers" ss:RefersTo="=Sheet1!R2C1:R7C1"/>
+  <NamedRange ss:Name="AllBStrings" ss:RefersTo="=Sheet1!R2C2:R7C2"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell><Data ss:Type="String">A1</Data></Cell>
+    <Cell><Data ss:Type="String">B1</Data></Cell>
+    <Cell><Data ss:Type="String">C1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">22.3</Data><NamedCell ss:Name="AllANumbers"/></Cell>
+    <Cell><Data ss:Type="String">Foo</Data><NamedCell ss:Name="AllBStrings"/></Cell>
+    <Cell><Data ss:Type="String">This is a really long cell, with lots of text in it</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">24.5</Data><NamedCell ss:Name="AllANumbers"/></Cell>
+    <Cell><Data ss:Type="String">Bar</Data><NamedCell ss:Name="AllBStrings"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">26.7</Data><NamedCell ss:Name="AllANumbers"/></Cell>
+    <Cell><Data ss:Type="String">Foo Foo</Data><NamedCell ss:Name="AllBStrings"/></Cell>
+    <Cell ss:StyleID="s17" ss:HRef="http://poi.apache.org/"><Data ss:Type="String">Link to http://poi.apache.org/</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41.1</Data><NamedCell ss:Name="AllANumbers"/></Cell>
+    <Cell><Data ss:Type="String">Bar Bar</Data><NamedCell ss:Name="AllBStrings"/></Cell>
+    <Cell><Data ss:Type="String">I have a comment</Data><Comment
+      ss:Author="Nick Burch"><Data><B xmlns="http://www.w3.org/TR/REC-html40"><Font
+         html:Face="Tahoma" x:CharSet="1" html:Size="8" html:Color="#000000">Nick Burch:</Font></B><Font
+        html:Face="Tahoma" x:CharSet="1" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;This is a comment</Font></Data></Comment></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">42.1</Data><NamedCell ss:Name="AllANumbers"/></Cell>
+    <Cell><Data ss:Type="String">FooFoo</Data><NamedCell ss:Name="AllBStrings"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">42.5</Data><NamedCell ss:Name="AllANumbers"/></Cell>
+    <Cell><Data ss:Type="String">BarBar</Data><NamedCell ss:Name="AllBStrings"/></Cell>
+    <Cell><Data ss:Type="String">I have two comments</Data><Comment
+      ss:Author="Nick Burch"><Data><B xmlns="http://www.w3.org/TR/REC-html40"><Font
+         html:Face="Tahoma" x:CharSet="1" html:Size="8" html:Color="#000000">Nick Burch:</Font></B><Font
+        html:Face="Tahoma" x:CharSet="1" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;Comment #1&#13;</Font></Data></Comment></Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell ss:Index="3"><Data ss:Type="String">We have a header</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">We have a footer</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3" x:Data="&amp;CThis is the header on sheet 1"/>
+    <Footer x:Margin="0.3" x:Data="&amp;A&amp;RPage &amp;P"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <ShowPageLayoutZoom/>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

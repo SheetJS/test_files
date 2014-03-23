@@ -1,0 +1,996 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>2014-03-22T22:23:05Z</Created>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12780</WindowHeight>
+  <WindowWidth>17120</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>80</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s37">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="[$-1010409]General"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="13.95" ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s41">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s42">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s44">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="[ENG][$-1010409]dddd\,\ mmmm\ dd\,\ yyyy"/>
+  </Style>
+  <Style ss:ID="s45">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s47">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Tahoma" ss:Size="8" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s48">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s49">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="[$-1010409]0.000%"/>
+  </Style>
+  <Style ss:ID="s50">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s51">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="[$-1010409]m/d/yyyy"/>
+  </Style>
+  <Style ss:ID="s52">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="AuctionSummary">
+  <Names>
+   <NamedRange ss:Name="Print_Titles" ss:RefersTo="=AuctionSummary!R1:R11"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="35" ss:ExpandedRowCount="34" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="15"/>
+   <Column ss:AutoFitWidth="0" ss:Width="105"/>
+   <Column ss:AutoFitWidth="0" ss:Width="2"/>
+   <Column ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:AutoFitWidth="0" ss:Width="2"/>
+   <Column ss:AutoFitWidth="0" ss:Width="49"/>
+   <Column ss:AutoFitWidth="0" ss:Width="2"/>
+   <Column ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:AutoFitWidth="0" ss:Width="2"/>
+   <Column ss:AutoFitWidth="0" ss:Width="10"/>
+   <Column ss:AutoFitWidth="0" ss:Width="41"/>
+   <Column ss:AutoFitWidth="0" ss:Width="8"/>
+   <Column ss:AutoFitWidth="0" ss:Width="2"/>
+   <Column ss:AutoFitWidth="0" ss:Width="49"/>
+   <Column ss:AutoFitWidth="0" ss:Width="1"/>
+   <Column ss:AutoFitWidth="0" ss:Width="4"/>
+   <Column ss:AutoFitWidth="0" ss:Width="39"/>
+   <Column ss:AutoFitWidth="0" ss:Width="12"/>
+   <Column ss:AutoFitWidth="0" ss:Width="2"/>
+   <Column ss:AutoFitWidth="0" ss:Width="1"/>
+   <Column ss:AutoFitWidth="0" ss:Width="25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="12"/>
+   <Column ss:AutoFitWidth="0" ss:Width="4"/>
+   <Column ss:AutoFitWidth="0" ss:Width="37"/>
+   <Column ss:AutoFitWidth="0" ss:Width="1"/>
+   <Column ss:AutoFitWidth="0" ss:Width="4"/>
+   <Column ss:AutoFitWidth="0" ss:Width="49"/>
+   <Column ss:AutoFitWidth="0" ss:Width="1"/>
+   <Column ss:AutoFitWidth="0" ss:Width="4"/>
+   <Column ss:AutoFitWidth="0" ss:Width="1"/>
+   <Column ss:AutoFitWidth="0" ss:Width="25"/>
+   <Column ss:Index="34" ss:AutoFitWidth="0" ss:Width="1"/>
+   <Column ss:AutoFitWidth="0" ss:Width="8"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:MergeAcross="1" ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="6">
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="44">
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="5">
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:MergeAcross="17" ss:StyleID="s40"><Data ss:Type="String">Auction Summary (Public Issues Only)</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="3">
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:MergeAcross="31" ss:StyleID="s41"><Data ss:Type="String">Auction date range: 12/16/2009 - 12/16/2009 Deadline All</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="3">
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+   </Row>
+   <Row ss:Height="22">
+    <Cell ss:MergeAcross="2" ss:StyleID="s42"><Data ss:Type="String">Security Name</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s42"><Data ss:Type="String"> CUSIP</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s26"><Data ss:Type="String">Winning&#13;Rate</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s26"><Data ss:Type="String">Benchmark&#13;Code</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Base&#13;Rate</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Percent&#13;Base</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s26"><Data ss:Type="String">Next&#13;Auction</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s26"><Data ss:Type="String">Period</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Status</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Div Per&#13;Share</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s26"><Data ss:Type="String">Lead Manager</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="7">
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s28"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s22"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="3">
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s21"><NamedCell ss:Name="Print_Titles"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s44"><Data ss:Type="DateTime">2009-12-16T00:00:00.000</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s42"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s45"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s21"/>
+    <Cell ss:MergeAcross="3" ss:StyleID="s31"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s31"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:MergeAcross="3" ss:StyleID="s31"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s45"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s45"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s21"/>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Brazos Higher Ed Auth 1998A-3      </Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">106238EU8</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">4.1999999999999997E-3</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">BMA       </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.3999999999999998E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">175.000%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">Citigroup Global Markets, Inc.</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Brazos Higher Ed Auth 1999A-12     </Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">106238FV5</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">1.44E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">618.026%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2009-12-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">Citigroup Global Markets, Inc.</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Brazos Higher Ed Auth 2003A-10     </Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">106238JN9</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">1.44E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">618.026%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2009-12-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">RBC Dain Rauscher Inc.        </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Brazos Higher Ed Auth 2003A-13     </Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">106238JS8</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">1.44E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">618.026%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2009-12-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">Citigroup Global Markets, Inc.</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Brazos Higher Ed Tax Srs 2006 A-11 </Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">10620NBJ6</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">1.44E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">618.026%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2009-12-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">Banc of America Securities LLC</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Brazos Student Finance Corp 07 A-2 </Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">10623PDM9</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">1.7330000000000002E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">743.777%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2009-12-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">Citigroup Global Markets, Inc.</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Brazos Student Finance Corp 07A-5  </Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">10623PDQ0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">1.7330000000000002E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">743.777%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"/>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">RBC Dain Rauscher Inc.        </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Brazos Student Finance Corp 2001B-1</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">10623PBY5</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">3.1099999999999999E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">1334.764%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">Citigroup Global Markets, Inc.</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Edinvest Company Series 2003B-1    </Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">280850AB4</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">2.1100000000000001E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">905.579%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">Citigroup Global Markets, Inc.</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Higher Ed Loan Auth St of MO 99LL  </Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">606072FN1</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">7.7000000000000002E-3</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">KNYINT    </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">4.4000000000000003E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">175.000%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">UBS Securities LLC            </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Higher Ed Loan Auth State of MO 02H</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">606072GU4</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">2.4930000000000001E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">1069.957%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">Banc of America Securities LLC</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Higher Ed Loan Auth State of MO 02L</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">606072GY6</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">2.1080000000000002E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">904.721%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">UBS Securities LLC            </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Higher Ed Loan Auth State of MO 07G</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">606072JR8</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">5.0800000000000003E-3</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">KNYHIGH   </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.8999999999999998E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">175.172%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2009-12-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">Banc of America Securities LLC</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Higher Ed Loan Auth State of MO 98Z</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">606072EX0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">7.7000000000000002E-3</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">KNYINT    </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">4.4000000000000003E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">175.000%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">UBS Securities LLC            </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Minnesota Office of Higher Ed 1999A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">604152AA6</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">1.2330000000000001E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">529.185%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2009-12-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">RBC Dain Rauscher Inc.        </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Minnesota Office of Higher Ed 2002A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">604152AB4</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">1.2330000000000001E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">529.185%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2009-12-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">RBC Dain Rauscher Inc.        </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Minnesota Office of Higher Ed 2002B</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">604152AC2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">5.0800000000000003E-3</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">KNY       </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.8999999999999998E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">175.172%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">RBC Dain Rauscher Inc.        </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Minnesota Office of Higher Ed 2003A</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">604152AD0</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">1.2330000000000001E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">529.185%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-13T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">RBC Dain Rauscher Inc.        </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Minnesota Office of Higher Ed 2003B</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">604152AE8</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">5.0800000000000003E-3</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">KNY       </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.8999999999999998E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">175.172%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">RBC Dain Rauscher Inc.        </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">Panhandle-Plains Higher Ed 2007 A-4</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">698476EF1</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">1.7330000000000002E-2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">1MOLIBOR  </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">2.33E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">743.777%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2009-12-23T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">Banc of America Securities LLC</Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">SSSC I AELMAC Series 2003 B        </Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">040504FG2</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">6.6E-3</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">KNYINT    </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">4.4000000000000003E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">150.000%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">RBC Dain Rauscher Inc.        </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="2" ss:StyleID="s47"><Data ss:Type="String">SSSC IV FELMAC Series 2003 D-1     </Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s48"><Data ss:Type="String">340640AY7</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s49"><Data ss:Type="Number">6.6E-3</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s50"><Data ss:Type="String">KNYINT    </Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s49"><Data ss:Type="Number">4.4000000000000003E-3</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s50"><Data ss:Type="String">150.000%</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s51"><Data ss:Type="DateTime">2010-01-20T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s50"><Data ss:Type="String">Failed</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s52"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s48"><Data ss:Type="String">RBC Dain Rauscher Inc.        </Data></Cell>
+    <Cell ss:StyleID="s21"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Footer
+     x:Data="&amp;L&amp;&quot;Tahoma&quot;&amp;8 Created: 12/16/2009 2:57:03 PM &amp;C&amp;R&amp;&quot;Tahoma&quot;&amp;8 Page &amp;P of &amp;N "/>
+    <PageMargins x:Bottom="0.70000000000000007" x:Left="0.4" x:Right="0.4"
+     x:Top="0.4"/>
+   </PageSetup>
+   <NoSummaryRowsBelowDetail/>
+   <NoSummaryColumnsRightDetail/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>0</PaperSizeIndex>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <FreezePanes/>
+   <SplitHorizontal>11</SplitHorizontal>
+   <TopRowBottomPane>11</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>0</ActiveRow>
+     <RangeSelection>R1C1:R1C2</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

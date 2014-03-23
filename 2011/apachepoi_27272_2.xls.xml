@@ -1,0 +1,2865 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>aalfonso</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2005-01-27T21:16:33Z</Created>
+  <LastSaved>2005-04-26T21:28:12Z</LastSaved>
+  <Company>EPCOR Utilities Inc.</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16060</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="LOAD.POD_HISTORIES">
+  <Names>
+   <NamedRange ss:Name="_POD0001" ss:RefersTo="=LOAD.POD_HISTORIES!#REF!"/>
+   <NamedRange ss:Name="POD0001_1" ss:RefersTo="=LOAD.POD_HISTORIES!#REF!"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="27" ss:ExpandedRowCount="96" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s23" ss:DefaultColumnWidth="55"
+   ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s23" ss:Width="86"/>
+   <Column ss:StyleID="s23" ss:Width="120"/>
+   <Column ss:StyleID="s23" ss:Width="38"/>
+   <Column ss:StyleID="s23" ss:Width="59"/>
+   <Column ss:StyleID="s23" ss:Width="52"/>
+   <Column ss:StyleID="s23" ss:Width="57"/>
+   <Column ss:StyleID="s24" ss:Width="110"/>
+   <Column ss:StyleID="s23" ss:Width="158"/>
+   <Column ss:StyleID="s24" ss:Width="133"/>
+   <Column ss:StyleID="s23" ss:Width="108"/>
+   <Column ss:StyleID="s23" ss:Width="89"/>
+   <Column ss:StyleID="s23" ss:Width="61"/>
+   <Column ss:StyleID="s23" ss:Width="63"/>
+   <Column ss:StyleID="s23" ss:Width="60"/>
+   <Column ss:StyleID="s23" ss:Width="115"/>
+   <Column ss:StyleID="s23" ss:Width="64"/>
+   <Column ss:StyleID="s23" ss:Width="72"/>
+   <Column ss:StyleID="s23" ss:Width="127"/>
+   <Column ss:StyleID="s23" ss:Width="64"/>
+   <Column ss:StyleID="s23" ss:Width="115"/>
+   <Column ss:StyleID="s24" ss:Width="104"/>
+   <Column ss:StyleID="s24" ss:Width="115"/>
+   <Column ss:StyleID="s23" ss:Width="93"/>
+   <Column ss:StyleID="s27" ss:Width="72"/>
+   <Column ss:StyleID="s23" ss:Width="59"/>
+   <Column ss:StyleID="s23" ss:Width="117"/>
+   <Column ss:StyleID="s24" ss:AutoFitWidth="0"/>
+   <Row>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">RECORDER_ID</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">TRANSACTION_DATE</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">HOUR</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">INTERVAL</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">NET_KW</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">NET_KVA</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">POD_READING_ATI</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">POD_METERING_POINT_ATI</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">UNIT_TASK_EVENT_ATI</Data></Cell>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">POD_HISTORY_ATI</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">RECORD_TYPE</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">SEGMENT</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">COMPANY</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">NET_KWH</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">NET_KWH_SOURCE</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">NET_KVAR</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">NET_KVARH</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">NET_KVARH_SOURCE</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">NET_KVAH</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">FILE_TRACKING_ATI</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">DUPLICATE_FLAG</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">MV90_READING_ATI</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">DATA_STATE_ID</Data></Cell>
+    <Cell><Data ss:Type="String">SITE_ID</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">ASSET_ID</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">BACKED_OUT_FLAG</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10133.76</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10389.120000000001</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40414</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919032.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2533.44</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2289.262465686279</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">572.31561642156976</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2597.2800000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10053.120000000001</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10298.4</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">40415</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919032.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2513.2800000000002</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2234.2383099391991</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">558.55957748479977</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2574.6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10046.4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10291.68</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40416</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919032.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2511.6</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2233.5004505036518</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">558.37511262591295</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2572.92</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10002.719999999999</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10241.280000000001</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">40417</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919033</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2500.6799999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2197.5915544067816</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">549.3978886016954</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2560.3200000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10073.280000000001</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10321.92</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40418</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919033.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2518.3200000000002</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2251.9019801048175</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">562.97549502620438</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2580.48</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10019.52</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10261.44</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">40419</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919033.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2504.88</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2215.0326957406292</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">553.75817393515729</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2565.36</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10012.799999999999</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10248</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40420</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919033.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2503.1999999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2182.9659090329401</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">545.74147725823502</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2562</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9965.76</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10190.879999999999</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">40421</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919034</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2491.44</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2130.1790527558915</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">532.54476318897287</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2547.7199999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9948.9599999999991</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10174.08</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40422</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919034.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2487.2399999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2128.4028671283104</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">532.1007167820776</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2543.52</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9938.8799999999992</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10164</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="Number">40423</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919034.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2484.7199999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2127.3364439129059</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">531.83411097822648</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2541</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9948.9599999999991</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10177.44</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40424</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919034.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2487.2399999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2144.4066480031311</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">536.10166200078277</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2544.36</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10147.200000000001</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10409.280000000001</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">40425</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919035</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2536.8000000000002</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2321.0864435431931</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">580.27161088579828</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2602.3200000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10184.16</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10442.879999999999</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40426</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919035.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2546.04</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2310.1142371752931</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">577.52855929382326</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2610.7199999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10184.16</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10446.24</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="Number">40427</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919035.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2546.04</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2325.2559497827315</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">581.31398744568287</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2611.56</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10143.84</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10402.56</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40428</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919035.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2535.96</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2305.5941984659789</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">576.39854961649473</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2600.64</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10214.4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10493.28</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="Number">40429</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919036</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2553.6</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2403.1141875491508</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">600.77854688728769</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2623.32</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10194.24</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10469.76</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40430</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919036.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2548.56</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2386.0731925068858</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">596.51829812672145</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2617.44</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10157.280000000001</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10436.16</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">40431</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919036.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2539.3200000000002</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2396.4762772036738</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">599.11906930091845</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2609.04</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10174.08</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10436.16</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40432</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919036.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2543.52</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2324.1195535514098</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">581.02988838785245</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2609.04</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10164</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10432.799999999999</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="Number">40433</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919037</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2541</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2352.9598041615563</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">588.23995104038909</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2608.1999999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10174.08</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10439.52</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40434</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919037.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2543.52</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2339.1609572665179</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">584.79023931662948</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2609.88</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9962.4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10197.6</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="Number">40435</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919037.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2490.6</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2177.5288746650444</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">544.38221866626111</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2549.4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9925.44</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10153.92</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40436</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919037.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2481.36</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2141.8991976281213</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">535.47479940703033</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2538.48</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9959.0400000000009</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10184.16</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="Number">40437</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919038</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2489.7600000000002</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2129.4687562864092</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">532.3671890716023</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2546.04</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9972.48</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10194.24</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40414</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919038.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2493.12</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2114.7510083222587</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">528.68775208056468</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2548.56</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9972.48</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10194.24</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="Number">40415</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919038.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2493.12</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2114.7510083222587</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">528.68775208056468</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2548.56</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10046.4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10271.52</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40416</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919038.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2511.6</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2138.6842100693625</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">534.67105251734063</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2567.88</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10170.719999999999</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10419.36</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="Number">40417</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919039</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2542.6799999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2262.6350768959696</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">565.65876922399241</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2604.84</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10190.879999999999</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10439.52</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40418</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919039.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2547.7199999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2264.84936717655</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">566.2123417941375</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2609.88</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10116.959999999999</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10372.32</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="Number">40419</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919039.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2529.2399999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2287.3877110800445</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">571.84692777001112</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2593.08</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10093.44</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10338.719999999999</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40420</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919039.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2523.36</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2238.6603594113972</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">559.66508985284929</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2584.6799999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10063.200000000001</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10301.76</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="Number">40421</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919040</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2515.8000000000002</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2204.147195084754</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">551.0367987711885</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2575.44</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9999.36</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10234.56</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40422</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919040.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2499.84</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2181.5173581706799</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">545.37933954266998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2558.64</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10043.040000000001</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10291.68</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="Number">40423</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919040.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2510.7600000000002</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2248.5606019851866</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">562.14015049629666</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2572.92</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10019.52</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10254.719999999999</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40424</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919040.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2504.88</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2183.6898241279555</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">545.92245603198887</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2563.6799999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10036.32</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10288.32</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="Number">40425</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919041</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2509.08</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2263.1414626576043</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">565.78536566440107</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2572.08</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9945.6</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10177.44</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40426</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919041.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2486.4</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2159.9364790659911</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">539.98411976649777</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2544.36</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10059.84</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10311.84</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="Number">40427</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919041.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2514.96</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2265.7588927332931</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">566.43972318332328</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2577.96</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10032.959999999999</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10298.4</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40428</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919041.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2508.2399999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2323.091947900471</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">580.77298697511776</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2574.6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9999.36</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10248</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="Number">40429</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919042</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2499.84</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2243.7253821267868</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">560.93134553169671</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2562</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10029.6</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10288.32</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40430</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919042.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2507.4</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2292.7390305920094</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">573.18475764800235</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2572.08</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10069.92</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10318.56</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="Number">40431</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919042.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2517.48</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2251.5309607464837</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">562.88274018662094</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2579.64</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10043.040000000001</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10291.68</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40432</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">43</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919042.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2510.7600000000002</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2248.5606019851866</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">562.14015049629666</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2572.92</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10116.959999999999</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10368.959999999999</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="Number">40433</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919043</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2529.2399999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2272.1029554137735</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">568.02573885344339</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2592.2399999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10143.84</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10402.56</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40434</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919043.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2535.96</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2305.5941984659789</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">576.39854961649473</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2600.64</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10056.48</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10301.76</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="Number">40435</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919043.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2514.12</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2234.6071482925163</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">558.65178707312907</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2575.44</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10103.52</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10365.6</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40436</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919043.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2525.88</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2316.1491682532037</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">579.03729206330092</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2591.4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10096.799999999999</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10355.52</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="Number">40437</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919044</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2524.1999999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2300.309594467672</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">575.077398616918</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2588.88</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10120.32</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10382.4</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40414</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919044.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2530.08</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2318.049364789284</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">579.51234119732101</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2595.6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10036.32</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10281.6</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="Number">40415</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919044.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2509.08</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2232.3932040749464</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">558.09830101873661</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2570.4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9942.24</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10167.36</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40416</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919044.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2485.56</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2127.6919777073022</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">531.92299442682554</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2541.84</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9948.9599999999991</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10180.799999999999</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">52</Data></Cell>
+    <Cell><Data ss:Type="Number">40417</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">52</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919045</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2487.2399999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2160.2970995675582</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">540.07427489188956</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2545.1999999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10036.32</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10281.6</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">53</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40418</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919045.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2509.08</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2232.3932040749464</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">558.09830101873661</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2570.4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10133.76</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10395.84</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">54</Data></Cell>
+    <Cell><Data ss:Type="Number">40419</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919045.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2533.44</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2319.568401233299</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">579.89210030832476</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2598.96</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10153.92</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10429.44</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40420</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919045.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2538.48</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2381.4128888540108</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">595.3532222135027</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2607.36</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10130.4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10392.48</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="Number">40421</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919046</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2532.6</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2319.1887353986508</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">579.7971838496627</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2598.12</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10140.48</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10405.92</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40422</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919046.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2535.12</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2335.3450314675151</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">583.83625786687878</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2601.48</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10039.68</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10301.76</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">40423</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919046.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2509.92</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2308.9141593398372</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">577.22853983495929</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2575.44</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10002.719999999999</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10254.719999999999</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40424</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919046.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2500.6799999999998</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2259.3970169051731</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">564.84925422629328</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2563.6799999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10039.68</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10308.48</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="Number">40425</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919047</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2509.92</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2338.7144776564705</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">584.67861941411763</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2577.12</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10026.24</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10274.879999999999</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">61</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40426</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">61</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919047.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2506.56</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2246.702133528162</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">561.6755333820405</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2568.7199999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10053.120000000001</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10318.56</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="Number">40427</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919047.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2513.2800000000002</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2325.3943190779423</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">581.34857976948558</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2579.64</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10036.32</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10298.4</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40428</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919047.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2509.08</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2308.5327412882821</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">577.13318532207052</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2574.6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9891.84</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10120.32</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">64</Data></Cell>
+    <Cell><Data ss:Type="Number">40429</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">64</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919048</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2472.96</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2138.3120251263572</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">534.5780062815893</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2530.08</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9915.36</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10147.200000000001</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">65</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40430</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919048.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2478.84</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2156.6881810776454</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">539.17204526941134</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2536.8000000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9925.44</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10164</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">66</Data></Cell>
+    <Cell><Data ss:Type="Number">40431</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919048.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2481.36</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2189.1863343260634</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">547.29658358151585</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2541</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9878.4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10110.24</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">67</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40432</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">67</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919048.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2469.6</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2152.7113827914791</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">538.17784569786977</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2527.56</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">8820</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9001.44</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">68</Data></Cell>
+    <Cell><Data ss:Type="Number">40433</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919049</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2205</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">1798.1996756756489</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">449.54991891891223</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2250.36</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">8043.84</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">8205.1200000000008</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">69</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40434</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919049.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2010.96</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">1618.8367023267065</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">404.70917558167662</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2051.2800000000002</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">7932.96</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">8077.44</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="Number">40435</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919049.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">1983.24</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">1520.9150508821961</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">380.22876272054901</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2019.36</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">8890.56</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">9041.76</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40436</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919049.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2222.64</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">1646.6228420619047</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">411.65571051547619</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2260.44</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10258.08</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10449.6</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">72</Data></Cell>
+    <Cell><Data ss:Type="Number">40437</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919050</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2564.52</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">1991.4655090159122</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">497.86637725397804</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2612.4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10614.24</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10872.96</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">73</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40414</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">73</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919050.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2653.56</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2357.7888760446699</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">589.44721901116748</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2718.24</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10836</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11084.64</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">74</Data></Cell>
+    <Cell><Data ss:Type="Number">40415</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919050.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2709</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2334.5980231294607</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">583.64950578236517</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2771.16</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10731.84</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10967.04</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40416</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919050.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2682.96</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2259.109686580096</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">564.77742164502399</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2741.76</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10809.12</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11094.72</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="Number">40417</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919051</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2702.28</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2501.1470776425695</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">625.28676941064236</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2773.68</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10782.24</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11020.8</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40418</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919051.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2695.56</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2280.6431598125987</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">570.16078995314967</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2755.2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10799.04</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11074.56</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">78</Data></Cell>
+    <Cell><Data ss:Type="Number">40419</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919051.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2699.76</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2454.9163472509549</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">613.72908681273873</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2768.64</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10812.48</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11098.08</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">79</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40420</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">79</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919051.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2703.12</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2501.5307185801266</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">625.38267964503166</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2774.52</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10829.28</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11108.16</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="Number">40421</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919052</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2707.32</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2473.4415835430586</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">618.36039588576466</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2777.04</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10862.88</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11138.4</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40422</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919052.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2715.72</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2462.0708084049902</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">615.51770210124755</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2784.6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10859.52</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11141.76</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">82</Data></Cell>
+    <Cell><Data ss:Type="Number">40423</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">82</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919052.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2714.88</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2491.9151805789847</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">622.97879514474619</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2785.44</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10899.84</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11185.44</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">83</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40424</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919052.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2724.96</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2511.4848134121794</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">627.87120335304485</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2796.36</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10852.8</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11138.4</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">84</Data></Cell>
+    <Cell><Data ss:Type="Number">40425</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919053</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2713.2</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2506.1298290391896</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">626.53245725979741</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2784.6</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10862.88</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11145.12</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40426</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">85</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919053.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2715.72</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2492.2957127917289</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">623.07392819793222</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2786.28</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10785.6</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11057.76</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">86</Data></Cell>
+    <Cell><Data ss:Type="Number">40427</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919053.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2696.4</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2438.2142763916358</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">609.55356909790896</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2764.44</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10755.36</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11004</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">87</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40428</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">87</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919053.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2688.84</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2325.9938242394342</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">581.49845605985854</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2751</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10795.68</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11034.24</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">88</Data></Cell>
+    <Cell><Data ss:Type="Number">40429</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">88</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919054</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2698.92</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2282.0485786240379</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">570.51214465600947</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2758.56</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10775.52</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11020.8</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">89</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40430</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919054.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2693.88</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2312.1854098666013</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">578.04635246665032</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2755.2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10765.44</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11014.08</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="Number">40431</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919054.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2691.36</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2327.0710889012353</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">581.76777222530882</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2753.52</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10718.4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10960.32</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">91</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40432</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">91</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919054.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2679.6</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2290.0908153171586</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">572.52270382928964</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2740.08</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">4</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10792.32</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11040.96</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">92</Data></Cell>
+    <Cell><Data ss:Type="Number">40433</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919055</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2698.08</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2329.941359605426</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">582.4853399013565</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2760.24</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10846.08</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11104.8</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">93</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40434</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">93</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919055.25</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2711.52</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2383.0928797677975</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">595.77321994194938</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2776.2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">2</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10977.12</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11242.56</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">94</Data></Cell>
+    <Cell><Data ss:Type="Number">40435</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="Number">94</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919055.5</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2744.28</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2428.5781558763906</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">607.14453896909765</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2810.64</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATPLAST       </Data></Cell>
+    <Cell><Data ss:Type="Number">110404</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">3</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">10940.16</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">11208.96</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">95</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">40436</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="Number">21662</Data></Cell>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="String">GEN</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="Number">919055.75</Data></Cell>
+    <Cell><Data ss:Type="String">EP</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-9]/4"><Data ss:Type="Number">2735.04</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=SQRT(RC[-10]^2-RC[-11]^2)"><Data
+      ss:Type="Number">2440.0171015794099</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-1]/4"><Data ss:Type="Number">610.00427539485247</Data></Cell>
+    <Cell><Data ss:Type="String">ME</Data></Cell>
+    <Cell ss:StyleID="s24" ss:Formula="=RC[-13]/4"><Data ss:Type="Number">2802.24</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">P00</Data></Cell>
+    <Cell><Data ss:Type="Number">30112487205</Data></Cell>
+    <Cell ss:Index="26"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

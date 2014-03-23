@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Leonid</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2005-12-08T06:01:05Z</Created>
+  <LastSaved>2011-01-26T05:13:52Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12120</WindowHeight>
+  <WindowWidth>17120</WindowWidth>
+  <WindowTopX>360</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ActiveSheet>2</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#333399" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s24">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#333399" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s25">
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#008080" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#008080" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s27">
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Font ss:Color="#FFFFFF" ss:Italic="1"/>
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Font ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s33">
+   <Font/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:Size="8"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s35">
+   <Font ss:Size="8"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s36">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Header Footer Set">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="17" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="137"/>
+   <Column ss:AutoFitWidth="0" ss:Width="156"/>
+   <Column ss:AutoFitWidth="0" ss:Width="109"/>
+   <Column ss:AutoFitWidth="0" ss:Width="133"/>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">&lt;jx:forEach items=&quot;${departments}&quot; var=&quot;department&quot;&gt;</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Department</Data></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">${department.name}</Data></Cell>
+    <Cell ss:StyleID="s24"/>
+    <Cell ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Employees</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Payment</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Bonus</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13" ss:StyleID="s33">
+    <Cell ss:StyleID="s34"><Data ss:Type="String">&lt;jx:forEach items=&quot;${department.staff}&quot; var=&quot;employee&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s32"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${employee.name}</Data></Cell>
+    <Cell><Data ss:Type="String">${employee.payment}</Data></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">${employee.bonus}</Data></Cell>
+    <Cell><Data ss:Type="String">$[B6*(1+C6)]</Data></Cell>
+    <Cell><Data ss:Type="String">${hssfRow.rowNum}</Data></Cell>
+   </Row>
+   <Row ss:Height="10" ss:StyleID="s35">
+    <Cell><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Totals:</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">$[SUM(B6)]</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">${hssfRow.rowNum}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell><Data ss:Type="String">${sheet.getHeader().setLeft('Test Left Header')}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${sheet.getHeader().setCenter(itDepartment.name)}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${sheet.getHeader().setRight('Test Right Header')}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${sheet.getFooter().setCenter('Test Center Footer')}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${sheet.getFooter().setRight('Test Right Footer')}</Data></Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell><Data ss:Type="String">${hssfRow.rowNum}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Formatted Header Set">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="101"/>
+   <Column ss:AutoFitWidth="0" ss:Width="98"/>
+   <Row>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Some data</Data></Cell>
+    <Cell><Data ss:Type="String">${hssfRow.rowNum}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${sheet.getHeader().setLeft(sheet.getHeader().font(&quot;Stencil-Normal&quot;, &quot;Italic&quot;) + sheet.getHeader().fontSize(16) + &quot;Stencil-Normal Italic font and size 16&quot;)}</Data></Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Employees</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Comment</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s34"><Data ss:Type="String">&lt;jx:forEach items=&quot;${employees}&quot; var=&quot;employee&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+   </Row>
+   <Row ss:Height="24">
+    <Cell><Data ss:Type="String">${employee.name}</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">${employee.comment}</Data></Cell>
+    <Cell><Data ss:Type="String">${hssfRow.setHeightInPoints(13.5 * size(employee.comment.split(&quot;\r\n&quot;)));}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+    <Cell ss:StyleID="s35"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${hssfRow.rowNum}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="14" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="126"/>
+   <Row>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Sheet3 Data</Data></Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell><Data ss:Type="String">${workbook.setSheetName(2, itDepartment.name)}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String">ABC</Data></Cell>
+    <Cell><Data ss:Type="String">abc</Data></Cell>
+   </Row>
+   <Row ss:Index="6">
+    <Cell><Data ss:Type="String">&lt;jx:if test=&quot;${sheet.getRow(row).getCell(4).getStringCellValue()=='ABC'}&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">E4 contains ABC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;/jx:if&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell><Data ss:Type="String">&lt;jx:if test=&quot;${sheet.getRow(row).getCell(5).getStringCellValue()=='ABC'}&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">F4 contains abc</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;/jx:if&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="14">
+    <Cell><Data ss:Type="String">test hssfCell reference</Data></Cell>
+    <Cell><Data ss:Type="String">Cell:${hssfCell.getCellNum()}</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Cell:${hssfCell.getCellNum()}</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">Cell:${hssfCell.getCellNum()}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

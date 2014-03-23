@@ -1,0 +1,614 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Richard Y.T. Cheung</Author>
+  <LastAuthor>God</LastAuthor>
+  <LastPrinted>2007-11-09T02:50:14Z</LastPrinted>
+  <Created>2007-10-08T16:39:44Z</Created>
+  <LastSaved>2010-09-14T20:11:38Z</LastSaved>
+  <Company>Deloitte.</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Path>http://collab.tando.cibc.com/Documents and Settings\es194\Local Settings\Temporary Internet Files\OLK44\OMNI Service Business Rules Review v1 (2).xls</Path>
+   <SheetName>Requirements</SheetName>
+   <SheetName>Lists</SheetName>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>0</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>2</Count>
+    <SheetIndex>1</SheetIndex>
+    <Crn>
+     <Row>0</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>Y</Text>
+    </Crn>
+    <Crn>
+     <Row>1</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>N</Text>
+    </Crn>
+   </Xct>
+  </SupBook>
+  <SupBook>
+   <Path>E:CIBC OMNI:WP3:Documents and Settings:spendlov:Desktop:OMNI:Mike's Use Cases:OMNI Service Business Rules.xls</Path>
+   <SheetName>Version History</SheetName>
+   <SheetName>Requirement Type Legend</SheetName>
+   <SheetName>Business Rules</SheetName>
+   <SheetName>Traceability Matrix</SheetName>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>0</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>8</Count>
+    <SheetIndex>1</SheetIndex>
+    <Crn>
+     <Row>1</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>FLV</Text>
+    </Crn>
+    <Crn>
+     <Row>2</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>VAL</Text>
+    </Crn>
+    <Crn>
+     <Row>3</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>PRO</Text>
+    </Crn>
+    <Crn>
+     <Row>5</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>FLT</Text>
+    </Crn>
+    <Crn>
+     <Row>6</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>OPT</Text>
+    </Crn>
+    <Crn>
+     <Row>7</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>MASK</Text>
+    </Crn>
+    <Crn>
+     <Row>8</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>PAGE</Text>
+    </Crn>
+    <Crn>
+     <Row>9</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>WC</Text>
+    </Crn>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>2</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>3</SheetIndex>
+   </Xct>
+  </SupBook>
+  <SupBook>
+   <Path>@:usmum0172:Projects:Estelle:E2E:Relationship:E2E - UpdateRelationship Test Case v0 0 5.xls</Path>
+   <SheetName>Setup - GR</SheetName>
+   <SheetName>Setup</SheetName>
+   <SheetName>Positive</SheetName>
+   <SheetName>Negative</SheetName>
+   <SheetName>GR TCs</SheetName>
+   <SheetName>Relationship Types</SheetName>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>0</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>1</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>2</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>3</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>4</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>40</Count>
+    <SheetIndex>5</SheetIndex>
+    <Crn>
+     <Row>0</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>Relationship Type</Text>
+    </Crn>
+    <Crn>
+     <Row>1</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>SPOUSE</Text>
+    </Crn>
+    <Crn>
+     <Row>2</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>CHILD</Text>
+    </Crn>
+    <Crn>
+     <Row>3</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>PARENT</Text>
+    </Crn>
+    <Crn>
+     <Row>4</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>SIBLING</Text>
+    </Crn>
+    <Crn>
+     <Row>5</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>IN-LAW</Text>
+    </Crn>
+    <Crn>
+     <Row>6</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>COMMON-LAW SPOUSE</Text>
+    </Crn>
+    <Crn>
+     <Row>7</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>LAWYER</Text>
+    </Crn>
+    <Crn>
+     <Row>8</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>LAWYER’S CLIENT</Text>
+    </Crn>
+    <Crn>
+     <Row>9</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>ACCOUNTANT</Text>
+    </Crn>
+    <Crn>
+     <Row>10</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>ACCOUNTANT’S CLIENT</Text>
+    </Crn>
+    <Crn>
+     <Row>11</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>OTHER</Text>
+    </Crn>
+    <Crn>
+     <Row>12</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>PARENT</Text>
+    </Crn>
+    <Crn>
+     <Row>13</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>SUBSIDIARY/DIVISION/JV</Text>
+    </Crn>
+    <Crn>
+     <Row>14</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>SHAREHOLDER</Text>
+    </Crn>
+    <Crn>
+     <Row>15</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>EQUITY INVESTMENT</Text>
+    </Crn>
+    <Crn>
+     <Row>16</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>AFFILIATE</Text>
+    </Crn>
+    <Crn>
+     <Row>17</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>PARTNER</Text>
+    </Crn>
+    <Crn>
+     <Row>18</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>C. A./LAW FIRM</Text>
+    </Crn>
+    <Crn>
+     <Row>19</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>CLIENT</Text>
+    </Crn>
+    <Crn>
+     <Row>20</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>OTHER</Text>
+    </Crn>
+    <Crn>
+     <Row>21</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>SOLE PROPRIETOR</Text>
+    </Crn>
+    <Crn>
+     <Row>22</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>PARTNER</Text>
+    </Crn>
+    <Crn>
+     <Row>23</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>CORP-DIRECTOR</Text>
+    </Crn>
+    <Crn>
+     <Row>24</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>SHAREHOLDER</Text>
+    </Crn>
+    <Crn>
+     <Row>25</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>CORP-CEO/PRESIDENT</Text>
+    </Crn>
+    <Crn>
+     <Row>26</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>CORP-EXECUTIVE</Text>
+    </Crn>
+    <Crn>
+     <Row>27</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>EMPLOYEE</Text>
+    </Crn>
+    <Crn>
+     <Row>28</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>CLIENT</Text>
+    </Crn>
+    <Crn>
+     <Row>29</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>SIGNING OFFICER</Text>
+    </Crn>
+    <Crn>
+     <Row>30</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>OTHER</Text>
+    </Crn>
+    <Crn>
+     <Row>35</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>SOLE PROPRIETORSHIP</Text>
+    </Crn>
+    <Crn>
+     <Row>36</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>PARTNERSHIP</Text>
+    </Crn>
+    <Crn>
+     <Row>37</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>CORP-DIRECTOR</Text>
+    </Crn>
+    <Crn>
+     <Row>38</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>EQUITY INVESTMENT</Text>
+    </Crn>
+    <Crn>
+     <Row>39</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>CORP-CEO/PRESIDENT</Text>
+    </Crn>
+    <Crn>
+     <Row>40</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>CORP-EXECUTIVE</Text>
+    </Crn>
+    <Crn>
+     <Row>41</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>EMPLOYER</Text>
+    </Crn>
+    <Crn>
+     <Row>42</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>C. A./LAW FIRM</Text>
+    </Crn>
+    <Crn>
+     <Row>43</Row>
+     <ColFirst>0</ColFirst>
+     <ColLast>0</ColLast>
+     <Text>OTHER</Text>
+    </Crn>
+   </Xct>
+  </SupBook>
+  <SupBook>
+   <Path>@:usmum0172:Projects:Estelle:Use_Cases_signed_off:OMNI Service Business Rules.xls</Path>
+   <SheetName>Version History</SheetName>
+   <SheetName>Requirement Type Legend</SheetName>
+   <SheetName>Business Rules</SheetName>
+   <SheetName>Traceability Matrix</SheetName>
+   <SheetName>Name Types and Properties</SheetName>
+   <SheetName>Condition Message Properties</SheetName>
+   <SheetName>MOD 11 and 10</SheetName>
+   <SheetName>Overrides</SheetName>
+   <SheetName>Product Matrix</SheetName>
+   <Xct>
+    <Count>3</Count>
+    <SheetIndex>1</SheetIndex>
+    <Crn>
+     <Row>1</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>FLV</Text>
+    </Crn>
+    <Crn>
+     <Row>2</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>VAL</Text>
+    </Crn>
+    <Crn>
+     <Row>3</Row>
+     <ColFirst>1</ColFirst>
+     <ColLast>1</ColLast>
+     <Text>PRO</Text>
+    </Crn>
+   </Xct>
+  </SupBook>
+  <WindowHeight>4300</WindowHeight>
+  <WindowWidth>14120</WindowWidth>
+  <WindowTopX>840</WindowTopX>
+  <WindowTopY>4360</WindowTopY>
+  <TabRatio>906</TabRatio>
+  <DoNotCalculateBeforeSave/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s545">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s546">
+   <Borders/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="ActType"
+   ss:RefersTo="='E:CIBC OMNI:WP3:Documents and Settings:spendlov:Desktop:OMNI:Mike''s Use Cases:[OMNI Service Business Rules.xls]Requirement Type Legend'!R6C2:R10C2"/>
+  <NamedRange ss:Name="N2N"
+   ss:RefersTo="='@:usmum0172:Projects:Estelle:E2E:Relationship:[E2E - UpdateRelationship Test Case v0 0 5.xls]Relationship Types'!R13C1:R21C1"/>
+  <NamedRange ss:Name="N2P"
+   ss:RefersTo="='@:usmum0172:Projects:Estelle:E2E:Relationship:[E2E - UpdateRelationship Test Case v0 0 5.xls]Relationship Types'!R22C1:R31C1"/>
+  <NamedRange ss:Name="P2N"
+   ss:RefersTo="='@:usmum0172:Projects:Estelle:E2E:Relationship:[E2E - UpdateRelationship Test Case v0 0 5.xls]Relationship Types'!R36C1:R44C1"/>
+  <NamedRange ss:Name="P2P"
+   ss:RefersTo="='@:usmum0172:Projects:Estelle:E2E:Relationship:[E2E - UpdateRelationship Test Case v0 0 5.xls]Relationship Types'!R1C1:R12C1"/>
+  <NamedRange ss:Name="ReqType"
+   ss:RefersTo="='E:CIBC OMNI:WP3:Documents and Settings:spendlov:Desktop:OMNI:Mike''s Use Cases:[OMNI Service Business Rules.xls]Requirement Type Legend'!R2C2:R4C2"/>
+  <NamedRange ss:Name="ReqType2"
+   ss:RefersTo="='@:usmum0172:Projects:Estelle:Use_Cases_signed_off:[OMNI Service Business Rules.xls]Requirement Type Legend'!R2C2:R4C2"/>
+  <NamedRange ss:Name="YesNo"
+   ss:RefersTo="='http://collab.tando.cibc.com/Documents and Settings\es194\Local Settings\Temporary Internet Files\OLK44\[OMNI Service Business Rules Review v1 (2).xls]Lists'!R1C1:R2C1"/>
+ </Names>
+ <Worksheet ss:Name="Foo">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="17" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:Width="152"/>
+   <Column ss:StyleID="s545" ss:Width="52"/>
+   <Column ss:AutoFitWidth="0" ss:Width="77"/>
+   <Column ss:AutoFitWidth="0" ss:Width="48"/>
+   <Row>
+    <Cell><Data ss:Type="String">Foo</Data></Cell>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s546"/>
+    <Cell ss:StyleID="s546"/>
+    <Cell ss:StyleID="s546"/>
+    <Cell ss:StyleID="s546"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

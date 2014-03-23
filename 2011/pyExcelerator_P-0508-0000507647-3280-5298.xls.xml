@@ -1,0 +1,218 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>2014-03-22T23:04:48Z</Created>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>2</Index>
+    <RGB>#FF0000</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#00FF00</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>6</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>7</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>8</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#008000</RGB>
+   </Color>
+   <Color>
+    <Index>10</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#808000</RGB>
+   </Color>
+   <Color>
+    <Index>12</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5500</WindowHeight>
+  <WindowWidth>9660</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s17">
+   <Font ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s18">
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s19">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="DATA">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="12">
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Univerzita Pavla Jozefa afárika v Koiciach</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Total:</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">45.92</Data></Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">Datum a cas</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">volajuce cislo</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">volane cislo</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">dlzka</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">volana lokalita</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">cena za min eTel</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">zlava</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">cena eTel</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">05.08.2005 12:38:56</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">4214  </Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">421905478688        </Data></Cell>
+    <Cell><Data ss:Type="Number">109</Data></Cell>
+    <Cell><Data ss:Type="String">Orange GSM</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">5.0999999999999996</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">9.26</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">12.08.2005 08:34:34</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">4214  </Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">421249553333        </Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">Bratislava</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">1.2</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0.62</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">12.08.2005 08:35:33</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">4214  </Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">421903903903        </Data></Cell>
+    <Cell><Data ss:Type="Number">424</Data></Cell>
+    <Cell><Data ss:Type="String">EuroTel GSM</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">5.0999999999999996</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">36.04</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <FitWidth>0</FitWidth>
+    <FitHeight>0</FitHeight>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>0</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+    <Gridlines/>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

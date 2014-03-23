@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Yegor Kozlov</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2010-12-08T17:29:22Z</Created>
+  <LastSaved>2010-12-09T07:55:10Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8500</WindowHeight>
+  <WindowWidth>19160</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s65">
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s69">
+   <NumberFormat ss:Format="Currency"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="IRR-NPV">
+  <Names>
+   <NamedRange ss:Name="a2_a6" ss:RefersTo="='IRR-NPV'!R2C1:R6C1"/>
+   <NamedRange ss:Name="a2_a7" ss:RefersTo="='IRR-NPV'!R2C1:R7C1"/>
+   <NamedRange ss:Name="irr_guess" ss:RefersTo="=-0.05"/>
+   <NamedRange ss:Name="irr_values" ss:RefersTo="={-70000,12000,15000}"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="18" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="172"/>
+   <Column ss:AutoFitWidth="0" ss:Width="206"/>
+   <Column ss:AutoFitWidth="0" ss:Width="262"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s64">
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Data</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Description</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">-70000</Data><NamedCell
+      ss:Name="a2_a6"/><NamedCell ss:Name="a2_a7"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Initial cost of a business</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">12000</Data><NamedCell
+      ss:Name="a2_a6"/><NamedCell ss:Name="a2_a7"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Net income for the first year</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">15000</Data><NamedCell
+      ss:Name="a2_a6"/><NamedCell ss:Name="a2_a7"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Net income for the second year</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">18000</Data><NamedCell
+      ss:Name="a2_a6"/><NamedCell ss:Name="a2_a7"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Net income for the third year</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">21000</Data><NamedCell
+      ss:Name="a2_a6"/><NamedCell ss:Name="a2_a7"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Net income for the fourth year</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">26000</Data><NamedCell
+      ss:Name="a2_a7"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Net income for the fifth year</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s66">
+    <Cell ss:StyleID="s70"><Data ss:Type="String">IRR</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">NPV</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">IRR-NPV Relationship:&#13;NPV(IRR(values),values) = 0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=IRR(R[-8]C:R[-4]C)"><Data ss:Type="Number">-2.1244848273410888E-2</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(10%,R[-8]C[-1]:R[-4]C[-1])"><Data
+      ss:Type="Number">-17115.69627012562</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(RC[-2],R[-8]C[-2]:R[-4]C[-2])"><Data
+      ss:Type="Number">-2.2301668404037986E-11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=IRR(R[-9]C:R[-4]C)"><Data ss:Type="Number">8.663094803652216E-2</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(10%,R[-9]C[-1]:R[-4]C[-1])"><Data
+      ss:Type="Number">-2439.3740887274143</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(RC[-2],R[-9]C[-2]:R[-4]C[-2])"><Data
+      ss:Type="Number">1.7978455545908017E-9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=IRR(R[-10]C:R[-5]C, 10%)"><Data
+      ss:Type="Number">8.663094803652216E-2</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(10%,R[-10]C[-1]:R[-5]C[-1])"><Data
+      ss:Type="Number">-2439.3740887274143</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(RC[-2],R[-10]C[-2]:R[-5]C[-2])"><Data
+      ss:Type="Number">1.7978455545908017E-9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=IRR(R[-11]C:R[-6]C, 5%)"><Data
+      ss:Type="Number">8.6630948036531485E-2</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(5%,R[-11]C[-1]:R[-6]C[-1])"><Data
+      ss:Type="Number">7839.5454074458949</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(RC[-2],R[-11]C[-2]:R[-6]C[-2])"><Data
+      ss:Type="Number">2.3435603132468351E-11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=IRR(R[-12]C:R[-10]C,-10%)"><Data
+      ss:Type="Number">-0.44350694133473989</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(-10%,R[-12]C[-1]:R[-10]C[-1])"><Data
+      ss:Type="Number">-42386.831275720171</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(RC[-2],R[-12]C[-2]:R[-10]C[-2])"><Data
+      ss:Type="Number">-2.4841854272371201E-10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=IRR(R[-13]C:R[-11]C,irr_guess)"><Data
+      ss:Type="Number">-0.44350694133473623</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(irr_guess,R[-13]C[-1]:R[-11]C[-1])"><Data
+      ss:Type="Number">-42892.549934392766</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(RC[-2],R[-13]C[-2]:R[-11]C[-2])"><Data
+      ss:Type="Number">-1.6604818382058535E-9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=IRR(INDIRECT(&quot;A2:A6&quot;))"><Data
+      ss:Type="Number">-2.1244848273410888E-2</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(10%,INDIRECT(&quot;A2:A6&quot;))"><Data
+      ss:Type="Number">-17115.69627012562</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(RC[-2],INDIRECT(&quot;A2:A6&quot;))"><Data
+      ss:Type="Number">-2.2301668404037986E-11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=IRR(irr_values, irr_guess)"><Data
+      ss:Type="Number">-0.44350694133473623</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(irr_guess,irr_values)"><Data
+      ss:Type="Number">-42892.549934392766</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(RC[-2],irr_values)"><Data
+      ss:Type="Number">-1.6604818382058535E-9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=IRR({-70000,12000,15000}, -10%)"><Data
+      ss:Type="Number">-0.44350694133473989</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(10%,-70000,12000,15000)"><Data
+      ss:Type="Number">-42449.286250939142</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=NPV(RC[-2],{-70000,12000,15000})"><Data
+      ss:Type="Number">-2.4841854272371201E-10</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="13" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">1.00001</Data></Cell>
+   </Row>
+   <Row ss:Index="6">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">-70000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">12000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">15000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">18000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">21000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">26000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65" ss:Formula="=IRR(R[-6]C:R[-1]C)"><Data ss:Type="Error">#NUM!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s73" ss:Formula="=SUM(R[-7]C:R[-2]C)"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>10</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

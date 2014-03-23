@@ -1,0 +1,297 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Subject>DTTN Excel Form</Subject>
+  <Author>Business Implementation Team</Author>
+  <LastAuthor>God</LastAuthor>
+  <LastPrinted>2008-12-05T03:38:45Z</LastPrinted>
+  <Created>2005-02-21T00:40:06Z</Created>
+  <LastSaved>2008-12-22T09:47:09Z</LastSaved>
+  <Company>DTTN Limited</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <PixelsPerInch>96</PixelsPerInch>
+  <TargetScreenSize>800x600</TargetScreenSize>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5020</WindowHeight>
+  <WindowWidth>14940</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>100</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="alias_prefix" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="document_type_version" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\110___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\110___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\110\120_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\110\130_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\110\140_1\150_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\110\160_1\170_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\110\160_1\180_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\190_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\190_1\200_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\190_1\200_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\190_1\210_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\190_1\210_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\190_1\210_1_220___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\190_1\210_1_220___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\190_1\230_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\190_1\230_1\240_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\190_1\230_1\240_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\20_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\20_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\250_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\250_1\260_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\250_1\260_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\250_1\260_1_265___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\250_1\260_1_265___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_1\280_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_1\280_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_1\290_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_1\290_1\300_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_1\290_1\300_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_2___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_2\280_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_2\280_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_2\290_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_2\290_1\300_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_2\290_1\300_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_3___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_3\280_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_3\280_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_3\290_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_3\290_1\300_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_3\290_1\300_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_4___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_4\280_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_4\280_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_4\290_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_4\290_1\300_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\270_4\290_1\300_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\30_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\30_1\40_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\30_1\40_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\30_1\50_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\30_1\50_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\30_1\60_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\30_1\60_1\70_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\30_1\60_1\70_1\80_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\30_1\60_1\70_1\80_1___val" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\30_1\90_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\30_1\90_1\100_1___lab" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="PDOC\10_1\30_1\90_1\100_1___val" ss:RefersTo="=#REF!"/>
+ </Names>
+ <Worksheet ss:Name="Label">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="41" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="164"/>
+   <Column ss:Width="151"/>
+   <Row ss:StyleID="s16">
+    <Cell><Data ss:Type="String">Currently Using</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ProductionOrderConfirmation</Data></Cell>
+    <Cell><Data ss:Type="String">ProductionOrderConfirmation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">RequiredAcceptanceDate</Data></Cell>
+    <Cell><Data ss:Type="String">RequiredAcceptanceDate</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">Header</Data></Cell>
+    <Cell><Data ss:Type="String">Header</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">UniqueDocumentNumberID</Data></Cell>
+    <Cell><Data ss:Type="String">UniqueDocumentNumberID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ExpiryDateTime</Data></Cell>
+    <Cell><Data ss:Type="String">ExpiryDateTime</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">IssuingParty</Data></Cell>
+    <Cell><Data ss:Type="String">IssuingParty</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">DEA</Data></Cell>
+    <Cell><Data ss:Type="String">DEA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">ID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">FinalRecipientDEA</Data></Cell>
+    <Cell><Data ss:Type="String">FinalRecipientDEA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">ID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">RequirementPackaging</Data></Cell>
+    <Cell><Data ss:Type="String">RequirementPackaging</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">LineItemNumberID</Data></Cell>
+    <Cell><Data ss:Type="String">LineItemNumberID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">Description</Data></Cell>
+    <Cell><Data ss:Type="String">Description</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">ID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">Code</Data></Cell>
+    <Cell><Data ss:Type="String">Code</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">Description</Data></Cell>
+    <Cell><Data ss:Type="String">Description</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ProductionOrderLineItem</Data></Cell>
+    <Cell><Data ss:Type="String">ProductionOrderLineItem</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">LineItemNumberID</Data></Cell>
+    <Cell><Data ss:Type="String">LineItemNumberID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">Quantity</Data></Cell>
+    <Cell><Data ss:Type="String">Quantity</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">quantityUnitCode</Data></Cell>
+    <Cell><Data ss:Type="String">quantityUnitCode</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ProductItem</Data></Cell>
+    <Cell><Data ss:Type="String">ProductItem</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">Description</Data></Cell>
+    <Cell><Data ss:Type="String">Description</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">Payment</Data></Cell>
+    <Cell><Data ss:Type="String">Payment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">TotalAmount</Data></Cell>
+    <Cell><Data ss:Type="String">TotalAmount</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">OtherReference</Data></Cell>
+    <Cell><Data ss:Type="String">OtherReference</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">ID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ReferenceType</Data></Cell>
+    <Cell><Data ss:Type="String">ReferenceType</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">Code</Data></Cell>
+    <Cell><Data ss:Type="String">Code</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">OtherReference</Data></Cell>
+    <Cell><Data ss:Type="String">OtherReference</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">ID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ReferenceType</Data></Cell>
+    <Cell><Data ss:Type="String">ReferenceType</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">Code</Data></Cell>
+    <Cell><Data ss:Type="String">Code</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">OtherReference</Data></Cell>
+    <Cell><Data ss:Type="String">OtherReference</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">ID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ReferenceType</Data></Cell>
+    <Cell><Data ss:Type="String">ReferenceType</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">Code</Data></Cell>
+    <Cell><Data ss:Type="String">Code</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">OtherReference</Data></Cell>
+    <Cell><Data ss:Type="String">OtherReference</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">ID</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">ReferenceType</Data></Cell>
+    <Cell><Data ss:Type="String">ReferenceType</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=RC[1]"><Data ss:Type="String">Code</Data></Cell>
+    <Cell><Data ss:Type="String">Code</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <TopRowVisible>12</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>21</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

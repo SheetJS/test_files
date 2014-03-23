@@ -1,0 +1,514 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>1996-10-14T23:33:28Z</Created>
+  <LastSaved>2007-07-27T22:01:52Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9300</WindowHeight>
+  <WindowWidth>15140</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>120</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ActiveSheet>2</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Font x:Family="Swiss" ss:Size="14" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#008080" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#008080" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:Size="8"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s27">
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="12" ss:Bold="1"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s28">
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Font ss:Size="8"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s30">
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Font ss:Color="#FFFFFF" ss:Italic="1"/>
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s34">
+   <Font ss:Color="#FFFFFF" ss:Italic="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s35">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s36">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="26" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="139"/>
+   <Column ss:AutoFitWidth="0" ss:Width="266"/>
+   <Row>
+    <Cell><Data ss:Type="String">Literals</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Identifiers/Variables</Data></Cell>
+    <Cell><Data ss:Type="String">${obj.name}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">String Literals</Data></Cell>
+    <Cell><Data ss:Type="String">${&quot;Hello, World&quot;}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Boolean Literals</Data></Cell>
+    <Cell><Data ss:Type="String">${obj.flag == true}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Null literal</Data></Cell>
+    <Cell><Data ss:Type="String">${obj.name == null}</Data></Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell><Data ss:Type="String">JEXL Functions</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">${obj.name.size()}</Data></Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell><Data ss:Type="String">Operators</Data></Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell ss:Index="2"><Data ss:Type="String">${obj.id &gt; 1}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">${obj.id == 1}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">${obj.id != 1}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">${obj.id eq 1}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">${obj.id % 2}</Data></Cell>
+   </Row>
+   <Row ss:Index="19">
+    <Cell><Data ss:Type="String">Array Access</Data></Cell>
+    <Cell><Data ss:Type="String">${obj.myArray[0]} and ${obj.myArray[1]}</Data></Cell>
+   </Row>
+   <Row ss:Index="21">
+    <Cell><Data ss:Type="String">date formating</Data></Cell>
+    <Cell><Data ss:Type="String">${dateFormat.format(obj.date)}</Data></Cell>
+   </Row>
+   <Row ss:Index="23">
+    <Cell><Data ss:Type="String">method invocation</Data></Cell>
+    <Cell><Data ss:Type="String">${obj.printIt()}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">${obj.getName()}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">${obj.echo(&quot;Hello&quot;)}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">inner collection access</Data></Cell>
+    <Cell><Data ss:Type="String">${bean.collection.innerCollection.get(0)}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="46" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="103"/>
+   <Column ss:AutoFitWidth="0" ss:Width="111"/>
+   <Column ss:AutoFitWidth="0" ss:Width="78"/>
+   <Row ss:Height="17">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Testing aggregate functions</Data></Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Employees</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Payment</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Bonus</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">&lt;jx:forEach items=&quot;${employees1}&quot; var=&quot;employee&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${employee.name}</Data></Cell>
+    <Cell><Data ss:Type="String">${employee.payment}</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">${employee.bonus}</Data></Cell>
+    <Cell><Data ss:Type="String">$[B6*(1+C6)]</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Totals:</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">$[SUM(B6)@0]</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s31"/>
+   </Row>
+   <Row ss:Index="10">
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Employees</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Payment</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Bonus</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">&lt;jx:forEach items=&quot;${employees2}&quot; var=&quot;employee&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${employee.name}</Data></Cell>
+    <Cell><Data ss:Type="String">${employee.payment}</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">${employee.bonus}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Totals:</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">$[SUM(B13)@0]</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s35"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Employees</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Payment</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Bonus</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">&lt;jx:forEach items=&quot;${employees3}&quot; var=&quot;employee&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${employee.name}</Data></Cell>
+    <Cell><Data ss:Type="String">${employee.payment}</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">${employee.bonus}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Totals:</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">$[SUM(B20)@0]</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s35"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Employees</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Payment</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Bonus</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">&lt;jx:forEach items=&quot;${employees4}&quot; var=&quot;employee&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${employee.name}</Data></Cell>
+    <Cell><Data ss:Type="String">${employee.payment}</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">${employee.bonus}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Totals:</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">$[SUM(B27)@0]</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s35"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Employees</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Payment</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Bonus</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">&lt;jx:forEach items=&quot;${employees5}&quot; var=&quot;employee&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${employee.name}</Data></Cell>
+    <Cell><Data ss:Type="String">${employee.payment}</Data></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">${employee.bonus}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Totals:</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">$[SUM(B34)@0]</Data></Cell>
+    <Cell ss:StyleID="s32"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s35"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">IT Sum:</Data></Cell>
+    <Cell><Data ss:Type="String">${sum(payment):employees1}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Mgr Sum:</Data></Cell>
+    <Cell><Data ss:Type="String">${sum(payment):employees2}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Grand Totals:</Data></Cell>
+    <Cell><Data ss:Type="String">${sum(payment):employees1} + ${sum(payment):employees2}</Data></Cell>
+   </Row>
+   <Row ss:Index="42">
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Common Sum</Data></Cell>
+    <Cell><Data ss:Type="String">$[SUM(B6)@0 + SUM(B13)@0 + (SUM(B20)@0) +SUM(B27)@0 + SUM(B34)@0]</Data></Cell>
+   </Row>
+   <Row ss:Index="44">
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Common Sum 2</Data></Cell>
+    <Cell><Data ss:Type="String">$[SUM(B6) + SUM(B13)@0 + (SUM(B20)@0) +SUM(B27)@0 + SUM(B34)]</Data></Cell>
+   </Row>
+   <Row ss:Index="46">
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Common Sum 3</Data></Cell>
+    <Cell><Data ss:Type="String">$[B8 + B15 + (SUM(B20)@0) +SUM(B27)@0 + SUM(B34)]</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="13" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="58"/>
+   <Row ss:Height="17">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Testing Map access</Data></Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Name:</Data></Cell>
+    <Cell><Data ss:Type="String">${map.get(&quot;Name&quot;)}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Surname:</Data></Cell>
+    <Cell><Data ss:Type="String">${map.get('Surname')}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Employees:</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;jx:forEach items=&quot;${map.get('employees')}&quot; var=&quot;employee&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">${employee.name}</Data></Cell>
+    <Cell><Data ss:Type="String">${employee.payment}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell><Data ss:Type="String">Empty Variable</Data></Cell>
+    <Cell><Data ss:Type="String">${emptyVar}</Data></Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell><Data ss:Type="String">Null Variable</Data></Cell>
+    <Cell><Data ss:Type="String">${nullVar}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

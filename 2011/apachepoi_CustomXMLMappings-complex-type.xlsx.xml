@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>roberto</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2009-07-10T13:06:56Z</Created>
+  <LastSaved>2009-07-10T14:52:50Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>1980</WindowHeight>
+  <WindowWidth>8000</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s18">
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Foglio1">
+  <Table ss:ExpandedColumnCount="18" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="69" ss:Span="8"/>
+   <Column ss:Index="14" ss:AutoFitWidth="0" ss:Width="75" ss:Span="4"/>
+   <Row ss:Index="4">
+    <Cell ss:Index="5"><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">Name</Data></Cell>
+    <Cell><Data ss:Type="String">RootElement</Data></Cell>
+    <Cell><Data ss:Type="String">SchemaID</Data></Cell>
+    <Cell><Data ss:Type="String">ShowImportExportValidationErrors</Data></Cell>
+    <Cell><Data ss:Type="String">AutoFit</Data></Cell>
+    <Cell><Data ss:Type="String">Append</Data></Cell>
+    <Cell><Data ss:Type="String">PreserveSortAFLayout</Data></Cell>
+    <Cell><Data ss:Type="String">PreserveFormat</Data></Cell>
+    <Cell><Data ss:Type="String">DataBindingName</Data></Cell>
+    <Cell><Data ss:Type="String">FileBinding</Data></Cell>
+    <Cell><Data ss:Type="String">ConnectionID</Data></Cell>
+    <Cell><Data ss:Type="String">FileBindingName</Data></Cell>
+    <Cell><Data ss:Type="String">DataBindingLoadMode</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell><Data ss:Type="String">false</Data></Cell>
+    <Cell><Data ss:Type="String">false</Data></Cell>
+    <Cell><Data ss:Type="String">false</Data></Cell>
+    <Cell><Data ss:Type="String">false</Data></Cell>
+    <Cell><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell><Data ss:Type="String">false</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s17"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s17"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s17"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">false</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <LeftColumnVisible>6</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>8</ActiveRow>
+     <ActiveCol>14</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Foglio2">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="69" ss:Span="2"/>
+   <Column ss:Index="8" ss:Width="68"/>
+   <Row ss:Index="2">
+    <Cell ss:Index="8"><Data ss:Type="String">Namespace</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+   </Row>
+   <Row ss:Index="5">
+    <Cell ss:Index="3"><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">SchemaRef</Data></Cell>
+    <Cell><Data ss:Type="String">Namespace</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s18"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s17"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s17"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>8</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Foglio3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>BStox</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2010-01-06T17:16:15Z</Created>
+  <LastSaved>2010-01-06T18:58:50Z</LastSaved>
+  <Company> dkny</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8640</WindowHeight>
+  <WindowWidth>18900</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>60</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="HelveticaNeue LightExt"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="HelveticaNeue LightExt" ss:Color="#DD0806"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="61">
+   <Column ss:Width="69"/>
+   <Column ss:Width="72" ss:Span="4"/>
+   <Column ss:Index="7" ss:Width="71"/>
+   <Column ss:Width="72" ss:Span="1"/>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Header1</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Header2</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Header3</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Header4</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Header5</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Header6</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Header7</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Header8</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Header9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s17"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SubHeader1</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SubHeader2</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SubHeader3</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SubHeader4</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SubHeader5</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SubHeader6</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SubHeader7</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SubHeader8</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">SubHeader9</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

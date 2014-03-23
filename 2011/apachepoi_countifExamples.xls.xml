@@ -1,0 +1,701 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author> </Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2008-07-10T03:18:46Z</Created>
+  <LastSaved>2012-02-11T12:09:58Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9820</WindowHeight>
+  <WindowWidth>22820</WindowWidth>
+  <WindowTopX>100</WindowTopX>
+  <WindowTopY>100</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#333333" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#333333"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Font x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#333333"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#333333" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="POI Tests">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="52" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="393"/>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Criteria</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Range</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Actual</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Expected</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Comments</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">&gt;5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;abc</Data></Cell>
+    <Cell><Data ss:Type="String">aba</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;abc</Data></Cell>
+    <Cell><Data ss:Type="String">abc</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;abc</Data></Cell>
+    <Cell><Data ss:Type="String">abd</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">=22</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">22</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">=22</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=1"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">1</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Blank criteria does not match blank value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Blank criteria does not match empty string</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Empty string criteria matches blank value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Empty string criteria matches empty string value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">=</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Explicit equals operator with empty string matches blank value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">=</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">Explicit equals operator with empty string does not match empty string value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">&lt;&gt;</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">&lt;&gt;</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A*B</Data></Cell>
+    <Cell><Data ss:Type="String">A123BC</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;&gt;A*B</Data></Cell>
+    <Cell><Data ss:Type="String">ABF</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A~?B</Data></Cell>
+    <Cell><Data ss:Type="String">A?B</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;A~*B</Data></Cell>
+    <Cell><Data ss:Type="String">A~+C</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">0</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">0</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">0</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">0</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1*2</Data></Cell>
+    <Cell><Data ss:Type="Number">12342</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">1*2</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">12322</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">*</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">=*</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;&gt;</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;</Data></Cell>
+    <Cell ss:Index="3" ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;=</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;=</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1"></Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">TRUE</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;TRUE</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;TRUE</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">FALSE</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;TRUE</Data></Cell>
+    <Cell><Data ss:Type="String">TA</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">String 'TA' does not compare with boolean TRUE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;FALSE</Data></Cell>
+    <Cell><Data ss:Type="String">FB</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;FALSE</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;FALSE</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">TRUE</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">String 'TRUE' does not compare with boolean FALSE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;4t3</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&gt;4t3</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">500</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">500</Data></Cell>
+    <Cell><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String" x:Ticked="1">TRUE</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">TRUE</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">a*b</Data></Cell>
+    <Cell><Data ss:Type="String">ab</Data></Cell>
+    <Cell ss:Formula="=COUNTIF(RC[-1],RC[-2])"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="MSDN Example 1">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="12" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="143"/>
+   <Column ss:AutoFitWidth="0" ss:Width="155"/>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Data</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Data</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">apples</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">oranges</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">peaches</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">75</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">apples</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">86</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Formula</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Result</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s66" ss:Formula="=COUNTIF(R[-5]C:R[-2]C,&quot;apples&quot;)"><Data
+      ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Number of cells with apples in cells A2 through A5.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s68" ss:Formula="=COUNTIF(R[-6]C:R[-3]C,R[-4]C)"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Number of cells with peaches in cells A2 through A5.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Height="37">
+    <Cell ss:StyleID="s66"
+     ss:Formula="=COUNTIF(R[-7]C:R[-4]C,R[-6]C)+COUNTIF(R[-7]C:R[-4]C,R[-7]C)"><Data
+      ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Number of cells with oranges and apples in cells A2 through A5.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Height="37">
+    <Cell ss:StyleID="s68" ss:Formula="=COUNTIF(R[-8]C[1]:R[-5]C[1],&quot;&gt;55&quot;)"><Data
+      ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Number of cells with a value greater than 55 in cells B2 through B5.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="37">
+    <Cell ss:StyleID="s66"
+     ss:Formula="=COUNTIF(R[-9]C[1]:R[-6]C[1],&quot;&lt;&gt;&quot;&amp;R[-7]C[1])"><Data
+      ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Number of cells with a value not equal to 75 in cells B2 through B5.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row ss:Height="49">
+    <Cell ss:StyleID="s68"
+     ss:Formula="=COUNTIF(R[-10]C[1]:R[-7]C[1],&quot;&gt;=32&quot;)-COUNTIF(R[-10]C[1]:R[-7]C[1],&quot;&gt;85&quot;)"><Data
+      ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Number of cells with a value greater than or equal to 32 and less than or equal to 85 in cells B2 through B5.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>17</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="MSDN Example 2">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="14" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s67" ss:DefaultColumnWidth="55"
+   ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="119"/>
+   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="171"/>
+   <Column ss:StyleID="s67" ss:AutoFitWidth="0" ss:Width="81"/>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Data</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Data</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">apples</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s68"><Data ss:Type="String">oranges</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">NO</Data></Cell>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">peaches</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s68"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s66"><Data ss:Type="String">apples</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">yes</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Formula</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Result</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s66" ss:Formula="=COUNTIF(R[-7]C:R[-2]C,&quot;*es&quot;)"><Data
+      ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Number of cells ending with the letters &quot;es&quot; in cells A2 through A7.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Height="37">
+    <Cell ss:StyleID="s68" ss:Formula="=COUNTIF(R[-8]C:R[-3]C,&quot;?????es&quot;)"><Data
+      ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Number of cells ending with the letters &quot;les&quot; and having exactly 7 letters in cells A2 through A7.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s66" ss:Formula="=COUNTIF(R[-9]C:R[-4]C,&quot;*&quot;)"><Data
+      ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Number of cells containing any text in cells A2 through A7.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="s68" ss:Formula="=COUNTIF(R[-10]C:R[-5]C,&quot;&quot;)"><Data
+      ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Number of cells not containing text in cells A2 through A7.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Height="37">
+    <Cell ss:StyleID="s66"
+     ss:Formula="=COUNTIF(R[-11]C[1]:R[-6]C[1],&quot;No&quot;) / ROWS(R[-11]C[1]:R[-6]C[1])"><Data
+      ss:Type="Number">0.33333333333333331</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">The average number of No votes (including blank cells) in cells B2 through B7.</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0.33333333300000001</Data></Cell>
+   </Row>
+   <Row ss:Height="37">
+    <Cell ss:StyleID="s68"
+     ss:Formula="=COUNTIF(R[-12]C[1]:R[-7]C[1],&quot;Yes&quot;) / (ROWS(R[-12]C[1]:R[-7]C[1]) -COUNTIF(R[-12]C[1]:R[-7]C[1], &quot;&quot;))"><Data
+      ss:Type="Number">0.5</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">The average number of Yes votes (excluding blank cells) in cells B2 through B7.</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0.5</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

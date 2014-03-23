@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Ken Arnold</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2009-11-03T23:47:17Z</Created>
+  <LastSaved>2012-01-03T14:37:44Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12300</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ActiveSheet>1</ActiveSheet>
+  <Date1904/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Verdana" ss:Italic="1"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Verdana" ss:Italic="1"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Verdana" ss:Italic="1"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Verdana" ss:Italic="1"/>
+   <Interior ss:Color="#FFCC99" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Alignment ss:Vertical="Top"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Lucida Sans Typewriter"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Vertical="Top"/>
+   <NumberFormat ss:Format="dd\-mmm\-yyyy\ hh:mm:ss.000"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Vertical="Top"/>
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Flags">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s16">
+   <Column ss:StyleID="s22" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s23" ss:AutoFitWidth="0" ss:Width="119"/>
+   <Column ss:StyleID="s23" ss:AutoFitWidth="0" ss:Width="244"/>
+   <Row ss:StyleID="s19">
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Flag Name</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Value</Data></Cell>
+    <Cell ss:StyleID="s21"><Data ss:Type="String">Description</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Title</Data></Cell>
+    <Cell><Data ss:Type="String">Date Format Tests</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Categories</Data></Cell>
+    <Cell ss:StyleID="s22"/>
+    <Cell><Data ss:Type="String">Run only tests that have this category</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AllColors</Data></Cell>
+    <Cell><Data ss:Type="String">True</Data></Cell>
+    <Cell><Data ss:Type="String">Run the test with all standard colors specified</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <Gridlines/>
+    <RowColHeadings/>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>4</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Tests">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="42" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s17">
+   <Column ss:StyleID="s24" ss:Width="208"/>
+   <Column ss:StyleID="s24" ss:Width="165"/>
+   <Column ss:StyleID="s28" ss:Width="147"/>
+   <Column ss:StyleID="s17" ss:AutoFitWidth="0" ss:Width="91"/>
+   <Row ss:StyleID="s18">
+    <Cell><Data ss:Type="String">Result (expected)</Data></Cell>
+    <Cell><Data ss:Type="String">Format</Data></Cell>
+    <Cell><Data ss:Type="String">Value</Data></Cell>
+    <Cell><Data ss:Type="String">Categories</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">11-10-52</Data></Cell>
+    <Cell><Data ss:Type="String">d-m-y</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">11-10-52</Data></Cell>
+    <Cell><Data ss:Type="String">dd-mm-yy</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">Sat-Oct-1952</Data></Cell>
+    <Cell><Data ss:Type="String">ddd-mmm-yyy</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">Saturday-October-1952</Data></Cell>
+    <Cell><Data ss:Type="String">dddd-mmmm-yyyy</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">11-10-52</Data></Cell>
+    <Cell><Data ss:Type="String">D-M-Y</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">11-10-52</Data></Cell>
+    <Cell><Data ss:Type="String">DD-MM-YY</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">Sat-Oct-1952</Data></Cell>
+    <Cell><Data ss:Type="String">DDD-MMM-YYY</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">Saturday-October-1952</Data></Cell>
+    <Cell><Data ss:Type="String">DDDD-MMMM-YYYY</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">14:35:27</Data></Cell>
+    <Cell><Data ss:Type="String">h:m:s</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">02:35:27 p</Data></Cell>
+    <Cell><Data ss:Type="String">hh:mm:ss a/p</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">2:35:27.000 P</Data></Cell>
+    <Cell><Data ss:Type="String">h:m:s.000 A/P</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time, Debug</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">02:35:27.000 PM</Data></Cell>
+    <Cell><Data ss:Type="String">hh:mm:ss.000 am/pm</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">11-10-52 14:35:27</Data></Cell>
+    <Cell><Data ss:Type="String">d-m-y h:m:s</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">14:35:27</Data></Cell>
+    <Cell><Data ss:Type="String">H:M:S</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">02:35:27 P</Data></Cell>
+    <Cell><Data ss:Type="String">HH:MM:SS A/P</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">2:35:27.00 p</Data></Cell>
+    <Cell><Data ss:Type="String">H:M:S.00 a/p</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">02:35:27.000 PM</Data></Cell>
+    <Cell><Data ss:Type="String">HH:MM:SS.000 AM/PM</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">11-10-52 14:35:27</Data></Cell>
+    <Cell><Data ss:Type="String">d-m-y h:m:s</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date,Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">Saturday-October-1952 2:35:27 PM</Data></Cell>
+    <Cell><Data ss:Type="String">dddd-mmmm-yyyy H:M:S am/pm</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date,Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">1-2-03</Data></Cell>
+    <Cell><Data ss:Type="String">d-m-y</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">01-02-03</Data></Cell>
+    <Cell><Data ss:Type="String">dd-mm-yy</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">Sat-Feb-2003</Data></Cell>
+    <Cell><Data ss:Type="String">ddd-mmm-yyy</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">Saturday-February-2003</Data></Cell>
+    <Cell><Data ss:Type="String">dddd-mmmm-yyyy</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">1-2-03</Data></Cell>
+    <Cell><Data ss:Type="String">D-M-Y</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">01-02-03</Data></Cell>
+    <Cell><Data ss:Type="String">DD-MM-YY</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">Sat-Feb-2003</Data></Cell>
+    <Cell><Data ss:Type="String">DDD-MMM-YYY</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">Saturday-February-2003</Data></Cell>
+    <Cell><Data ss:Type="String">DDDD-MMMM-YYYY</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">4:5:6</Data></Cell>
+    <Cell><Data ss:Type="String">h:m:s</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">04:05:06 a</Data></Cell>
+    <Cell><Data ss:Type="String">hh:mm:ss a/p</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">4:5:6.01 A</Data></Cell>
+    <Cell><Data ss:Type="String">h:m:s.00 A/P</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">04:05:06.009 AM</Data></Cell>
+    <Cell><Data ss:Type="String">hh:mm:ss.000 am/pm</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">1-2-03 4:5:6</Data></Cell>
+    <Cell><Data ss:Type="String">d-m-y h:m:s</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">4:5:6</Data></Cell>
+    <Cell><Data ss:Type="String">H:M:S</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">04:05:06 A</Data></Cell>
+    <Cell><Data ss:Type="String">HH:MM:SS A/P</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">4:5:6.01 a</Data></Cell>
+    <Cell><Data ss:Type="String">H:M:S.00 a/p</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">04:05:06.009 AM</Data></Cell>
+    <Cell><Data ss:Type="String">HH:MM:SS.000 AM/PM</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">1-2-03 4:5:6</Data></Cell>
+    <Cell><Data ss:Type="String">d-m-y h:m:s</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date,Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">Saturday-February-2003 4:5:6 AM</Data></Cell>
+    <Cell><Data ss:Type="String">dddd-mmmm-yyyy H:M:S am/pm</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date,Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">4:5:6.01</Data></Cell>
+    <Cell><Data ss:Type="String">h:m:s.00</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2003-02-01T04:05:06.009</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">01-01-2025</Data></Cell>
+    <Cell><Data ss:Type="String">dd-mm-yyyy</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">2025-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Date</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TEXT(RC[2], RC[1])"><Data ss:Type="String">14:35</Data></Cell>
+    <Cell><Data ss:Type="String">h:m</Data></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="DateTime">1952-10-11T14:35:27.000</Data></Cell>
+    <Cell ss:StyleID="s22"><Data ss:Type="String">Time</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+    <Gridlines/>
+    <RowColHeadings/>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1</RangeSelection>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>42</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

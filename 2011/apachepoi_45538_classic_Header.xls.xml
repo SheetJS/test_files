@@ -1,0 +1,2709 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <LastPrinted>2008-07-08T13:20:19Z</LastPrinted>
+  <Created>1999-12-02T19:35:48Z</Created>
+  <LastSaved>2008-07-22T08:51:13Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7580</WindowHeight>
+  <WindowWidth>15480</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>5640</WindowTopY>
+  <TabRatio>943</TabRatio>
+  <ActiveSheet>6</ActiveSheet>
+  <FirstVisibleSheet>1</FirstVisibleSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="Currency">
+   <NumberFormat
+    ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* \(#,##0.00\);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s79" ss:Name="Percent">
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:VerticalAlign="Superscript"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s89">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s91" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s92" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s93" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s95">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s96" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:VerticalAlign="Superscript"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s97" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:VerticalAlign="Superscript"/>
+   <Interior/>
+   <NumberFormat ss:Format="_(&quot;$&quot;* #,##0_);_(&quot;$&quot;* \(#,##0\);_(&quot;$&quot;* &quot;-&quot;_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s98">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s99">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s100">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s101">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s102">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s103">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s104">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s105">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s106">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s107">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s108" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s109" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s110">
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s111" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s112" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s113" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s114" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s115" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s116" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="_(&quot;$&quot;* #,##0_);_(&quot;$&quot;* \(#,##0\);_(&quot;$&quot;* &quot;-&quot;_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s117">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s118" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s119" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s120" ss:Parent="s63">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s121">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s122">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:Indent="1"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s123">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:Indent="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s124">
+   <Font x:Family="Swiss" ss:Italic="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="Medium Date"/>
+  </Style>
+  <Style ss:ID="s125">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s126">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s127">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s128" ss:Parent="s63">
+   <Interior/>
+   <NumberFormat ss:Format="_(&quot;$&quot;* #,##0_);_(&quot;$&quot;* \(#,##0\);_(&quot;$&quot;* &quot;-&quot;_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s129" ss:Parent="s63">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="_(&quot;$&quot;* #,##0_);_(&quot;$&quot;* \(#,##0\);_(&quot;$&quot;* &quot;-&quot;_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s130">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s131" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="_(&quot;$&quot;* #,##0_);_(&quot;$&quot;* \(#,##0\);_(&quot;$&quot;* &quot;-&quot;_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s132">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s133" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="_(&quot;$&quot;* #,##0_);_(&quot;$&quot;* \(#,##0\);_(&quot;$&quot;* &quot;-&quot;_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s134">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s135">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s136">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="Medium Date"/>
+  </Style>
+  <Style ss:ID="s137">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s138">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s139">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s140">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s141">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s142" ss:Parent="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s143" ss:Parent="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s144" ss:Parent="s79">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s145" ss:Parent="s79">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s146" ss:Parent="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s147">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s148" ss:Parent="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s149">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s150" ss:Parent="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s151">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s152">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s153">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s154" ss:Parent="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s155">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s156">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s157" ss:Parent="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:VerticalAlign="Superscript"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s158">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:VerticalAlign="Superscript"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s159" ss:Parent="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:VerticalAlign="Superscript"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s160">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:VerticalAlign="Superscript"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s161" ss:Parent="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s162">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s163">
+   <Borders/>
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s164" ss:Parent="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s165">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s166" ss:Parent="s63">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s167" ss:Parent="s63">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s168" ss:Parent="s63">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s169" ss:Parent="s63">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s170" ss:Parent="s63">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s171" ss:Parent="s63">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s172">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s173" ss:Parent="s63">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s174">
+   <Font x:Family="Swiss" ss:VerticalAlign="Superscript"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s175">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="[ENG][$-409]mmmm\ d\,\ yyyy;@"/>
+  </Style>
+  <Style ss:ID="s176">
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="Medium Date"/>
+  </Style>
+  <Style ss:ID="s177">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="Medium Date"/>
+  </Style>
+  <Style ss:ID="s178" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s179">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s180">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s181">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s182">
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s183">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s184">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s185">
+   <Interior/>
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s186">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:Indent="1"
+    ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s187">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s188">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s189">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s190">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s191">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s192">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s193">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Italic="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s194">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s195">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Italic="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s196">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Italic="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s197">
+   <Font x:Family="Swiss" ss:Italic="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s198">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:Indent="1"
+    ss:WrapText="1"/>
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s199">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s200">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s201">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s202">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s203">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s204">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s205">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s206">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s207">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s208" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s210" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s211" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s212">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s213" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s214" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="_(&quot;$&quot;* #,##0_);_(&quot;$&quot;* \(#,##0\);_(&quot;$&quot;* &quot;-&quot;_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s215">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s216">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s217" ss:Parent="s79">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s218">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s219">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s220" ss:Parent="s79">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s221">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s222" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s223" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s224" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s225" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s226" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s227" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:VerticalAlign="Superscript"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s228" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s229" ss:Parent="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s230">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s231">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s232">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s233">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s234">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Italic="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="0.0%"/>
+  </Style>
+  <Style ss:ID="s236">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font/>
+   <Interior/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Profile of Class">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="54" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s99" ss:DefaultColumnWidth="55"
+   ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s99" ss:Width="218"/>
+   <Column ss:StyleID="s113" ss:Width="82"/>
+   <Column ss:StyleID="s102" ss:Width="99"/>
+   <Column ss:Index="5" ss:StyleID="s99" ss:Width="163"/>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">The University of Chicago Graduate School of Business</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Employment Statistics:  2005-2006</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s219"><Data ss:Type="String">Profile of the Class of 2007</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s175"><Data ss:Type="DateTime">2006-09-11T00:00:00.000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s124"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s124"><Data ss:Type="String"><I
+       xmlns="http://www.w3.org/TR/REC-html40">Class Profile for First-Year Full-Time MBA, Joint Degree, and <Font
+        html:Size="11">IMBA Students</Font></I></Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+    <Cell ss:StyleID="Default"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s176"><Data ss:Type="String">Employment Profile</Data></Cell>
+    <Cell ss:StyleID="s109"><Data ss:Type="String">Percent</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">Number</Data></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s177"/>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">of Class</Data></Cell>
+    <Cell ss:StyleID="s106"><Data ss:Type="String">of Students</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Seeking Employment</Data></Cell>
+    <Cell ss:StyleID="s178" ss:Formula="=RC[1]/567"><Data ss:Type="Number">0.93827160493827155</Data></Cell>
+    <Cell><Data ss:Type="Number">532</Data></Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell><Data ss:Type="String">Not Seeking Employment</Data></Cell>
+    <Cell ss:StyleID="s178" ss:Formula="=RC[1]/567"><Data ss:Type="Number">6.1728395061728392E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Continuing education</Data></Cell>
+    <Cell ss:StyleID="s178" ss:Formula="=RC[1]/567"><Data ss:Type="Number">3.3509700176366841E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Self employed/founding business</Data></Cell>
+    <Cell ss:StyleID="s178" ss:Formula="=RC[1]/567"><Data ss:Type="Number">1.2345679012345678E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Sponsored student</Data></Cell>
+    <Cell ss:StyleID="s178" ss:Formula="=RC[1]/567"><Data ss:Type="Number">1.0582010582010581E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Postponing job search</Data></Cell>
+    <Cell ss:StyleID="s178" ss:Formula="=RC[1]/567"><Data ss:Type="Number">1.7636684303350969E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Other Reasons</Data></Cell>
+    <Cell ss:StyleID="s178" ss:Formula="=RC[1]/567"><Data ss:Type="Number">3.5273368606701938E-3</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"/>
+    <Cell ss:StyleID="s178"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Not Responding to Survey</Data></Cell>
+    <Cell ss:StyleID="s178" ss:Formula="=RC[1]/567"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s178"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">First-Year Students</Data></Cell>
+    <Cell ss:StyleID="s178" ss:Formula="=RC[1]/567"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s179"><Data ss:Type="Number">567</Data></Cell>
+   </Row>
+   <Row ss:Index="23">
+    <Cell ss:StyleID="s101"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">Job Offers<Sup>(1)</Sup></B></Data></Cell>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s180"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">U.S. Citizens/Permanent Residents</Data></Cell>
+    <Cell ss:StyleID="s216"><Data ss:Type="Number">0.99399999999999999</Data></Cell>
+    <Cell ss:StyleID="s125"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Foreign Nationals</Data></Cell>
+    <Cell ss:StyleID="s216"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s125"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s216"><Data ss:Type="Number">0.996</Data></Cell>
+    <Cell ss:StyleID="s125"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s217"/>
+    <Cell ss:StyleID="s181"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s217"/>
+    <Cell ss:StyleID="s181"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">Job Acceptances<Sup>(1)</Sup></B></Data></Cell>
+    <Cell ss:StyleID="s218"/>
+    <Cell ss:StyleID="s180"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">U.S. Citizens/Permanent Residents</Data></Cell>
+    <Cell ss:StyleID="s216"><Data ss:Type="Number">0.99399999999999999</Data></Cell>
+    <Cell ss:StyleID="s125"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Foreign Nationals</Data></Cell>
+    <Cell ss:StyleID="s216"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s125"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s216"><Data ss:Type="Number">0.996</Data></Cell>
+    <Cell ss:StyleID="s125"/>
+   </Row>
+   <Row ss:Index="35" ss:StyleID="s101">
+    <Cell><Data ss:Type="String"><B xmlns="http://www.w3.org/TR/REC-html40">Demographic Profile<Sup>(2)</Sup></B></Data></Cell>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:StyleID="s102"/>
+    <Cell ss:Index="5" ss:StyleID="s182"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mean Age</Data></Cell>
+    <Cell ss:StyleID="s179"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s182"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mean Years of Work Experience</Data></Cell>
+    <Cell ss:StyleID="s179"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s182"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:StyleID="s125"><Data ss:Type="Number">0.28000000000000003</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s182"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">International</Data></Cell>
+    <Cell ss:StyleID="s125"><Data ss:Type="Number">0.32</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s182"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s126"><Data ss:Type="String">Married</Data></Cell>
+    <Cell ss:StyleID="s183"><Data ss:Type="Number">0.24</Data></Cell>
+    <Cell ss:StyleID="s184"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s174"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(1)  </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40">Represents percent of students who are seeking employment.</Font></Data></Cell>
+    <Cell ss:StyleID="s125"/>
+    <Cell ss:Index="5" ss:StyleID="s185"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s174"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)  </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40">Demographic information is based on full-time MBA students matriculating</Font></Data></Cell>
+    <Cell ss:StyleID="s125"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    in September 2005.</Data></Cell>
+    <Cell ss:StyleID="s125"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s182"/>
+    <Cell ss:Index="5" ss:StyleID="s185"/>
+   </Row>
+   <Row ss:Index="47">
+    <Cell ss:Index="5" ss:StyleID="s185"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row ss:Index="54">
+    <Cell ss:StyleID="s182"><Data ss:Type="String">kdflsqkdfskjfmlskjflm jkjlmk</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s236"><Data ss:Type="String">qsdfmlksjlmdfk</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:CenterHorizontal="1"/>
+    <Header x:Data="&amp;Ctestdoc&amp;Rtest phrase"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>1200</HorizontalResolution>
+    <VerticalResolution>1200</VerticalResolution>
+   </Print>
+   <ShowPageLayoutZoom/>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>53</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Hires by Function">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="33" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s99" ss:DefaultColumnWidth="55"
+   ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="270"/>
+   <Column ss:StyleID="s213" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s214" ss:AutoFitWidth="0" ss:Width="72"/>
+   <Column ss:StyleID="s229" ss:Width="93"/>
+   <Column ss:StyleID="s229" ss:AutoFitWidth="0" ss:Width="70" ss:Span="1"/>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">The University of Chicago Graduate School of Business</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s116"/>
+    <Cell ss:StyleID="s222"/>
+    <Cell ss:StyleID="s223"/>
+    <Cell ss:StyleID="s223"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Employment Statistics - 2005-2006</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s116"/>
+    <Cell ss:StyleID="s222"/>
+    <Cell ss:StyleID="s222"/>
+    <Cell ss:StyleID="s223"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s115"/>
+    <Cell ss:StyleID="s116"/>
+    <Cell ss:StyleID="s222"/>
+    <Cell ss:StyleID="s222"/>
+    <Cell ss:StyleID="s223"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s219"><Data ss:Type="String">New Hires by Function - Intern</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s116"/>
+    <Cell ss:StyleID="s222"/>
+    <Cell ss:StyleID="s222"/>
+    <Cell ss:StyleID="s223"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s175"><Data ss:Type="DateTime">2006-09-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s115"/>
+    <Cell ss:StyleID="s116"/>
+    <Cell ss:StyleID="s222"/>
+    <Cell ss:StyleID="s222"/>
+    <Cell ss:StyleID="s222"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s117"><Data ss:Type="String">Function</Data></Cell>
+    <Cell ss:StyleID="s118"><Data ss:Type="String">Percent</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s224"><Data ss:Type="String">Minimum</Data></Cell>
+    <Cell ss:StyleID="s224"><Data ss:Type="String">Maximum</Data></Cell>
+    <Cell ss:StyleID="s224"><Data ss:Type="String">Median</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"><Data ss:Type="String">of Hires</Data></Cell>
+    <Cell ss:StyleID="s95"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">of Hires<Sup>(1)</Sup></B></Data></Cell>
+    <Cell ss:StyleID="s225"><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell ss:StyleID="s225"><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell ss:StyleID="s225"><Data ss:Type="String">Monthly</Data></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s105"/>
+    <Cell ss:StyleID="s119"/>
+    <Cell ss:StyleID="s106"/>
+    <Cell ss:StyleID="s226"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">Salary<Sup>(2) </Sup></B></Data></Cell>
+    <Cell ss:StyleID="s226"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">Salary<Sup>(2) </Sup></B></Data></Cell>
+    <Cell ss:StyleID="s226"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">Salary<Sup>(2) </Sup></B></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s202"><Data ss:Type="String">Business Development</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">2.3941068139963169E-2</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">2300</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">8300</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">5600</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s202"><Data ss:Type="String">Consulting</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.16390423572744015</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">89</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">12800</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">9500</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s187"><Data ss:Type="String">Finance</Data></Cell>
+    <Cell ss:StyleID="s231" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.5948434622467772</Data></Cell>
+    <Cell ss:StyleID="s187" ss:Formula="=SUM(R[1]C:R[7]C)"><Data ss:Type="Number">323</Data></Cell>
+    <Cell ss:StyleID="s221"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s221"><Data ss:Type="Number">13900</Data></Cell>
+    <Cell ss:StyleID="s221"><Data ss:Type="Number">7916</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Finance - Company Finance (Analysis/Treasury)</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">9.0239410681399637E-2</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">2400</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">8400</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">6000</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Finance - Investment Banking</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.21731123388581952</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">118</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7917</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Finance - Investment Management/Research</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.11786372007366483</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">13235</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7917</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Finance - Private Client Services</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.1049723756906077E-2</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7300</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">8000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7900</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Finance - Real Estate</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">7.3664825046040518E-3</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="String">Insufficient<Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)</Sup></Data></Cell>
+    <Cell ss:StyleID="s206"/>
+    <Cell ss:StyleID="s206"/>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Finance - Sales and Trading</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">9.0239410681399637E-2</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">13900</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7917</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Finance - Venture Capital/Private Equity</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">6.0773480662983423E-2</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">9000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">4500</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s215"><Data ss:Type="String">General Management</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">4.6040515653775323E-2</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">3200</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7500</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">6055</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s215"><Data ss:Type="String">Human Resources</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">7.3664825046040518E-3</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="String">Insufficient<Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)</Sup></Data></Cell>
+    <Cell ss:StyleID="s206"/>
+    <Cell ss:StyleID="s206"/>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s202"><Data ss:Type="String">Information Systems - Management</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">7.3664825046040518E-3</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="String">Insufficient<Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)</Sup></Data></Cell>
+    <Cell ss:StyleID="s206"/>
+    <Cell ss:StyleID="s206"/>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s187"><Data ss:Type="String">Marketing</Data></Cell>
+    <Cell ss:StyleID="s231" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.10128913443830571</Data></Cell>
+    <Cell ss:StyleID="s187" ss:Formula="=SUM(R[1]C:R[3]C)"><Data ss:Type="Number">55</Data></Cell>
+    <Cell ss:StyleID="s221"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s221"><Data ss:Type="Number">7916</Data></Cell>
+    <Cell ss:StyleID="s221"><Data ss:Type="Number">5600</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Marketing - Advertising/Communications</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.1049723756906077E-2</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">5887.5</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Marketing - Brand/Product Management</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">7.18232044198895E-2</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7916</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">5600</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Marketing - Research</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.841620626151013E-2</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">2600</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7550</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">5300</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s215"><Data ss:Type="String">Strategic Planning</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">4.7882136279926338E-2</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">12000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">5400</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s215"><Data ss:Type="String">Other</Data></Cell>
+    <Cell ss:StyleID="s212" ss:Formula="=RC[1]/543"><Data ss:Type="Number">7.3664825046040518E-3</Data></Cell>
+    <Cell ss:StyleID="s202"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="String">Insufficient<Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)</Sup></Data></Cell>
+    <Cell ss:StyleID="s206"/>
+    <Cell ss:StyleID="s206"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s144"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s145"><Data ss:Type="Number">543</Data></Cell>
+    <Cell ss:StyleID="s120"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s120"><Data ss:Type="Number">13900</Data></Cell>
+    <Cell ss:StyleID="s120"><Data ss:Type="Number">7600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s174"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(1)  </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40"> Eleven students in the Class of 2007 reported having two internships; one student had three internships.</Font></Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s227"/>
+    <Cell ss:StyleID="s228"/>
+    <Cell ss:StyleID="s228"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)   </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40">Compensation information is self-reported. Insufficient data indicates less than 1% reporting for all accepted offers.</Font></Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:StyleID="s227"/>
+    <Cell ss:StyleID="s228"/>
+    <Cell ss:StyleID="s228"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s174"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(3)  </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40">Bonus information: 24% of accepted offers reported in the consulting function received a sign-on bonus, for which the </Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    median bonus was $5,000.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s102"/>
+    <Cell ss:StyleID="s102"/>
+    <Cell ss:StyleID="s230"/>
+    <Cell ss:StyleID="s230"/>
+    <Cell ss:StyleID="s230"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape" x:CenterHorizontal="1"/>
+    <Footer x:Margin="0.25" x:Data="&amp;L&amp;F"/>
+    <PageMargins x:Bottom="0.5" x:Top="0.5"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <Scale>80</Scale>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>1200</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <TopRowVisible>3</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Top Six Functions">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="17" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s99" ss:DefaultColumnWidth="55"
+   ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="280"/>
+   <Column ss:StyleID="s113" ss:Width="93"/>
+   <Column ss:StyleID="s102" ss:Width="105"/>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">The University of Chicago Graduate School of Business</Data></Cell>
+    <Cell ss:StyleID="s108"/>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Employment Statistics:  2005-2006</Data></Cell>
+    <Cell ss:StyleID="s108"/>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:StyleID="s219"><Data ss:Type="String">Top Six Functions - Intern</Data></Cell>
+    <Cell ss:StyleID="s108"/>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s175"><Data ss:Type="DateTime">2006-09-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s108"/>
+    <Cell ss:StyleID="s107"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s207"><Data ss:Type="String">Function</Data></Cell>
+    <Cell ss:StyleID="s208"><Data ss:Type="String">Percent of Hires</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">Number of Hires<Sup>(1)</Sup></B></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Top Six Functions</Data></Cell>
+    <Cell ss:StyleID="s91" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.78084714548802947</Data></Cell>
+    <Cell ss:StyleID="s95" ss:Formula="=SUM(R[1]C:R[6]C)"><Data ss:Type="Number">424</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Finance - Investment Banking</Data></Cell>
+    <Cell ss:StyleID="s178"><Data ss:Type="Number">0.217</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">118</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Consulting</Data></Cell>
+    <Cell ss:StyleID="s178"><Data ss:Type="Number">0.16400000000000001</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">89</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Finance - Investment Management/ Research</Data></Cell>
+    <Cell ss:StyleID="s178"><Data ss:Type="Number">0.11799999999999999</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">64</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Marketing</Data></Cell>
+    <Cell ss:StyleID="s178"><Data ss:Type="Number">0.10100000000000001</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">55</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Finance - Company Finance (Analysis/ Treasury)</Data></Cell>
+    <Cell ss:StyleID="s178"><Data ss:Type="Number">0.09</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">49</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Finance - Sales and Trading</Data></Cell>
+    <Cell ss:StyleID="s178"><Data ss:Type="Number">0.09</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">49</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s205"><Data ss:Type="String">All Others</Data></Cell>
+    <Cell ss:StyleID="s178"><Data ss:Type="Number">0.219</Data></Cell>
+    <Cell ss:StyleID="s210"><Data ss:Type="Number">119</Data></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s211" ss:Formula="=R[-8]C+R[-1]C"><Data ss:Type="Number">0.99984714548802944</Data></Cell>
+    <Cell ss:StyleID="s98" ss:Formula="=R[-8]C+R[-1]C"><Data ss:Type="Number">543</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s174"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(1)  </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40"> Eleven students in the Class of 2007 reported having 2 internships; one student had 3 internships.</Font></Data></Cell>
+    <Cell ss:StyleID="s92"/>
+    <Cell ss:StyleID="s93"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s92"/>
+    <Cell ss:StyleID="s94"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape" x:CenterHorizontal="1"/>
+    <Footer x:Margin="0.25" x:Data="&amp;L&amp;F"/>
+    <PageMargins x:Bottom="0.5"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <Scale>90</Scale>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>1200</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Hires by Industry">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="37" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s99" ss:DefaultColumnWidth="55"
+   ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="279"/>
+   <Column ss:StyleID="s161" ss:Width="54"/>
+   <Column ss:StyleID="s149" ss:AutoFitWidth="0" ss:Width="61"/>
+   <Column ss:StyleID="s173" ss:Width="93"/>
+   <Column ss:StyleID="s173" ss:AutoFitWidth="0" ss:Width="70" ss:Span="1"/>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">The University of Chicago Graduate School of Business</Data></Cell>
+    <Cell ss:StyleID="s146"/>
+    <Cell ss:StyleID="s147"/>
+    <Cell ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Employment Statistics:  2005-2006</Data></Cell>
+    <Cell ss:StyleID="s146"/>
+    <Cell ss:StyleID="s147"/>
+    <Cell ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s148"/>
+    <Cell ss:Index="4" ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s219"><Data ss:Type="String">New Hires by Industry - Intern</Data></Cell>
+    <Cell ss:StyleID="s146"/>
+    <Cell ss:StyleID="s147"/>
+    <Cell ss:StyleID="s167"/>
+    <Cell ss:StyleID="s167"/>
+    <Cell ss:StyleID="s167"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s175"><Data ss:Type="DateTime">2006-09-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s146"/>
+    <Cell ss:StyleID="s147"/>
+    <Cell ss:StyleID="s167"/>
+    <Cell ss:StyleID="s167"/>
+    <Cell ss:StyleID="s167"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">Industry</Data></Cell>
+    <Cell ss:StyleID="s150"><Data ss:Type="String">Percent</Data></Cell>
+    <Cell ss:StyleID="s151"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s168"><Data ss:Type="String">Minimum</Data></Cell>
+    <Cell ss:StyleID="s168"><Data ss:Type="String">Maximum</Data></Cell>
+    <Cell ss:StyleID="s168"><Data ss:Type="String">Median</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s152"><Data ss:Type="String">of Hires</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">of Hires<Sup>(1)</Sup></B></Data></Cell>
+    <Cell ss:StyleID="s169"><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell ss:StyleID="s169"><Data ss:Type="String">Monthly</Data></Cell>
+    <Cell ss:StyleID="s169"><Data ss:Type="String">Monthly</Data></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s105"/>
+    <Cell ss:StyleID="s154"/>
+    <Cell ss:StyleID="s155"/>
+    <Cell ss:StyleID="s170"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">Salary<Sup>(2) </Sup></B></Data></Cell>
+    <Cell ss:StyleID="s170"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">Salary<Sup>(2) </Sup></B></Data></Cell>
+    <Cell ss:StyleID="s170"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">Salary<Sup>(2) </Sup></B></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s163"><Data ss:Type="String">Consulting</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.1694290976058932</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">92</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">4333</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">12800</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">9500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s163"><Data ss:Type="String">Consumer Packaged Goods</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">5.5248618784530384E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">4400</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7500</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">5650</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s163"><Data ss:Type="String">Entertainment/Leisure</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">9.2081031307550652E-3</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="String">Insufficient<Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)</Sup></Data></Cell>
+    <Cell ss:StyleID="s206"/>
+    <Cell ss:StyleID="s206"/>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s110"><Data ss:Type="String">Financial Services</Data></Cell>
+    <Cell ss:StyleID="s220" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.53038674033149169</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="Number">288</Data></Cell>
+    <Cell ss:StyleID="s169"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s221"><Data ss:Type="Number">13900</Data></Cell>
+    <Cell ss:StyleID="s221"><Data ss:Type="Number">7916</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Financial Services - Commercial Banking</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.289134438305709E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">2500</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7916</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">6500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Financial Services - Diversified Financial Services</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">6.8139963167587483E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">8000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7200</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Financial Services - Insurance</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">3.6832412523020259E-3</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="String">Insufficient<Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)</Sup></Data></Cell>
+    <Cell ss:StyleID="s206"/>
+    <Cell ss:StyleID="s206"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Financial Services - Investment Banking/Brokerage</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.2983425414364641</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">162</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">13900</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7917</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Financial Services - Investment Management</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">9.5764272559852676E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">13235</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7796</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Financial Services - Venture Capital/Private Equity</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">5.1565377532228361E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">8500</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">4800</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s163"><Data ss:Type="String">Government/Nonprofit</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.1049723756906077E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">2300</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">4400</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">3040</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s163"><Data ss:Type="String">Manufacturing  </Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">3.4990791896869246E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">1583</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">10000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">6000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s163"><Data ss:Type="String">Petroleum/Energy</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">2.3941068139963169E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7550</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">6000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s163"><Data ss:Type="String">Pharmaceutical/Biotechnology/Healthcare Services</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">3.3149171270718231E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">5200</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7550</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">6675</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Retail</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.4732965009208104E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">2500</Data></Cell>
+    <Cell><Data ss:Type="Number">6000</Data></Cell>
+    <Cell><Data ss:Type="Number">5470</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s110"><Data ss:Type="String">Technology</Data></Cell>
+    <Cell ss:StyleID="s220" ss:Formula="=RC[1]/543"><Data ss:Type="Number">7.3664825046040522E-2</Data></Cell>
+    <Cell ss:StyleID="s153"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s169"><Data ss:Type="Number">1400</Data></Cell>
+    <Cell ss:StyleID="s221"><Data ss:Type="Number">8400</Data></Cell>
+    <Cell ss:StyleID="s221"><Data ss:Type="Number">5716.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Computer-Related Services</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.289134438305709E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">7083</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">6000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">E-Commerce and Internet</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.1049723756906077E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">8300</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">6650</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Electronic Equipment</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">3.4990791896869246E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">1400</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">8400</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">5600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Software/Printing/Publishing</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">9.2081031307550652E-3</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="String">Insufficient<Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)</Sup></Data></Cell>
+    <Cell ss:StyleID="s206"/>
+    <Cell ss:StyleID="s206"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Telecommunications</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">5.5248618784530384E-3</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="String">Insufficient<Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)</Sup></Data></Cell>
+    <Cell ss:StyleID="s206"/>
+    <Cell ss:StyleID="s206"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s163"><Data ss:Type="String">Transportation Services/Equipment</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.1049723756906077E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">4850</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">12000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">5945.5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s163"><Data ss:Type="String">Other</Data></Cell>
+    <Cell ss:StyleID="s164" ss:Formula="=RC[1]/543"><Data ss:Type="Number">3.3149171270718231E-2</Data></Cell>
+    <Cell ss:StyleID="s165"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">10400</Data></Cell>
+    <Cell ss:StyleID="s206"><Data ss:Type="Number">4700</Data></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s162"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s156"><Data ss:Type="Number">543</Data></Cell>
+    <Cell ss:StyleID="s172"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s172"><Data ss:Type="Number">13900</Data></Cell>
+    <Cell ss:StyleID="s172"><Data ss:Type="Number">7600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s174"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(1)  </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40"> Eleven students in the Class of 2007 reported having two internships; one student had three internships.</Font></Data></Cell>
+    <Cell ss:StyleID="s157"/>
+    <Cell ss:StyleID="s158"/>
+    <Cell ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)   </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40">Compensation information is self-reported. Insufficient data indicates less than 1% reporting for all accepted offers. </Font></Data></Cell>
+    <Cell ss:StyleID="s159"/>
+    <Cell ss:StyleID="s160"/>
+    <Cell ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s174"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(3)  </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40">Bonus information: 23% of accepted offers reported in the consulting industry received a sign-on bonus, for which the </Font></Data></Cell>
+    <Cell ss:StyleID="s148"/>
+    <Cell ss:Index="4" ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">    median bonus was $5,000.</Data></Cell>
+    <Cell ss:StyleID="s148"/>
+    <Cell ss:Index="4" ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s148"/>
+    <Cell ss:Index="4" ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+    <Cell ss:StyleID="s166"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape" x:CenterHorizontal="1" x:CenterVertical="1"/>
+    <Footer x:Margin="0.25" x:Data="&amp;L&amp;F"/>
+    <PageMargins x:Bottom="0.3" x:Top="0.3"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <Scale>70</Scale>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>1200</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Top Five Industries">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="49" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s99" ss:DefaultColumnWidth="55"
+   ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s99" ss:Width="280"/>
+   <Column ss:StyleID="s125" ss:Width="93"/>
+   <Column ss:StyleID="s102" ss:Width="105"/>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">The University of Chicago Graduate School of Business</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Employment Statistics:  2005-2006</Data></Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:StyleID="s219"><Data ss:Type="String">Top Five Industries - Intern</Data></Cell>
+    <Cell ss:StyleID="s139"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s175"><Data ss:Type="DateTime">2006-09-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s139"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Industry</Data></Cell>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Percent of Hires</Data></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">Number of Hires<Sup>(1)</Sup></B></Data></Cell>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+    <Cell ss:StyleID="s101"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">Top Five Industries</Data></Cell>
+    <Cell ss:StyleID="s91" ss:Formula="=SUM(R[1]C:R[5]C)"><Data ss:Type="Number">0.70499999999999985</Data></Cell>
+    <Cell ss:StyleID="s95" ss:Formula="=SUM(R[1]C:R[5]C)"><Data ss:Type="Number">383</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Financial Services - Investment Banking/Brokerage</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="Number">0.29799999999999999</Data></Cell>
+    <Cell ss:StyleID="s121"><Data ss:Type="Number">162</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s122"><Data ss:Type="String">Consulting</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="Number">0.16900000000000001</Data></Cell>
+    <Cell ss:StyleID="s121"><Data ss:Type="Number">92</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Financial Services - Investment Management</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="Number">9.6000000000000002E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Technology</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="Number">7.3999999999999996E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Financial Services - Diversified Financial Services</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="Number">6.8000000000000005E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s205"><Data ss:Type="String">All Others</Data></Cell>
+    <Cell ss:StyleID="s114"><Data ss:Type="Number">0.29499999999999998</Data></Cell>
+    <Cell><Data ss:Type="Number">160</Data></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s141" ss:Formula="=R[-7]C+R[-1]C"><Data ss:Type="Number">0.99999999999999978</Data></Cell>
+    <Cell ss:StyleID="s98" ss:Formula="=R[-7]C+R[-1]C"><Data ss:Type="Number">543</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s174"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(1)  </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40"> Eleven students in the Class of 2007 reported having 2 internships; one student had 3 internships.</Font></Data></Cell>
+    <Cell ss:StyleID="s91"/>
+    <Cell ss:StyleID="s95"/>
+   </Row>
+   <Row ss:Index="45">
+    <Cell ss:Index="2" ss:StyleID="s102"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s102"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s102"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s102"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s102"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape" x:CenterHorizontal="1"/>
+    <Footer x:Margin="0.25" x:Data="&amp;L&amp;F"/>
+    <PageMargins x:Bottom="0.5" x:Left="0.5" x:Right="0.5"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <Scale>90</Scale>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>1200</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Hires by Location">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="49" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s99" ss:DefaultColumnWidth="55"
+   ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="249"/>
+   <Column ss:StyleID="s191" ss:AutoFitWidth="0" ss:Width="94"/>
+   <Column ss:StyleID="s204" ss:AutoFitWidth="0" ss:Width="94"/>
+   <Column ss:StyleID="s128" ss:AutoFitWidth="0" ss:Width="99"/>
+   <Column ss:Index="6" ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="107"/>
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="10"/>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">The University of Chicago Graduate School of Business</Data></Cell>
+    <Cell ss:StyleID="s232"/>
+    <Cell ss:StyleID="s127"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Employment Statistics:  2005-2006</Data></Cell>
+    <Cell ss:StyleID="s232"/>
+    <Cell ss:StyleID="s127"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s232"/>
+    <Cell ss:StyleID="s127"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s219"><Data ss:Type="String">New Hires by Location - Intern</Data></Cell>
+    <Cell ss:StyleID="s232"/>
+    <Cell ss:StyleID="s127"/>
+    <Cell ss:StyleID="s129"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s175"><Data ss:Type="DateTime">2006-09-11T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s232"/>
+    <Cell ss:StyleID="s127"/>
+    <Cell ss:StyleID="s129"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">Region</Data></Cell>
+    <Cell ss:StyleID="s137"><Data ss:Type="String">Percent</Data></Cell>
+    <Cell ss:StyleID="s130"><Data ss:Type="String">Number</Data></Cell>
+    <Cell ss:StyleID="s131"><Data ss:Type="String">Median</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s233"><Data ss:Type="String">of Hires</Data></Cell>
+    <Cell ss:StyleID="s132"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">of Hires<Sup>(1)</Sup></B></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String">Monthly</Data></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s105"/>
+    <Cell ss:StyleID="s138"/>
+    <Cell ss:StyleID="s134"/>
+    <Cell ss:StyleID="s112"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">Salary<Sup>(2)</Sup></B></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s187"><Data ss:Type="String">United States</Data></Cell>
+    <Cell ss:StyleID="s188" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.78084714548802947</Data></Cell>
+    <Cell ss:StyleID="s189"><Data ss:Type="Number">424</Data></Cell>
+    <Cell ss:StyleID="s190"><Data ss:Type="Number">7550</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s191"/>
+    <Cell ss:StyleID="s149"/>
+    <Cell ss:StyleID="s192"/>
+   </Row>
+   <Row ss:StyleID="s197">
+    <Cell ss:StyleID="s193"><Data ss:Type="String">Midwest</Data></Cell>
+    <Cell ss:StyleID="s234" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.36095764272559855</Data></Cell>
+    <Cell ss:StyleID="s195"><Data ss:Type="Number">196</Data></Cell>
+    <Cell ss:StyleID="s196"><Data ss:Type="Number">6021</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">Chicago</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.2965009208103131</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">161</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">6000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">Minneapolis</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.841620626151013E-2</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">6460</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s201"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s199"/>
+    <Cell ss:StyleID="s200"/>
+   </Row>
+   <Row ss:StyleID="s197">
+    <Cell ss:StyleID="s193"><Data ss:Type="String">Northeast</Data></Cell>
+    <Cell ss:StyleID="s234" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.27440147329650094</Data></Cell>
+    <Cell ss:StyleID="s195"><Data ss:Type="Number">149</Data></Cell>
+    <Cell ss:StyleID="s196"><Data ss:Type="Number">7917</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">New York City</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.24125230202578268</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">131</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">7917</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">Boston</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">3.1307550644567222E-2</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">7500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s201"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s199"/>
+    <Cell ss:StyleID="s200"/>
+   </Row>
+   <Row ss:StyleID="s197">
+    <Cell ss:StyleID="s193"><Data ss:Type="String">West</Data></Cell>
+    <Cell ss:StyleID="s234" ss:Formula="=RC[1]/543"><Data ss:Type="Number">9.5764272559852676E-2</Data></Cell>
+    <Cell ss:StyleID="s195"><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s196"><Data ss:Type="Number">7000</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s193"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">San Francisco</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">4.6040515653775323E-2</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">7550</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s202"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">Los Angeles</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">2.7624309392265192E-2</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">7600</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s202"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s201"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s199"/>
+    <Cell ss:StyleID="s200"/>
+    <Cell ss:Index="9" ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s197">
+    <Cell ss:StyleID="s193"><Data ss:Type="String">Southwest</Data></Cell>
+    <Cell ss:StyleID="s234" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.841620626151013E-2</Data></Cell>
+    <Cell ss:StyleID="s195"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s196"><Data ss:Type="Number">9500</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s193"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s198"><Data ss:Type="String">Dallas</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.1049723756906077E-2</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">9500</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s202"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s201"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s199"/>
+    <Cell ss:StyleID="s200"/>
+    <Cell ss:Index="9" ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s197">
+    <Cell ss:StyleID="s193"><Data ss:Type="String">Mid-Atlantic</Data></Cell>
+    <Cell ss:StyleID="s234" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.6574585635359115E-2</Data></Cell>
+    <Cell ss:StyleID="s195"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s196"><Data ss:Type="Number">7346</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s193"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s201"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s199"/>
+    <Cell ss:StyleID="s200"/>
+    <Cell ss:Index="9" ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s197">
+    <Cell ss:StyleID="s193"><Data ss:Type="String">South</Data></Cell>
+    <Cell ss:StyleID="s234" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.4732965009208104E-2</Data></Cell>
+    <Cell ss:StyleID="s195"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s196"><Data ss:Type="Number">6750</Data></Cell>
+    <Cell ss:Index="9" ss:StyleID="s193"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s149"/>
+    <Cell ss:StyleID="s192"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s187"><Data ss:Type="String">International</Data></Cell>
+    <Cell ss:StyleID="s188" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.21915285451197053</Data></Cell>
+    <Cell ss:StyleID="s189" ss:Formula="=SUM(R[2]C+R[7]C+R[10]C+R[12]C+R[14]C)"><Data
+      ss:Type="Number">119</Data></Cell>
+    <Cell ss:StyleID="s190"><Data ss:Type="Number">7916</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s191"/>
+    <Cell ss:StyleID="s149"/>
+    <Cell ss:StyleID="s192"/>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s201"><Data ss:Type="String">Asia</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.10865561694290976</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">7916</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s198"><Data ss:Type="String">Hong Kong</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">3.3149171270718231E-2</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">7918.5</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s198"><Data ss:Type="String">Tokyo</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">2.5782688766114181E-2</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">7500</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s198"><Data ss:Type="String">Seoul</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">2.0257826887661142E-2</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">8800</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s201"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s199"/>
+    <Cell ss:StyleID="s200"/>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s203"><Data ss:Type="String">Europe</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">9.2081031307550645E-2</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">8355</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s198"><Data ss:Type="String">London</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">7.7348066298342538E-2</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">8372</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s203"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s199"/>
+    <Cell ss:StyleID="s200"/>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s201"><Data ss:Type="String">Latin America and the Caribbean</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.4732965009208104E-2</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s200"><Data ss:Type="Number">5300</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s201"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s199"/>
+    <Cell ss:StyleID="s200"/>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s201"><Data ss:Type="String">Africa</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.841620626151013E-3</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="String">Insufficient<Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)</Sup></Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s198"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s199"/>
+    <Cell ss:StyleID="s200"/>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s203"><Data ss:Type="String">North America</Data></Cell>
+    <Cell ss:StyleID="s194" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.841620626151013E-3</Data></Cell>
+    <Cell ss:StyleID="s199"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s171"><Data ss:Type="String">Insufficient<Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)</Sup></Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:StyleID="s182">
+    <Cell ss:StyleID="s198"/>
+    <Cell ss:StyleID="s194"/>
+    <Cell ss:StyleID="s199"/>
+    <Cell ss:StyleID="s200"/>
+    <Cell ss:Index="6" ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+    <Cell ss:StyleID="s202"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s135"><Data ss:Type="String">TOTAL</Data></Cell>
+    <Cell ss:StyleID="s142" ss:Formula="=R[-37]C+R[-16]C"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s143" ss:Formula="=R[-37]C+R[-16]C"><Data ss:Type="Number">543</Data></Cell>
+    <Cell ss:StyleID="s120"><Data ss:Type="Number">7600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s174"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(1)  </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40"> Eleven students in the Class of 2007 reported having 2 internships; one student had 3 internships.</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s84"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(2)   </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40">Compensation information is self-reported. Insufficient data indicates less than 1% reporting for all accepted offers.</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s100"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:CenterHorizontal="1"/>
+    <Footer x:Margin="0.25" x:Data="&amp;L&amp;F"/>
+    <PageMargins x:Bottom="0.5" x:Top="0.5"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>1200</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Job Source">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="25" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s99" ss:DefaultColumnWidth="55"
+   ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="441"/>
+   <Column ss:StyleID="s125" ss:AutoFitWidth="0" ss:Width="94"/>
+   <Column ss:StyleID="s102" ss:AutoFitWidth="0" ss:Width="94"/>
+   <Column ss:Index="5" ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="64"/>
+   <Column ss:StyleID="s99" ss:AutoFitWidth="0" ss:Width="317"/>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">The University of Chicago Graduate School of Business</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s101"><Data ss:Type="String">Employment Statistics:  2005-2006</Data></Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell ss:StyleID="s219"><Data ss:Type="String">New Hires by Job Source - Intern</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s175"><Data ss:Type="DateTime">2006-09-11T00:00:00.000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s136"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s103"><Data ss:Type="String">Method of Hire</Data></Cell>
+    <Cell ss:StyleID="s137"><Data ss:Type="String">Percent</Data></Cell>
+    <Cell ss:StyleID="s104"><Data ss:Type="String">Number</Data></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s105"/>
+    <Cell ss:StyleID="s138"><Data ss:Type="String">Of Hires</Data></Cell>
+    <Cell ss:StyleID="s106"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40">Of Hires<Sup>(1)</Sup></B></Data></Cell>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell><Data ss:Type="String">School Facilitated</Data></Cell>
+    <Cell ss:StyleID="s139" ss:Formula="=RC[1]/R[14]C[1]"><Data ss:Type="Number">0.93186003683241247</Data></Cell>
+    <Cell ss:StyleID="s107" ss:Formula="=SUM(R[1]C:R[7]C)"><Data ss:Type="Number">506</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s99"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Interview on campus - invite schedule</Data></Cell>
+    <Cell ss:StyleID="s140" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.48066298342541436</Data></Cell>
+    <Cell><Data ss:Type="Number">261</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Interview on campus - open schedule</Data></Cell>
+    <Cell ss:StyleID="s140" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.13627992633517497</Data></Cell>
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Other GSB source (e.g., faculty/staff/student groups)</Data></Cell>
+    <Cell ss:StyleID="s140" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.11233885819521179</Data></Cell>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Off-campus interview sourced through the GSB</Data></Cell>
+    <Cell ss:StyleID="s140" ss:Formula="=RC[1]/543"><Data ss:Type="Number">0.10497237569060773</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s186"><Data ss:Type="String">Job Postings/Resume Referral Service</Data></Cell>
+    <Cell ss:StyleID="s140" ss:Formula="=RC[1]/543"><Data ss:Type="Number">6.6298342541436461E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Alumni contact</Data></Cell>
+    <Cell ss:StyleID="s140" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.841620626151013E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">School-sponsored career fair </Data></Cell>
+    <Cell ss:StyleID="s140" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.289134438305709E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"/>
+    <Cell ss:StyleID="s140"/>
+   </Row>
+   <Row ss:StyleID="s101">
+    <Cell><Data ss:Type="String"><B xmlns="http://www.w3.org/TR/REC-html40">Direct Contact with Company <Sup>(2)</Sup></B></Data></Cell>
+    <Cell ss:StyleID="s139" ss:Formula="=RC[1]/R[5]C[1]"><Data ss:Type="Number">6.8139963167587483E-2</Data></Cell>
+    <Cell ss:StyleID="s107" ss:Formula="=SUM(R[1]C:R[3]C)"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s99"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Prior business contact</Data></Cell>
+    <Cell ss:StyleID="s140" ss:Formula="=RC[1]/543"><Data ss:Type="Number">3.1307550644567222E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Personal/family contact</Data></Cell>
+    <Cell ss:StyleID="s140" ss:Formula="=RC[1]/543"><Data ss:Type="Number">2.0257826887661142E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"><Data ss:Type="String">Letter campaign</Data></Cell>
+    <Cell ss:StyleID="s140" ss:Formula="=RC[1]/543"><Data ss:Type="Number">1.6574585635359115E-2</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s123"/>
+    <Cell ss:StyleID="s140"/>
+   </Row>
+   <Row ss:Height="13" ss:StyleID="s101">
+    <Cell ss:StyleID="s135"><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s141" ss:Formula="=R[-5]C+R[-14]C"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s98" ss:Formula="=R[-14]C+R[-5]C"><Data ss:Type="Number">543</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s174"><Data ss:Type="String"><Sup
+       xmlns="http://www.w3.org/TR/REC-html40">(1)  </Sup><Font
+       xmlns="http://www.w3.org/TR/REC-html40"> Eleven students in the Class of 2007 reported having two internships; one student had three internships.</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s174"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:CenterHorizontal="1"/>
+    <Header x:Data="&amp;Ltestdoc&amp;Rtest phrase"/>
+    <PageMargins x:Left="0" x:Right="0"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>1200</HorizontalResolution>
+    <VerticalResolution>1200</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

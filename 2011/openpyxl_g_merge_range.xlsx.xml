@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2011-01-24T12:53:24Z</Created>
+  <LastSaved>2011-01-24T12:53:33Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4820</WindowHeight>
+  <WindowWidth>9420</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#33CCCC"/>
+   <Interior ss:Color="#6711FF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="TEST_RANGE" ss:RefersTo="=Sheet1!R1C1:R1C4"/>
+  <NamedRange ss:Name="TRAP_1" ss:RefersTo="=Sheet1!R3C1,Sheet1!R3C3:R3C4"/>
+  <NamedRange ss:Name="TRAP_2"
+   ss:RefersTo="=Sheet1!R5C3:R7C3,Sheet1!R9C3:R11C3,Sheet1!R5C5:R7C5,Sheet1!R9C5:R11C5,Sheet1!R8C4"/>
+  <NamedRange ss:Name="TRAP_3" ss:RefersTo="=Sheet1!R15C2"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="TEST_RANGE"/></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="TEST_RANGE"/></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="TEST_RANGE"/></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="TEST_RANGE"/></Cell>
+   </Row>
+   <Row ss:Index="3">
+    <Cell ss:StyleID="s17"><Data ss:Type="String">A</Data><NamedCell
+      ss:Name="TRAP_1"/></Cell>
+    <Cell><Data ss:Type="String">B</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">C</Data><NamedCell
+      ss:Name="TRAP_1"/></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">D</Data><NamedCell
+      ss:Name="TRAP_1"/></Cell>
+   </Row>
+   <Row ss:Index="5">
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="String">x</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="String">z</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="String">x</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="String">z</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="String">x</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="String">z</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s16"><Data ss:Type="String">y</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="String">x</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="String">z</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="String">x</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="String">z</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s16"><Data ss:Type="String">x</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+    <Cell ss:Index="5" ss:StyleID="s16"><Data ss:Type="String">z</Data><NamedCell
+      ss:Name="TRAP_2"/></Cell>
+   </Row>
+   <Row ss:Index="15">
+    <Cell ss:Index="2" ss:MergeAcross="2" ss:StyleID="s20"><Data ss:Type="Number">10</Data><NamedCell
+      ss:Name="TRAP_3"/></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

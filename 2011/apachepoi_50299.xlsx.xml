@@ -1,0 +1,1209 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>びーぶれいくしすてむず</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2009-04-09T01:21:05Z</Created>
+  <LastSaved>2010-11-19T14:11:30Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7880</WindowHeight>
+  <WindowWidth>15480</WindowWidth>
+  <WindowTopX>2640</WindowTopX>
+  <WindowTopY>400</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ActiveSheet>14</ActiveSheet>
+  <FirstVisibleSheet>9</FirstVisibleSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="128" x:Family="Modern" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m2134270856">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134270876">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134270896">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134270916">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134270936">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134270956">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134276232">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134276252">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134276272">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134276292">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134276312">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134307640">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134307660">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134312904">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m2134312924">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s16">
+   <Interior ss:Color="#DD0806" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s21">
+   <Interior ss:Color="#008080" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s22">
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Interior ss:Color="#003366" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Interior ss:Color="#6711FF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Interior ss:Color="#000000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Font ss:FontName="Calibri" x:CharSet="128" x:Family="Modern" ss:Size="11"
+    ss:Color="#DD0806"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Font ss:FontName="ＭＳ Ｐゴシック" x:CharSet="128" x:Family="Modern" ss:Size="11"
+    ss:Color="#0000D4" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#DD0806" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#DD0806" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s46">
+   <Alignment ss:Vertical="Center"/>
+   <Interior ss:Color="#969696" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s48">
+   <Alignment ss:Vertical="Center"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="113"/>
+   <Column ss:AutoFitWidth="0" ss:Width="54"/>
+   <Row>
+    <Cell><Data ss:Type="String">$R[]{A}</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">1D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">2D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">$R[]{B}</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">3D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">4D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">5D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s20"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">6D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">7D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">8D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">9D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10A</Data></Cell>
+    <Cell><Data ss:Type="String">10B</Data></Cell>
+    <Cell><Data ss:Type="String">10C</Data></Cell>
+    <Cell><Data ss:Type="String">10D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s25"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="113"/>
+   <Column ss:AutoFitWidth="0" ss:Width="54" ss:Span="1"/>
+   <Row>
+    <Cell><Data ss:Type="String">$R[]{A,breakNum=3}</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">1D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">2D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s28"><Data ss:Type="String">$R[]{B,changeBreak=true,hideDuplicate=true}</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">3D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">4D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s28"><Data ss:Type="String">$R[]{B,repeatNum=2,rowShift=true}</Data></Cell>
+    <Cell><Data ss:Type="String">5D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s20"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">6D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">7D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">8D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">9D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10A</Data></Cell>
+    <Cell><Data ss:Type="String">10B</Data></Cell>
+    <Cell><Data ss:Type="String">10C</Data></Cell>
+    <Cell><Data ss:Type="String">10D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s25"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="17" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="113"/>
+   <Column ss:AutoFitWidth="0" ss:Width="54" ss:Span="1"/>
+   <Row ss:Height="17">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">$R[]{B,sheetLink=true}</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">$R[]{B,sheetLink=true,repeatNum=2}</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">$R[]{A,sheetLink=true}</Data></Cell>
+    <Cell><Data ss:Type="String">1D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">2D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">3D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">4D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">5D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s20"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">6D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">7D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">8D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">9D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10A</Data></Cell>
+    <Cell><Data ss:Type="String">10B</Data></Cell>
+    <Cell><Data ss:Type="String">10C</Data></Cell>
+    <Cell><Data ss:Type="String">10D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s25"/>
+   </Row>
+   <Row ss:Index="17" ss:Height="17">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">$R[]{#SHEET_NAME[],sheetLink=true}</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">$R[]{#SHEET_VALUE[],sheetLink=true,property=D}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet4">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="113"/>
+   <Column ss:AutoFitWidth="0" ss:Width="54" ss:Span="1"/>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">$R[]{}</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">1D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">$R[]{aaa=bbb}</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">2D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s19"><Data ss:Type="String">$R[]{,,,,}</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">3D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">4D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">5D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s20"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">6D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">7D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">8D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">9D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10A</Data></Cell>
+    <Cell><Data ss:Type="String">10B</Data></Cell>
+    <Cell><Data ss:Type="String">10C</Data></Cell>
+    <Cell><Data ss:Type="String">10D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s25"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>41</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet5">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="113"/>
+   <Column ss:AutoFitWidth="0" ss:Width="54" ss:Span="1"/>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">1D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">2D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">3D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">4D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">5D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s20"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">6D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">$R[]{A,sheetLink=true,hideDuplicate=true}</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">7D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">8D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">9D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10A</Data></Cell>
+    <Cell><Data ss:Type="String">10B</Data></Cell>
+    <Cell><Data ss:Type="String">10C</Data></Cell>
+    <Cell><Data ss:Type="String">10D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s25"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>29</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet6">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="113"/>
+   <Column ss:AutoFitWidth="0" ss:Width="54" ss:Span="1"/>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">1D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">2D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s16"/>
+    <Cell ss:StyleID="s27"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">3D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s18"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">4D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s19"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">5D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s20"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">6D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s21"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">$R[]{A,repeatNum=テスト}</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">7D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">8D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s22"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4"><Data ss:Type="String">9D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">10A</Data></Cell>
+    <Cell><Data ss:Type="String">10B</Data></Cell>
+    <Cell><Data ss:Type="String">10C</Data></Cell>
+    <Cell><Data ss:Type="String">10D</Data></Cell>
+    <Cell ss:Index="8" ss:StyleID="s25"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet7">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row ss:Index="2">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s46"><Data ss:Type="String">$R[]{A}</Data></Cell>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:Index="5">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s48"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+     <RangeSelection>R2C2:R3C2</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet8">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">1F</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeDown="1" ss:StyleID="m2134270896"><Data ss:Type="String">$R[]{A}</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m2134270916"><Data ss:Type="String">$R[]{A,hideDuplicate=true}</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m2134270936"><Data ss:Type="String">$R[]{A,breakNum=2}</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m2134270956"><Data ss:Type="String">$R[]{A,repeatNum=2}</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="m2134270856"><Data ss:Type="String">$R[]{#SHEET_NAME[],sheetLink=true}</Data></Cell>
+    <Cell><Data ss:Type="String">2F</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">3F</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">4F</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">5F</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeDown="1" ss:StyleID="m2134270876"><Data ss:Type="String">$R[]{A,rowShift=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">6F</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">7F</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">8A</Data></Cell>
+    <Cell><Data ss:Type="String">8B</Data></Cell>
+    <Cell><Data ss:Type="String">8C</Data></Cell>
+    <Cell><Data ss:Type="String">8D</Data></Cell>
+    <Cell><Data ss:Type="String">8E</Data></Cell>
+    <Cell><Data ss:Type="String">8F</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageBreakZoom>100</PageBreakZoom>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet9">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">1F</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeDown="2" ss:StyleID="m2134276232"><Data ss:Type="String">$R[]{A}</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="m2134276252"><Data ss:Type="String">$R[]{A,hideDuplicate=true}</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="m2134276272"><Data ss:Type="String">$R[]{A,breakNum=2}</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="m2134276292"><Data ss:Type="String">$R[]{A,repeatNum=2}</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="m2134276312"><Data ss:Type="String">$R[]{#SHEET_NAME[],sheetLink=true}</Data></Cell>
+    <Cell><Data ss:Type="String">2F</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">3F</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="6"><Data ss:Type="String">4F</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">5A</Data></Cell>
+    <Cell><Data ss:Type="String">5B</Data></Cell>
+    <Cell><Data ss:Type="String">5C</Data></Cell>
+    <Cell><Data ss:Type="String">5D</Data></Cell>
+    <Cell><Data ss:Type="String">5E</Data></Cell>
+    <Cell><Data ss:Type="String">5F</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageBreakZoom>100</PageBreakZoom>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet10">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s46"><Data
+      ss:Type="String">$R[]{A}</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageBreakZoom>100</PageBreakZoom>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet11">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell><Data ss:Type="String">実行前の行の高さ⇒３行目＝100、４行目＝80、５行目＝110</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">実行後の行の高さ⇒３～７行目＝100、８～１２行目＝80、１３～１７行目＝110</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="100">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">$R[]{A,copyRowHeight=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">F3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="80">
+    <Cell ss:StyleID="s32"><Data ss:Type="String">$R[]{A,copyRowHeight=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">F4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="110">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">$R[]{A,copyRowHeight=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">F5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A6</Data></Cell>
+    <Cell><Data ss:Type="String">B6</Data></Cell>
+    <Cell><Data ss:Type="String">C6</Data></Cell>
+    <Cell><Data ss:Type="String">D6</Data></Cell>
+    <Cell><Data ss:Type="String">E6</Data></Cell>
+    <Cell><Data ss:Type="String">F6</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageBreakZoom>100</PageBreakZoom>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R5C1</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet12">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell><Data ss:Type="String">実行前の行の高さ⇒３行目＝100、４行目＝80、５行目＝110</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">実行後の行の高さ⇒３～７行目＝100、８～１２行目＝80、１３～１７行目＝110</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="100">
+    <Cell ss:StyleID="s31"><Data ss:Type="String">$R[]{A,copyRowHeight=true,rowShift=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">F3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="80">
+    <Cell ss:StyleID="s32"><Data ss:Type="String">$R[]{A,copyRowHeight=true,rowShift=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">F4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="110">
+    <Cell ss:StyleID="s33"><Data ss:Type="String">$R[]{A,copyRowHeight=true,rowShift=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">F5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A6</Data></Cell>
+    <Cell><Data ss:Type="String">B6</Data></Cell>
+    <Cell><Data ss:Type="String">C6</Data></Cell>
+    <Cell><Data ss:Type="String">D6</Data></Cell>
+    <Cell><Data ss:Type="String">E6</Data></Cell>
+    <Cell><Data ss:Type="String">F6</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageBreakZoom>100</PageBreakZoom>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet13">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell><Data ss:Type="String">実行前の行の高さ⇒３行目＝100、４行目＝80、５行目＝110</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">実行後の行の高さ⇒３～７行目＝100、８～１２行目＝100、１３～１７行目＝100</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="100">
+    <Cell ss:StyleID="s34"><Data ss:Type="String">$R[]{A,copyRowHeight=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">F3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="80">
+    <Cell ss:Index="2" ss:StyleID="s35"><Data ss:Type="String">$R[]{A,copyRowHeight=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">F4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="110">
+    <Cell ss:Index="3" ss:StyleID="s36"><Data ss:Type="String">$R[]{A,copyRowHeight=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">F5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A6</Data></Cell>
+    <Cell><Data ss:Type="String">B6</Data></Cell>
+    <Cell><Data ss:Type="String">C6</Data></Cell>
+    <Cell><Data ss:Type="String">D6</Data></Cell>
+    <Cell><Data ss:Type="String">E6</Data></Cell>
+    <Cell><Data ss:Type="String">F6</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageBreakZoom>100</PageBreakZoom>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet14">
+  <Table ss:ExpandedColumnCount="6" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell><Data ss:Type="String">実行前の行の高さ⇒３行目＝100、４行目＝80、５行目＝110</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">実行後の行の高さ⇒３～７行目＝100、８～１２行目＝80、１３～１７行目＝110</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="100">
+    <Cell ss:StyleID="s34"><Data ss:Type="String">$R[]{A,copyRowHeight=true,rowShift=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">F3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="80">
+    <Cell ss:Index="2" ss:StyleID="s35"><Data ss:Type="String">$R[]{A,copyRowHeight=true,rowShift=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">F4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="110">
+    <Cell ss:Index="3" ss:StyleID="s36"><Data ss:Type="String">$R[]{A,copyRowHeight=true,rowShift=true}</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">F5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A6</Data></Cell>
+    <Cell><Data ss:Type="String">B6</Data></Cell>
+    <Cell><Data ss:Type="String">C6</Data></Cell>
+    <Cell><Data ss:Type="String">D6</Data></Cell>
+    <Cell><Data ss:Type="String">E6</Data></Cell>
+    <Cell><Data ss:Type="String">F6</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageBreakZoom>100</PageBreakZoom>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet15">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row ss:Index="3" ss:AutoFitHeight="0" ss:Height="100">
+    <Cell ss:MergeDown="1" ss:StyleID="m2134307640"><Data ss:Type="String">$R[]{A,copyRowHeight=true}</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">C3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="80">
+    <Cell ss:Index="3"><Data ss:Type="String">C4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="110">
+    <Cell ss:MergeDown="1" ss:StyleID="m2134307660"><Data ss:Type="String">$R[]{A,copyRowHeight=true}</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">C5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="3"><Data ss:Type="String">C6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A7</Data></Cell>
+    <Cell><Data ss:Type="String">B7</Data></Cell>
+    <Cell><Data ss:Type="String">C7</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageBreakZoom>100</PageBreakZoom>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet16">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell><Data ss:Type="String">実行前の行の高さ⇒上側結合セル「３行目＝100、４行目＝80」、下側結合セル「５行目＝110、６行目＝90」</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">実行後の行の高さ⇒上側結合セル「３～１２行目(100、80)」、下側結合セル「１３～２２行目(110、90)」</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="100">
+    <Cell ss:MergeDown="1" ss:StyleID="m2134312904"><Data ss:Type="String">$R[]{A,copyRowHeight=true,rowShift=true}</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">C3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="80">
+    <Cell ss:Index="3"><Data ss:Type="String">C4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="110">
+    <Cell ss:MergeDown="1" ss:StyleID="m2134312924"><Data ss:Type="String">$R[]{A,copyRowHeight=true,rowShift=true}</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">C5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="90">
+    <Cell ss:Index="3"><Data ss:Type="String">C6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">A7</Data></Cell>
+    <Cell><Data ss:Type="String">B7</Data></Cell>
+    <Cell><Data ss:Type="String">C7</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageBreakZoom>100</PageBreakZoom>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

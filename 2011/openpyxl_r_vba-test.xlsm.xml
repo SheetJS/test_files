@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Unknown</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2012-10-05T07:48:13Z</Created>
+  <LastSaved>2013-05-06T10:24:02Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Path> </Path>
+   <SheetName> </SheetName>
+  </SupBook>
+  <WindowHeight>4360</WindowHeight>
+  <WindowWidth>15000</WindowWidth>
+  <WindowTopX>580</WindowTopX>
+  <WindowTopY>500</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Scratch">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="41" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Width="176"/>
+   <Column ss:Width="47"/>
+   <Column ss:AutoFitWidth="0" ss:Width="55"/>
+   <Column ss:AutoFitWidth="0" ss:Width="79"/>
+   <Column ss:AutoFitWidth="0" ss:Width="66"/>
+   <Column ss:Width="67"/>
+   <Column ss:AutoFitWidth="0" ss:Width="55" ss:Span="2"/>
+   <Column ss:Index="10" ss:Width="137"/>
+   <Column ss:AutoFitWidth="0" ss:Width="55"/>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:StyleID="s16"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

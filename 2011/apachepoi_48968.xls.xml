@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>2014-03-22T22:24:00Z</Created>
+  <LastSaved>2011-03-25T22:43:12Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8200</WindowHeight>
+  <WindowWidth>16380</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>196</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s63">
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s64">
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s65">
+   <NumberFormat ss:Format="dd/mm/yyyy\ hh:mm:ss"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="29" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="69" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="122"/>
+   <Column ss:AutoFitWidth="0" ss:Width="102"/>
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="120"/>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">2011-03-25T11:39:54.000</Data></Cell>
+    <Cell><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">25/03/2011 11:39:54</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62" ss:Formula="=R[-1]C"><Data ss:Type="Number">40627.486041666663</Data></Cell>
+    <Cell><Data ss:Type="String">As Number</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">40627.49</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=YEAR(R[-2]C)"><Data ss:Type="Number">2011</Data></Cell>
+    <Cell><Data ss:Type="String">Year</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">2001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=MONTH(R[-3]C)"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">Month</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=DAY(R[-4]C)"><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">Day</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=HOUR(R[-5]C)"><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">Hour</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=MINUTE(R[-6]C)"><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="String">Minute</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">39</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=SECOND(R[-7]C)"><Data ss:Type="Number">54</Data></Cell>
+    <Cell><Data ss:Type="String">Second</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">54</Data></Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">1900-01-02T06:14:24.000</Data></Cell>
+    <Cell><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">02/01/1900 06:14:24</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64" ss:Formula="=R[-1]C"><Data ss:Type="Number">2.2599999999999998</Data></Cell>
+    <Cell><Data ss:Type="String">As Number</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">2.26</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=YEAR(R[-2]C)"><Data ss:Type="Number">1900</Data></Cell>
+    <Cell><Data ss:Type="String">Year</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">1900</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=MONTH(R[-3]C)"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Month</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=DAY(R[-4]C)"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">Day</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=HOUR(R[-5]C)"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">Hour</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=MINUTE(R[-6]C)"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">Minute</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=SECOND(R[-7]C)"><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">Second</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">24</Data></Cell>
+   </Row>
+   <Row ss:Index="22">
+    <Cell ss:StyleID="s65"><Data ss:Type="DateTime">1899-12-31T06:14:24.000</Data></Cell>
+    <Cell><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">00/01/1900 06:14:24</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64" ss:Formula="=R[-1]C"><Data ss:Type="Number">0.26</Data></Cell>
+    <Cell><Data ss:Type="String">As Number</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">0.26</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=YEAR(R[-2]C)"><Data ss:Type="Number">1900</Data></Cell>
+    <Cell><Data ss:Type="String">Year</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">1900</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=MONTH(R[-3]C)"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">Month</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=DAY(R[-4]C)"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">Day</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=HOUR(R[-5]C)"><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">Hour</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=MINUTE(R[-6]C)"><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">Minute</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=SECOND(R[-7]C)"><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">Second</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String" x:Ticked="1">24</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:StartPageNumber="1"/>
+    <Header x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Normal&quot;&amp;12&amp;A"/>
+    <Footer x:Margin="0.78749999999999998"
+     x:Data="&amp;C&amp;&quot;Times New Roman,Normal&quot;&amp;12Page &amp;P"/>
+    <PageMargins x:Bottom="1.0527777777777778" x:Left="0.78749999999999998"
+     x:Right="0.78749999999999998" x:Top="1.0527777777777778"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>NoSelection</EnableSelection>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

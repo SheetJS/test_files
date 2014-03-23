@@ -1,0 +1,652 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset" xmlns:z="#RowsetSchema"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>ABC</Title>
+  <Subject>DEF</Subject>
+  <Author>GHI</Author>
+  <Keywords>TUV</Keywords>
+  <Description>http://office.microsoft.com/en-us/excel-help/overview-of-pivottable-and-pivotchart-reports-HP010177384.aspx</Description>
+  <LastAuthor>God</LastAuthor>
+  <Created>2014-02-23T04:52:36Z</Created>
+  <LastSaved>2014-02-23T05:12:46Z</LastSaved>
+  <Category>PRS</Category>
+  <Manager>JKL</Manager>
+  <Company>MNO</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8440</WindowHeight>
+  <WindowWidth>29140</WindowWidth>
+  <WindowTopX>6760</WindowTopX>
+  <WindowTopY>9480</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s45" ss:Name="Currency">
+   <NumberFormat
+    ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* \(#,##0.00\);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s63" ss:Parent="s45">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <NumberFormat ss:Format="_(&quot;$&quot;* #,##0_);_(&quot;$&quot;* \(#,##0\);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s65">
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s67">
+   <NumberFormat ss:Format="&quot;$&quot;#,##0_);[Red]\(&quot;$&quot;#,##0\)"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Data">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sport</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Quarter</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Sales</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Golf</Data></Cell>
+    <Cell><Data ss:Type="String">Qtr3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Golf</Data></Cell>
+    <Cell><Data ss:Type="String">Qtr4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tennis</Data></Cell>
+    <Cell><Data ss:Type="String">Qtr3</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tennis</Data></Cell>
+    <Cell><Data ss:Type="String">Qtr4</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tennis</Data></Cell>
+    <Cell><Data ss:Type="String">Qtr1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">4070</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tennis</Data></Cell>
+    <Cell><Data ss:Type="String">Qtr2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Golf</Data></Cell>
+    <Cell><Data ss:Type="String">Qtr1</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6969</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Golf</Data></Cell>
+    <Cell><Data ss:Type="String">Qtr2</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6430</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="PTCompact">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="78"/>
+   <Column ss:AutoFitWidth="0" ss:Width="95"/>
+   <Column ss:AutoFitWidth="0" ss:Width="45"/>
+   <Column ss:Width="51" ss:Span="1"/>
+   <Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="30"/>
+   <Column ss:Width="67"/>
+   <Row ss:Index="3">
+    <Cell><Data ss:Type="String">Sum of Sales</Data></Cell>
+    <Cell><Data ss:Type="String">Column Labels</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Row Labels</Data></Cell>
+    <Cell><Data ss:Type="String">Qtr3</Data></Cell>
+    <Cell><Data ss:Type="String">Qtr4</Data></Cell>
+    <Cell><Data ss:Type="String">Qtr1</Data></Cell>
+    <Cell><Data ss:Type="String">Qtr2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Golf</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">6969</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">6430</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Tennis</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">4070</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">5000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Grand Total</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">2100</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">3500</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">11039</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">11430</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <PivotTable xmlns="urn:schemas-microsoft-com:office:excel">
+   <Name>PivotTable1</Name>
+   <NoRowGrand/>
+   <ImmediateItemsOnDrop/>
+   <ShowPageMultipleItemLabel/>
+   <CompactRowIndent>1</CompactRowIndent>
+   <Location>R3C1:R7C5</Location>
+   <VersionLastUpdate>4</VersionLastUpdate>
+   <VersionUpdateableMin>3</VersionUpdateableMin>
+   <DefaultVersion>4</DefaultVersion>
+   <PivotField>
+    <Name>Sport</Name>
+    <Orientation>Row</Orientation>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <BlankLineAfterItems/>
+    <LayoutCompactRow/>
+    <Position>1</Position>
+    <PivotItem>
+     <Name>Golf</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Tennis</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Quarter</Name>
+    <Orientation>Column</Orientation>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <BlankLineAfterItems/>
+    <LayoutCompactRow/>
+    <Position>1</Position>
+    <PivotItem>
+     <Name>Qtr3</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Qtr4</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Qtr1</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Qtr2</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Sales</Name>
+    <NumberFormat>_(&quot;$&quot;* #,##0_);_(&quot;$&quot;* \(#,##0\);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)</NumberFormat>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <BlankLineAfterItems/>
+    <LayoutCompactRow/>
+    <DataType>Integer</DataType>
+   </PivotField>
+   <PivotField>
+    <DataField/>
+    <Name>Values</Name>
+    <SourceName>Data</SourceName>
+    <Orientation>Column</Orientation>
+    <Position>-1</Position>
+    <LayoutCompactRow/>
+    <LayoutForm>Outline</LayoutForm>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Sales</Name>
+    <ParentField>Sales</ParentField>
+    <NumberFormat>&quot;$&quot;#,##0_);[Red]\(&quot;$&quot;#,##0\)</NumberFormat>
+    <Orientation>Data</Orientation>
+    <Position>1</Position>
+   </PivotField>
+   <PTLineItems>
+    <PTLineItem>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <ItemType>Grand</ItemType>
+     <Item>0</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTLineItems>
+    <Orientation>Column</Orientation>
+    <PTLineItem>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>2</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>3</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTSource>
+    <CacheIndex>1</CacheIndex>
+    <VersionLastRefresh>4</VersionLastRefresh>
+    <VersionRefreshableMin>3</VersionRefreshableMin>
+    <RefreshName>God</RefreshName>
+    <RefreshDate>2014-02-23T00:10:06</RefreshDate>
+    <RefreshDateCopy>2014-02-23T00:10:06</RefreshDateCopy>
+    <ConsolidationReference>
+     <FileName>[pivot_table_test.xls.xml]Data</FileName>
+     <Reference>R1C1:R9C3</Reference>
+    </ConsolidationReference>
+   </PTSource>
+  </PivotTable>
+ </Worksheet>
+ <Worksheet ss:Name="PTTabular">
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="70"/>
+   <Column ss:AutoFitWidth="0" ss:Width="50"/>
+   <Column ss:AutoFitWidth="0" ss:Width="39"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="43" ss:Span="1"/>
+   <Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="57"/>
+   <Column ss:AutoFitWidth="0" ss:Width="43" ss:Span="1"/>
+   <Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="57"/>
+   <Column ss:AutoFitWidth="0" ss:Width="43" ss:Span="1"/>
+   <Column ss:Index="13" ss:AutoFitWidth="0" ss:Width="57"/>
+   <Column ss:Index="15" ss:AutoFitWidth="0" ss:Width="61"/>
+   <Column ss:Width="81"/>
+   <Column ss:Width="72"/>
+   <Row ss:Index="3">
+    <Cell><Data ss:Type="String">Sum of Sales</Data></Cell>
+    <Cell><Data ss:Type="String">Sport</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Quarter</Data></Cell>
+    <Cell><Data ss:Type="String">Golf</Data></Cell>
+    <Cell><Data ss:Type="String">Tennis</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Qtr1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">6969</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4070</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Qtr2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">6430</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Qtr3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Qtr4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Grand Total</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">16899</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">11170</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>11</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <PivotTable xmlns="urn:schemas-microsoft-com:office:excel">
+   <Name>PivotTable2</Name>
+   <NoRowGrand/>
+   <ImmediateItemsOnDrop/>
+   <ShowPageMultipleItemLabel/>
+   <CompactRowIndent>1</CompactRowIndent>
+   <Location>R3C1:R9C3</Location>
+   <VersionLastUpdate>4</VersionLastUpdate>
+   <VersionUpdateableMin>3</VersionUpdateableMin>
+   <DefaultVersion>4</DefaultVersion>
+   <PivotField>
+    <Name>Sport</Name>
+    <Orientation>Column</Orientation>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <Position>1</Position>
+    <PivotItem>
+     <Name>Golf</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Tennis</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Quarter</Name>
+    <Orientation>Row</Orientation>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <Position>1</Position>
+    <PivotItem>
+     <Name>Qtr1</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Qtr2</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Qtr3</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Qtr4</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Sales</Name>
+    <NumberFormat>_(&quot;$&quot;* #,##0_);_(&quot;$&quot;* \(#,##0\);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)</NumberFormat>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <DataType>Integer</DataType>
+   </PivotField>
+   <PivotField>
+    <DataField/>
+    <Name>Values</Name>
+    <SourceName>Data</SourceName>
+    <Orientation>Column</Orientation>
+    <Position>-1</Position>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Sales</Name>
+    <ParentField>Sales</ParentField>
+    <Orientation>Data</Orientation>
+    <Position>1</Position>
+   </PivotField>
+   <PTLineItems>
+    <PTLineItem>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>2</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>3</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <ItemType>Grand</ItemType>
+     <Item>0</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTLineItems>
+    <Orientation>Column</Orientation>
+    <PTLineItem>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTSource>
+    <CacheIndex>1</CacheIndex>
+    <VersionLastRefresh>4</VersionLastRefresh>
+    <VersionRefreshableMin>3</VersionRefreshableMin>
+    <RefreshName>God</RefreshName>
+    <RefreshDate>2014-02-23T00:10:06</RefreshDate>
+    <RefreshDateCopy>2014-02-23T00:10:06</RefreshDateCopy>
+    <ConsolidationReference>
+     <FileName>[pivot_table_test.xls.xml]Data</FileName>
+     <Reference>R1C1:R9C3</Reference>
+    </ConsolidationReference>
+   </PTSource>
+  </PivotTable>
+ </Worksheet>
+ <Worksheet ss:Name="PTOutline">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="78"/>
+   <Column ss:AutoFitWidth="0" ss:Width="62"/>
+   <Column ss:AutoFitWidth="0" ss:Width="37"/>
+   <Row ss:Index="3">
+    <Cell><Data ss:Type="String">Sum of Sales</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sport</Data></Cell>
+    <Cell><Data ss:Type="String">Quarter</Data></Cell>
+    <Cell><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Golf</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s65"><Data ss:Type="Number">16899</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Qtr3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Qtr4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Qtr1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">6969</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Qtr2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">6430</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Tennis</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s65"><Data ss:Type="Number">11170</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Qtr3</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">600</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Qtr4</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1500</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Qtr1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4070</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Qtr2</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">5000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Grand Total</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s65"><Data ss:Type="Number">28069</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <PivotTable xmlns="urn:schemas-microsoft-com:office:excel">
+   <Name>PivotTable3</Name>
+   <ImmediateItemsOnDrop/>
+   <ShowPageMultipleItemLabel/>
+   <CompactRowIndent>1</CompactRowIndent>
+   <Location>R3C1:R15C3</Location>
+   <VersionLastUpdate>4</VersionLastUpdate>
+   <VersionUpdateableMin>3</VersionUpdateableMin>
+   <DefaultVersion>4</DefaultVersion>
+   <PivotField>
+    <Name>Sport</Name>
+    <Orientation>Row</Orientation>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <Position>1</Position>
+    <PivotItem>
+     <Name>Golf</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Tennis</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Quarter</Name>
+    <Orientation>Row</Orientation>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <Position>2</Position>
+    <PivotItem>
+     <Name>Qtr3</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Qtr4</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Qtr1</Name>
+    </PivotItem>
+    <PivotItem>
+     <Name>Qtr2</Name>
+    </PivotItem>
+   </PivotField>
+   <PivotField>
+    <Name>Sales</Name>
+    <NumberFormat>_(&quot;$&quot;* #,##0_);_(&quot;$&quot;* \(#,##0\);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)</NumberFormat>
+    <LayoutForm>Outline</LayoutForm>
+    <LayoutSubtotalLocation>Top</LayoutSubtotalLocation>
+    <DataType>Integer</DataType>
+   </PivotField>
+   <PivotField>
+    <DataField/>
+    <Name>Values</Name>
+    <SourceName>Data</SourceName>
+    <Orientation>Column</Orientation>
+    <Position>-1</Position>
+    <LayoutForm>Outline</LayoutForm>
+   </PivotField>
+   <PivotField>
+    <Name>Sum of Sales</Name>
+    <ParentField>Sales</ParentField>
+    <Orientation>Data</Orientation>
+    <Position>1</Position>
+   </PivotField>
+   <PTLineItems>
+    <PTLineItem>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>2</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>3</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>0</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>1</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>2</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <CountOfSameItems>1</CountOfSameItems>
+     <Item>3</Item>
+    </PTLineItem>
+    <PTLineItem>
+     <ItemType>Grand</ItemType>
+     <Item>0</Item>
+    </PTLineItem>
+   </PTLineItems>
+   <PTSource>
+    <CacheIndex>1</CacheIndex>
+    <VersionLastRefresh>4</VersionLastRefresh>
+    <VersionRefreshableMin>3</VersionRefreshableMin>
+    <RefreshName>God</RefreshName>
+    <RefreshDate>2014-02-23T00:10:06</RefreshDate>
+    <RefreshDateCopy>2014-02-23T00:10:06</RefreshDateCopy>
+    <ConsolidationReference>
+     <FileName>[pivot_table_test.xls.xml]Data</FileName>
+     <Reference>R1C1:R9C3</Reference>
+    </ConsolidationReference>
+   </PTSource>
+  </PivotTable>
+ </Worksheet>
+</Workbook>

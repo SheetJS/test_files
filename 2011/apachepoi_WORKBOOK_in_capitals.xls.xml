@@ -1,0 +1,2866 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>KAG Inventarliste Ampega Fonds 551</Title>
+  <Author>Crystal Decisions</Author>
+  <Description>Powered by Crystal</Description>
+  <LastAuthor>God</LastAuthor>
+  <Created>2014-03-22T22:38:06Z</Created>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>2</Index>
+    <RGB>#FF0000</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#00FF00</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>6</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>7</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>8</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#008000</RGB>
+   </Color>
+   <Color>
+    <Index>10</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#808000</RGB>
+   </Color>
+   <Color>
+    <Index>12</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>39</Index>
+    <RGB>#E3E3E3</RGB>
+   </Color>
+   <Color>
+    <Index>40</Index>
+    <RGB>#33CCCC</RGB>
+   </Color>
+   <Color>
+    <Index>41</Index>
+    <RGB>#99CC00</RGB>
+   </Color>
+   <Color>
+    <Index>42</Index>
+    <RGB>#FFCC00</RGB>
+   </Color>
+   <Color>
+    <Index>43</Index>
+    <RGB>#FF9900</RGB>
+   </Color>
+   <Color>
+    <Index>44</Index>
+    <RGB>#FF6600</RGB>
+   </Color>
+   <Color>
+    <Index>45</Index>
+    <RGB>#666699</RGB>
+   </Color>
+   <Color>
+    <Index>46</Index>
+    <RGB>#969696</RGB>
+   </Color>
+   <Color>
+    <Index>47</Index>
+    <RGB>#003366</RGB>
+   </Color>
+   <Color>
+    <Index>48</Index>
+    <RGB>#339966</RGB>
+   </Color>
+   <Color>
+    <Index>49</Index>
+    <RGB>#003300</RGB>
+   </Color>
+   <Color>
+    <Index>50</Index>
+    <RGB>#333300</RGB>
+   </Color>
+   <Color>
+    <Index>51</Index>
+    <RGB>#993300</RGB>
+   </Color>
+   <Color>
+    <Index>52</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>53</Index>
+    <RGB>#333399</RGB>
+   </Color>
+   <Color>
+    <Index>54</Index>
+    <RGB>#333333</RGB>
+   </Color>
+   <Color>
+    <Index>55</Index>
+    <RGB>#999999</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8640</WindowHeight>
+  <WindowWidth>14400</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Font ss:Color="#000000"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Font ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Font ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="9" ss:Color="#000000" ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="9" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Font ss:Size="9" ss:Color="#000000"/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top"/>
+   <Font ss:Size="9" ss:Color="#000000"/>
+   <NumberFormat ss:Format="#,##0.0000"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top"/>
+   <Font ss:Size="9" ss:Color="#000000"/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s43">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s44">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s45">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top"/>
+   <Font ss:Size="8" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s46">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s47">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top"/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Standard"/>
+  </Style>
+  <Style ss:ID="s50">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s51">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="284" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="47" ss:DefaultRowHeight="12.75">
+   <Column ss:AutoFitWidth="0" ss:Width="7"/>
+   <Column ss:AutoFitWidth="0" ss:Width="149"/>
+   <Column ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:AutoFitWidth="0" ss:Width="40"/>
+   <Column ss:AutoFitWidth="0" ss:Width="94"/>
+   <Column ss:AutoFitWidth="0" ss:Width="89"/>
+   <Column ss:AutoFitWidth="0" ss:Width="125"/>
+   <Column ss:AutoFitWidth="0" ss:Width="87"/>
+   <Column ss:AutoFitWidth="0" ss:Width="82"/>
+   <Column ss:AutoFitWidth="0" ss:Width="123"/>
+   <Column ss:AutoFitWidth="0" ss:Width="41" ss:Span="245"/>
+   <Row ss:AutoFitHeight="0" ss:Height="24"/>
+   <Row ss:AutoFitHeight="0" ss:Height="20">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s42"><Data ss:Type="String">Inventarliste für GALIPLAN Aktien Global AMI*</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s43"><Data ss:Type="String">per 27.10.2006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10"/>
+   <Row ss:Height="12"/>
+   <Row ss:AutoFitHeight="0" ss:Height="0">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s44"><Data
+      ss:Type="String">Fondsvermögen</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s45"><Data
+      ss:Type="Number">8182539.1699999999</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row ss:Height="12">
+    <Cell ss:Index="6" ss:StyleID="s23"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s46"><Data ss:Type="String">Umlaufende Anteile</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s47"><Data ss:Type="Number">81599</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s46"><Data ss:Type="String">Anteilwert</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s47"><Data ss:Type="Number">100.28</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s46"><Data ss:Type="String">Aufschlag</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s47"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s46"><Data ss:Type="String">Ausgabepreis</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s47"><Data ss:Type="Number">105.29</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s44"><Data ss:Type="String">Barvermögen</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s45"><Data ss:Type="Number">437118.63</Data></Cell>
+    <Cell ss:StyleID="s23"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s46"><Data ss:Type="String">Initial Margin FTK FW</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s47"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s46"><Data ss:Type="String">Variation Margin FTK FW</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s47"><Data ss:Type="Number">162483.6</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s46"><Data ss:Type="String">Variation Margin FTK BW</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s47"><Data ss:Type="Number">59112.5</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="8"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">WP-Name</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ISIN</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Whg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Anzahl</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Bewertungskurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Volumen in Depotwhg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Fremdwhg.kurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Einstandskurs</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Buchwert DW</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">Aktien Inland</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s32"><Data ss:Type="Number">3005922.49</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Celesio AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE000CLS1001</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">41.14</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20570</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">42.420519999999996</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21210.260000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">E.ON AG ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US2687801033</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">39.700000000000003</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">18784.75</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">39.741900000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">18821.650000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Suess Microtec AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0007226706</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">7.91</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20566</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">8.0943190000000005</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21045.23</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">STRATEC Biomedical Systems AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0007289001</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">4100</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">20.990000000000002</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">86059</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20.270246</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">83108.009999999995</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Jungheinrich AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0006219934</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">24.7</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20.589019999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20589.02</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Gildemeister AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005878003</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">7900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">7.8</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">61620</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">7.7922519999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">61558.79</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Deutsche Börse AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005810055</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">150</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">125.59</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">18838.5</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">100.96860000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">15145.29</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">ThyssenKrupp AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0007500001</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">4800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">30.12</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">144576</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21.875164999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">105000.79000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Commerzbank AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0008032004</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1490</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">27.95</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">41645.5</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">27.265442999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40625.51</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Salzgitter AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0006202005</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1850</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">85.15</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">157527.5</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">57.453913999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">106289.74</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Volkswagen AG St.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0007664005</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1830</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">78.7</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">144021</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">47.826175000000006</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">87521.900000000009</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Deutsche Bank AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005140008</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1150</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">98.55</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">113332.5</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">88.101286999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">101316.48</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">BASF AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005151005</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">68.92</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20676</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">67.818533000000002</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20345.560000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Lufthansa AG Vz.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0008232125</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">8000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">17.7</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">141600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">12.714326000000002</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">101714.61</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Leoni AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005408884</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2150</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">29.77</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">64005.5</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">28.742842</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">61797.11</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Hypo Real Estate Hldg. AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0008027707</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">420</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">50.15</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21063</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">49.413643</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20753.73</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Wire Card AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0007472060</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">6.19</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24760</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">4.8453330000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19381.330000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Suedzucker AG St.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0007297004</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">19.63</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19630</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19.792579999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19792.580000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">RWE AG St.-Aktien</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0007037129</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">263</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">77.38</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20350.939999999999</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">67.525475</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">17759.2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">E.ON AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0007614406</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1050</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">93.69</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">98374.5</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">96.097295000000003</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">100902.16</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">GEA Group AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0006602006</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">13.84624</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20769.36</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Deutz AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0006305006</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">13600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">108800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">7.6066929999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">103451.03</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Bilfinger Berger AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005909006</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">49.19</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19676</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">50.934925000000007</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20373.97</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">TUI AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE000TUAG000</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">17.25</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">41400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">17.538236999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">42091.770000000004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Pfleiderer AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0006764749</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">850</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">21.14</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">17969</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">23.644494000000002</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20097.82</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24"/>
+   <Row ss:AutoFitHeight="0" ss:Height="20">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s42"><Data ss:Type="String">Inventarliste für GALIPLAN Aktien Global AMI*</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s43"><Data ss:Type="String">per 27.10.2006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10"/>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">WP-Name</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ISIN</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Whg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Anzahl</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Bewertungskurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Volumen in Depotwhg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Fremdwhg.kurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Einstandskurs</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Buchwert DW</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Grammer AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005895403</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">5700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">23.54</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">134178</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21.966766999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">125210.57</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">IKB Dt. Industriebank AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0008063306</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">28.400000000000002</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19880</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">29.060070999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20342.05</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Karstadt Quelle AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0006275001</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">6750</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">18.7</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">126225</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">17.933996999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">121054.48</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Hannover Rückvers. AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0008402215</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1870</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">33.03</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">61766.1</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">32.459753999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">60699.74</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Hochtief AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0006070006</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1460</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">52.85</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">77161</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">45.495575000000002</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">66423.540000000008</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Sixt AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0007231326</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2570</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">39.01</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">100255.7</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">41.043867999999996</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">105482.74</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Fresenius Med. Care AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005785802</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">210</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">106.91</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22451.100000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">89.988095000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">18897.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">INDUS Holding AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0006200108</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2020</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">28.37</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">57307.4</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">29.267332000000003</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">59120.01</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Allianz SE</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0008404005</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">144.89000000000001</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">86934</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">132.86464999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">79718.790000000008</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Praktiker Bau- und Hw.-Märkte Holding AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE000A0F6MD5</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">850</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">25.18</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21403</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24.244471000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20607.8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Heidelb. Druckmaschinen AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0007314007</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">650</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">35.54</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">23101</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">31.800262</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20670.170000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">AMB Generali Holding AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0008400029</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">960</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">106.85000000000001</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">102576</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">102.85299000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">98738.87</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Rational AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0007010803</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">160</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">164</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">26240</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">130.74781300000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20919.650000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Infineon Techn. AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0006231004</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">4700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">9.5299999999999994</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">44791</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">8.9124230000000004</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">41888.39</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Fielmann AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005772206</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">560</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">39.57</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22159.200000000001</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">36.564910999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20476.350000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">MAN AG St.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005937007</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1640</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">69.23</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">113537.2</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">49.732523999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">81561.34</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Norddeutsche Affinerie AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0006766504</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">4800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">21.52</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">103296</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21.857046</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">104913.82</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Dyckerhoff AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005591036</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">33.15</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">23205</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">29.989842999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20992.89</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">SolarWorld AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005108401</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">760</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">41.660000000000004</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">31661.600000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">50.673196999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">38511.629999999997</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">H&amp;R WASAG AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0007757007</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2740</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">39.97</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">109517.8</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">29.869595</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">81842.69</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">ComBOTS AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE000CMBT111</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">9.75</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">15600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">13.024680999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20839.490000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Lanxess AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005470405</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3530</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">35.869999999999997</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">126621.1</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">30.461399</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">107528.74</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Bay. Hypo-Vereinsbank AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0008022005</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">35.57</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24899</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">28.433885999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19903.72</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">United Internet AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">DE0005089031</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">4980</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">11.97</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">59610.6</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">10.551318999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">52545.57</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">Aktien Ausland</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s32"><Data ss:Type="Number">4979114.47</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">AVX Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0024441075</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">16.22</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20466.07</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">16.167869</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20418.810000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Capital Trust Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US14052H5063</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">46.53</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22016.48</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">46.951300000000003</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">22236</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Double Hull Tankers Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">MHY211101040</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">14.25</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20227.91</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">14.125205999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20068.96</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Ambac Financial Group Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0231391089</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">83.97</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19865.939999999999</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">83.063432999999989</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19669.29</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Unumprovident Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US91529Y1064</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">20.080000000000002</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20585.939999999999</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20.436508</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20970.45</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Reinsurance Group of America Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US7593511097</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">57.050000000000004</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22495.170000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">54.586839999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21543.48</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">21st Century Holding Co.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US90136Q1004</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">28.13</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">26620.400000000001</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22.553067000000002</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21362.13</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Angeion Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US03462H4048</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">7600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">11.39</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">68265.45</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">10.409647</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">62446.37</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">SimpleTech Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US8288231041</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">5900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">8.52</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">39641.97</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">8.6230139999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40157.68</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">AT+S Austr.Tech. + Systemtechnik AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">AT0000969985</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">22.42</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">60534</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21.977296000000003</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">59338.700000000004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="24"/>
+   <Row ss:AutoFitHeight="0" ss:Height="20">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s42"><Data ss:Type="String">Inventarliste für GALIPLAN Aktien Global AMI*</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s43"><Data ss:Type="String">per 27.10.2006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10"/>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">WP-Name</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ISIN</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Whg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Anzahl</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Bewertungskurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Volumen in Depotwhg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Fremdwhg.kurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Einstandskurs</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Buchwert DW</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Anthracite Capital Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0370231088</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">14.17</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21231.81</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">13.831947</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20744.09</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Grupo Simec SA ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US4004911065</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">17.900000000000002</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">25409.09</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">14.407200000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20469.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Gerdau SA ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US3737371050</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">15.05</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22550.37</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">13.825084</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20733.810000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Convergys Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US2124851062</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">21.11</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21641.89</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20.851468999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21396.25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Bowne &amp; Co. Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US1030431050</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">15.9</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22570.09</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">14.876128</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21135.86</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Nordic Am. Tanker Shipping Ltd.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">BMG657731060</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">34.44</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21727.850000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">34.331099999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21678.81</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Time Warner Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US8873171057</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">19.91</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21981.78</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">18.530563999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20477.38</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Centerpoint Energy Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US15189T1079</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">15.41</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21874.53</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">14.3848</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20135.810000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Odyssey Re Holdings Co.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US67612W1080</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2200</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">35.65</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">61850.87</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">35.907958999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">62037.17</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Datalink Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US2379341041</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">9.32</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19109.66</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">9.8723270000000003</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19961.150000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">A.M. Castle &amp; Co.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US1484111018</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">32.82</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">25882.260000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">27.779729999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21603.34</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">BCE Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">CA05534B7604</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">27.990000000000002</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22073.260000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">27.188140000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21143.27</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Asbury Automotive Group Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0434361046</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">23.8</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24399.670000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19.794784999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20011.830000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Nokia Corp. ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6549022043</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">19.7</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21749.93</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19.523236000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21255.57</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Overseas Shipholding Group Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6903681053</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">64.19</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20248.41</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">61.342500000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19081.580000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">OM Group Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6708721005</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">57.53</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">72590.2</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">50.040200000000006</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">62868.44</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Fortune Management Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USU026281027</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">11000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">3.93</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">43230</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3.7801760000000004</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">41581.94</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">GenTek Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US37245X2036</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">33.49</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">23769.57</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">28.259543999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19778.830000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Caterpillar Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US1491231015</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">61.27</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19327.310000000001</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">66.353475000000003</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20640.32</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Spartan Motors Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US8468191007</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">20.68</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24462.760000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">16.935559999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19755.3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Cash America International Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US14754D1000</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">40.1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22136.350000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">36.118586000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19661.72</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Horace Mann Educators Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US4403271046</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">42585.07</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19.197929999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40309.83</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Pinnacle Airlines Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US7234431077</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">8.4600000000000009</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">25352.31</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">7.0895890000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20950.650000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Top Tankers Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">MHY8897Y1077</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">4400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">6.18</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21443.95</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">6.0018859999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20536.810000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Delhaize Group SA ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US29759W1018</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">340</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21450.260000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">79.427793999999992</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21001.200000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Fuji Photo Film Co. Ltd. ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US35958N1072</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">37.550000000000004</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20728.68</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">36.509642999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19874.600000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">National Oilwell Varco Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6370711011</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">59.870000000000005</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">18885.689999999999</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">60.567924999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">18840.64</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">PPL Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US69351T1060</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">34.96</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22055.91</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">33.839787999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21052.82</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Temple-Inland Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US8798681073</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">39.99</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">18921.97</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">42.038067000000005</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19614.93</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Cia. de Telecom. de Chile ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US2044493003</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">7.49</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20082.8</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">7.1332380000000004</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">18860.73</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Infinity Property &amp; Casualty Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US45665Q1031</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">44.26</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24432.79</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">37.899885999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20631.400000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Metlife Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US59156R1086</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">58.660000000000004</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">46260.01</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">55.940480000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">43502.98</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">BP Prudhoe Bay Royalty Trust</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0556301077</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">690</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">74.09</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">40315.520000000004</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">73.302144999999996</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">39635.340000000004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Regions Fin. Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US7591EP1005</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">37.94</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20943.97</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">36.161556999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19685.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">JLG Industries Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US4662101017</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">27.580000000000002</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">28274.91</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">17.563914999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">17756.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24"/>
+   <Row ss:AutoFitHeight="0" ss:Height="20">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s42"><Data ss:Type="String">Inventarliste für GALIPLAN Aktien Global AMI*</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s43"><Data ss:Type="String">per 27.10.2006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10"/>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">WP-Name</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ISIN</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Whg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Anzahl</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Bewertungskurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Volumen in Depotwhg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Fremdwhg.kurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Einstandskurs</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Buchwert DW</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Telecom. de Sao Paulo SA ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US87929A1025</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">23.57</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22305.11</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22.93505</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21492.9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Petrochina Co. Ltd. ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US71646E1001</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">470</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">110.67</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">41019.599999999999</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">110.684787</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40626.18</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Grey Wolf Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US3978881080</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">7.13</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20242.100000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">7.2837609999999993</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20562.689999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Merck Co.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US5893311077</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">46.09</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">65424.86</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">41.586227999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">58453.49</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Siliconware Precision Industries Co. ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US8270848646</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">8800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">6.3100000000000005</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">43790.07</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">5.9719299999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">41042.550000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Glaxosmithkline PLC ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US37733W1053</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">53.28</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21008.639999999999</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">55.028019999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21576.23</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">SK Telecom Co. Ltd. ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US78440P1084</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">24.35</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">23043.260000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21.921467</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20628.73</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Parker Drilling Co.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US7010811013</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">4000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">8.27</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">26087.3</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">6.6892449999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20982.58</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">ABN AMRO Holding NV ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0009371024</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">29.240000000000002</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">64565.279999999999</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">28.267457</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">62040.35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">New Jersey Resources Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6460251068</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">51.65</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20365.920000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">49.474059999999994</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19317.23</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Ocwen Financial Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6757463095</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21450.260000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">15.600788</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20797.79</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Royal Dutch Shell PLC ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US7802592060</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">69.13</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">43613.42</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">71.651499999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">44950.74</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">IndyMac Bancorp Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US4566071001</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">45.29</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">42859.51</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">41.356241999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">38758.57</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">DePfa Bank PLC</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">IE0072559994</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">13.44</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">18816</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">14.943313999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20920.64</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Acc. Home Lenders Hldg. Co.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US00437P1075</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">30.77</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">10919.52</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">54.282333000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20385.68</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Realnetworks Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US75605L1044</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3459</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">10.91</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">29760.41</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">8.327316999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">24340.2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Tesoro Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US8816091016</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">63.56</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20049.68</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">72.181674999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">22641.68</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Telemig Celular Particip. SA PFD ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US87944E1055</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">34.800000000000004</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">13721.86</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">51.7532</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21371.49</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Aluminum Corp. of China Ltd. ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0222761092</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">960</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">17.91</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">13559.09</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">26.765124999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21221.11</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Leucadia National Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US5272881047</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2220</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">26.86</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">47024.33</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">26.996347</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">48880.24</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Merrill Lynch &amp; Co.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US5901881087</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">86.97</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">41151.370000000003</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">86.123317000000014</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40787.74</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Reliance Steel &amp; Aluminum Co.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US7595091023</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">34.230000000000004</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24294.78</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">28.878788999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20212.23</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Insteel Industries Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US45774W1080</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">18.89</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19365.96</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20.464207999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">22113.55</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Philippine L. Dist. Telephone Co. ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US7182526043</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">46.89</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">25884.63</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">39.166770999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21499.95</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Citizens Communications Co.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US17453B1017</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">14.780000000000001</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">44291.63</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">13.554354999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40223.29</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">SABESP ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US20441A1025</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">29.45</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">67351.45</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22.248303</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">51558.64</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Nutri/System Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US67069D1081</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">29809.55</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">53.764617000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">26172.45</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Brightpoint Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US1094734050</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">12.370000000000001</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">32191.95</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">16.155235999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">41635.53</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">UGI Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US9026811052</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3200</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">26.22</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">66167.740000000005</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24.433534000000002</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">60803.57</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">CNH Global NV</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">NL0000298933</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">26.71</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21063.84</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">25.780349999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20935.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Unilever PLC ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US9047677045</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">5400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">25.03</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">106590.43000000001</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24.162956999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">101820.53</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Pantry Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6986571031</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">921</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">54.050000000000004</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">39257.17</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">65.705916999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">49408.62</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Hansen Natural Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US4113101053</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">32.380000000000003</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">15321.16</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">33.923749999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">16827.25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Tsakos Energy Navigation Ltd.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">BMG9108L1081</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">45.13</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21354.05</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">40.985250000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19123.689999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24"/>
+   <Row ss:AutoFitHeight="0" ss:Height="20">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s42"><Data ss:Type="String">Inventarliste für GALIPLAN Aktien Global AMI*</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s43"><Data ss:Type="String">per 27.10.2006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10"/>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">WP-Name</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ISIN</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Whg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Anzahl</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Bewertungskurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Volumen in Depotwhg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Fremdwhg.kurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Einstandskurs</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Buchwert DW</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Bear Stearns Cos. Inc. (The)</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0739021089</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">149.21</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">94135.09</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">134.00925000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">83541.58</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">BB Biotech AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">CH0001441580</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">53.88</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21552</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">49.193225000000005</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19677.29</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Medallion Financial Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US5839281061</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">11.75</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">18532.39</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">13.463715000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21456.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Gerdau Ameristeel Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">CA37373P1053</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">10.42</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20543.350000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">10.480991999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20878.47</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Marathon Oil Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US5658491064</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">86.350000000000009</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">40858.01</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">85.4649</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40212.47</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">PW Eagle Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US69366Y1082</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">34.39</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">105769.49</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">26.100856</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">83474.790000000008</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Continental Airlines Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US2107953083</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">36.31</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">85903.55</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">26.463849999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">63953.29</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Intergraph Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US4586831095</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">43.61</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">17195.689999999999</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">50.345419999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20977.260000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">PrimeWest Energy Trust</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">CA7419303093</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">25.79</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">16270.65</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">31.052275000000002</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20991.9</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Petroleo Brasileiro SA ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US71654V4086</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">270</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">89.01</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">18952.490000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">85.757110999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19444.36</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Anglo American PLC ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US03485P1021</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">22.52</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">23087.420000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19.586361999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20923.88</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Southern Copper Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US84265V1052</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1340</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">52.1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">55056.19</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">37.905529999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">41847.360000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Phelps Dodge Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US7172651025</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">100.58</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">47591.18</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">91.081682999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">42855.25</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Avaya Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0534991098</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2195</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">12.82</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22191.48</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">12.248464999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21812.82</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">FirstEnergy Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US3379321074</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">59.53</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">46946.1</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">56.233269999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">44097.599999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Carpenter Technology Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US1442851036</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">104.3</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">41126.14</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">98.480900000000005</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">38719.840000000004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Allegheny Technologies Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US01741R1023</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1150</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">80.09</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">72633.97</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">52.253895999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">49666.840000000004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Knight Capital Group Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US4990051066</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">18.36</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">40540.99</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">18.563506999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40709.46</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Cummins Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US2310211063</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1220</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">130.96</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">125997.56</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">104.180885</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">103261.77</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Starwood Hotels &amp; Res. Worldwide Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US85590A4013</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">59.47</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">23449.39</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">50.896900000000009</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19956.439999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Mannatech Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US5637711046</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">14.94</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22385.55</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">14.372337</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21414.240000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Credicorp Ltd.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">BMG2519Y1084</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">42.050000000000004</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">26528.920000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">32.526237999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20405.420000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Saia Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US78709Y1055</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">26.2</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">16529.32</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">29.737487999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20030.310000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Genco Shipping &amp; Trading Ltd.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">MHY2685T1073</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2200</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">24.240000000000002</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">42055.12</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22.731126999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">39376.300000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Honda Motor Co. Ltd. ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US4381283088</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">35.89</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">45285.279999999999</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">32.721769000000002</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">41121.26</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">First Marblehead Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US3207711082</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">65.460000000000008</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">25811.29</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">48.15954</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">18945.53</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Loral Space &amp; Communications Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US5438811060</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">28.39</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20149.84</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">28.525600000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20199.09</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Avnet Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0538071038</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">22.45</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">46031.31</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20.036604000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40817.81</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">TNT NV ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US87260W1018</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">38.29</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24156.78</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">34.215787999999996</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21536.29</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">OMI Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">MHY6476W1049</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">22.5</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">60328.85</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22.419423999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">59841.270000000004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">American Fin. Group Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0259321042</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">47.84</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">45272.66</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">43.258024999999996</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40750.32</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Sunoco Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US86764P1093</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">66.400000000000006</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">15709.16</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">88.788832999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">22508.58</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">BB Medtech AG</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">CH0000428661</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">540</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">41.85</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22599</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">37.711462999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20364.189999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Encore Wire Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US2925621052</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">30.04</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">35534.879999999997</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">33.883812999999996</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40050.800000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Valero Energy Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US91913Y1001</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">53.08</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">16743.82</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">64.443349999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20281.150000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">FreightCar America Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US3570231007</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">54.34</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">42853.200000000004</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">51.070369999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40246.910000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24"/>
+   <Row ss:AutoFitHeight="0" ss:Height="20">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s42"><Data ss:Type="String">Inventarliste für GALIPLAN Aktien Global AMI*</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s43"><Data ss:Type="String">per 27.10.2006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10"/>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">WP-Name</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ISIN</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Whg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Anzahl</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Bewertungskurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Volumen in Depotwhg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Fremdwhg.kurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Einstandskurs</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Buchwert DW</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">InterDigital Comm. Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US45866A1051</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">36.29</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">45789.99</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">31.848800000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">39846.910000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">United States Steel Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US9129091081</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">68.739999999999995</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21683.69</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">69.108400000000003</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21819.69</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Holly Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US4357583057</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">48.14</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22778.28</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">42.363182999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19766.64</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Aracruz Celulose SA ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0384962041</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">54.980000000000004</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">43357.91</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">52.448080000000004</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">41129.300000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">BG Group PLC ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0554342032</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">66.489999999999995</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">41947.87</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">66.967636999999996</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">41869.620000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Embratel Partic. SA PFD ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US29081N2099</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">16.3</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21852.45</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">15.947605999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21260.14</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Chesapeake Energy Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US1651671075</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">32.4</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20440.830000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">30.560949999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20584.97</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Volt Information Sciences Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US9287031077</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">40.869999999999997</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">48345.89</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">34.676612999999996</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40777.07</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Dillard's Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US2540671011</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">30.46</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">38433.82</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">31.126225000000002</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">38924.94</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Mothers Work Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6199031070</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">49.79</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">35338.51</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">30.080611000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21015.8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Oregon Steel Mills Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6860791044</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">57.02</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20235.010000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">56.490843999999996</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20065.420000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">U.S. Concrete Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US90333L1026</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">6.45</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">12716.380000000001</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">10.642228000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20653.3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Oneok Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6826801036</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">41.68</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">39443.24</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">41.301100000000005</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">39120.15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Cia Nac. Telefonos de Venezuela ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US2044211017</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">19.66</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">40310.71</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19.415061999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">39474.730000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Total SA ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US89151E1091</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">68.13</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">42982.53</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">62.510638</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">39160.32</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Alcan Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">CA0137161059</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">45.2</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">46338.87</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">42.416737999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">42881.840000000004</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">New Century Financial Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6435EV1082</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">38.910000000000004</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">15342.45</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">48.832680000000003</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19940.670000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">PACCAR Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6937181088</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">525</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">59.42</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24601.16</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">49.543256999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21107.58</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Frontier Oil Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US35914P1057</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">29.85</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">18832.060000000001</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">29.865337</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">18644.82</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Cleco Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US12561W1053</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">25.7</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20267.34</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24.029200000000003</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">18798.510000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Loew's Corp. - Carolina Group</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US5404242076</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">57.1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22514.89</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">49.306640000000002</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20757.2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Trico Marine Services Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US8961062002</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">34.840000000000003</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">19232.68</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">33.370185999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">18133.150000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Stora Enso Oyj ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US86210M1062</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">16.059999999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">24063.72</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">13.935379000000001</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20553.66</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Air Methods Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0091283079</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">25.1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">25732.420000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20.927491999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21254.55</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Imperial Sugar Co.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US4530962087</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">2400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">26.29</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">49758.29</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">31.907887000000002</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">62939.35</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Cincinnati Financial Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US1720621010</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">500</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">46.06</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">18161.740000000002</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">48.630879999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">19192.86</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Group 1 Automotive Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US3989051095</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1100</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">51.67</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">44822.37</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">46.275726999999996</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">42858.720000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">ExpressJet Holdings Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US30218U1088</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">3700</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">7.95</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">23197.03</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">6.9828619999999999</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20393.55</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">POSCO Ltd. ADR</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US6934831099</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">69.55</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">65817.59</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">62.171391999999997</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">61229.05</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Arch Coal Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0393801008</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">17034.03</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">46.951300000000003</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">22446.84</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Safety Insurance Group Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US78648T1007</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">50.14</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">39541.03</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">49.608439999999995</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">39323.82</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Columbus McKinnon Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US1993331057</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1300</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">21.490000000000002</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">22031.47</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">20.160968999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20620.98</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Aleris International Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US0144771039</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">51.31</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">40463.700000000004</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">51.43336</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">40597.800000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Aspreva Pharmaceuticals Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">CA04538T1093</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">900</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">18.990000000000002</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">13478.18</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">28.6004</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">21472.41</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">WCI Communities Inc.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US92923C1045</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">15.59</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">14753.36</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">21.550466999999998</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">20606.03</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">United Industrial Corp.</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">US9106711065</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">1000</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">44.6</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">35172.11</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">49.084030000000006</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">38743.42</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24"/>
+   <Row ss:AutoFitHeight="0" ss:Height="20">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s42"><Data ss:Type="String">Inventarliste für GALIPLAN Aktien Global AMI*</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s43"><Data ss:Type="String">per 27.10.2006</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10"/>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">WP-Name</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">ISIN</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Whg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Anzahl</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Bewertungskurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Volumen in Depotwhg.</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Fremdwhg.kurs</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Einstandskurs</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Buchwert DW</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s29"><Data ss:Type="String">Futures</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s32"><Data ss:Type="Number">-221596.1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">DAX Index Future Dezember 2006</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">-125</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">17.5</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">-39312.5</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">MDAX Index Future Dezember 2006</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s34"><Data ss:Type="String">EUR</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">-50</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">-19800</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Russell 2000 E-mini Future Dezember 2006</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">-3400</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">9.3000000000000007</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">-104411.13</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">Nasdaq 100 E-mini Future Dezember 2006</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">-520</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">21.5</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">-37123.65</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="9" ss:StyleID="s35"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeDown="1" ss:StyleID="s33"><Data ss:Type="String">S&amp;P 500 E-mini Future Dezember 2006</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s34"><Data ss:Type="String">USD</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">-450</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">8.1</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">-20948.82</Data></Cell>
+    <Cell ss:StyleID="s36"><Data ss:Type="Number">1.2680499999999999</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="9" ss:StyleID="s35"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13"/>
+   <Row ss:AutoFitHeight="0" ss:Height="333"/>
+   <Row ss:Height="12">
+    <Cell ss:Index="2" ss:MergeAcross="5" ss:StyleID="s50"><Data ss:Type="String">Inventarliste für GALIPLAN Aktien Global AMI* per 27.10.2006</Data></Cell>
+    <Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s51"><Data ss:Type="String">Seite 7 von 7</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0"/>
+    <Footer x:Margin="0"/>
+    <PageMargins x:Bottom="0.16666666666666666" x:Left="0.16666666666666666"
+     x:Right="0.16666666666666666" x:Top="0.16666666666666666"/>
+   </PageSetup>
+   <Unsynced/>
+   <NoSummaryRowsBelowDetail/>
+   <NoSummaryColumnsRightDetail/>
+   <DisplayPageBreak/>
+   <Print>
+    <FitWidth>0</FitWidth>
+    <FitHeight>0</FitHeight>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <VerticalResolution>0</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <DoNotDisplayOutline/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <PageBreaks xmlns="urn:schemas-microsoft-com:office:excel">
+   <RowBreaks>
+    <RowBreak>
+     <Row>45</Row>
+     <ColStart>1</ColStart>
+     <ColEnd>256</ColEnd>
+    </RowBreak>
+    <RowBreak>
+     <Row>89</Row>
+     <ColStart>1</ColStart>
+     <ColEnd>256</ColEnd>
+    </RowBreak>
+    <RowBreak>
+     <Row>133</Row>
+     <ColStart>1</ColStart>
+     <ColEnd>256</ColEnd>
+    </RowBreak>
+    <RowBreak>
+     <Row>177</Row>
+     <ColStart>1</ColStart>
+     <ColEnd>256</ColEnd>
+    </RowBreak>
+    <RowBreak>
+     <Row>221</Row>
+     <ColStart>1</ColStart>
+     <ColEnd>256</ColEnd>
+    </RowBreak>
+    <RowBreak>
+     <Row>264</Row>
+     <ColStart>1</ColStart>
+     <ColEnd>256</ColEnd>
+    </RowBreak>
+    <RowBreak>
+     <Row>284</Row>
+     <ColStart>1</ColStart>
+     <ColEnd>256</ColEnd>
+    </RowBreak>
+   </RowBreaks>
+  </PageBreaks>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Freddie Mac</Author>
+  <LastAuthor>God</LastAuthor>
+  <LastPrinted>2004-05-12T15:56:10Z</LastPrinted>
+  <Created>2004-04-22T19:45:26Z</Created>
+  <LastSaved>2004-10-30T00:09:52Z</LastSaved>
+  <Company>Federal Home Loan Mortgage Corporation</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>2</Index>
+    <RGB>#FF0000</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#00FF00</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>6</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>7</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>8</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#008000</RGB>
+   </Color>
+   <Color>
+    <Index>10</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#808000</RGB>
+   </Color>
+   <Color>
+    <Index>12</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#DEEBFF</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#D97600</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#ECE7CA</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#0362AA</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10120</WindowHeight>
+  <WindowWidth>15480</WindowWidth>
+  <WindowTopX>320</WindowTopX>
+  <WindowTopY>400</WindowTopY>
+  <TabRatio>309</TabRatio>
+  <RefModeR1C1/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Active_ProForma" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="AddIn_Name" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Auto_Calc_Method_List" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Initial_Refresh_Flag" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Loan_Info" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Loan_Number" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Loan_Status_Desc" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Mortgage_ID" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Non_Rev_Unit_Type_List" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Property_Name" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Property_Type_Code" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Property_Type_List" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Property_Types" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Read_Only_Flag" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="RR_Total_Area" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="RR_Total_Beds" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="RR_Total_Rooms" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="RR_Total_Rooms2" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="RR_Total_Units" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="RR_Total_Units2" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Senior_Housing_Unit_Type_List" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Sheet_IE_Summary" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Subsidy_Type_List" ss:RefersTo="=#REF!"/>
+  <NamedRange ss:Name="Tab_Definitions" ss:RefersTo="=#REF!"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="17" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:Index="7" ss:Width="66"/>
+   <Row ss:Index="17">
+    <Cell ss:Index="7"><Data ss:Type="Number">5555555555</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>11</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

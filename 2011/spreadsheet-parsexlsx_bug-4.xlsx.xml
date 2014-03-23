@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Robert Pank</Author>
+  <LastAuthor>God</LastAuthor>
+  <Revision>0</Revision>
+  <TotalTime>0</TotalTime>
+  <Created>2013-05-07T13:53:02Z</Created>
+  <LastSaved>2013-05-07T13:53:06Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4440</WindowHeight>
+  <WindowWidth>16380</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>512</TabRatio>
+  <MaxChange>0.0001</MaxChange>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s35">
+   <NumberFormat ss:Format="\$0.00"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="27" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Row>
+    <Cell><Data ss:Type="String">Order Number</Data></Cell>
+    <Cell><Data ss:Type="String">Account Number</Data></Cell>
+    <Cell><Data ss:Type="String">Address</Data></Cell>
+    <Cell><Data ss:Type="String">City</Data></Cell>
+    <Cell><Data ss:Type="String">State</Data></Cell>
+    <Cell><Data ss:Type="String">Zip</Data></Cell>
+    <Cell><Data ss:Type="String">Country</Data></Cell>
+    <Cell><Data ss:Type="String">Customer name</Data></Cell>
+    <Cell><Data ss:Type="String">Language Preference</Data></Cell>
+    <Cell><Data ss:Type="String">email address</Data></Cell>
+    <Cell><Data ss:Type="String">daytime phone</Data></Cell>
+    <Cell><Data ss:Type="String">Nightime phone</Data></Cell>
+    <Cell><Data ss:Type="String">Territory</Data></Cell>
+    <Cell><Data ss:Type="String">Date assigned</Data></Cell>
+    <Cell><Data ss:Type="String">schedule date</Data></Cell>
+    <Cell><Data ss:Type="String">date order closed</Data></Cell>
+    <Cell><Data ss:Type="String">Order Status</Data></Cell>
+    <Cell><Data ss:Type="String">not feasible reason</Data></Cell>
+    <Cell><Data ss:Type="String">dealer cost</Data></Cell>
+    <Cell><Data ss:Type="String">orig customer price</Data></Cell>
+    <Cell><Data ss:Type="String">discount amt</Data></Cell>
+    <Cell><Data ss:Type="String">final price</Data></Cell>
+    <Cell><Data ss:Type="String">Adhoc Charges</Data></Cell>
+    <Cell><Data ss:Type="String">promo code</Data></Cell>
+    <Cell><Data ss:Type="String">Home Setup Requested</Data></Cell>
+    <Cell><Data ss:Type="String">Home Setup Completed</Data></Cell>
+    <Cell><Data ss:Type="String">Requested/Completed Same?</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">364968</Data></Cell>
+    <Cell><Data ss:Type="Number">1111111111</Data></Cell>
+    <Cell><Data ss:Type="String">666 CARLTON STREET</Data></Cell>
+    <Cell><Data ss:Type="String">Shrewsbury</Data></Cell>
+    <Cell><Data ss:Type="String">Massachusetts</Data></Cell>
+    <Cell><Data ss:Type="Number">1545</Data></Cell>
+    <Cell><Data ss:Type="String">United States</Data></Cell>
+    <Cell><Data ss:Type="String">Patrick Steward</Data></Cell>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+    <Cell><Data ss:Type="String">ps@hotmail.com</Data></Cell>
+    <Cell><Data ss:Type="Number">1112223333</Data></Cell>
+    <Cell><Data ss:Type="Number">1112223334</Data></Cell>
+    <Cell><Data ss:Type="String">MA</Data></Cell>
+    <Cell><Data ss:Type="String">05/03/2013</Data></Cell>
+    <Cell><Data ss:Type="String">05/10/2013</Data></Cell>
+    <Cell><Data ss:Type="String">05/04/2013</Data></Cell>
+    <Cell><Data ss:Type="String">Cancelled</Data></Cell>
+    <Cell ss:Index="19" ss:StyleID="s35"/>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s35"/>
+    <Cell ss:Index="25"><Data ss:Type="String">None of the above.</Data></Cell>
+    <Cell ss:Index="27"><Data ss:Type="String">No</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555496"/>
+    <Footer x:Margin="0.51180555555555496"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <Selected/>
+   <LeftColumnVisible>12</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>17</ActiveCol>
+     <RangeSelection>C18</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555496"/>
+    <Footer x:Margin="0.51180555555555496"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>C18,R1C1</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555496"/>
+    <Footer x:Margin="0.51180555555555496"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>100</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>C18,R1C1</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

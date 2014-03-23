@@ -1,0 +1,1354 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>E099853</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2013-05-01T15:37:45Z</Created>
+  <LastSaved>2013-08-29T20:28:42Z</LastSaved>
+  <Company>Harry and David Operations, Inc.</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8460</WindowHeight>
+  <WindowWidth>13400</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>240</WindowTopY>
+  <TabRatio>653</TabRatio>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Normal 3">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s20">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Vertical="Center"/>
+   <Font x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font x:Family="Swiss" ss:Size="18" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+   <Protection x:HideFormula="1"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Vertical="Center"/>
+   <Font x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s38">
+   <Alignment ss:Vertical="Center"/>
+   <Font x:Family="Swiss" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s43" ss:Parent="s16">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s44" ss:Parent="s16">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss"/>
+  </Style>
+  <Style ss:ID="s45" ss:Parent="s16">
+   <Font x:Family="Swiss" ss:Bold="1" ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="s46" ss:Parent="s16">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#0000D4"/>
+  </Style>
+  <Style ss:ID="s47" ss:Parent="s16">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#0000D4" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s48" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s49" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s50" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s51" ss:Parent="s16">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#0000D4"/>
+  </Style>
+  <Style ss:ID="s52" ss:Parent="s16">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Color="#0000D4" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s53" ss:Parent="s16">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s54" ss:Parent="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+  </Style>
+  <Style ss:ID="s55" ss:Parent="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Color="#0000D4"/>
+  </Style>
+  <Style ss:ID="s56" ss:Parent="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Color="#0000D4" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s57">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s58" ss:Parent="s16">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Color="#0000D4"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s59">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s60" ss:Parent="s16">
+   <Font x:Family="Swiss"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s61" ss:Parent="s16">
+   <Font x:Family="Swiss" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s62" ss:Parent="s16">
+   <Borders/>
+   <Font x:Family="Swiss" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Tahoma" x:Family="Swiss" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Interior ss:Color="#FEA746" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FEA746" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#FEA746" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Vertical="Top"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Alignment ss:Vertical="Top"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Vertical="Top"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#FEA746" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#A2BD90" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s84">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s85">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Interior ss:Color="#00ABEA" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FEA746" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Basic Access">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="28" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="27"/>
+   <Column ss:StyleID="s28" ss:AutoFitWidth="0" ss:Width="223"/>
+   <Column ss:StyleID="s20" ss:AutoFitWidth="0" ss:Width="171"/>
+   <Column ss:Width="304"/>
+   <Column ss:AutoFitWidth="0" ss:Width="204"/>
+   <Row ss:StyleID="s30">
+    <Cell ss:Index="2" ss:StyleID="s71"><Data ss:Type="String">Crew Leader / 2030360</Data></Cell>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">WINDOWS LOGIN</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"><Data ss:Type="String">AD/Windows Account</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Email </Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AD account required</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"><Data ss:Type="String">Proxy Internet</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AD account required</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"><Data ss:Type="String">VPN Access</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">AD account and VPN Access form required for new hire</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s72"><Data ss:Type="String">Communicator/Instant messaging</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Email account req'd - remedy ticket to ME-EXCH</Data></Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell ss:Index="2" ss:StyleID="s40"/>
+   </Row>
+   <Row ss:Index="15">
+    <Cell ss:StyleID="s20"/>
+    <Cell ss:StyleID="s40"><Data ss:Type="String">Legend</Data></Cell>
+   </Row>
+   <Row ss:Height="56" ss:StyleID="s77">
+    <Cell ss:Index="2" ss:StyleID="s82"><Data ss:Type="String">Orange boxes denote an additional actions that must be performed: e.g.  selecting a UNIX server, choosing an additional required account type, filling out an additional form</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="String">Dark green boxes are instruction/description fields</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">Aqua is a section break or notes for what the account process is after a user is created</Data></Cell>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">Light Blue are DSG names/Group owners to be copied to the DSGroups tabs if you select that application.</Data></Cell>
+   </Row>
+   <Row ss:Index="27">
+    <Cell ss:Index="3" ss:StyleID="s39"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s39"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="DSGroups">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="15" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="268"/>
+   <Column ss:AutoFitWidth="0" ss:Width="325"/>
+   <Column ss:AutoFitWidth="0" ss:Width="324"/>
+   <Row ss:Index="2" ss:StyleID="s30">
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Departmental N drive group</Data></Cell>
+    <Cell ss:StyleID="s29"
+     ss:Formula="=INDEX('Administrative Use'!RC[-1]:R[24]C[-1],R2C4)"><Data
+      ss:Type="String">MFG</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s31"><Data ss:Type="Number">16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">MFG</Data></Cell>
+   </Row>
+   <Row ss:Index="6" ss:Height="28" ss:StyleID="s36">
+    <Cell><Data ss:Type="String">Include All Data Sharing groups (including those for applications selected on Applications tab)</Data></Cell>
+    <Cell><Data ss:Type="String">In this column, list the group Owners if you have them/can obtain them from Tech Data</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s34">
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Data Sharing Groups</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Description/Owner</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">mfg fdproc</Data></Cell>
+    <Cell><Data ss:Type="String">Tom Forsythe</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ent bartend-402 data max prodigy max 203 dpi</Data></Cell>
+    <Cell><Data ss:Type="String">Dave Levos ; Tommy Holland</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ent bartend-402 inter px4i 400 dpi rw</Data></Cell>
+    <Cell><Data ss:Type="String">Tommy Holland; Dave Levos</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">opr-mfg asmb inst ro</Data></Cell>
+    <Cell><Data ss:Type="String">Chris McGee</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <TopRowVisible>1</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>13</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="APPS">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="46" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="21"/>
+   <Column ss:StyleID="s77" ss:AutoFitWidth="0" ss:Width="196"/>
+   <Column ss:StyleID="s78" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s20" ss:AutoFitWidth="0" ss:Width="173"/>
+   <Column ss:StyleID="s28" ss:AutoFitWidth="0" ss:Width="423"/>
+   <Row ss:Index="2" ss:Height="42" ss:StyleID="s36">
+    <Cell ss:Index="2" ss:StyleID="s75"><Data ss:Type="String">APPLICATION</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Required DSG Groups            Copy and Paste Group/Owner  to DSGroups</Data></Cell>
+    <Cell><Data ss:Type="String">REQUEST INFORMATION - use color legend on Basic Access tab to determine if additional action is necessary.</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s76"><Data ss:Type="String">BCSNS</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s64"><Data ss:Type="String">Requires DSG: BCSNS, PROD, TRNG, TRNG_Overide1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"><Data ss:Type="String">BCSNS</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">BCS NS Access - Chad Goldsmith, Valerie Varner</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"><Data ss:Type="String">PROD</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">BCSSENV - Valerie Varner, Teena McCleary</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"><Data ss:Type="String">TRNG</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">BCSSENV - Chad Goldsmith, Valerie Varner</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"><Data ss:Type="String">TRNG_Overide1</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">BCSS - Chad Goldsmith, Valerie Varner</Data></Cell>
+   </Row>
+   <Row ss:Height="28">
+    <Cell ss:Index="2"><Data ss:Type="String">Additional access beyond basic</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s86"><Data ss:Type="String">Additional access will need to be coordinated via Valerie Varner and might not be easily profiled</Data></Cell>
+   </Row>
+   <Row ss:Index="10" ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s76"><Data ss:Type="String">Business Objects</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">request to ME-DW</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s78"/>
+   </Row>
+   <Row ss:Height="28" ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s76"><Data ss:Type="String">CMS</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Call Center - requests to Valerie Varner/Ron Wilson/Colleen Conner - IT: Requests to ME-TEL Stephen Pean</Data></Cell>
+   </Row>
+   <Row ss:Index="14" ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s76"><Data ss:Type="String">ELS</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">UNIX server:  MPMFGDB1</Font></B><Font
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> - table access from Andrew Hanson</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"><Data ss:Type="String">EILS</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Heather Krupp; Andrew Hanson</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"><Data ss:Type="String">EILPSUU</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Bonnie Walker, Heather Krupp; Andrew Hanson</Data></Cell>
+   </Row>
+   <Row ss:Index="18" ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s76"><Data ss:Type="String">Merchandise Planner Stores</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String"><Font html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40">UNIX ACCESS REQUIRED: MMERMPS1- </Font><B
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Licensed Software</Font></B></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">MP Stores</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Request to Teresa Anderson/Steve Rowland for access</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s79"><Data ss:Type="String">MP Reporting Stores</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s70"><Data ss:Type="String">Stores Makoro</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Teresa Anderson</Data></Cell>
+   </Row>
+   <Row ss:Index="22" ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s76"><Data ss:Type="String">Merchandise Planner Stores</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Licensed software - UNIX ACCESS REQUIRED: MMERMPS1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s79"><Data ss:Type="String">MP Marketing</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Request to Mitch Bates for access</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s79"><Data ss:Type="String">MP Reporting DM</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">DIRM Makoro Users</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">John Rogers,Jennifer Estenson, Jesse Shoemaker </Data></Cell>
+   </Row>
+   <Row ss:Index="26" ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s76"><Data ss:Type="String">Power2Pay</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Finance</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Request to Sheila Gratsinger/Andee Bylund - ticket to ME-FIN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Payroll</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"><Data ss:Type="String">Request to Denise Williams - ticket to ME-TMS</Data></Cell>
+   </Row>
+   <Row ss:Index="30" ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s80"><Data ss:Type="String">Profit Access</Data></Cell>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">UNIX Access required</Data></Cell>
+   </Row>
+   <Row ss:Index="33" ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s76"><Data ss:Type="String">Peoplesoft Finance</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Setup basic profile with attached PS FIN form</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s79"><Data ss:Type="String">PS FIN 3Tier</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s73"><Data ss:Type="String">requested on PS fin Form</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s78"/>
+   </Row>
+   <Row ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s76"><Data ss:Type="String">Peoplesoft HR (8)</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Setup basic profile with attached PS HR form</Data></Cell>
+   </Row>
+   <Row ss:Index="38" ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s76"><Data ss:Type="String">Remedy</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Request sent to ME-REM for access/IT support configuration</Data></Cell>
+   </Row>
+   <Row ss:Index="40" ss:StyleID="s65">
+    <Cell ss:Index="2" ss:StyleID="s81"><Data ss:Type="String">Virtual Observer Supervisor</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell><Data ss:Type="String">Candace Watkins notified to add to database</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s70"><Data ss:Type="String">VOUsers</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Valerie Varner; Chad Goldsmith;Candace Watkins</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="ADP">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="29" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="217"/>
+   <Column ss:StyleID="s57" ss:AutoFitWidth="0"/>
+   <Column ss:Width="325"/>
+   <Row ss:AutoFitHeight="0" ss:Height="45" ss:StyleID="s36">
+    <Cell ss:Index="2"><Data ss:Type="String">If the profile group as a whole uses ADP ( perhaps just to clock in/out if nothing else) list the common roles here</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">2030360, 2030361, 2030362</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">ADP</Data></Cell>
+    <Cell ss:StyleID="s41"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell><Data ss:Type="String">Request to CL-ADP, Marcie Young/Kevin Zimmeran</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">Security Roles </Data></Cell>
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s49"/>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">2 Help Desk Hourly</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Reset Passwords/timestamp/view own timecard</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">3 Help Desk Exempt</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Reset Passwords</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">5 Hourly Supervisor</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Edit Timecards/view attendance - no wages</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">6 Senior Supervisor Clock</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Edit Timecards/scheduling/view attendance - no wages</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">7 Senior Supervisor Web</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Edit Timecards/scheduling/view attendance - no wages</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">8 Manager</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Edit Timecards/scheduling/view attendance - no wages</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">9 View Only</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">View only/approve timecards/view attendance</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s44"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">10 Timekeepers Web</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Edit Timecards/scheduling/view attendance - wages</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">11 Timekeepers Clock</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">Edit Timecards/scheduling/view attendance - wages</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">18 Manager with Wages</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Edit Timecards/scheduling/view attendance - wages</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s51"><Data ss:Type="String">20 View Only Hourly</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">View only/ability to view own timecard</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s47"><Data ss:Type="String">21 Senior Timekeepers Web</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Ability to update approved timecards/view attendance</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s52"><Data ss:Type="String">22 Senior Supervisor Web Query</Data></Cell>
+    <Cell ss:StyleID="s56"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Edit Timecards/scheduling/view attendance/queries - no wages</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">23 ER Rep</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">View only access/update attendance</Data></Cell>
+   </Row>
+   <Row ss:Height="37">
+    <Cell ss:StyleID="s45"/>
+    <Cell ss:StyleID="s50"><Data ss:Type="String">Roles bolded above require detailed explanation on what this additional access will be used for. </Data></Cell>
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s45"/>
+    <Cell ss:StyleID="s50"/>
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s16"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:StyleID="s53"><Data ss:Type="String">Reserved Roles </Data></Cell>
+    <Cell ss:StyleID="s54"/>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">12 Payroll</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Payroll Staff only</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">24 Payroll Hourly</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Payroll Staff only</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">14 Super User</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Provide detailed justification</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">15 HRIS</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">HRIS Staff Only</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s46"><Data ss:Type="String">16 DCM</Data></Cell>
+    <Cell ss:StyleID="s55"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s61"><Data ss:Type="String">Clock configuration access - IT Role</Data></Cell>
+   </Row>
+   <Row ss:Index="29" ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s58"><Data ss:Type="String">Web Access to ADP</Data></Cell>
+    <Cell ss:StyleID="s59"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:StyleID="s60"><Data ss:Type="String">Email sent to Marcie Young/Kevin Zimmerman</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="SAP">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="40" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="565"/>
+   <Column ss:AutoFitWidth="0" ss:Width="496"/>
+   <Row>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row ss:Height="21">
+    <Cell ss:StyleID="s26"><Data ss:Type="String">SAP Access Request</Data></Cell>
+   </Row>
+   <Row ss:Height="21">
+    <Cell ss:StyleID="s26"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">**This request is to be used for both SAP Production systems, ERP and EWM.**</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">(ERP is also known as ECC HDP 300; EWM is also known as WMP 301.)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">This is for BASIC SAP access common to the group being profiled:  additional access can be requested/approved once identified for the indivual</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row ss:StyleID="s30">
+    <Cell ss:StyleID="s32"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">SAP Production System(s) (ERP/EWM/Both):  </Font><Font
+        html:Color="#0000D4"> </Font></B></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s25"/>
+   </Row>
+   <Row ss:StyleID="s30">
+    <Cell ss:StyleID="s38"><Data ss:Type="String">List EWM (EWM is also known as WMP 301) roles being requested (please copy and paste in TEXT format):</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:F2FG_CONFIRM_PRD_ORDER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:F2FG_INV_POSTING_TRANSFER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:F2FG_INVCO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:F2FG_MASTER_DATA_DISPLAY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:F2FG_MASTER_DATA_PRD_ORDERS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:F2FG_MATERIAL_MSTR_BOMS_DISP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:F2FG_MSTRDATA_PRD_ORDRS_DISP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:F2FG_PLNG_STRD_CUST_RPTS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:F2FG_PP_CONSUMP_MASTER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:F2FG_SFC_GOODS_ISSUE_RECIPT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:O2C_DISPLAY_OUTBOUND_DELVRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:P2P_BATCHPROCESS_DISP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:P2P_INV_DISP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:P2P_PERFORM_GOODS_MOMT_DISP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:WM_GOODS_MVMT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:WM_HOP_ADVANCED</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:WM_INBOUND</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:WM_OUTBND_ORDER_MAINT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:WM_PO_PREQ_DISPLAY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:WM_PROD_PSAPLAN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ZXX_BASIC_USER_ROLE</Data></Cell>
+   </Row>
+   <Row ss:Index="35">
+    <Cell><Data ss:Type="String">Z:WM_ALERTS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:WM_GENERAL_REPORTS_ROLE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:WM_INBD_SPEC_ROLE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:WM_OUTBD_SPEC_ROLE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:WM_QA_INSPECTOR_ROLE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Z:WM_WORKER_ROLE</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <TopRowVisible>11</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="RMS-PROFIT">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="26" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="27"/>
+   <Column ss:Width="216"/>
+   <Column ss:AutoFitWidth="0" ss:Width="51"/>
+   <Column ss:Width="63"/>
+   <Row ss:Height="56" ss:StyleID="s36">
+    <Cell ss:Index="2"><Data ss:Type="String">At Hire time you will need to collect first middle and last initial.  If your group in general uses the same profit access choose that access.</Data></Cell>
+   </Row>
+   <Row ss:Index="3" ss:StyleID="s34">
+    <Cell ss:Index="3"><Data ss:Type="String">Stores</Data></Cell>
+    <Cell><Data ss:Type="String">Wholesale</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Producion</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">Training</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">001 – Information Services</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">002 – Accounts Payable</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">003 – Merchandising</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">004 – Buyer</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">005 – Cost Accounting</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">006 – DC Management</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">007 – DC Warehouse</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">008 – Finance</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">009 – Inventory Control</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">010 – Management</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">011 – Planning/Stores (I)</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">012 – Planning/Stores (II)</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">013 – Quality Control</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">014 – Security</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s66"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">015 – Bear Creek Stores</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">016 – Treasury</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">017 – CS Support</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <TopRowVisible>1</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>7</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Other System Logins">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="13" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="22"/>
+   <Column ss:AutoFitWidth="0" ss:Width="155"/>
+   <Column ss:StyleID="s20" ss:AutoFitWidth="0" ss:Width="82"/>
+   <Column ss:AutoFitWidth="0" ss:Width="255"/>
+   <Column ss:Width="235"/>
+   <Row ss:Index="3" ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">Mainframe/RACF</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">model account after:</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s68"><Data ss:Type="String">&lt;&#45;-choose a user ID to model account after</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">VISION</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">Request to Dawn Frick</Data></Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell ss:Index="2"><Data ss:Type="String">SERVER</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">Description</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s34">
+    <Cell ss:Index="2" ss:StyleID="s33"><Data ss:Type="String">UNIX</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">MPMFGDB1</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">ELS Server</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">MMERMPS1</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell><Data ss:Type="String">Merchandise Planner (Either Version)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">MPMKDB1</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell><Data ss:Type="String">Marketing Database</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">MPRMS1</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell><Data ss:Type="String">Profit Server</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>17</ActiveRow>
+     <ActiveCol>4</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Administrative Use">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="34" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Width="81"/>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">N Drives</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">Select N Drive using Drop Down list</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COPS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CRD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENTAPPS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ENTDATA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EUG</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EXEC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FIN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FRA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FUL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HOPEWELL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LEGAL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MFG</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MNT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OPR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ORCH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PDQ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">STOR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TRA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TRS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WDC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">YCI</Data></Cell>
+   </Row>
+   <Row ss:Index="32">
+    <Cell ss:Index="4" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s24"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s24"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowFormatCells/>
+   <AllowSizeCols/>
+   <AllowSizeRows/>
+   <AllowInsertCols/>
+   <AllowInsertRows/>
+   <AllowInsertHyperlinks/>
+   <AllowDeleteCols/>
+   <AllowDeleteRows/>
+   <AllowSort/>
+   <AllowFilter/>
+   <AllowUsePivotTables/>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

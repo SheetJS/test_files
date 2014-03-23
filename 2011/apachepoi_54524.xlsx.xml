@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-13T11:12:02Z</Created>
+  <LastSaved>2013-02-05T08:50:27Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8340</WindowHeight>
+  <WindowWidth>19200</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="128" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Font ss:FontName="Arial Unicode MS" x:CharSet="128" x:Family="Modern"
+    ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Arial Unicode MS" x:CharSet="128" x:Family="Modern"
+    ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Arial Unicode MS" x:CharSet="128" x:Family="Modern"
+    ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#808080" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s19">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Arial Unicode MS" x:CharSet="128" x:Family="Modern"
+    ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s20">
+   <Font ss:FontName="Arial Unicode MS" x:CharSet="128" x:Family="Modern"
+    ss:Size="11" ss:Color="#DD0806"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s16" ss:DefaultColumnWidth="53"
+   ss:DefaultRowHeight="16">
+   <Column ss:StyleID="s19" ss:AutoFitWidth="0" ss:Width="57"/>
+   <Column ss:StyleID="s16" ss:Width="287"/>
+   <Column ss:StyleID="s16" ss:AutoFitWidth="0" ss:Width="438"/>
+   <Column ss:StyleID="s16" ss:Width="433"/>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">1. About the situation</Data></Cell>
+    <Cell><Data ss:Type="String">2. What I wanna do</Data></Cell>
+    <Cell><Data ss:Type="String">3. The problem</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s20"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18" ss:Formula="=SUM(R[-2]C:R[-1]C)"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">← There is a formula in A4 to sum the value in A2:A3.</Data></Cell>
+    <Cell><Data ss:Type="String">← I wanna shift this rows(4~6) up by 1 row. The code is 「sheet.shiftRows(3, 5, -1);」.</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="String">← I got an error when FormulaShifter#rowMoveAreaPtg(AreaPtgBase) is called.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">X</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">X</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

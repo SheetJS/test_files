@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Sandy Olheiser</Author>
+  <LastAuthor>God</LastAuthor>
+  <LastPrinted>2004-11-17T14:10:09Z</LastPrinted>
+  <Created>2004-09-01T12:33:51Z</Created>
+  <LastSaved>2005-01-11T18:30:34Z</LastSaved>
+  <Company>EDS</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <_AdHocReviewCycleID dt:dt="float">-748114966</_AdHocReviewCycleID>
+  <_EmailSubject dt:dt="string">Updated Spreadsheet for +10 Parts</_EmailSubject>
+  <_AuthorEmail dt:dt="string">sandy.olheiser@eds.com</_AuthorEmail>
+  <_AuthorEmailDisplayName dt:dt="string">Olheiser, Sandy</_AuthorEmailDisplayName>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9220</WindowHeight>
+  <WindowWidth>14600</WindowWidth>
+  <WindowTopX>20</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s21" ss:Name="Hyperlink">
+   <Font ss:Color="#0000D4" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="000000000"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="[&lt;=9999999]###\-####;\(###\)\ ###\-####"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="m/d/yy;@"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="00000000"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s29">
+   <Alignment ss:Vertical="Bottom" ss:Rotate="-90" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s30">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="mm/dd/yy;@"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s32">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s33">
+   <Interior/>
+   <NumberFormat ss:Format="000000000"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Interior/>
+   <NumberFormat ss:Format="[&lt;=9999999]###\-####;\(###\)\ ###\-####"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Interior/>
+   <NumberFormat ss:Format="00000000"/>
+  </Style>
+  <Style ss:ID="s36">
+   <Interior/>
+   <NumberFormat ss:Format="#,##0"/>
+  </Style>
+  <Style ss:ID="s37">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s38">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Font x:Family="Swiss" ss:Bold="1" ss:Underline="Single"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s43">
+   <Interior/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s44">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s45">
+   <Interior/>
+   <NumberFormat ss:Format="d\-mmm\-yyyy"/>
+  </Style>
+  <Style ss:ID="s46">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Interior/>
+   <NumberFormat ss:Format="d\-mmm\-yyyy"/>
+  </Style>
+  <Style ss:ID="s47" ss:Parent="s21">
+   <Alignment ss:Vertical="Bottom"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="78" ss:ExpandedRowCount="3" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s32" ss:DefaultColumnWidth="55"
+   ss:DefaultRowHeight="12">
+   <Column ss:StyleID="s32" ss:AutoFitWidth="0" ss:Width="68"/>
+   <Column ss:StyleID="s33" ss:Width="69"/>
+   <Column ss:StyleID="s32" ss:AutoFitWidth="0" ss:Width="135"/>
+   <Column ss:StyleID="s34" ss:AutoFitWidth="0" ss:Width="117"/>
+   <Column ss:StyleID="s32" ss:AutoFitWidth="0" ss:Width="157"/>
+   <Column ss:StyleID="s45" ss:AutoFitWidth="0" ss:Width="95"/>
+   <Column ss:StyleID="s33" ss:AutoFitWidth="0" ss:Width="66"/>
+   <Column ss:StyleID="s35" ss:Width="85"/>
+   <Column ss:StyleID="s36" ss:Width="61"/>
+   <Column ss:StyleID="s39" ss:AutoFitWidth="0" ss:Width="59"/>
+   <Column ss:StyleID="s32" ss:Width="62"/>
+   <Column ss:StyleID="s32" ss:Width="99" ss:Span="1"/>
+   <Column ss:Index="14" ss:StyleID="s43" ss:Width="71"/>
+   <Column ss:StyleID="s32" ss:Width="20" ss:Span="53"/>
+   <Column ss:Index="69" ss:StyleID="s32" ss:Width="105"/>
+   <Column ss:StyleID="s32" ss:Width="131"/>
+   <Column ss:StyleID="s32" ss:Width="63"/>
+   <Column ss:StyleID="s37" ss:Width="72"/>
+   <Column ss:StyleID="s46" ss:Width="85"/>
+   <Column ss:StyleID="s33" ss:AutoFitWidth="0" ss:Width="73"/>
+   <Column ss:StyleID="s32" ss:Width="205"/>
+   <Column ss:StyleID="s36" ss:Width="57"/>
+   <Column ss:StyleID="s32" ss:Width="114"/>
+   <Column ss:StyleID="s32" ss:AutoFitWidth="0" ss:Width="65"/>
+   <Row ss:AutoFitHeight="0" ss:Height="21" ss:Hidden="1" ss:StyleID="s40">
+    <Cell><Data ss:Type="String">1</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s39"/>
+    <Cell ss:Index="14" ss:StyleID="s43"/>
+    <Cell><Data ss:Type="String">AR</Data></Cell>
+    <Cell><Data ss:Type="String">BA</Data></Cell>
+    <Cell><Data ss:Type="String">BG</Data></Cell>
+    <Cell><Data ss:Type="String">C1</Data></Cell>
+    <Cell><Data ss:Type="String">DO</Data></Cell>
+    <Cell><Data ss:Type="String">FF</Data></Cell>
+    <Cell><Data ss:Type="String">FL</Data></Cell>
+    <Cell><Data ss:Type="String">FL</Data></Cell>
+    <Cell><Data ss:Type="String">FW</Data></Cell>
+    <Cell><Data ss:Type="String">DH</Data></Cell>
+    <Cell><Data ss:Type="String">TZ</Data></Cell>
+    <Cell><Data ss:Type="String">JA</Data></Cell>
+    <Cell><Data ss:Type="String">L1</Data></Cell>
+    <Cell><Data ss:Type="String">BJ</Data></Cell>
+    <Cell><Data ss:Type="String">B1</Data></Cell>
+    <Cell><Data ss:Type="String">LI</Data></Cell>
+    <Cell><Data ss:Type="String">LD</Data></Cell>
+    <Cell><Data ss:Type="String">MO</Data></Cell>
+    <Cell><Data ss:Type="String">N1</Data></Cell>
+    <Cell><Data ss:Type="String">OK</Data></Cell>
+    <Cell><Data ss:Type="String">OR</Data></Cell>
+    <Cell><Data ss:Type="String">O1</Data></Cell>
+    <Cell><Data ss:Type="String">O2</Data></Cell>
+    <Cell><Data ss:Type="String">OT</Data></Cell>
+    <Cell><Data ss:Type="String">03</Data></Cell>
+    <Cell><Data ss:Type="String">RA</Data></Cell>
+    <Cell><Data ss:Type="String">SH</Data></Cell>
+    <Cell><Data ss:Type="String">MX</Data></Cell>
+    <Cell><Data ss:Type="String">KM</Data></Cell>
+    <Cell><Data ss:Type="String">ST</Data></Cell>
+    <Cell><Data ss:Type="String">2E</Data></Cell>
+    <Cell><Data ss:Type="String">WE</Data></Cell>
+    <Cell><Data ss:Type="String">WI</Data></Cell>
+    <Cell><Data ss:Type="String">B7</Data></Cell>
+    <Cell><Data ss:Type="String">B9</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">KH</Data></Cell>
+    <Cell><Data ss:Type="String">BT</Data></Cell>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell><Data ss:Type="String">HB</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">RT</Data></Cell>
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell><Data ss:Type="String">KD</Data></Cell>
+    <Cell><Data ss:Type="String">KF</Data></Cell>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">FA</Data></Cell>
+    <Cell><Data ss:Type="String">FD</Data></Cell>
+    <Cell><Data ss:Type="String">FF</Data></Cell>
+    <Cell><Data ss:Type="String">FG</Data></Cell>
+    <Cell><Data ss:Type="String">OT</Data></Cell>
+    <Cell ss:Index="72" ss:StyleID="s41"/>
+    <Cell ss:StyleID="s42"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="91" ss:StyleID="s31">
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Supplier Name</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter Supplier Name</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Manuf Duns #</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter Manufacturing DUNS Number</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Contact</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter Contact Name</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s25"><Data ss:Type="String">Phone</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter Contact's Phone Number</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">eMail</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter Contact's eMail Address</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">Survey Date</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter date for which you are completing the survey</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">NA Warehouse Duns</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter North American Warehouse DUNS Number</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s27"><Data ss:Type="String">Part</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter Part Number</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Qty</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter Quantity of Part in NA Warehouse</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s38"><Data ss:Type="String">Inv Status</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Select current inventory status</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Recovery Plan Submitted?</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Has a Recovery Plan been submitted for this part?</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">GM Personnel #1</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">If a Recovery Plan has been submitted, to whom was it sent?</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">GM Personnel #2</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">If a Recovery Plan has been submitted, to whom was it sent?</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="String">Date of Compliance</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Date of which you will have a 4 week inventory status, in mm/dd/yyyy format</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Arlington</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Baltimore</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Bowling Green</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">CAMI</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Doraville</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Fairfax</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Flint Assembly Medium Duty</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Flint</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Fort Wayne</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Hamtramck</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Hummer</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Janesville</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Lansing Craft Center</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Lansing Grand River LGR</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Lansing</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Linden</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Lordstown</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Moraine</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Nummi</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Oklahoma City</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Orion Car</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Oshawa Car 1</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Oshawa Car 2</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Oshawa Truck</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Pontiac</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Ramoz Arizpe</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Shreveport</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Silao</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Spring Hill</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Ste. Therese</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Toluca</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Wentzville</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Wilmington</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Flint V6 Engine</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Livonia Engine</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Romulus Engine</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">St. Catharines Engine</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Tonawanda Engine</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Spring Hill Engine</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Baltimore Transmission</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Flint Components</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Fredricksburg Transmission</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Parma Transmission Components</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Romulus Transmission</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">St. Catharines Components</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Toledo Transmission</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Willow Run Transmission</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Windsor Transmission</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Bay City Components</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Bedford Casting</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Messena Casting</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Saginaw Metal Casting</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Saginaw Malleable</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Other</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Other Plant Detail</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">If &quot;Other&quot; plant was selected, enter that plant information</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Warehouse Comments</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Comments on your warehouse information</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">In Transit?</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Is this part number currently in transit?</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Shipment Id</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter Shipment ID if part  is in transit.  Separate shipment Id's by a &quot;,&quot;.</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">Date of Arrival</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter Date of Arrival if part is in transit, in mm/dd/yyyy format</Font></B></Data></Comment></Cell>
+    <Cell ss:StyleID="s24"><Data ss:Type="String">Warehouse Duns #</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter Warehouse DUNS# to which the part will be shipped.</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Status</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Select Status of shipment.  If more than one shipment, select for the first shipment.</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s28"><Data ss:Type="String">In Transit Qty</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter In Transit Qty if part is in transit. </Font></B></Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">In Transit Comment</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Enter comments on In Transit information.</Font></B><Font
+        html:Face="Tahoma" html:Size="8" html:Color="#000000"
+        xmlns="http://www.w3.org/TR/REC-html40">&#13;</Font></Data></Comment></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Additional Parts?</Data><Comment
+      ss:Author="Sandy Olheiser"><Data><B
+        xmlns="http://www.w3.org/TR/REC-html40"><Font html:Face="Tahoma"
+         html:Size="8" html:Color="#000000">Are there additional parts to do reporting?</Font></B></Data></Comment></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ABC Company</Data></Cell>
+    <Cell><Data ss:Type="Number">444444444</Data></Cell>
+    <Cell><Data ss:Type="String">Stacie Sattler</Data></Cell>
+    <Cell><Data ss:Type="String">123-456-7890</Data></Cell>
+    <Cell ss:StyleID="s47" ss:HRef="mailto:Stacie@ABC.com"><Data ss:Type="String">Stacie@ABC.com</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2005-01-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="Number">555555555</Data></Cell>
+    <Cell><Data ss:Type="Number">11223344</Data></Cell>
+    <Cell><Data ss:Type="Number">1600</Data></Cell>
+    <Cell><Data ss:Type="String">2 Weeks</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">X</Data></Cell>
+    <Cell ss:Index="71"><Data ss:Type="String">Yes</Data></Cell>
+    <Cell><Data ss:Type="Number">1234</Data></Cell>
+    <Cell><Data ss:Type="DateTime">2005-01-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="Number">333333333</Data></Cell>
+    <Cell><Data ss:Type="String">Arrived at Port of Entry</Data></Cell>
+    <Cell><Data ss:Type="Number">5000</Data></Cell>
+    <Cell ss:Index="78"><Data ss:Type="String">No</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+   </PageSetup>
+   <FitToPage/>
+   <Print>
+    <FitWidth>2</FitWidth>
+    <ValidPrinterInfo/>
+    <Scale>44</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+    <Gridlines/>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>2</SplitHorizontal>
+   <TopRowBottomPane>2</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveCol>77</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C10</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;&gt;1 Week, 1 Week, 2 Weeks, 3 Weeks, 4 Weeks&quot;</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C71,C78,C11</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;Yes, No&quot;</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C74,C2</Range>
+   <Type>Whole</Type>
+   <Qualifier>LessOrEqual</Qualifier>
+   <Value>999999999</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>C75</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;At Manufacturer Location, Picked Up at Shipper's Dock by Carrier, Departed Consolidation Center, Arrived At Port of Exit, Departed on Vessel, Arrived at Port of Entry, Cleared Import Customs, Picked Up by Carrier at Port, Arrived at Reconsolidation Center&quot;</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R3C10:R65536C10</Range>
+   <Type>List</Type>
+   <CellRangeList/>
+   <Value>&quot;&lt;1 Week, 1 Week, 2 Weeks, 3 Weeks, 4 Weeks, &gt; 4 Weeks&quot;</Value>
+  </DataValidation>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>16</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

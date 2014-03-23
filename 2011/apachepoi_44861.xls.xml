@@ -1,0 +1,1241 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Emmanuel</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2008-04-16T20:54:42Z</Created>
+  <LastSaved>2008-04-22T10:56:46Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10180</WindowHeight>
+  <WindowWidth>21140</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>20</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ActiveSheet>1</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s63">
+   <NumberFormat ss:Format="mmm\-yy"/>
+  </Style>
+  <Style ss:ID="s64">
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#CCCCFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="mmm\-yy"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="14"
+    ss:Color="#003366" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"
+    ss:Color="#000000"/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="mmm\-yy"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s88">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s90">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="#,##0.00\ \€;\-#,##0.00\ \€"/>
+  </Style>
+  <Style ss:ID="s91">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s92">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <NumberFormat ss:Format="mmm\-yy"/>
+  </Style>
+  <Style ss:ID="s93">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <NumberFormat ss:Format="#,##0.00\ \€;\-#,##0.00\ \€"/>
+  </Style>
+  <Style ss:ID="s94">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="reporting">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="36" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="14">
+   <Column ss:AutoFitWidth="0" ss:Width="47"/>
+   <Column ss:AutoFitWidth="0" ss:Width="64"/>
+   <Column ss:AutoFitWidth="0" ss:Width="63" ss:Span="1"/>
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="64"/>
+   <Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="66"/>
+   <Column ss:AutoFitWidth="0" ss:Width="64"/>
+   <Column ss:AutoFitWidth="0" ss:Width="63"/>
+   <Column ss:AutoFitWidth="0" ss:Width="62"/>
+   <Column ss:AutoFitWidth="0" ss:Width="60"/>
+   <Column ss:AutoFitWidth="0" ss:Width="61"/>
+   <Column ss:AutoFitWidth="0" ss:Width="64"/>
+   <Column ss:AutoFitWidth="0" ss:Width="72"/>
+   <Row ss:Height="16">
+    <Cell ss:StyleID="s71"
+     ss:Formula="=CONCATENATE(&quot;Etude du portefeuille '&quot;, data!R[1]C[1], &quot;'&quot;)"><Data
+      ss:Type="String">Etude du portefeuille 'Fonds JUMP LS'</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Répartition par pays</Data></Cell>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">La répartition pour les 10ers pays</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8">
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s72" ss:Formula="=data!RC[-8]"><Data ss:Type="String">France</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!RC[-10]"><Data ss:Type="Number">0.41088389480630511</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s72" ss:Formula="=data!RC[-8]"><Data ss:Type="String">Allemagne République Fédérale</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!RC[-10]"><Data ss:Type="Number">0.18177048342557725</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s72" ss:Formula="=data!RC[-8]"><Data ss:Type="String">Pays-Bas</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!RC[-10]"><Data ss:Type="Number">0.13138277454772884</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s72" ss:Formula="=data!RC[-8]"><Data ss:Type="String">Espagne</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!RC[-10]"><Data ss:Type="Number">8.0417370209374256E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s72" ss:Formula="=data!RC[-8]"><Data ss:Type="String">Royaume-Uni</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!RC[-10]"><Data ss:Type="Number">6.9719813813536369E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s72" ss:Formula="=data!RC[-8]"><Data ss:Type="String">Suisse</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!RC[-10]"><Data ss:Type="Number">4.1461766391471803E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s72" ss:Formula="=data!RC[-8]"><Data ss:Type="String">Belgique</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!RC[-10]"><Data ss:Type="Number">3.2087439661406057E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s72" ss:Formula="=data!RC[-8]"><Data ss:Type="String">Suède</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!RC[-10]"><Data ss:Type="Number">2.0750001469386305E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s72" ss:Formula="=data!RC[-8]"><Data ss:Type="String">Brésil</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s76"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!RC[-10]"><Data ss:Type="Number">1.4532355441268362E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s72" ss:Formula="=data!RC[-8]"><Data ss:Type="String">Finlande</Data></Cell>
+    <Cell ss:StyleID="s75"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!RC[-10]"><Data ss:Type="Number">9.1490098183828524E-3</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Répartition par devise</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s68"><Data ss:Type="String">Les 10ères positions</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8">
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s72" ss:Formula="=data!R[14]C[-8]"><Data
+      ss:Type="String">EURONEXT NV</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!R[14]C[-9]"><Data ss:Type="Number">9.8712670214795906E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s72" ss:Formula="=data!R[14]C[-8]"><Data
+      ss:Type="String">VOLKSWAGEN AG (XETR)</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!R[14]C[-9]"><Data ss:Type="Number">5.3483903908099692E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s72" ss:Formula="=data!R[14]C[-8]"><Data
+      ss:Type="String">ALTADIS</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!R[14]C[-9]"><Data ss:Type="Number">4.9391381741314404E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s72" ss:Formula="=data!R[14]C[-8]"><Data
+      ss:Type="String">CASINO GUICHARD</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!R[14]C[-9]"><Data ss:Type="Number">4.909071995865303E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s72" ss:Formula="=data!R[14]C[-8]"><Data
+      ss:Type="String">SUEZ SA</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!R[14]C[-9]"><Data ss:Type="Number">4.7644083978508174E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s72" ss:Formula="=data!R[14]C[-8]"><Data
+      ss:Type="String">CL-FR DYN OR</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!R[14]C[-9]"><Data ss:Type="Number">4.724754865339327E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s72" ss:Formula="=data!R[14]C[-8]"><Data
+      ss:Type="String">GEA GROUP AG (XETR)</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!R[14]C[-9]"><Data ss:Type="Number">4.6599837068443291E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s72" ss:Formula="=data!R[14]C[-8]"><Data
+      ss:Type="String">ACCOR SA</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!R[14]C[-9]"><Data ss:Type="Number">4.5232176305996838E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s72" ss:Formula="=data!R[14]C[-8]"><Data
+      ss:Type="String">RECKITT BENCKISE</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!R[14]C[-9]"><Data ss:Type="Number">4.4267305588575098E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:Index="9" ss:StyleID="s72" ss:Formula="=data!R[14]C[-8]"><Data
+      ss:Type="String">L'OREAL</Data></Cell>
+    <Cell ss:StyleID="s74"/>
+    <Cell ss:StyleID="s73"/>
+    <Cell ss:StyleID="s67" ss:Formula="=data!R[14]C[-9]"><Data ss:Type="Number">3.2544867270811483E-2</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Performances mensuelles passées</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="7">
+    <Cell ss:StyleID="s68"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2007-04-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2007-05-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2007-06-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2007-07-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2007-08-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2007-09-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2007-10-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2007-11-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2007-12-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2008-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2008-02-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2008-03-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s69" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="DateTime">2008-04-01T00:00:00.000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">1.31262936342279E-2</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">4.8359567608572088E-2</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">-4.0364754637547809E-2</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">-7.6319329603194278E-2</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">-2.1335807050092765E-2</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">-5.4976303317535544E-2</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">8.826479438314945E-2</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">2.7649769585253456E-3</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">-7.8125E-2</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">-6.7661691542288557E-2</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">-0.12700106723585913</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">1.4669926650366748E-2</Data></Cell>
+    <Cell ss:StyleID="s70" ss:Formula="=data!R[-3]C[-1]"><Data ss:Type="Number">6.1445783132530123E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Le meilleur rendement mensuel :</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s77" ss:Formula="=MAX(data!R[-5]C[-13]:R[-5]C[-1])"><Data
+      ss:Type="Number">8.826479438314945E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Rendement mensuel moyen :</Data></Cell>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s77" ss:Formula="=AVERAGE(data!R[-6]C[-13]:R[-6]C[-1])"><Data
+      ss:Type="Number">-1.8242508539934334E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+    <Cell ss:StyleID="s65"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R32C2:R32C14</Range>
+   <Condition>
+    <Qualifier>Less</Qualifier>
+    <Value1>0</Value1>
+    <Format Style='color:#9C0006;background:#FFC7CE'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+ <Worksheet ss:Name="data">
+  <Table ss:ExpandedColumnCount="13" ss:ExpandedRowCount="83" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="14">
+   <Column ss:Width="194"/>
+   <Column ss:Width="83"/>
+   <Row ss:Index="2">
+    <Cell><Data ss:Type="String">Nom du fonds :</Data></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Fonds JUMP LS</Data></Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell><Data ss:Type="String">Répartition par pays</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">France</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">0.41088389480630511</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Allemagne République Fédérale</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">0.18177048342557725</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Pays-Bas</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">0.13138277454772884</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Espagne</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">8.0417370209374256E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Royaume-Uni</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">6.9719813813536369E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Suisse</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">4.1461766391471803E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Belgique</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">3.2087439661406057E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Suède</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">2.0750001469386305E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Brésil</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">1.4532355441268362E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Finlande</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">9.1490098183828524E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">Italie</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">7.8450904155628436E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="18">
+    <Cell><Data ss:Type="String">Répartition par devise</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">GBp (p)</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">5.6467138996239626E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">GBP (₤)</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">1.4585128837214177E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">EUR (€)</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">0.7938550944527516</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">USD ($)</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">1.0752134400647022E-5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">BRL (R$)</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">2.7091434792730937E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">CHF (S₣)</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">8.6614975261726943E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="s62"/>
+   </Row>
+   <Row ss:Index="27">
+    <Cell><Data ss:Type="String">Performances mensuelles</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s82">
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2007-04-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2007-05-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2007-06-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2007-07-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2007-08-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2007-09-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2007-10-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2007-11-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2007-12-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2008-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2008-02-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2008-03-01T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s81"><Data ss:Type="DateTime">2008-04-01T00:00:00.000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">1.31262936342279E-2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">4.8359567608572088E-2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">-4.0364754637547809E-2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">-7.6319329603194278E-2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">-2.1335807050092765E-2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">-5.4976303317535544E-2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">8.826479438314945E-2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">2.7649769585253456E-3</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">-7.8125E-2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">-6.7661691542288557E-2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">-0.12700106723585913</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">1.4669926650366748E-2</Data></Cell>
+    <Cell ss:StyleID="s94"><Data ss:Type="Number">6.1445783132530123E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Actif</Data></Cell>
+    <Cell><Data ss:Type="String">Montant</Data></Cell>
+    <Cell><Data ss:Type="String">% GAV</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">EURONEXT NV</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">1509927.84</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">9.8712670214795906E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">VOLKSWAGEN AG (XETR)</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">818100</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">5.3483903908099692E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ALTADIS</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">755500</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">4.9391381741314404E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">CASINO GUICHARD</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">750901.02</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">4.909071995865303E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">SUEZ SA</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">728773</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">4.7644083978508174E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">CL-FR DYN OR</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">722707.52</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">4.724754865339327E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">GEA GROUP AG (XETR)</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">712800</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">4.6599837068443291E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">ACCOR SA</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">691880</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">4.5232176305996838E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">RECKITT BENCKISE</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">-677121.1533892689</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">4.4267305588575098E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s88"><Data ss:Type="String">L'OREAL</Data></Cell>
+    <Cell ss:StyleID="s90"><Data ss:Type="Number">-497812.5</Data></Cell>
+    <Cell ss:StyleID="s83"><Data ss:Type="Number">3.2544867270811483E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">SCHNEIDER ELECTR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-403392.00000000006</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">2.6372055940956061E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">PRAKTIKER BAU-UN (XETR)</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">-394625</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">2.5798906710345727E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s92"><Data ss:Type="String">EDF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">390313.2</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">2.5517019536563861E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">DEUTSCHE BOERSE (XETR)</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">350250</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">2.2897857650424052E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ABB LTD-REG</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-345246.44</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">2.2570746145426604E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ALSTOM</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-320422.5</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">2.0947862364005712E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">COLRUYT SA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">295895.60000000003</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.9344397796393478E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">HENNES &amp; MAURI-B</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">285264.43199999997</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.8649377178201487E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">MICHELIN-B</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-279576</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.8277491650178314E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">SABMILLER PLC</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">273092.16860690486</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.7853606287527513E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">BBVA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-257744</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.6850208200573581E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">CESP-PREF B</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">222289.6819</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.4532355441268361E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">THALES SA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-220662</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.4425944510657736E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">BANCO POPULAR</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">216835.43999999997</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.4175780267486266E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">TNT NV</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">195972.15</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.28118269640187E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">DEXIA SA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">194920</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.2743041865012579E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">VINCI SA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-187280</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.2243571108555078E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">SAFRAN SA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-187200</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.2238341048278036E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">PPR</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-183468.79999999999</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.1994411036956802E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">NEXANS SA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">179560.99999999997</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.1738935667573997E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">VALEO SA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">163427.80000000002</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.0684215561804346E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">JC DECAUX SA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">156285.12</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.0217257475059074E-2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">HEINEKEN NV</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">151640</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">9.9135792551329135E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">NESTE OIL OYJ</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-139945</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">9.1490098183828524E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">HENKEL KGAA-PFD (XETR)</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-139403</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">9.1135761600058922E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">LINDE AG (XETR)</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-134270</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">8.7780024174801928E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">NESTLE SA-REG</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-126807.34</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">8.2901253971418235E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">HEIDELBERG DRUCK (XETR)</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">123410</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">8.0680217348717553E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ALITALIA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-120000</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">7.8450904155628436E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">CREDIT AGRICOLE</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">101950</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">6.6650580655552658E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">TUI AG (XETR)</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-101036.00000000001</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">6.6053046268900635E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">SODEXO</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">96486</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">6.3078449486333047E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">BRITISH SKY BROA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">92759.431308066472</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">6.0642177125664358E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">EFG INTERNAT-REG</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-90708.557499999995</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5.9301402921065087E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">WESSANEN NV</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">87700</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">5.7334535787071789E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">TOMTOM</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">64416</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">4.2112445350741346E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">CIBA SPECIALTY-R</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">47285.01297617238</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">3.0912933508261222E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">ERICSSON LM-B</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-32131.55</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">2.100624291184819E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">SCHINDLER HLD-PC</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">24159.74</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.5794612059707523E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">WOLSELEY PLC</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">23474.822752679029</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.5346842248673235E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">CARREFOUR SA</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">22860</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">1.4944897241647218E-3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">SAP AG (XETR)</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">-6502</Data></Cell>
+    <Cell ss:StyleID="s91"><Data ss:Type="Number">4.250731490165801E-4</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Feuil3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="14">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

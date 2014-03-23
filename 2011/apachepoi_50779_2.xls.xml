@@ -1,0 +1,366 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>1997-01-08T22:48:59Z</Created>
+  <LastSaved>2011-02-15T07:52:48Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4720</WindowHeight>
+  <WindowWidth>8480</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="ＭＳ Ｐゴシック" x:CharSet="128" x:Family="Modern" ss:Size="11"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="81" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="17">
+   <Column ss:Width="548"/>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0005</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0006</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0007</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0008</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0009</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0010</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0011</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0012</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0013</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0014</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0015</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0016</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0017</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0018</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0019</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0020</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0021</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0022</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0024</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0025</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0026</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0027</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0028</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0029</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0030</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0031</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0032</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0033</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0034</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0035</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0036</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0037</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0038</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0039</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0040</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0041</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0042</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0043</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0044</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0045</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0046</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0047</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0048</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0049</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0050</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0051</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0052</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0053</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0054</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0055</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0056</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0057</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0058</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0059</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0060</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0061</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0062</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0063</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0064</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0065</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0066</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0067</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0068</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0069</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0070</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0071</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0072</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0073</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0074</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0075</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0076</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0077</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0078</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0079</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">北海道青森県岩手県福島県栃木県埼玉県東京都千葉県</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん0080</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51200000000000001"/>
+    <Footer x:Margin="0.51200000000000001"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

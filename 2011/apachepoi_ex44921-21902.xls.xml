@@ -1,0 +1,988 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>2008-02-13T22:38:14Z</Created>
+  <LastSaved>2008-05-02T12:36:15Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16060</WindowHeight>
+  <WindowWidth>25600</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>507</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s69">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s71">
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s73">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s74">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s75">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s76">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s77">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s78">
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s79">
+   <Font/>
+  </Style>
+  <Style ss:ID="s80">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Color="#000090"/>
+  </Style>
+  <Style ss:ID="s81">
+   <Font x:Family="Swiss" ss:Color="#000090"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior ss:Color="#FCF305" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s83">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="s84">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s85">
+   <Font x:Family="Swiss" ss:Color="#0000D4"/>
+  </Style>
+  <Style ss:ID="s86">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Font x:Family="Swiss" ss:Color="#0000D4"/>
+  </Style>
+  <Style ss:ID="s87">
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Business_Line_Folders" ss:RefersTo="=Lookups!R2C4:R11C4"/>
+  <NamedRange ss:Name="Content_Type" ss:RefersTo="=Lookups!R2C6"/>
+  <NamedRange ss:Name="Content_Type2" ss:RefersTo="=Lookups!R2C7"/>
+  <NamedRange ss:Name="Cross_Discipline_Folders" ss:RefersTo="=Lookups!#REF!"/>
+  <NamedRange ss:Name="DocLibrary" ss:RefersTo="=Lookups!R2C1:R6C1"/>
+  <NamedRange ss:Name="Mechanism_of_Action" ss:RefersTo="=Lookups!#REF!"/>
+  <NamedRange ss:Name="Program_Related_Content" ss:RefersTo="=Lookups!R2C4:R11C4"/>
+  <NamedRange ss:Name="Project_Code" ss:RefersTo="=Lookups!#REF!"/>
+  <NamedRange ss:Name="Property_Indication" ss:RefersTo="=Lookups!R15C1:R39C2"/>
+  <NamedRange ss:Name="Source" ss:RefersTo="=Lookups!#REF!"/>
+  <NamedRange ss:Name="Study_Folders" ss:RefersTo="=Lookups!R15C4:R21C4"/>
+  <NamedRange ss:Name="StudyDocLibrary" ss:RefersTo="=Lookups!R15C1:R55C1"/>
+  <NamedRange ss:Name="SubsiteURL" ss:RefersTo="=Lookups!R2C2:R10C2"/>
+  <NamedRange ss:Name="Therapeutic_Area" ss:RefersTo="=Lookups!#REF!"/>
+  <NamedRange ss:Name="Type_of_Document" ss:RefersTo="=Lookups!R2C5:R19C5"/>
+  <NamedRange ss:Name="Y_N" ss:RefersTo="=Lookups!R2C3:R3C3"/>
+ </Names>
+ <Worksheet ss:Name="Mapping">
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="8" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:Width="30"/>
+   <Column ss:Width="311"/>
+   <Column ss:AutoFitWidth="0" ss:Width="414"/>
+   <Column ss:StyleID="s67" ss:Width="48"/>
+   <Column ss:Width="86"/>
+   <Column ss:Width="99"/>
+   <Column ss:Width="111"/>
+   <Column ss:Width="91"/>
+   <Column ss:Width="63"/>
+   <Column ss:Width="41"/>
+   <Column ss:Width="185"/>
+   <Column ss:Width="105"/>
+   <Column ss:Width="183"/>
+   <Column ss:Width="37"/>
+   <Column ss:Width="89"/>
+   <Column ss:Width="139"/>
+   <Column ss:Width="143"/>
+   <Row ss:AutoFitHeight="0" ss:Height="26" ss:StyleID="s66">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Skip</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Path</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Source URL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Content</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Include Subdirectories</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Target URL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Document Library</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Folder - Project Content</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">SubFolder</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Target Folder</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Property:TypeOfDocument</Data></Cell>
+    <Cell><Data ss:Type="String">Audit for conditional formatting</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Pathbuilder Class</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Since</Data></Cell>
+    <Cell><Data ss:Type="String">Doc library indirect</Data></Cell>
+    <Cell><Data ss:Type="String">Folder lookup indirect</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s87"><Data ss:Type="String"> A406 (AG013736 VEGF-Onc) AXITINIB Team</Data></Cell>
+    <Cell><Data ss:Type="String">/A406 (AG013736 VEGF-Onc) AXITINIB Team</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:Index="9" ss:Formula="=IF(RC[7]=&quot;&quot;,IF(RC[-2]=&quot;&quot;,&quot;&quot;,TRIM(RC[-7])),&quot;&quot;)"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=IF(AND(RC[-2]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;),IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&amp;&quot;/&quot;&amp;RC[-1],RC[-2]),IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-1],IF(RC[-2]&lt;&gt;&quot;&quot;,RC[-2],&quot;&quot;)))"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="12"
+     ss:Formula="=IF(AND(RC[-6]=&quot;&quot;,RC[-5]=&quot;&quot;,RC[-2]=&quot;&quot;,RC[-1]=&quot;&quot;),FALSE, IF(AND(RC[-6]&lt;&gt;&quot;&quot;, RC[-5]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&lt;&gt;&quot;&quot;),FALSE,TRUE))"><Data
+      ss:Type="Boolean">0</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-7]=&quot;&quot;,&quot;&quot;,IF(RC[2]=&quot;StudyDocLibrary&quot;,Content_Type2,IF(RC[2]=&quot;&quot;,&quot;Document&quot;,Content_Type)))"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="15"
+     ss:Formula="=IF(RC[-9]=Lookups!R2C2,&quot;DocLibrary&quot;,IF(RC[-9]=&quot;Long Term Storage&quot;,&quot;&quot;,&quot;StudyDocLibrary&quot;))"><Data
+      ss:Type="String">StudyDocLibrary</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-1]=&quot;StudyDocLibrary&quot;,&quot;Study_Folders&quot;,IF(RC[-9]=Lookups!R2C1, &quot;Program_Related_Content&quot;,&quot;&quot;))"><Data
+      ss:Type="String">Study_Folders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">    04 Regulatory</Data></Cell>
+    <Cell><Data ss:Type="String">/A406 (AG013736 VEGF-Onc) AXITINIB Team/04 Regulatory</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:Index="10" ss:StyleID="s71"/>
+    <Cell ss:Index="12"
+     ss:Formula="=IF(AND(RC[-6]=&quot;&quot;,RC[-5]=&quot;&quot;,RC[-2]=&quot;&quot;,RC[-1]=&quot;&quot;),FALSE, IF(AND(RC[-6]&lt;&gt;&quot;&quot;, RC[-5]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&lt;&gt;&quot;&quot;),FALSE,TRUE))"><Data
+      ss:Type="Boolean">0</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-7]=&quot;&quot;,&quot;&quot;,IF(RC[2]=&quot;StudyDocLibrary&quot;,Content_Type2,IF(RC[2]=&quot;&quot;,&quot;Document&quot;,Content_Type)))"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="15"
+     ss:Formula="=IF(RC[-9]=Lookups!R2C2,&quot;DocLibrary&quot;,IF(RC[-9]=&quot;Long Term Storage&quot;,&quot;&quot;,&quot;StudyDocLibrary&quot;))"><Data
+      ss:Type="String">StudyDocLibrary</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-1]=&quot;StudyDocLibrary&quot;,&quot;Study_Folders&quot;,IF(RC[-9]=Lookups!R2C1, &quot;Program_Related_Content&quot;,&quot;&quot;))"><Data
+      ss:Type="String">Study_Folders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">    01 Project Management</Data></Cell>
+    <Cell><Data ss:Type="String">/A406 (AG013736 VEGF-Onc) AXITINIB Team/01 Project Management</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:Index="9" ss:Formula="=IF(RC[7]=&quot;&quot;,IF(RC[-2]=&quot;&quot;,&quot;&quot;,TRIM(RC[-7])),&quot;&quot;)"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=IF(AND(RC[-2]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;),IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&amp;&quot;/&quot;&amp;RC[-1],RC[-2]),IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-1],IF(RC[-2]&lt;&gt;&quot;&quot;,RC[-2],&quot;&quot;)))"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="12"
+     ss:Formula="=IF(AND(RC[-6]=&quot;&quot;,RC[-5]=&quot;&quot;,RC[-2]=&quot;&quot;,RC[-1]=&quot;&quot;),FALSE, IF(AND(RC[-6]&lt;&gt;&quot;&quot;, RC[-5]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&lt;&gt;&quot;&quot;),FALSE,TRUE))"><Data
+      ss:Type="Boolean">0</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-7]=&quot;&quot;,&quot;&quot;,IF(RC[2]=&quot;StudyDocLibrary&quot;,Content_Type2,IF(RC[2]=&quot;&quot;,&quot;Document&quot;,Content_Type)))"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="15"
+     ss:Formula="=IF(RC[-9]=Lookups!R2C2,&quot;DocLibrary&quot;,IF(RC[-9]=&quot;Long Term Storage&quot;,&quot;&quot;,&quot;StudyDocLibrary&quot;))"><Data
+      ss:Type="String">StudyDocLibrary</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-1]=&quot;StudyDocLibrary&quot;,&quot;Study_Folders&quot;,IF(RC[-9]=Lookups!R2C1, &quot;Program_Related_Content&quot;,&quot;&quot;))"><Data
+      ss:Type="String">Study_Folders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">       Goals</Data></Cell>
+    <Cell><Data ss:Type="String">/A406 (AG013736 VEGF-Onc) AXITINIB Team/01 Project Management/Goals</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">y</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Development/A406</Data></Cell>
+    <Cell><Data ss:Type="String">Project Management</Data></Cell>
+    <Cell ss:Index="9" ss:Formula="=IF(RC[7]=&quot;&quot;,IF(RC[-2]=&quot;&quot;,&quot;&quot;,TRIM(RC[-7])),&quot;&quot;)"><Data
+      ss:Type="String">Goals</Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=IF(AND(RC[-2]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;),IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&amp;&quot;/&quot;&amp;RC[-1],RC[-2]),IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-1],IF(RC[-2]&lt;&gt;&quot;&quot;,RC[-2],&quot;&quot;)))"><Data
+      ss:Type="String">Goals</Data></Cell>
+    <Cell><Data ss:Type="String">Goals</Data></Cell>
+    <Cell
+     ss:Formula="=IF(AND(RC[-6]=&quot;&quot;,RC[-5]=&quot;&quot;,RC[-2]=&quot;&quot;,RC[-1]=&quot;&quot;),FALSE, IF(AND(RC[-6]&lt;&gt;&quot;&quot;, RC[-5]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&lt;&gt;&quot;&quot;),FALSE,TRUE))"><Data
+      ss:Type="Boolean">0</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-7]=&quot;&quot;,&quot;&quot;,IF(RC[2]=&quot;StudyDocLibrary&quot;,Content_Type2,IF(RC[2]=&quot;&quot;,&quot;Document&quot;,Content_Type)))"><Data
+      ss:Type="String">DevelopmentDrugProjectDocument</Data></Cell>
+    <Cell ss:Index="15"
+     ss:Formula="=IF(RC[-9]=Lookups!R2C2,&quot;DocLibrary&quot;,IF(RC[-9]=&quot;Long Term Storage&quot;,&quot;&quot;,&quot;StudyDocLibrary&quot;))"><Data
+      ss:Type="String">DocLibrary</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-1]=&quot;StudyDocLibrary&quot;,&quot;Study_Folders&quot;,IF(RC[-9]=Lookups!R2C1, &quot;Program_Related_Content&quot;,&quot;&quot;))"><Data
+      ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">          2006</Data></Cell>
+    <Cell><Data ss:Type="String">/A406 (AG013736 VEGF-Onc) AXITINIB Team/01 Project Management/Goals/2006</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:Index="9" ss:Formula="=IF(RC[7]=&quot;&quot;,IF(RC[-2]=&quot;&quot;,&quot;&quot;,TRIM(RC[-7])),&quot;&quot;)"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=IF(AND(RC[-2]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;),IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&amp;&quot;/&quot;&amp;RC[-1],RC[-2]),IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-1],IF(RC[-2]&lt;&gt;&quot;&quot;,RC[-2],&quot;&quot;)))"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="12"
+     ss:Formula="=IF(AND(RC[-6]=&quot;&quot;,RC[-5]=&quot;&quot;,RC[-2]=&quot;&quot;,RC[-1]=&quot;&quot;),FALSE, IF(AND(RC[-6]&lt;&gt;&quot;&quot;, RC[-5]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&lt;&gt;&quot;&quot;),FALSE,TRUE))"><Data
+      ss:Type="Boolean">0</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-7]=&quot;&quot;,&quot;&quot;,IF(RC[2]=&quot;StudyDocLibrary&quot;,Content_Type2,IF(RC[2]=&quot;&quot;,&quot;Document&quot;,Content_Type)))"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="15"
+     ss:Formula="=IF(RC[-9]=Lookups!R2C2,&quot;DocLibrary&quot;,IF(RC[-9]=&quot;Long Term Storage&quot;,&quot;&quot;,&quot;StudyDocLibrary&quot;))"><Data
+      ss:Type="String">StudyDocLibrary</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-1]=&quot;StudyDocLibrary&quot;,&quot;Study_Folders&quot;,IF(RC[-9]=Lookups!R2C1, &quot;Program_Related_Content&quot;,&quot;&quot;))"><Data
+      ss:Type="String">Study_Folders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">          2008</Data></Cell>
+    <Cell><Data ss:Type="String">/A406 (AG013736 VEGF-Onc) AXITINIB Team/01 Project Management/Goals/2008</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:Index="9" ss:Formula="=IF(RC[7]=&quot;&quot;,IF(RC[-2]=&quot;&quot;,&quot;&quot;,TRIM(RC[-7])),&quot;&quot;)"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=IF(AND(RC[-2]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;),IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&amp;&quot;/&quot;&amp;RC[-1],RC[-2]),IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-1],IF(RC[-2]&lt;&gt;&quot;&quot;,RC[-2],&quot;&quot;)))"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="12"
+     ss:Formula="=IF(AND(RC[-6]=&quot;&quot;,RC[-5]=&quot;&quot;,RC[-2]=&quot;&quot;,RC[-1]=&quot;&quot;),FALSE, IF(AND(RC[-6]&lt;&gt;&quot;&quot;, RC[-5]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&lt;&gt;&quot;&quot;),FALSE,TRUE))"><Data
+      ss:Type="Boolean">0</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-7]=&quot;&quot;,&quot;&quot;,IF(RC[2]=&quot;StudyDocLibrary&quot;,Content_Type2,IF(RC[2]=&quot;&quot;,&quot;Document&quot;,Content_Type)))"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="15"
+     ss:Formula="=IF(RC[-9]=Lookups!R2C2,&quot;DocLibrary&quot;,IF(RC[-9]=&quot;Long Term Storage&quot;,&quot;&quot;,&quot;StudyDocLibrary&quot;))"><Data
+      ss:Type="String">StudyDocLibrary</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-1]=&quot;StudyDocLibrary&quot;,&quot;Study_Folders&quot;,IF(RC[-9]=Lookups!R2C1, &quot;Program_Related_Content&quot;,&quot;&quot;))"><Data
+      ss:Type="String">Study_Folders</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s87"><Data ss:Type="String">          2007</Data></Cell>
+    <Cell><Data ss:Type="String">/A406 (AG013736 VEGF-Onc) AXITINIB Team/01 Project Management/Goals/2007</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:Index="9" ss:Formula="=IF(RC[7]=&quot;&quot;,IF(RC[-2]=&quot;&quot;,&quot;&quot;,TRIM(RC[-7])),&quot;&quot;)"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s71"
+     ss:Formula="=IF(AND(RC[-2]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;),IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&amp;&quot;/&quot;&amp;RC[-1],RC[-2]),IF(RC[-1]&lt;&gt;&quot;&quot;,RC[-1],IF(RC[-2]&lt;&gt;&quot;&quot;,RC[-2],&quot;&quot;)))"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="12"
+     ss:Formula="=IF(AND(RC[-6]=&quot;&quot;,RC[-5]=&quot;&quot;,RC[-2]=&quot;&quot;,RC[-1]=&quot;&quot;),FALSE, IF(AND(RC[-6]&lt;&gt;&quot;&quot;, RC[-5]&lt;&gt;&quot;&quot;,RC[-1]&lt;&gt;&quot;&quot;,RC[-2]&lt;&gt;&quot;&quot;),FALSE,TRUE))"><Data
+      ss:Type="Boolean">0</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-7]=&quot;&quot;,&quot;&quot;,IF(RC[2]=&quot;StudyDocLibrary&quot;,Content_Type2,IF(RC[2]=&quot;&quot;,&quot;Document&quot;,Content_Type)))"><Data
+      ss:Type="String"></Data></Cell>
+    <Cell ss:Index="15"
+     ss:Formula="=IF(RC[-9]=Lookups!R2C2,&quot;DocLibrary&quot;,IF(RC[-9]=&quot;Long Term Storage&quot;,&quot;&quot;,&quot;StudyDocLibrary&quot;))"><Data
+      ss:Type="String">StudyDocLibrary</Data></Cell>
+    <Cell
+     ss:Formula="=IF(RC[-1]=&quot;StudyDocLibrary&quot;,&quot;Study_Folders&quot;,IF(RC[-9]=Lookups!R2C1, &quot;Program_Related_Content&quot;,&quot;&quot;))"><Data
+      ss:Type="String">Study_Folders</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <LeftColumnVisible>4</LeftColumnVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>15</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C5:R8C5</Range>
+   <Type>List</Type>
+   <Value>Y_N</Value>
+   <ErrorMessage>Please select one of the values from the drop down list</ErrorMessage>
+   <ErrorTitle>Unacceptable Value</ErrorTitle>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R4C6:R8C6</Range>
+   <Type>List</Type>
+   <Value>SubsiteURL</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C11:R8C11</Range>
+   <Type>List</Type>
+   <Value>Type_of_Document</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C8:R8C8</Range>
+   <Type>List</Type>
+   <Value>INDIRECT(Mapping!R[-1]C16)</Value>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R3C7:R8C7</Range>
+   <Type>List</Type>
+   <Value>INDIRECT(Mapping!R[-2]C15)</Value>
+  </DataValidation>
+  <ConditionalFormatting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R2C1:R8C11</Range>
+   <Condition>
+    <Value1>Mapping!R[-1]C12</Value1>
+    <Format Style='background:#CCFFCC'/>
+   </Condition>
+  </ConditionalFormatting>
+ </Worksheet>
+ <Worksheet ss:Name="Config">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:Width="79"/>
+   <Column ss:Width="712"/>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Key</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Value</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PB_SRC_URL</Data></Cell>
+    <Cell><Data ss:Type="String">Insight</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PB_TGT_URL</Data></Cell>
+    <Cell><Data ss:Type="String">MOSS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">REVISIONS</Data></Cell>
+    <Cell><Data ss:Type="String">All</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TGT_ROOT</Data></Cell>
+    <Cell><Data ss:Type="String">http://ecf.pfizer.com/sites/Oncology</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SITE_OWNER</Data></Cell>
+    <Cell><Data ss:Type="String">AMER\gsadler</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SRC_ROOT</Data></Cell>
+    <Cell><Data ss:Type="String">/Pfizer Drug Projects/Clinical/Search By Project Code/304 +</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Lookups">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="55" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="132"/>
+   <Column ss:Width="139"/>
+   <Column ss:Width="27"/>
+   <Column ss:Width="144"/>
+   <Column ss:Width="182"/>
+   <Column ss:Width="161"/>
+   <Row ss:AutoFitHeight="0" ss:Height="19">
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Document Libraries</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">SubsiteURL</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Y_N</Data></Cell>
+    <Cell ss:StyleID="s82"><Data ss:Type="String">Program Related Content </Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Type of Document</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Content_Type</Data></Cell>
+    <Cell ss:StyleID="s77"><Data ss:Type="String">Content_Type2</Data></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Program Related Content</Data><NamedCell
+      ss:Name="DocLibrary"/></Cell>
+    <Cell><Data ss:Type="String">Development/A406</Data><NamedCell
+      ss:Name="SubsiteURL"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">y</Data><NamedCell ss:Name="Y_N"/></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Clinical</Data><NamedCell
+      ss:Name="Program_Related_Content"/><NamedCell ss:Name="Business_Line_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Advisory</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+    <Cell><Data ss:Type="String">DevelopmentDrugProjectDocument</Data><NamedCell
+      ss:Name="Content_Type"/></Cell>
+    <Cell><Data ss:Type="String">DevelopmentStudyContent</Data><NamedCell
+      ss:Name="Content_Type2"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Key Presentations</Data><NamedCell
+      ss:Name="DocLibrary"/></Cell>
+    <Cell><Data ss:Type="String">Development/A406/A406</Data><NamedCell
+      ss:Name="SubsiteURL"/></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">n</Data><NamedCell ss:Name="Y_N"/></Cell>
+    <Cell ss:StyleID="s78"><Data ss:Type="String">Clinical Pharmacology</Data><NamedCell
+      ss:Name="Program_Related_Content"/><NamedCell ss:Name="Business_Line_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Competitive Intelligence</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+    <Cell ss:StyleID="s84"/>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Team Information</Data><NamedCell
+      ss:Name="DocLibrary"/></Cell>
+    <Cell><Data ss:Type="String">Development/A406/A406B</Data><NamedCell
+      ss:Name="SubsiteURL"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">Commercial</Data><NamedCell
+      ss:Name="Program_Related_Content"/><NamedCell ss:Name="Business_Line_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Data Summaries/Analysis/Reports </Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Project Management</Data><NamedCell
+      ss:Name="DocLibrary"/></Cell>
+    <Cell><Data ss:Type="String">Development/A406/A406C</Data><NamedCell
+      ss:Name="SubsiteURL"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">Legal Intellectual Property</Data><NamedCell
+      ss:Name="Program_Related_Content"/><NamedCell ss:Name="Business_Line_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">External Collaboration</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Project Team Meetings</Data><NamedCell
+      ss:Name="DocLibrary"/></Cell>
+    <Cell><Data ss:Type="String">Development/A406/A406D</Data><NamedCell
+      ss:Name="SubsiteURL"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">NonClinical</Data><NamedCell
+      ss:Name="Program_Related_Content"/><NamedCell ss:Name="Business_Line_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Forms</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:Index="2"><Data ss:Type="String">Development/A406/A406E</Data><NamedCell
+      ss:Name="SubsiteURL"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">Outcomes Research</Data><NamedCell
+      ss:Name="Program_Related_Content"/><NamedCell ss:Name="Business_Line_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Goals</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:Index="2"><Data ss:Type="String">Development/A406/A406G</Data><NamedCell
+      ss:Name="SubsiteURL"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">PharmSci</Data><NamedCell
+      ss:Name="Program_Related_Content"/><NamedCell ss:Name="Business_Line_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Leadership/Governance</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:Index="2"><Data ss:Type="String">Development/A406/A406H</Data><NamedCell
+      ss:Name="SubsiteURL"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">Regulatory</Data><NamedCell
+      ss:Name="Program_Related_Content"/><NamedCell ss:Name="Business_Line_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Literature</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:Index="2"><Data ss:Type="String">Long Term Storage</Data><NamedCell
+      ss:Name="SubsiteURL"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">SRM</Data><NamedCell
+      ss:Name="Program_Related_Content"/><NamedCell ss:Name="Business_Line_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Minutes and Agendas </Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="4" ss:StyleID="s83"><Data ss:Type="String">Structural Biology</Data><NamedCell
+      ss:Name="Program_Related_Content"/><NamedCell ss:Name="Business_Line_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Pfizer Disclosures</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s74"><Data ss:Type="String">Plans</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="5" ss:StyleID="s74"><Data ss:Type="String">Presentations/Publications/Posters</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">StudyDocLibrary</Data></Cell>
+    <Cell ss:StyleID="s73"><Data ss:Type="String">Project Code</Data></Cell>
+    <Cell ss:Index="4" ss:StyleID="s82"><Data ss:Type="String">Study Folders</Data></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Project Team</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s85"><Data ss:Type="String">A4061001</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">Data Management</Data><NamedCell
+      ss:Name="Study_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Rosters/Contact Lists</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061002</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">Meetings and Agendas</Data><NamedCell
+      ss:Name="Study_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Stage Gate Documentation</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">A4061003</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">Programming</Data><NamedCell
+      ss:Name="Study_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Target Validation</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">A4061004</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">Statistics</Data><NamedCell
+      ss:Name="Study_Folders"/></Cell>
+    <Cell ss:StyleID="s74"><Data ss:Type="String">Timelines</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">A4061006</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">Study Closeout</Data><NamedCell
+      ss:Name="Study_Folders"/></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="String">Tracking spreadsheets and logs</Data><NamedCell
+      ss:Name="Type_of_Document"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s81"><Data ss:Type="String">A4061007</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">Study Conduct</Data><NamedCell
+      ss:Name="Study_Folders"/></Cell>
+   </Row>
+   <Row ss:Height="13">
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061008</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+    <Cell ss:Index="4" ss:StyleID="s78"><Data ss:Type="String">Study Startup</Data><NamedCell
+      ss:Name="Study_Folders"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061013</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061015</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">A4061017</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">A4061018</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061019</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">A4061021</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">A4061022</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">A4061026</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">A4061033</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">A4061036</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">A4061037</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061040</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061043</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">A4061047</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">A406</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s85"><Data ss:Type="String">A4061035</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s86"><Data ss:Type="String">A406A</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061010</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406B</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061041</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406B</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061014</Data><NamedCell
+      ss:Name="Property_Indication"/><NamedCell ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406C</Data><NamedCell
+      ss:Name="Property_Indication"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061027</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406C</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061016</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406D</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061028</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406D</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061012</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406E</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061023</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406E</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061032</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406E</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061046</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406E</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061011</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406G</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061030</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406G</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061031</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406G</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061038</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406G</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061039</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406G</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061042</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406G</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s81"><Data ss:Type="String">A4061048</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406G</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061020</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406H</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s79"><Data ss:Type="String">A4061034</Data><NamedCell
+      ss:Name="StudyDocLibrary"/></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">A406H</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <Sorting xmlns="urn:schemas-microsoft-com:office:excel">
+   <Sort>Type of Document</Sort>
+  </Sorting>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Yegor Kozlov</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2010-11-25T10:34:15Z</Created>
+  <LastSaved>2010-11-28T10:22:27Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10840</WindowHeight>
+  <WindowWidth>21640</WindowWidth>
+  <WindowTopX>80</WindowTopX>
+  <WindowTopY>-20</WindowTopY>
+  <Date1904/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="7" x:FullColumns="1"
+   x:FullRows="1">
+   <Row>
+    <Cell><Data ss:Type="String">delta</Data></Cell>
+    <Cell ss:Formula="=DELTA(1.3,1.5)"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">complex</Data></Cell>
+    <Cell ss:Formula="=COMPLEX(2,4)"><Data ss:Type="String">2+4i</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">isodd</Data></Cell>
+    <Cell ss:Formula="=ISODD(2)"><Data ss:Type="Boolean">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">iseven</Data></Cell>
+    <Cell ss:Formula="=ISEVEN(2)"><Data ss:Type="Boolean">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">mround</Data></Cell>
+    <Cell ss:Formula="=MROUND(10,3)"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">imln</Data></Cell>
+    <Cell ss:Formula="=IMLN(R[-4]C)"><Data ss:Type="String">1.497866136777+1.10714871779409i</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">imexp</Data></Cell>
+    <Cell ss:Formula="=IMEXP(R[-5]C)"><Data ss:Type="String">-4.82980938326939-5.59205609364098i</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

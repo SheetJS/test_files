@@ -1,0 +1,508 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author> </Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2008-05-22T04:10:28Z</Created>
+  <LastSaved>2008-09-09T19:34:53Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7300</WindowHeight>
+  <WindowWidth>14480</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <NumberFormat ss:Format="Currency"/>
+  </Style>
+  <Style ss:ID="s64">
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <NumberFormat/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="myRange" ss:RefersTo="=Sheet1!R1C1:R2C2"/>
+ </Names>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="80" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="14">
+   <Column ss:Width="72"/>
+   <Column ss:AutoFitWidth="0" ss:Width="441"/>
+   <Row>
+    <Cell ss:Formula="=ROWS(1+ROUND(1,1))"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="myRange"/></Cell>
+    <Cell><Data ss:Type="String">ROWS(1+ROUND(1,1))</Data><NamedCell
+      ss:Name="myRange"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=ROWS(1+ROUND(ROUND(PI(),2),ROWS(SIN(3))))"><Data
+      ss:Type="Number">1</Data><NamedCell ss:Name="myRange"/></Cell>
+    <Cell><Data ss:Type="String">ROWS(1+ROUND(ROUND(PI(),2),ROWS(SIN(3))))</Data><NamedCell
+      ss:Name="myRange"/></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=1+ROUND(ROUND(PI(),2),ROWS(SIN(3)))"><Data ss:Type="Number">4.0999999999999996</Data></Cell>
+    <Cell><Data ss:Type="String">1+ROUND(ROUND(PI(),2),ROWS(SIN(3)))</Data></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=AVERAGE(PI(),ROUND(TRUE(),PI()))"><Data ss:Type="Number">2.0707963267948966</Data></Cell>
+    <Cell><Data ss:Type="String">AVERAGE(PI(),ROUND(TRUE(),PI()))</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="Number">66</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=MAX(MAX(PI()))"><Data ss:Type="Number">3.1415926535897931</Data></Cell>
+    <Cell><Data ss:Type="String">MAX(MAX(PI()))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COUNT(AVERAGE(PI()),PI(),1+PI())"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">COUNT(AVERAGE(pi()),PI(),1+PI())</Data></Cell>
+   </Row>
+   <Row>
+    <Cell
+     ss:Formula="=ROUND(ROWS(ROUND(PI(),1+PI())),1+PI())+ROWS(ROWS(PI()+1))+1*ROUND(1,1)"><Data
+      ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">ROUND(ROWS(ROUND(PI(),1+PI())),1+PI())+ROWS(ROWS(PI()+1))+1*ROUND(1,1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=MIN(PI())"><Data ss:Type="Number">3.1415926535897931</Data></Cell>
+    <Cell><Data ss:Type="String">MIN(PI())</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=MDETERM(MIN(PI()))"><Data ss:Type="Number">3.1415926535897931</Data></Cell>
+    <Cell><Data ss:Type="String">MDETERM(MIN(PI()))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COLUMNS(PI())"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">COLUMNS(PI())</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63" ss:Formula="=NPV(2,PI())"><Data ss:Type="Number">1.0471975511965976</Data></Cell>
+    <Cell><Data ss:Type="String">NPV(2,PI())</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=SUMIF(R[-11]C,PI())"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">SUMIF(A1,PI())</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COLUMNS(IF(RC[2],SUMIF(RC[2],PI()),SIN(1)))"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">COLUMNS(IF(C13,SUMIF(C13,PI()),SIN(1)))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COLUMNS(SUMIF(R[-13]C,PI()))"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">COLUMNS(SUMIF(A1,PI()))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COLUMNS(IF(SIN(0),SIN(1),SIN(2)))"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">COLUMNS(IF(SIN(0),SIN(1),SIN(2)))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=MDETERM(ABS(R[-15]C))"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">MDETERM(ABS(A1))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=ROWS(ROUND(INDEX(R[-16]C[2],1,ROUND(1,1)),PI()))"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ROWS(ROUND(INDEX(C1,1,ROUND(1,1)),PI()))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=INDEX(R[-17]C:R[-16]C[1],1,1)"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">INDEX(A1:B2,1,1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=ROUND(1,1)"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">ROUND(1,1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=MID(1,1,1)"><Data ss:Type="String">1</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">MID(1,1,1)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=1+1"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">1+1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COLUMNS(ROUND(R[-21]C,PI()+SIN(1)))"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">COLUMNS(ROUND(A1,PI()+SIN(1)))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COLUMNS(ROUND(INDEX(R[-22]C,PI()-2),PI()))"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">COLUMNS(ROUND(INDEX(A1,1),PI()))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=OFFSET(R[-23]C,2,2)"><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="String">OFFSET(A1,2,2)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=OFFSET(INDEX(R[-24]C:R[-23]C[1],2,2),2,2)"><Data
+      ss:Type="Number">66</Data></Cell>
+    <Cell><Data ss:Type="String">OFFSET(INDEX(A1:B2,2,2),2,2)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64" ss:Formula="=IRR(PI(),0)"><Data ss:Type="Error">#NUM!</Data></Cell>
+    <Cell><Data ss:Type="String">IRR(PI(),0)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s66" ss:Formula="=COLUMNS(INDEX(R[-26]C:R[-25]C[1],2,2))"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">COLUMNS(INDEX(A1:B2,2,2))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell
+     ss:Formula="=(1+IRR(SUMIF(C[3],ROW(INDIRECT(MIN(C[3])&amp;&quot;:&quot;&amp;MAX(C[3]))),C[4]),0))^365-1"><Data
+      ss:Type="Error">#NUM!</Data></Cell>
+    <Cell><Data ss:Type="String">(1+IRR(SUMIF(D:D,ROW(INDIRECT(MIN(D:D)&amp;&quot;:&quot;&amp;MAX(D:D))),E:E),0))^365-1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64" ss:Formula="=MIRR(PI(),0.01,0.02)"><Data ss:Type="Error">#DIV/0!</Data></Cell>
+    <Cell><Data ss:Type="String">MIRR(PI(),0.01,0.02)</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">a</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=VLOOKUP(1,PI(),1)"><Data ss:Type="Error">#N/A</Data></Cell>
+    <Cell><Data ss:Type="String">VLOOKUP(1,PI(),1)</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">b</Data></Cell>
+   </Row>
+   <Row>
+    <Cell
+     ss:Formula="=SUMPRODUCT((Sheet1!R[-28]C[2]:R[743]C[2]=Sheet1!R[-7]C[5])*(Sheet1!R[-28]C[3]:R[743]C[3]=Sheet1!R[-7]C[6]),Sheet1!R[-28]C[31]:R[743]C[31])"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">SUMPRODUCT(('Sheet1'!C3:C751=Sheet1!F22)*('Sheet1'!D3:D751=Sheet1!G22),'SHEET1'!AF3:AF751)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COUNT(R[-31]C[2]:R[-30]C[2])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">COUNT(C1:C2)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COUNT(R[-32]C[2]*1)"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">COUNT(C1*1)</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=MODE({2,3,4;6,5,4})"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">MODE({2.0,3.0,4.0;6.0,5.0,4.0})</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="7" ss:ArrayRange="RC:R[7]C"
+     ss:Formula="=IF(FREQUENCY(R34C5:R40C5,R34C5:R40C5)&gt;0,1,0)"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:ArrayRange="RC:R[2]C[2]"
+     ss:Formula="=IF({TRUE,FALSE,FALSE;TRUE,TRUE,FALSE;FALSE,TRUE,FALSE},R33C9,{7,8,9,10})"><Data
+      ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=MMULT(R[-1]C[8]:RC[8],R[-1]C[9]:R[-1]C[10])"><Data
+      ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">MMULT(I33:I34,J33:K33)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COLUMNS(SIN({2,3,4}+1)+1)"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">COLUMNS(SIN({2,3,4}+1)+1)</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=ABS(FREQUENCY(R34C5:R40C5,R34C5:R40C5))"><Data
+      ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">ABS(FREQUENCY($E$32:$E$38,$E$32:$E$38))</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=AVERAGE(FREQUENCY(R[-37]C1:R[-33]C1,R[-37]C1:R[-33]C1))"><Data
+      ss:Type="Number">0.83333333333333337</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">AVERAGE(FREQUENCY($E$32:$E$38,$E$32:$E$38))</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="10" ss:ArrayRange="RC:RC[2]"
+     ss:Formula="=COUNTIF(R34C9:R35C9,{3,4,5})"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COUNT(ABS(FREQUENCY(R34C5:R40C5,R34C5:R40C5)))"><Data
+      ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">COUNT(ABS(FREQUENCY($A1:$A5,$A1:$A5)))</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=MODE(ABS(FREQUENCY(R34C5:R40C5,R34C5:R40C5)))"><Data
+      ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">MODE(ABS(FREQUENCY($E$32:$E$38,$E$32:$E$38)))</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:Index="10"
+     ss:Formula="=MMULT(IF(R36C9,{2,3},{4,5}),IF(R37C9,{6;7},{8;9}))"><Data
+      ss:Type="Number">59</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=ABS(FREQUENCY(R34C5:R40C5,R34C5:R40C5)+1)"><Data
+      ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">ABS(FREQUENCY($E$32:$E$38,$E$32:$E$38)+1)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="Number">0</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=IF(RC[2],RC[3],RC[4])"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">IF(C41,D41,E41)</Data></Cell>
+    <Cell ss:Index="10" ss:ArrayRange="RC:RC[1]"
+     ss:Formula="=VLOOKUP({2,3},R29C9:R31C10,2)"><Data ss:Type="String">a</Data></Cell>
+    <Cell><Data ss:Type="String">b</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="7" ss:Formula="=AVERAGE(R[-9]C:R[-2]C)"><Data ss:Type="Number">0.25</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="10" ss:ArrayRange="RC:RC[1]"
+     ss:Formula="=INDEX({1,2;3,4},{2,1},2)"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row ss:Index="48">
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Failing cases:</Data></Cell>
+   </Row>
+   <Row ss:Index="51">
+    <Cell
+     ss:Formula="=AVERAGE(ABS(IF((FREQUENCY(R34C5:R40C5,R34C5:R40C5)-1)&gt;0,1)))"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">AVERAGE(ABS(IF((FREQUENCY($E$32:$E$38,$E$32:$E$38)-1)&gt;0,1)))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell
+     ss:Formula="=AVERAGE(ABS(IF((FREQUENCY(R34C5:R40C5,R34C5:R40C5)-1)&gt;0,1)+FREQUENCY(R34C5:R40C5,R34C5:R40C5)))"><Data
+      ss:Type="Number">1.875</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">AVERAGE(ABS(IF((FREQUENCY($E$32:$E$38,$E$32:$E$38)-1)&gt;0,1)+FREQUENCY($E$32:$E$38,$E$32:$E$38)))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COLUMNS(IF(R[1]C[2],R[-3]C[4]:R[-3]C[5],{5,6,7,8}))"><Data
+      ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">COLUMNS(IF(C53,E49:F49,{5,6,7,8}))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=COLUMNS(IF(RC[2],{3,4,5},{6,7}))"><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">COLUMNS(IF(C53,{3,4,5},{6,7}))</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:Index="58">
+    <Cell><Data ss:Type="String">Excel encodes PI() as 'array'.  Not sure what rule justifies this. POI encodes it as 'value' which Excel seems to tolerate</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=INDEX(PI(),1)"><Data ss:Type="Number">3.1415926535897931</Data></Cell>
+    <Cell><Data ss:Type="String">INDEX(PI(),1)</Data></Cell>
+   </Row>
+   <Row ss:Index="61">
+    <Cell><Data ss:Type="String">These formulas involve constant arrays (which POI 3.1 does not parse yet)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=STDEV(2, ROUND({1,2,3},1))"><Data ss:Type="Number">0.81649658092772603</Data></Cell>
+    <Cell><Data ss:Type="String">STDEV(2,ROUND({1.0;2.0;3.0},1))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell
+     ss:Formula="=INDEX(MMULT({1,2;3,4},{5,6;7,8}) +PI(), R[-58]C[4], R[-57]C[4])"><Data
+      ss:Type="Number">22.141592653589793</Data></Cell>
+    <Cell><Data ss:Type="String">INDEX(MMULT({1.0,2.0;3.0,4.0},{5.0,6.0;7.0,8.0})+PI(),K5,K6)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TRANSPOSE(MMULT({1,2;3,4},{5,6;7,8}))"><Data
+      ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">TRANSPOSE(MMULT({1.0,2.0;3.0,4.0},{5.0,6.0;7.0,8.0}))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=SUM(MMULT({1}, {1}))"><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">SUM(MMULT({1.0},{1.0}))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=SUM(MMULT({1,2;3,4},{5,6;7,8}))"><Data ss:Type="Number">134</Data></Cell>
+    <Cell><Data ss:Type="String">SUM(MMULT({1.0,2.0;3.0,4.0},{5.0,6.0;7.0,8.0}))</Data></Cell>
+   </Row>
+   <Row ss:Index="68">
+    <Cell><Data ss:Type="String">Something wierd going on with the TRANSPOSE function</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TRANSPOSE(INDEX(R[-68]C[2],1,1))"><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String">TRANSPOSE(INDEX(C1,1,1))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=TRANSPOSE(PI())"><Data ss:Type="Number">3.1415926535897931</Data></Cell>
+    <Cell><Data ss:Type="String">TRANSPOSE(PI())</Data></Cell>
+   </Row>
+   <Row ss:Index="72">
+    <Cell ss:Index="2"><Data ss:Type="String" x:Ticked="1">SUM(VLOOKUP({&quot;a&quot;,&quot;b&quot;,&quot;b&quot;},C72:D75,2))</Data></Cell>
+    <Cell><Data ss:Type="String">a</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=MODE(VLOOKUP({&quot;a&quot;,&quot;b&quot;,&quot;b&quot;},R[-1]C[2]:R[2]C[3],2))"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">b</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=AVERAGE(IF(FREQUENCY(R34C5:R40C5,R34C5:R40C5)&gt;0,1,0))"><Data
+      ss:Type="Number">0.25</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">AVERAGE(IF(FREQUENCY($E$32:$E$38,$E$32:$E$38)&gt;0,1,0))</Data></Cell>
+    <Cell><Data ss:Type="String">c</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=AVERAGE(IF((FREQUENCY(R34C5:R40C5,R34C5:R40C5)-1)&gt;0,1))"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">AVERAGE(IF((FREQUENCY($E$32:$E$38,$E$32:$E$38)-1)&gt;0,1))</Data></Cell>
+    <Cell><Data ss:Type="String">d</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell
+     ss:Formula="=MMULT(IF(R[-41]C[2],R[-42]C[8]:R[-42]C[9],R[-42]C[10]:R[-40]C[10]),IF(R[-41]C[2],R[-42]C[10]:R[-41]C[10],R[-41]C[8]:R[-41]C[10]))"><Data
+      ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">MMULT(IF(C35,I34:J34,K34:K36),IF(C35,K34:K35,I35:K35))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=MMULT(IF(R36C9,{2,3},{4,5}),IF(R37C9,{6;7},SIN(8)))"><Data
+      ss:Type="Number">59</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">MMULT(IF($I$36,{2,3},{4,5}),IF($I$37,{6;7},SIN(8)))</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=INDEX(INDEX({1,2;3,4},{2,1},2),1,1)"><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String" x:Ticked="1">INDEX(INDEX({1,2;3,4},{2,1},2),1,1)</Data></Cell>
+   </Row>
+   <Row ss:Index="80">
+    <Cell ss:Formula="=SUM(IF(FREQUENCY(R34C5:R40C5,R34C5:R40C5)&gt;0,1,0))"><Data
+      ss:Type="Number">2</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+    <NumberofCopies>0</NumberofCopies>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <TopRowVisible>33</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>41</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

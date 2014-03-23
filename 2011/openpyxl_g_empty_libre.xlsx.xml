@@ -1,0 +1,255 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Revision>0</Revision>
+  <TotalTime>0</TotalTime>
+  <Created>2014-03-22T23:38:39Z</Created>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>4440</WindowHeight>
+  <WindowWidth>16380</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <MaxChange>0.0001</MaxChange>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s34" ss:Name="Percent">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="0%"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s35" ss:Parent="s34">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="1" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s37">
+   <NumberFormat ss:Format="m/d/yyyy"/>
+  </Style>
+  <Style ss:ID="s38">
+   <NumberFormat ss:Format="m/d/yyyy\ h:mm"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1 - Text">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row ss:Height="14">
+    <Cell><Data ss:Type="String">This is cell A1 in Sheet 1</Data></Cell>
+   </Row>
+   <Row ss:Index="5" ss:Height="14">
+    <Cell ss:Index="7"><Data ss:Type="String">This is cell G5</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555496"/>
+    <Footer x:Margin="0.51180555555555496"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2 - Numbers">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="30" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.01</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.02</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.03</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.04</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">This is cell G5</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.05</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.06</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">7.0000000000000007E-2</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.08</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.09</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.1</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.11</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.12</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.13</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.14000000000000001</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.15</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.16</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.17</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.18</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.19</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.2</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.21</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.22</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.23</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.24</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.25</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.26</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.27</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.28000000000000003</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.28999999999999998</Data></Cell>
+   </Row>
+   <Row ss:Height="14">
+    <Cell ss:Index="4"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="Number">0.3</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555496"/>
+    <Footer x:Margin="0.51180555555555496"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3 - Formulas">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row ss:Index="2" ss:Height="14">
+    <Cell ss:Index="4" ss:Formula="='Sheet2 - Numbers'!R[3]C"><Data
+      ss:Type="Number">5</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555496"/>
+    <Footer x:Margin="0.51180555555555496"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet4 - Dates">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row ss:Height="14">
+    <Cell ss:StyleID="s37"><Data ss:Type="DateTime">1973-05-20T00:00:00.000</Data></Cell>
+    <Cell ss:Index="3" ss:StyleID="s38"><Data ss:Type="DateTime">1973-05-20T09:15:02.000</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.51180555555555496"/>
+    <Footer x:Margin="0.51180555555555496"/>
+   </PageSetup>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

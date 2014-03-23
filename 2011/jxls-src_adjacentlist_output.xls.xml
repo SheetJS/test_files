@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Leonid</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2005-02-23T19:08:54Z</Created>
+  <LastSaved>2005-09-01T14:32:45Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11640</WindowHeight>
+  <WindowWidth>15480</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <DoNotCalculateBeforeSave/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#008080" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Font ss:Bold="1"/>
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s27">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#0000D4" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#333399" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s29">
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30">
+   <Interior ss:Color="#99CCFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#FFFFFF"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#993366" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+  <Style ss:ID="s34">
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font x:Family="Swiss" ss:Size="12" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#4600A5" ss:Pattern="Solid"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s35">
+   <Font ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#CC99FF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="9" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+   <Column ss:AutoFitWidth="0" ss:Width="100"/>
+   <Column ss:AutoFitWidth="0" ss:Width="95"/>
+   <Column ss:AutoFitWidth="0" ss:Width="115"/>
+   <Column ss:AutoFitWidth="0" ss:Width="91"/>
+   <Column ss:AutoFitWidth="0" ss:Width="94"/>
+   <Column ss:AutoFitWidth="0" ss:Width="92"/>
+   <Column ss:AutoFitWidth="0" ss:Width="72"/>
+   <Column ss:AutoFitWidth="0" ss:Width="99"/>
+   <Column ss:Index="11" ss:AutoFitWidth="0" ss:Width="103"/>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s28"><Data ss:Type="String">Department:</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Payment</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Bonus</Data></Cell>
+    <Cell ss:StyleID="s23"><Data ss:Type="String">Total</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">Department:</Data></Cell>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"/>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Payment</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Bonus</Data></Cell>
+    <Cell ss:StyleID="s31"><Data ss:Type="String">Total</Data></Cell>
+   </Row>
+   <Row ss:Height="15">
+    <Cell ss:StyleID="s28"><Data ss:Type="String">IT</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Elsa</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">1500</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">0.15</Data></Cell>
+    <Cell ss:StyleID="s29" ss:Formula="=RC[-2]*(1+RC[-1])"><Data ss:Type="Number">1724.9999999999998</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">IT</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Employee:</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Natali</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">1200</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">0.1</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=RC[-2]*(1+RC[-1])"><Data ss:Type="Number">1320</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s28"/>
+    <Cell ss:StyleID="s29"><Data ss:Type="String">Oleg</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2300</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">0.25</Data></Cell>
+    <Cell ss:StyleID="s29" ss:Formula="=RC[-2]*(1+RC[-1])"><Data ss:Type="Number">2875</Data></Cell>
+    <Cell ss:StyleID="s34"/>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Employee:</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Helen</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">1100</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=RC[-2]*(1+RC[-1])"><Data ss:Type="Number">1320</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">Neil</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2500</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s29" ss:Formula="=RC[-2]*(1+RC[-1])"><Data ss:Type="Number">2500</Data></Cell>
+    <Cell ss:Index="7" ss:StyleID="s35"><Data ss:Type="String">Employee:</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="String">Olga</Data></Cell>
+    <Cell ss:StyleID="s32"><Data ss:Type="Number">1150</Data></Cell>
+    <Cell ss:StyleID="s33"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s32" ss:Formula="=RC[-2]*(1+RC[-1])"><Data ss:Type="Number">1150</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">Maria</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">1700</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">0.15</Data></Cell>
+    <Cell ss:StyleID="s29" ss:Formula="=RC[-2]*(1+RC[-1])"><Data ss:Type="Number">1954.9999999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s29"><Data ss:Type="String">John</Data></Cell>
+    <Cell ss:StyleID="s29"><Data ss:Type="Number">2800</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="Number">0.2</Data></Cell>
+    <Cell ss:StyleID="s29" ss:Formula="=RC[-2]*(1+RC[-1])"><Data ss:Type="Number">3360</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s24"><Data ss:Type="String">Totals:</Data></Cell>
+    <Cell ss:StyleID="s27" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">10800</Data></Cell>
+    <Cell ss:StyleID="s26"/>
+    <Cell ss:StyleID="s25" ss:Formula="=SUM(R[-5]C:R[-1]C)"><Data ss:Type="Number">12415</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15"/>
+   <Row ss:AutoFitHeight="0" ss:Height="18"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>300</HorizontalResolution>
+    <VerticalResolution>300</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="53" ss:DefaultRowHeight="12">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

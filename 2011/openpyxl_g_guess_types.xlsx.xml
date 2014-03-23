@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Eric Gazoni</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2013-07-22T13:49:55Z</Created>
+  <LastSaved>2013-07-22T13:56:14Z</LastSaved>
+  <Company>Adimian</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11800</WindowHeight>
+  <WindowWidth>25520</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s17">
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s18">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s19">
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s20">
+   <NumberFormat ss:Format="Percent"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">3.14</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">3.14</Data></Cell>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">3/14/15</Data></Cell>
+    <Cell ss:StyleID="s19"><Data ss:Type="Number">0.15</Data></Cell>
+    <Cell ss:StyleID="s19" ss:Formula="=RC[-1]"><Data ss:Type="Number">0.15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s16"><Data ss:Type="String">3.14</Data></Cell>
+    <Cell ss:StyleID="s20"><Data ss:Type="Number">3.14</Data></Cell>
+    <Cell ss:StyleID="s17"><Data ss:Type="String">3/14/15</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="String">3E5</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

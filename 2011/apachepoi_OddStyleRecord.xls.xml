@@ -1,0 +1,569 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>God</LastAuthor>
+  <Created>2014-03-22T22:33:14Z</Created>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>2</Index>
+    <RGB>#FF0000</RGB>
+   </Color>
+   <Color>
+    <Index>3</Index>
+    <RGB>#00FF00</RGB>
+   </Color>
+   <Color>
+    <Index>4</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>5</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>6</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>7</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>8</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>9</Index>
+    <RGB>#008000</RGB>
+   </Color>
+   <Color>
+    <Index>10</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>11</Index>
+    <RGB>#808000</RGB>
+   </Color>
+   <Color>
+    <Index>12</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+   <Color>
+    <Index>39</Index>
+    <RGB>#E3E3E3</RGB>
+   </Color>
+   <Color>
+    <Index>40</Index>
+    <RGB>#33CCCC</RGB>
+   </Color>
+   <Color>
+    <Index>41</Index>
+    <RGB>#99CC00</RGB>
+   </Color>
+   <Color>
+    <Index>42</Index>
+    <RGB>#FFCC00</RGB>
+   </Color>
+   <Color>
+    <Index>43</Index>
+    <RGB>#FF9900</RGB>
+   </Color>
+   <Color>
+    <Index>44</Index>
+    <RGB>#FF6600</RGB>
+   </Color>
+   <Color>
+    <Index>45</Index>
+    <RGB>#666699</RGB>
+   </Color>
+   <Color>
+    <Index>46</Index>
+    <RGB>#969696</RGB>
+   </Color>
+   <Color>
+    <Index>47</Index>
+    <RGB>#003366</RGB>
+   </Color>
+   <Color>
+    <Index>48</Index>
+    <RGB>#339966</RGB>
+   </Color>
+   <Color>
+    <Index>49</Index>
+    <RGB>#003300</RGB>
+   </Color>
+   <Color>
+    <Index>50</Index>
+    <RGB>#333300</RGB>
+   </Color>
+   <Color>
+    <Index>51</Index>
+    <RGB>#993300</RGB>
+   </Color>
+   <Color>
+    <Index>52</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>53</Index>
+    <RGB>#333399</RGB>
+   </Color>
+   <Color>
+    <Index>54</Index>
+    <RGB>#333333</RGB>
+   </Color>
+   <Color>
+    <Index>55</Index>
+    <RGB>#999999</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8640</WindowHeight>
+  <WindowWidth>14400</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s45" ss:Name="Comma">
+   <Alignment ss:Vertical="Top"/>
+   <Borders/>
+   <Font ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s15">
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s30" ss:Parent="s45">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s34" ss:Parent="s45">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s35" ss:Parent="s45">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Narrow" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s37" ss:Parent="s45">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Narrow" ss:Color="#000000" ss:Italic="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s42" ss:Parent="s45">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Narrow" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s44" ss:Parent="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top"/>
+   <Font ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="#,##0;\-#,##0;0"/>
+  </Style>
+  <Style ss:ID="s50" ss:Parent="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" ss:Size="22" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s51" ss:Parent="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" ss:Size="16" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s52" ss:Parent="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" ss:Size="13" ss:Color="#000000" ss:Bold="1"
+    ss:Italic="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s53" ss:Parent="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s54" ss:Parent="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Narrow" ss:Size="12" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s55" ss:Parent="s45">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s56" ss:Parent="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Narrow" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s57" ss:Parent="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" ss:Color="#000000" ss:Italic="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s58" ss:Parent="s45">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:Size="8" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s60" ss:Parent="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Narrow" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s61" ss:Parent="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Narrow" ss:Size="12" ss:Color="#000000" ss:Italic="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62" ss:Parent="s45">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Narrow" ss:Size="12" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64" ss:Parent="s45">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Narrow" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65" ss:Parent="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Narrow" ss:Color="#000000" ss:Italic="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66" ss:Parent="s45">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Narrow" ss:Color="#000000" ss:Italic="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s45">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1"/>
+   <Font ss:FontName="Arial Narrow" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68" ss:Parent="s45">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top"/>
+   <Font ss:FontName="Arial Narrow" ss:Color="#000000"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="#,##0.00;\(#,##0.00\);0.00"/>
+  </Style>
+  <Style ss:ID="s69" ss:Parent="s45">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top"/>
+   <Font ss:FontName="Arial Narrow" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="#,##0.00;\(#,##0.00\);0.00"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="256" ss:ExpandedRowCount="53" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s15" ss:DefaultColumnWidth="47"
+   ss:DefaultRowHeight="12.75">
+   <Column ss:StyleID="s15" ss:AutoFitWidth="0" ss:Width="42" ss:Span="255"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16"/>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:Index="4" ss:MergeAcross="3" ss:MergeDown="1" ss:StyleID="s50"><Data
+      ss:Type="String">BANK NIAGA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20">
+    <Cell ss:Index="12" ss:MergeAcross="3" ss:MergeDown="1" ss:StyleID="s51"><Data
+      ss:Type="String">Laporan Transaksi</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="1"/>
+   <Row ss:AutoFitHeight="0" ss:Height="20">
+    <Cell ss:Index="12" ss:MergeAcross="3" ss:StyleID="s52"><Data ss:Type="String">Account Statement</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17"/>
+   <Row ss:AutoFitHeight="0" ss:Height="12"/>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s53"><Data
+      ss:Type="String"><B xmlns="http://www.w3.org/TR/REC-html40"><Font
+        html:Color="#000000">Kepada Yth</Font></B><Font html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font><B
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">/</Font></B><Font
+       html:Face="Arial" html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font><I
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">To</Font></I></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="0">
+    <Cell ss:Index="10" ss:MergeAcross="2" ss:MergeDown="2" ss:StyleID="s53"><Data
+      ss:Type="String">Tanggal Laporan</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="9"/>
+   <Row ss:AutoFitHeight="0" ss:Height="4">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:MergeDown="2" ss:StyleID="s54"><Data
+      ss:Type="String">PT. SINAR SUMATRA</Data></Cell>
+    <Cell ss:Index="13" ss:MergeDown="1" ss:StyleID="s55"><Data ss:Type="String">:</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:MergeDown="2" ss:StyleID="s56"><Data
+      ss:Type="String">18 Agustus 2007</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8">
+    <Cell ss:Index="10" ss:MergeAcross="2" ss:MergeDown="1" ss:StyleID="s57"><Data
+      ss:Type="String">Statement Date</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="6"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s56"><Data ss:Type="String">Jl. Wahid Hasyim Blok B-4 No.3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s56"><Data ss:Type="String">BINTARO JAYA SEKTOR 7 TANGERANG</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s56"><Data ss:Type="String">Bali</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="2" ss:MergeAcross="6" ss:StyleID="s56"><Data ss:Type="String">15224</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="6"/>
+   <Row ss:AutoFitHeight="0" ss:Height="18">
+    <Cell ss:MergeAcross="7" ss:StyleID="s58"><Data ss:Type="String">001-01-42497-00-3 / 0807</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8">
+    <Cell ss:MergeAcross="4" ss:MergeDown="2" ss:StyleID="s53"><Data
+      ss:Type="String"><B xmlns="http://www.w3.org/TR/REC-html40"><Font
+        html:Color="#000000">No. Rekening /</Font></B><Font html:Color="#000000"
+       xmlns="http://www.w3.org/TR/REC-html40"> </Font><I
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Account Number</Font></I></Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s30"><Data ss:Type="String">:</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:MergeDown="1" ss:StyleID="s56"><Data
+      ss:Type="String">001-01-42497-00-3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="6">
+    <Cell ss:Index="11" ss:MergeAcross="4" ss:MergeDown="2" ss:StyleID="s53"><Data
+      ss:Type="String">Bagi Bank Niaga, Kepuasan nasabah</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:MergeAcross="4" ss:StyleID="s53"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Nama Produk /</Font></B><Font
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> </Font><I
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Product Name</Font></I></Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">:</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s56"><Data ss:Type="String">Current Account</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s53"><Data ss:Type="String">Adalah segalanya.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13"/>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:MergeAcross="4" ss:StyleID="s53"><Data ss:Type="String"><B
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Valuta /</Font></B><Font
+       html:Color="#000000" xmlns="http://www.w3.org/TR/REC-html40"> </Font><I
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Currency</Font></I></Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">:</Data></Cell>
+    <Cell ss:MergeAcross="3" ss:StyleID="s56"><Data ss:Type="String">RUPIAH</Data></Cell>
+    <Cell ss:MergeAcross="4" ss:StyleID="s57"><Data ss:Type="String">For Bank Niaga, customer's satisfaction is</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13">
+    <Cell ss:Index="10" ss:MergeAcross="4" ss:StyleID="s57"><Data ss:Type="String">everything.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:MergeAcross="4" ss:MergeDown="1" ss:StyleID="s60"><Data
+      ss:Type="String">Aktifitas Rekening untuk periode</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="1"/>
+   <Row ss:AutoFitHeight="0" ss:Height="16">
+    <Cell ss:MergeAcross="4" ss:StyleID="s61"><Data ss:Type="String">Account Activity for the period of</Data></Cell>
+    <Cell ss:StyleID="s30"><Data ss:Type="String">:</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s62"><Data ss:Type="String">18 Agustus 2007</Data></Cell>
+    <Cell ss:StyleID="s34"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s62"><Data ss:Type="String">18 Agustus 2007</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13"/>
+   <Row ss:AutoFitHeight="0" ss:Height="8"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:StyleID="s35"><Data ss:Type="String">Tgl.</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s35"><Data ss:Type="String">Uraian Transaksi</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s35"><Data ss:Type="String">D/K</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s64"><Data ss:Type="String">Nominal</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s64"><Data ss:Type="String">Saldo</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:StyleID="s37"><Data ss:Type="String">Date</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s65"><Data ss:Type="String">Description</Data></Cell>
+    <Cell ss:Index="11" ss:StyleID="s37"><Data ss:Type="String">D/C</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">Amount</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s66"><Data ss:Type="String">Balance</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s67"><Data ss:Type="String">SALDO AWAL</Data></Cell>
+    <Cell ss:Index="14" ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="Number">988134773.51999998</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8"/>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s42"><Data ss:Type="String">18/8</Data></Cell>
+    <Cell ss:MergeAcross="9" ss:StyleID="s56"><Data ss:Type="String">Setoran Tunai TESTING KOREKSI UNTUK NCM</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="Number">75000000</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="Number">1063134773.52</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s42"><Data ss:Type="String">18/8</Data></Cell>
+    <Cell ss:MergeAcross="9" ss:StyleID="s56"><Data ss:Type="String">Setoran Tunai TESTING UNTUK NCM</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="Number">10000000</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="Number">1073134773.52</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s42"><Data ss:Type="String">18/8</Data></Cell>
+    <Cell ss:MergeAcross="9" ss:StyleID="s56"><Data ss:Type="String">Koreksi transaksi kredit TESTING KOREKSI UNTUK NCM</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">D</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="Number">75000000</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="Number">998134773.51999998</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s42"><Data ss:Type="String">18/8</Data></Cell>
+    <Cell ss:MergeAcross="9" ss:StyleID="s56"><Data ss:Type="String">Koreksi transaksi kredit TESTING KOREKSI UNTUK NCM</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">C</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="Number">75000000</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="Number">1073134773.52</Data></Cell>
+    <Cell ss:StyleID="s42"><Data ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="14">
+    <Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s67"><Data ss:Type="String">SALDO AKHIR</Data></Cell>
+    <Cell ss:Index="12" ss:MergeAcross="3" ss:StyleID="s69"><Data ss:Type="Number">1073134773.52</Data></Cell>
+    <Cell ss:StyleID="s35"><Data ss:Type="String">C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20"/>
+   <Row ss:AutoFitHeight="0" ss:Height="299"/>
+   <Row ss:AutoFitHeight="0" ss:Height="7"/>
+   <Row ss:AutoFitHeight="0" ss:Height="12">
+    <Cell ss:MergeAcross="6" ss:MergeDown="1" ss:StyleID="s53"><Data
+      ss:Type="String">Terima kasih atas kepercayaan Anda pada Bank Niaga</Data></Cell>
+    <Cell ss:Index="13" ss:MergeAcross="1" ss:MergeDown="2" ss:StyleID="s53"><Data
+      ss:Type="String"><B xmlns="http://www.w3.org/TR/REC-html40"><Font
+        html:Color="#000000">Halaman / </Font></B><I
+       xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">Page :</Font></I></Data></Cell>
+    <Cell ss:StyleID="s44"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="0"/>
+   <Row ss:AutoFitHeight="0" ss:Height="0">
+    <Cell ss:MergeAcross="6" ss:MergeDown="1" ss:StyleID="s57"><Data
+      ss:Type="String">Thank you for your confidence in Bank Niaga</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12"/>
+   <Row ss:AutoFitHeight="0" ss:Height="11"/>
+   <Row ss:AutoFitHeight="0" ss:Height="5"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0"/>
+    <Footer x:Margin="0"/>
+    <PageMargins x:Bottom="0" x:Left="0" x:Right="0" x:Top="0"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <FitWidth>0</FitWidth>
+    <FitHeight>0</FitHeight>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <DoNotDisplayOutline/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <PageBreaks xmlns="urn:schemas-microsoft-com:office:excel">
+   <RowBreaks>
+    <RowBreak>
+     <Row>53</Row>
+     <ColStart>1</ColStart>
+     <ColEnd>256</ColEnd>
+    </RowBreak>
+   </RowBreaks>
+  </PageBreaks>
+ </Worksheet>
+</Workbook>

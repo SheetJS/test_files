@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>senthurselvi_k</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2010-02-04T12:01:18Z</Created>
+  <LastSaved>2010-03-16T17:01:55Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <Colors>
+   <Color>
+    <Index>16</Index>
+    <RGB>#9999FF</RGB>
+   </Color>
+   <Color>
+    <Index>17</Index>
+    <RGB>#993366</RGB>
+   </Color>
+   <Color>
+    <Index>18</Index>
+    <RGB>#FFFFCC</RGB>
+   </Color>
+   <Color>
+    <Index>19</Index>
+    <RGB>#CCFFFF</RGB>
+   </Color>
+   <Color>
+    <Index>20</Index>
+    <RGB>#660066</RGB>
+   </Color>
+   <Color>
+    <Index>21</Index>
+    <RGB>#FF8080</RGB>
+   </Color>
+   <Color>
+    <Index>22</Index>
+    <RGB>#0066CC</RGB>
+   </Color>
+   <Color>
+    <Index>23</Index>
+    <RGB>#CCCCFF</RGB>
+   </Color>
+   <Color>
+    <Index>24</Index>
+    <RGB>#000080</RGB>
+   </Color>
+   <Color>
+    <Index>25</Index>
+    <RGB>#FF00FF</RGB>
+   </Color>
+   <Color>
+    <Index>26</Index>
+    <RGB>#FFFF00</RGB>
+   </Color>
+   <Color>
+    <Index>27</Index>
+    <RGB>#00FFFF</RGB>
+   </Color>
+   <Color>
+    <Index>28</Index>
+    <RGB>#800080</RGB>
+   </Color>
+   <Color>
+    <Index>29</Index>
+    <RGB>#800000</RGB>
+   </Color>
+   <Color>
+    <Index>30</Index>
+    <RGB>#008080</RGB>
+   </Color>
+   <Color>
+    <Index>31</Index>
+    <RGB>#0000FF</RGB>
+   </Color>
+  </Colors>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11960</WindowHeight>
+  <WindowWidth>18980</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>40</WindowTopY>
+  <TabRatio>600</TabRatio>
+  <DoNotCalculateBeforeSave/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s40" ss:Name="Bad">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#4600A5"/>
+   <Interior ss:Color="#FF99CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders/>
+  </Style>
+  <Style ss:ID="s63" ss:Parent="s40">
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s64">
+   <Borders/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s65">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s67">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="dd/m/yyyy"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="dd/m/yyyy"/>
+  </Style>
+  <Style ss:ID="s70" ss:Parent="s40">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#4600A5"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="16" ss:ExpandedRowCount="11" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="52"
+   ss:DefaultRowHeight="14">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="114"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="79"/>
+   <Column ss:Index="12" ss:StyleID="s62" ss:Width="291"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="70"/>
+   <Column ss:Index="16" ss:StyleID="s62" ss:Width="75"/>
+   <Row>
+    <Cell ss:Index="3" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Contractnummer(s)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">${header.contractnummer}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Valutadatum van</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">${header.valutadatumvan}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Valutadatum tot</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">${header.valutadatumtot}</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="Default"><Data ss:Type="String">Draaidatum</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">${header.draaidatum}</Data></Cell>
+   </Row>
+   <Row ss:Height="23">
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="12"><Data ss:Type="String">&lt;jx:forEach items=&quot;${cols}&quot; var=&quot;col&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Fund: ${col.name} </Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2" ss:StyleID="Default"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:Index="12"><Data ss:Type="String">&lt;jx:forEach items=&quot;${cols}&quot; var=&quot;col&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">${col.rate} </Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s65"><Data ss:Type="String" x:Ticked="1">REKENINGNUMMER</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String" x:Ticked="1">DLNRNR</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String" x:Ticked="1">PAKKETNR</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String" x:Ticked="1">ECHTSNR</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String" x:Ticked="1">VERZNR</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String" x:Ticked="1">TARLGNR</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String" x:Ticked="1">SRT_BRK_BRK</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String" x:Ticked="1">NM_DLNR_BRK</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String" x:Ticked="1">GESL_BRK</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String" x:Ticked="1">GEBDAT_BRK</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String" x:Ticked="1">AFVDAT_BRK</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;jx:forEach items=&quot;${cols}&quot; var=&quot;col&quot;&gt;</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Eenheden</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Waarde</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Verkoopkosten</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;jx:forEach items=&quot;${records}&quot; var=&quot;record&quot;&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">${record.rekeningnummer}</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">${record.dlnrnr}</Data></Cell>
+    <Cell><Data ss:Type="String">${record.pakketnr}</Data></Cell>
+    <Cell><Data ss:Type="String">${record.echtsnr}</Data></Cell>
+    <Cell><Data ss:Type="String">${record.verznr}</Data></Cell>
+    <Cell><Data ss:Type="String">${record.tarlgnr}</Data></Cell>
+    <Cell><Data ss:Type="String">${record.srt_brk_brk}</Data></Cell>
+    <Cell><Data ss:Type="String">${record.nm_dlnr_brk}</Data></Cell>
+    <Cell><Data ss:Type="String">${record.gesl_brk}</Data></Cell>
+    <Cell><Data ss:Type="String">${record.gebdat_brk}</Data></Cell>
+    <Cell><Data ss:Type="String">${record.afvdat_brk}</Data></Cell>
+    <Cell><Data ss:Type="String">&lt;jx:forEach items=&quot;${record.fund}&quot; var=&quot;fund&quot;&gt;</Data></Cell>
+    <Cell><Data ss:Type="String">${fund.eenheden}</Data></Cell>
+    <Cell><Data ss:Type="String">${fund.waarde}</Data></Cell>
+    <Cell><Data ss:Type="String">${fund.verkoopkosten}</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">&lt;/jx:forEach&gt;</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <AllowSort/>
+   <AllowFilter/>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

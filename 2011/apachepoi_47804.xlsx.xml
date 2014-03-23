@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Frank Cantwell</Author>
+  <LastAuthor>God</LastAuthor>
+  <Created>2009-09-08T18:10:52Z</Created>
+  <LastSaved>2009-09-08T19:08:45Z</LastSaved>
+  <Company>eLanes, LLC</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>6120</WindowHeight>
+  <WindowWidth>15660</WindowWidth>
+  <WindowTopX>7480</WindowTopX>
+  <WindowTopY>5080</WindowTopY>
+  <Date1904/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Verdana"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="84" ss:Span="2"/>
+   <Column ss:Index="7" ss:AutoFitWidth="0" ss:Width="76"/>
+   <Row>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=CELL(&quot;width&quot;,C )"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Formula="=CELL(&quot;width&quot;,C )"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:Formula="=CELL(&quot;width&quot;,C )"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:Formula="=CELL(&quot;width&quot;,C )"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:Formula="=CELL(&quot;width&quot;,C )"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Formula="=CELL(&quot;width&quot;,C )"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Formula="=CELL(&quot;width&quot;,C )"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Formula="=CELL(&quot;width&quot;,C )"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:Formula="=CELL(&quot;width&quot;,C )"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
