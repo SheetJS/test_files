@@ -1,0 +1,10 @@
+Group,,
+comment,Create a non-security group,Create a security group (re-enable verify after bug fix)
+name,BST1 PatchTest,BST1 Special Members
+grouptype,,BST1
+grouptypenew,BST1,
+desc,,
+security,Not a Security Group,User Security Group
+hierarchy,,
+create,nil,nil
+verify,nil,nil

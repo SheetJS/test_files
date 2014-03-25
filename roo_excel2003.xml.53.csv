@@ -1,0 +1,28 @@
+QuickEmail Wysiwyg,,,,,
+,comment,Add a donation classic link,Add an event link,Add an action alert link,Add a link to a club
+,messagename,QUICK_EMAIL_BST1,QUICK_EMAIL_BST1,QUICK_EMAIL_BST1,QUICK_EMAIL_BST1
+Wysiwyg Information,body,,,,
+,linkname,Donation Classic Form,Events,Action Alert,Club
+,linktarget,DONATION_PREMIUM_BST1,CALENDAR_EVENT_BST1,ACTION_ALERT_BST1,CLUB_BST1
+,linktext,DONATION_PREMIUM_BST1,CALENDAR_EVENT_BST1,ACTION_ALERT_BST1,CLUB_BST1
+,linkpagename,,,,
+,linkaddinterest,,,,
+,linkremoveinterest,,,,
+,linknewwindow,,,,
+,linktitle,,,,
+,linkpromotioncode,,,,
+,linkadditionalargs,,,,
+,personalname,,,,
+,personaltext,,,,
+,personalgroup,,,,
+,personalfield,,,,
+,personalreptype,,,,
+,personalrepstyle,,,,
+,personalrepfields,,,,
+,condname,,,,Is in group
+,condgrouptype,,,,BST1 Special Members
+,condgroupname,,,,BST1 Special Members
+,condinterest,,,,
+,condtext,,,,
+,compname,,,,
+,create,nil,nil,nil,nil

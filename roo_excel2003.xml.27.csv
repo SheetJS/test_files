@@ -1,0 +1,80 @@
+ActionAlerts,,,
+,comment,Create an Action Alert,
+,pending,,
+,name,ACTION_ALERT_BST1,
+,desc,DESC for ACTION_ALERT_BST1,
+,topic,Other,
+,security,,
+,sourcecode,,
+,subsourcecode,,
+,priority,,
+,alerttype,Two Step,
+,singleresponse,,
+,phonerequired,,
+,restrictalertbystate,,
+,restrictedstates,,
+,allowchoosemessagedelivery,,
+,allowprintletters,,
+,thankyoupage,,
+,emailrollover,,
+,faxrollover,,
+,email,,
+,webaddress,,
+,subject,Please disregard this message,
+,subjectprefs,,
+,greeting,,
+,openingstatement,"Dear Staff:
+
+This is a test message to confirm that we are able to successfully communicate with your office via your webform. There is no need to log or respond to this message. You can disregard the remaining message, unless you want information about why such test messages are necessary. There is also no need to add the email address associated with this test (webformtest@convio.com) to your office's email lists.
+
+This message has been sent by Convio, one of the leading providers of online advocacy communication services to nonprofit organizations. Our clients include many of the country's largest public interest groups, trade and professional associations, labor unions, higher education institutions and corporations. These groups use our software to publish web pages that enable their supporters to send messages directly to their elected officials. Each message sent by our system has been initiated and authorized by a constituent, always contains the sender's name and home address, and has often been personally edited by the constituent.
+
+Regular testing of webforms is necessary because there are no standardized protocols governing communications with the offices of federal, state or local officials. In contrast with email and fax, webforms allow each office to require different information or steps to successfully transmit a constituent's message to their elected official. Moreover, webforms are often changed without notice, and these changes require us to update the custom connectors we used to communicate with each office. If your elected official is a member of the U.S. House of Representatives or Senate, we have begun working on a project under the auspices of the Congressional Management Foundation to develop best practices and promote a standard communications protocol that will help facilitate your management and processing of digital communications.
+
+We apologize if this test message has caused you any inconvenience. If you have any additional questions or concerns regarding these tests or online constituent communications generally, our Chief Scientist, Dr. Bill Pease, would be happy to speak with you. He can be reached at (510) 540-4772 x2101 or at bpease@convio.com.
+
+
+Thank you.
+
+Convio, Inc.
+
+
+Please disregard this message. This is a test of Convio Advocacy software, designed to enable constituents to communicate with their representatives. If you have further questions about this message, please email webformtest@convio.com.",
+,body,body,
+,closingstatement,closing,
+,complimentaryclose,,
+,userscanedit,"Yes, Subject can be edited",
+,presidentemail,TRUE,
+,presidentfax,,
+,vpemail,TRUE,
+,vpfax,,
+,firstladyemail,TRUE,
+,firstladyfax,,
+,senatoremail,TRUE,
+,senatorfax,,
+,repemail,TRUE,
+,repfax,,
+,govemail,TRUE,
+,govfax,,
+,statesenatoremail,TRUE,
+,statesenatorfax,,
+,staterepemail,TRUE,
+,staterepfax,,
+,pagewrapper,,
+,layoutoptions,TRUE,
+,themes,,
+,pmonth,,
+,pday,,
+,pyear,,
+,phour,,
+,pmin,,
+,pampm,,
+,emonth,,
+,eday,,
+,eyear,,
+,ehour,,
+,emin,,
+,eampm,,
+,alertactive,Yes,
+,create,nil,
+,verify,nil,

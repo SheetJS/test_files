@@ -1,0 +1,20 @@
+ClubMembership,,
+comment,Add club owner,Add club member
+clubname,CLUB_BST1,CLUB_BST1
+owner,TRUE,
+existingcons,TRUE,TRUE
+interactiontype,,
+interactionsubject,,
+title,,
+firstname,Ccccc1,Aaaaa1
+lastname,Ccccc1,Aaaaa1
+suffix,,
+email,,
+street1,,
+street2,,
+city,,
+state,,
+zip,,
+country,,
+phone,,
+create,nil,nil

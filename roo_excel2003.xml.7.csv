@@ -1,0 +1,14 @@
+Interest,,,,
+comment,Create a web interest,Check the interest and make sure the optin group is created,Create an email interest,Check the interest and make sure the optout group is created
+name,BST1 cars,BST1 cars,BST1 trucks,BST1 trucks
+desc,,,,
+security,,,,
+parentinterest,,,,
+defaultinterest,TRUE,TRUE,,FALSE
+interesttype,web,web,email,email
+optingroup,TRUE,!exist,,FALSE
+optoutgroup,FALSE,FALSE,TRUE,!exist
+create,nil,,nil,
+verify,,nil,,nil
+verify_admin_Create_Interest_Group,,/BST1 cars\(\d+\) Opt Ins/,,
+verify_admin_Create_Opt-out_Group,,,,/BST1 trucks\(\d+\) Opt Outs/

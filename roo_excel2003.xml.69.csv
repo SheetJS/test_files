@@ -1,0 +1,49 @@
+Constituent,,,
+,comment,Verify the user record was not updated based on the CRI Survey since the survey was set to not update,make sure the quickreg user was created. Note: re-enable state once we refactor this class to the new verification
+,pending,,
+Constituent Search ,findfirstname,,
+,findlastname,,
+,findemail,,
+,findmemberid,,
+,findusername,,
+,findphone,,
+,findzip,,
+,findconstituentid,,
+,firstname,joe,quickregistration_first1
+,middlename,,
+,lastname,smith,quickregistration_last1
+,username,user_js_1,
+,password,,
+,passwordhint,,
+,email,devnull+bst1@convio.com,devnull+quickregistration1@convio.com
+,title,,
+,suffix,,
+,profsuffix,,
+,memberid,,
+,gender,,
+,month,,
+,day,,
+,year,,
+,acceptemail,,
+,preferredformat,,
+,emailstatus,,
+,street1,3405 Mulberry Creek Dr,nil
+,street2,,
+,city,Austin,nil
+,state,TX,nil
+,zip,78732,nil
+,country,United States,nil
+,acceptmail,,
+,congressional,,
+,senate,,
+,house,,
+,phone,,
+,employer,,
+,occupation,,
+Groups,groupmembership,,
+,groupfoldername,,
+Interests,emailinterests,,
+,emailinterestfoldername,,
+,webinterests,,
+,webinterestfoldername,,
+,verify,nil,nil

@@ -1,0 +1,7 @@
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+comment,Make sure that the special offer is only visible to a member of BST Special Members,Non members should not see link,Users not logged in should not see link,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+linkname,SPECIAL_OFFER_BST1,SPECIAL_OFFER_BST1,SPECIAL_OFFER_BST1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+loginfirst,TRUE,TRUE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+username,userc1,userb1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+password,passc1,passb1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+verify_page_text,/This is your special offer!/,error,error,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

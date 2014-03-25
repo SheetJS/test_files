@@ -1,0 +1,55 @@
+Constituent,,,,,
+,comment,Constituent record should be created properly from addmany,Constituent record should be created properly from addmany,Constituent record should be created properly from addmany (till bug fixed),Constituent record should be created properly from addmany (till bug fixed)
+,,Bug #43856,Bug #43856,,
+,firstname,Bbbbb1,Ccccc1,Bbbbb1,Ccccc1
+,middlename,,,,
+,lastname,Bbbbb1,Ccccc1,Bbbbb1,Ccccc1
+,username,,,,
+,password,,,,
+,passwordhint,,,,
+,email,devnull+bbbbb1@convio.com,devnull+ccccc1@convio.com,devnull+bbbbb1@convio.com,devnull+ccccc1@convio.com
+,title,,,,
+,suffix,,,,
+,profsuffix,,,,
+,memberid,,,,
+,gender,,,,
+,month,,,,
+,day,,,,
+,year,,,,
+,acceptemail,,,,
+,preferredformat,,,,
+,emailstatus,,,,
+,street1,11921 N. Mopac Expressway,15-3420 Pharmacy Ave.,11921 N. Mopac Expressway,15-3420 Pharmacy Ave.
+,street2,,,,
+,city,Austin,Toronto,Austin,Toronto
+,state,TX,ON,TX,ON
+,zip,78759,M1W 2P7 ,78759,M1W 2P7 
+,country,United States,Canada,United States,Canada
+,acceptmail,,,,
+,congressional,,,,
+,senate,,,,
+,house,,,,
+,phone,,,,
+,employer,,,,
+,occupation,,,,
+Constituent Search ,findfirstname,,,,
+,findlastname,,,,
+,findemail,,,,
+,findmemberid,,,,
+,findusername,,,,
+,findphone,,,,
+,findzip,,,,
+,findconstituentid,,,,
+Groups,groupmembership,BST1 PatchTest,BST1 PatchTest,BST1 PatchTest,BST1 PatchTest
+,groupfoldername,BST1,BST1,BST1,BST1
+Interests,emailinterests,,,,
+,emailinterestfoldername,,,,
+,webinterests,,,,
+,webinterestfoldername,,,,
+,verify,nil,nil,nil,nil
+,verify_admin_Congressional_District_(Automatic),10,nil,10,nil
+,verify_admin_State_Senate_District_(Automatic),14,nil,14,nil
+,verify_admin_State_House_District_(Automatic),48,nil,48,nil
+,verify_admin_County_(Automatic),Travis,nil,Travis,nil
+,verify_groups,"['Any registered user','BST1 PatchTest','BST1 cars Opt Ins','Texas District 10','Texas residents']","['Any registered user','BST1 PatchTest','BST1 cars Opt Ins','Ontario residents']",,
+,verify_interests,['BST1 cars'],['BST1 cars'],['BST1 cars'],['BST1 cars']
