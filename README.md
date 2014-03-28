@@ -56,6 +56,8 @@ entire cell as well as parts of the cell.
 
 `pivot_table_test` tests different types of pivot tables
 
+`pivot_table_named_range` tests pivot tables with named ranges
+
 `AutoFilter` tests different uses of AutoFilter
 
 # Getting External Test Files
