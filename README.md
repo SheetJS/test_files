@@ -60,6 +60,8 @@ entire cell as well as parts of the cell.
 
 `AutoFilter` tests different uses of AutoFilter
 
+`BlankSheetTypes` tests different types of blank sheets
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate
