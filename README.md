@@ -62,6 +62,10 @@ entire cell as well as parts of the cell.
 
 `BlankSheetTypes` tests different types of blank sheets
 
+`NumberFormatCondition` tests different conditions in number formats 
+
+`protect_stress_test_xml` tests the different sheet protection modes
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate
