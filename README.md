@@ -62,9 +62,13 @@ entire cell as well as parts of the cell.
 
 `BlankSheetTypes` tests different types of blank sheets
 
-`NumberFormatCondition` tests different conditions in number formats 
+`NumberFormatCondition` tests different conditions in number formats
 
 `protect_stress_test_xml` tests the different sheet protection modes
+
+`calendar_stress_test` tests the different calendars (B1/B2) and years (b/e/y).
+Due to size and format constraints, XLSB contains the full record while the
+other formats are truncated to 65536 rows.
 
 # Getting External Test Files
 
