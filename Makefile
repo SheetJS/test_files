@@ -105,3 +105,7 @@ spreadsheet-parsexlsx:
 oo34xml:
 	$(GSVN) https://svn.apache.org/repos/asf/openoffice/branches/AOO34/main/testautomation/xml/optional/input/calc/ExcelXML $@
 	$(CPUP)
+
+.PHONY: ootest
+ootest:
+	bash tests/ootest.sh

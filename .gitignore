@@ -9,6 +9,7 @@ xlrd
 roo
 spreadsheet-parsexlsx
 oo34xml
+ootest
 # Files
 apachepoi_*.x*
 excel-reader-xlsx_*.x*
@@ -19,3 +20,4 @@ xlrd_*.x*
 roo_*.x*
 spreadsheet-parsexlsx_*.x*
 oo34xml_*.x*
+ootest_*.x*
