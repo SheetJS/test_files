@@ -70,6 +70,11 @@ entire cell as well as parts of the cell.
 Due to size and format constraints, XLSB contains the full record while the
 other formats are truncated to 65536 rows.
 
+`hyperlink_stress_test_2011` tests different types of hyperlinks
+
+`text_and_numbers` considers text and numbers (generated from a Hebrew version
+of Excel h/t @eladxxx).
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate
