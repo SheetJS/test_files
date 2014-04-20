@@ -75,6 +75,9 @@ other formats are truncated to 65536 rows.
 `text_and_numbers` considers text and numbers (generated from a Hebrew version
 of Excel h/t @eladxxx).
 
+`password_*` tests different password modes in different versions. Name format:
+`password_<ExcelVersion>_<Bits>_<Desc>`. 
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate
