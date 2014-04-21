@@ -14,7 +14,7 @@ init: all
 
 # All files
 .PHONY: all
-all: svn hg
+all: svn hg git
 
 # Tests
 .PHONY: test
@@ -35,6 +35,10 @@ ghsvn: xlrd excel-reader-xlsx pyExcelerator roo spreadsheet-parsexlsx
 # Resources acquired via mercurial 
 .PHONY: hg
 hg: openpyxl
+
+# Resources acquired via git
+.PHONY: git
+git: libreoffice
 
 # Sheet Names
 .PHONY: 2011
@@ -109,3 +113,10 @@ oo34xml:
 .PHONY: ootest
 ootest:
 	bash tests/ootest.sh
+
+# LibreOffice (Java)
+.PHONY: libreoffice
+libreoffice:
+	if [ ! -e libreoffice ]; then git clone git://anongit.freedesktop.org/libreoffice/contrib/test-files libreoffice; fi;
+	cd libreoffice; git pull; cd -
+	find libreoffice/calc -name \*.x\* | while read x; do y=$${x//\//_}; cp "$$x" "$$y"; done

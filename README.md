@@ -122,6 +122,10 @@ At the time of this writing, it is covered under the MIT (X11) License
 <http://www.openoffice.org/>
 At the time of this writing, it is covered under Apache License, version 2.0
 
+`libreoffice` pulls the test files from the LibreOffice project:
+<http://cgit.freedesktop.org/libreoffice/contrib/test-files/>
+At the time of this writing, it is covered under the GNU Lesser GPL License v3
+
 # Requests for Removal
 
 This repo includes derivatives of files from external sources.  According to the

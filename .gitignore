@@ -10,6 +10,7 @@ roo
 spreadsheet-parsexlsx
 oo34xml
 ootest
+libreoffice
 # Files
 apachepoi_*.x*
 excel-reader-xlsx_*.x*
@@ -21,3 +22,4 @@ roo_*.x*
 spreadsheet-parsexlsx_*.x*
 oo34xml_*.x*
 ootest_*.x*
+libreoffice_*.x*
