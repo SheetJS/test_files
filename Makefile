@@ -1,16 +1,16 @@
 # Copyright (C) 2013-2014   SheetJS
-
+SHELL=/bin/bash
 # `github` macro uses svn to clone a subfolder and copy resources up
 # usage: $(call github,user/repo_name,path/to/test/files)
 GSVN=svn co --trust-server-cert --non-interactive
 CPUP=cd $@; for i in *.x* ; do cp "$$i" ../"$@_$$i"; done
 github = $(GSVN) https://github.com/$(1)/trunk/$(2) $@; $(CPUP)
 
-## Make Targets 
+## Make Targets
 
 # Entry Point (init)
 .PHONY: init clean
-init: all 
+init: all
 
 # All files
 .PHONY: all
@@ -32,7 +32,7 @@ svn: apachepoi jxls oo34xml ghsvn
 
 ghsvn: xlrd excel-reader-xlsx pyExcelerator roo spreadsheet-parsexlsx
 
-# Resources acquired via mercurial 
+# Resources acquired via mercurial
 .PHONY: hg
 hg: openpyxl
 

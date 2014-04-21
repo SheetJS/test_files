@@ -1,5 +1,5 @@
 #!/bin/bash
-# ootest.sh -- Download from http://www.openoffice.org/sc/testdocs/filetype/ 
+# ootest.sh -- Download from http://www.openoffice.org/sc/testdocs/filetype/
 # Copyright (C) 2014  SheetJS
 
 mkdir -p ootest

@@ -1,17 +1,20 @@
 #!/bin/bash
-# xml.sh -- generate sheet names and xml output using Excel 2011 for Mac
+# txt.sh -- generate sheet names and txt output using Excel 2011 for Mac
 # Copyright (C) 2014  SheetJS
+
+MODE=TXT
+FMT=txt
 
 basedir=${1:-2011}
 mkdir -p $basedir
-XML=./xml.scpt
+CMD=./$FMT.scpt
 SNAME=./sheetnames.scpt
-if [ ! -e $XML ]; then
-	XML=./tests/xml.scpt
+if [ ! -e $CMD ]; then
+	CMD=./tests/$FMT.scpt
 	SNAME=./tests/sheetnames.scpt
 fi
 
-for i in *.xls *.xlsx *.xlsm; do
+for i in *.xls *.xlsx; do
 	# generate sheetnames output
 	if [ -e "./tests/skips/$i.skip" ]; then continue; fi
 	of="$basedir/$i.sheetnames"
@@ -22,10 +25,10 @@ for i in *.xls *.xlsx *.xlsm; do
 	fi
 
 	if [[ ! -s $of ]]; then continue; fi
-	if [[ ! -s "$basedir/$i.xml" ]]; then
-		echo XML "$i"
-		osascript -s o $XML "$i"
-		mv ~/Desktop/"$i".xml $basedir
+	if [[ ! -s "$basedir/$i.0.$FMT" && ! -s "$basedir/$i.1.$FMT" ]]; then
+		echo $MODE "$i"
+		osascript -s o $CMD "$i"
+		mv ~/Desktop/"$i".*.$FMT $basedir
 		sleep 1
 	fi
 done

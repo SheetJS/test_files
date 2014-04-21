@@ -1,4 +1,5 @@
 *.tests
+node_modules
 # Directories
 apachepoi
 excel-reader-xlsx
