@@ -81,17 +81,21 @@ pyExcelerator:
 .PHONY: jxls jxls-reader jxls-examples jxls-core jxls-src
 jxls: jxls-reader jxls-examples jxls-core jxls-src
 
+# Originally these used SF but it has been unstable as of late, prefer github
 jxls-core jxls-reader:
-	$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/$@/src/test/resources/templates/ $@
-	$(CPUP)
+	#$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/$@/src/test/resources/templates/ $@
+	#$(CPUP)
+	$(call github,stephenh/jxls,$@/src/test/resources/templates/)
 
 jxls-examples:
-	$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/$@/src/main/resources/templates/ $@
-	$(CPUP)
+	#$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/$@/src/main/resources/templates/ $@
+	#$(CPUP)
+	$(call github,stephenh/jxls,$@/src/main/resources/templates/)
 
 jxls-src:
-	$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/src/site/resources/xls/ $@
-	$(CPUP)
+	#$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/src/site/resources/xls/ $@
+	#$(CPUP)
+	$(call github,stephenh/jxls,src/site/resources/xls/)
 
 # roo (Ruby)
 .PHONY: roo

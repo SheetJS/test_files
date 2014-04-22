@@ -18,8 +18,8 @@ do_test() {
 case "$1" in
 "prep")
 	npm install -g j 
-	pip install -r requirements.txt --use-mirrors
-	gem install roo spreadsheet
+	#pip install -r requirements.txt --use-mirrors
+	#gem install roo spreadsheet
 	;;
 "clean")
 	rm -f *.tests
