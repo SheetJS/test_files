@@ -85,17 +85,17 @@ jxls: jxls-reader jxls-examples jxls-core jxls-src
 jxls-core jxls-reader:
 	#$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/$@/src/test/resources/templates/ $@
 	#$(CPUP)
-	$(call github,stephenh/jxls,$@/src/test/resources/templates/)
+	$(call github,SheetJS/jxls,$@/src/test/resources/templates/)
 
 jxls-examples:
 	#$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/$@/src/main/resources/templates/ $@
 	#$(CPUP)
-	$(call github,stephenh/jxls,$@/src/main/resources/templates/)
+	$(call github,SheetJS/jxls,$@/src/main/resources/templates/)
 
 jxls-src:
 	#$(GSVN) https://svn.code.sf.net/p/jxls/code/trunk/src/site/resources/xls/ $@
 	#$(CPUP)
-	$(call github,stephenh/jxls,src/site/resources/xls/)
+	$(call github,SheetJS/jxls,src/site/resources/xls/)
 
 # roo (Ruby)
 .PHONY: roo
