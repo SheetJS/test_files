@@ -1,0 +1,40 @@
+FORMULA TEST DOCUMENT,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+2 - TABLE REFERENCES,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,
+Head1,Head'2,#Head3,Calced,,2.1 - COLUMN REFERENCES,,,,,2.5 - SPECIAL RANGES,,,,,,,,,,,,
+1,2,3,3,,Formula,Is,Must,Ok?,,Range,Is,,,,Must,,,,Ok?,,,
+2,3,4,5,,=table[Head1],2,2,ok,,table,6,1,12,4,6,1,12,4,ok,ok,ok,ok
+3,4,5,7,,=SUM(table[Head''2]),90,90,ok,,table[#Headers],5,1,1,4,5,1,1,4,ok,ok,ok,ok
+4,5,6,9,,=SUM(table[['#Head3]:[Calced]]),270,270,ok,,table[#Data],6,1,12,4,6,1,12,4,ok,ok,ok,ok
+5,6,7,11,,,,,,,table[#Totals],18,1,1,4,18,1,1,4,ok,ok,ok,ok
+6,7,8,13,,2.2 - THIS-ROW REFERENCES,,,,,table[#All],5,1,14,4,5,1,14,4,ok,ok,ok,ok
+7,8,9,15,,Formula,Is,Must,Ok?,,table[[#Headers];[#Data]],5,1,13,4,5,1,13,4,ok,ok,ok,ok
+8,9,10,17,,=table[[#This Row];[Head1]],8,8,ok,,table[[#Data];[#Totals]],6,1,13,4,6,1,13,4,ok,ok,ok,ok
+9,10,11,19,,=SUM(table[[#This Row];[Head''2]]),10,10,ok,,,,,,,,,,,,,,
+10,11,12,21,,=SUM(table[[#This Row];['#Head3]:[Calced]]),33,33,ok,,2.6 - SPECIAL COLUMN RANGES,,,,,,,,,,,,
+11,12,13,23,,=SUM(table[#This Row]),59,59,ok,,Range,Is,,,,Must,,,,Ok?,,,
+12,13,14,25,,,,,,,table[[#Data];[Head''2]],6,2,12,1,6,2,12,1,ok,ok,ok,ok
+78,13,12,14,,2.3 - SUBTOTAL ROW,,,,,table[[#Data];['#Head3]:[Calced]],6,3,12,2,6,3,12,2,ok,ok,ok,ok
+,,,,,Function,Is,Must,Ok?,,table[[#Headers];[#Data];[Head''2]],5,2,13,1,5,2,13,1,ok,ok,ok,ok
+,,,,,Head1 - SUM,78,78,ok,,table[[#Data];[#Totals];['#Head3]:[Calced]],6,3,13,2,6,3,13,2,ok,ok,ok,ok
+,,,,,Head2 - AVERAGE,13,13,ok,,,,,,,,,,,,,,
+1,2,3,,,Head3 - COUNT,12,12,ok,,2.7 - SPECIAL RANGES (TABLE WITHOUT HEADERS AND TOTALS),,,,,,,,,,,,
+2,3,4,,,Calced - MAX,14,14,ok,,Range,Is,,,,Must,,,,Ok?,,,
+3,4,5,,,,,,,,table2,22,1,4,3,22,1,4,3,ok,ok,ok,ok
+4,5,6,,,2.4 - SPACING,,,,,table2[#Headers],#REF!,#REF!,#REF!,#REF!,#REF!,#REF!,#REF!,#REF!,ok,ok,ok,ok
+,,,,,Function,Is,Must,Ok?,,table2[#Data],22,1,4,3,22,1,4,3,ok,ok,ok,ok
+,,,,,=SUM(table[['#Head3]:[Calced]]),270,270,ok,,table2[#Totals],#REF!,#REF!,#REF!,#REF!,#REF!,#REF!,#REF!,#REF!,ok,ok,ok,ok
+,,,,,=SUM(table[ ['#Head3]:[Calced] ]),270,270,ok,,table2[#All],22,1,4,3,22,1,4,3,ok,ok,ok,ok
+,,,,,=SUM(table[[#Data];['#Head3]:[Calced]]),270,270,ok,,table2[[#Headers];[#Data]],22,1,4,3,22,1,4,3,ok,ok,ok,ok
+,,,,,=SUM(table[ [#Data];['#Head3]:[Calced] ]),270,270,ok,,table2[[#Data];[#Totals]],22,1,4,3,22,1,4,3,ok,ok,ok,ok
+,,,,,=SUM(table[[#Data]; ['#Head3]:[Calced]]),270,270,ok,,,,,,,,,,,,,,
+,,,,,=SUM(table[ [#Data]; ['#Head3]:[Calced] ]),270,270,ok,,2.8 - SPECIAL COLUMN RANGES (TABLE WITHOUT HEADERS AND TOTALS),,,,,,,,,,,,
+,,,,,=SUM(table[[#Data];[#Totals];[Head''2]]),103,103,ok,,Range,Is,,,,Must,,,,Ok?,,,
+,,,,,=SUM(table[[#Data]; [#Totals]; [Head''2]]),103,103,ok,,table2[[#Data];[Column1]],22,1,4,1,22,1,4,1,ok,ok,ok,ok
+,,,,,=SUM(table[[#Data]; [#Totals]; [Head''2]]),103,103,ok,,table2[[#Data];[Column2]:[Column3]],22,2,4,2,22,2,4,2,ok,ok,ok,ok
+,,,,,=SUM(table[ [#Data]; [#Totals]; [Head''2] ]),103,103,ok,,table2[[#Headers];[#Data];[Column1]],22,1,4,1,22,1,4,1,ok,ok,ok,ok
+,,,,,=SUM(table[[#Data];[#Totals];['#Head3]:[Calced]]),296,296,ok,,table2[[#Data];[#Totals];[Column2]:[Column3]],22,2,4,2,22,2,4,2,ok,ok,ok,ok
+,,,,,=SUM(table[ [#Data];[#Totals];['#Head3]:[Calced] ]),296,296,ok,,,,,,,,,,,,,,
+,,,,,=SUM(table[[#Data]; [#Totals]; ['#Head3]:[Calced]]),296,296,ok,,,,,,,,,,,,,,
+,,,,,=SUM(table[ [#Data]; [#Totals]; ['#Head3]:[Calced] ]),296,296,ok,,,,,,,,,,,,,,

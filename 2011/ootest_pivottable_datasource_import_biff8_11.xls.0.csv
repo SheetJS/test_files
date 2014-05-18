@@ -1,0 +1,40 @@
+PIVOT TABLE TEST DOCUMENT,,,,,,,,,
+,,,,,,,,,
+1 - INTERNAL SHEET SOURCE,,,,,,,,,
+,,,,,,,,,
+1.1 - INTERNAL CELL RANGE,,,,,,,,,
+"Data from sheet ""Data""",,,,,,"Second pivot table, shared data source",,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Sum of Field 3,Field 1,,,,,Sum of Field 3,Field 2,,
+Field 2,Item 1.A,Item 1.B,Grand Total,,,Field 1,Item 2.A,Item 2.B,Grand Total
+Item 2.A,63,71,134,,,Item 1.A,63,67,130
+Item 2.B,67,75,142,,,Item 1.B,71,75,146
+Grand Total,130,146,276,,,Grand Total,134,142,276
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+1.2 - INTERNAL GLOBAL NAME,,,,,,1.3 - INTERNAL LOCAL NAME,,,
+"Data from sheet ""Data"", name ""name""",,,,,,"Data from sheet ""Data"", name ""localname""",,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Sum of Field 6,Field 4,,,,,Sum of Field 9,Field 7,,
+Field 5,Item 4.A,Item 4.B,Grand Total,,,Field 8,Item 7.A,Item 7.B,Grand Total
+Item 5.A,123,131,254,,,Item 8.A,183,191,374
+Item 5.B,127,135,262,,,Item 8.B,187,195,382
+Grand Total,250,266,516,,,Grand Total,370,386,756
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+1.4 - INTERNAL BUILT-IN NAME,,,,,,,,,
+"Data from sheet ""Data"", name ""Print_Area""",,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Sum of Field 12,Field 10,,,,,,,,
+Field 11,Item 10.A,Item 10.B,Grand Total,,,,,,
+Item 11.A,243,251,494,,,,,,
+Item 11.B,247,255,502,,,,,,
+Grand Total,490,506,996,,,,,,

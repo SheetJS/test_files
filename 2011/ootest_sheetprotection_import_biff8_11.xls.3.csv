@@ -1,0 +1,23 @@
+PROTECTION TEST DOCUMENT,
+,
+1 - WORKSHEET PROTECTION,
+,
+1.4 - WORKSHEET PROTECTION WITH PASSWORD,
+Setting,Value
+Password,"""password"""
+Protect locked cells,on
+Edit objects,on
+Edit scenarios,on
+Format cells,on
+Format columns,on
+Format rows,on
+Insert columns,on
+Insert rows,on
+Insert hyperlinks,on
+Delete columns,on
+Delete rows,on
+Select locked cells,off
+Use sort,on
+Use autofilter,on
+Pivot tables reports,on
+Select unlocked cells,off

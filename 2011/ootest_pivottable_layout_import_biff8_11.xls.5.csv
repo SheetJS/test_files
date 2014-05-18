@@ -1,0 +1,14 @@
+PIVOT TABLES LAYOUT TEST DOCUMENT,,,,,,,
+,,,,,,,
+6 - PIVOT FIELDS IN PAGE DIMENSION,,,,,,,
+,,,,,,,
+6.1 - FIELDS IN PAGE DIMENSION,,,,,,,
+Page = Field 2,,,"Page = Field 2, Field 3",,,"Page = Field 5, Field 3",
+,,,,,,,
+,,,Field 2,(All),,Field 5,(All)
+Field 2,(All),,Field 3,(All),,Field 3,(All)
+,,,,,,,
+Sum of Field 6,,,Sum of Field 6,,,Sum of Field 6,
+Field 1,Total,,Field 1,Total,,Field 1,Total
+Item 1.A,136,,Item 1.A,136,,Item 1.A,136
+Grand Total,136,,Grand Total,136,,Grand Total,136

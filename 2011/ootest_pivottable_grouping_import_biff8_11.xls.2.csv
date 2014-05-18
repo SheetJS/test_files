@@ -1,0 +1,69 @@
+PIVOT TABLES GROUPING TEST DOCUMENT,,,,,,,,,,
+,,,,,,,,,,
+3 - DATE/TIME GROUPING,,,,,,,,,,
+,,,,,,,,,,
+3.1 - SINGLE GROUPED DATE/TIME,,,,,,,,,,
+By years,,,By quarters,,,By months,,,By hours,
+,,,,,,,,,,
+Sum of Field 2,,,Sum of Field 2,,,Sum of Field 2,,,Sum of Field 2,
+Field 1,Total,,Field 1,Total,,Field 1,Total,,Field 1,Total
+2001,1,,Qtr1,6,,Jan,1,,01,1
+2002,2,,Qtr2,15,,Feb,2,,02,2
+2003,3,,Grand Total,21,,Mrz,3,,03,3
+2004,4,,,,,Apr,4,,04,4
+2005,5,,,,,Mai,5,,05,5
+2006,6,,,,,Jun,6,,06,6
+Grand Total,21,,,,,Grand Total,21,,Grand Total,21
+,,,,,,,,,,
+By minutes,,,by seconds,,,"By days, min/max = auto, step = 1",,,"By days, min = 31.12.2000, max = 5.1.2001, step = 3",
+,,,,,,,,,,
+Sum of Field 2,,,Sum of Field 2,,,Sum of Field 2,,,Sum of Field 2,
+Field 1,Total,,Field 1,Total,,Field 1,Total,,Field 1,Total
+:01,1,,:01,1,,01. Jan,1,,<31.12.2000,
+:02,2,,:02,2,,02. Jan,2,,31.12.2000 - 02.01.2001,3
+:03,3,,:03,3,,03. Jan,3,,03.01.2001 - 05.01.2001,12
+:04,4,,:04,4,,04. Jan,4,,>05.01.2001,6
+:05,5,,:05,5,,05. Jan,5,,Grand Total,21
+:06,6,,:06,6,,06. Jan,6,,,
+Grand Total,21,,Grand Total,21,,Grand Total,21,,,
+,,,,,,,,,,
+3.2 - MULTIPLE GROUPED DATE/TIME,,,,,,,,,,
+"By years, quarters, days",,,,,,,,,,
+,,,,,,,,,,
+Sum of Field 2,,,,,,,,,,
+Years,Quarters,Field 1,Total,,,,,,,
+2001,Qtr1,01. Jan,1,,,,,,,
+2002,Qtr1,02. Feb,2,,,,,,,
+,,03. Mrz,3,,,,,,,
+2003,Qtr2,04. Apr,4,,,,,,,
+,,05. Mai,5,,,,,,,
+2004,Qtr2,06. Jun,6,,,,,,,
+Grand Total,,,21,,,,,,,
+,,,,,,,,,,
+3.3 - GROUP FIELD ORIENTATION (Field 1),,,,,,,,,,
+"Field 1 = hidden, Quarters = page, Years = column",,,,,,,,,,
+,,,,,,,,,,
+Quarters,(All),,,,,,,,,
+,,,,,,,,,,
+Sum of Field 2,Years,,,,,,,,,
+Field 2,2001,2002,2003,2004,Grand Total,,,,,
+1,1,,,,1,,,,,
+2,,2,,,2,,,,,
+3,,3,,,3,,,,,
+4,,,4,,4,,,,,
+5,,,5,,5,,,,,
+6,,,,6,6,,,,,
+Grand Total,1,5,9,6,21,,,,,
+,,,,,,,,,,
+,,,,,,,,,,
+3.4 - GROUP FIELD SETTINGS (Field 1),,,,,,,,,,
+"Years = automatic subtotal, 2002 = hidden, 2003 = collapsed",,,,,,,,,,
+,,,,,,,,,,
+Sum of Field 2,,,,,,,,,,
+Years,Quarters,Field 1,Total,,,,,,,
+2001,Qtr1,01. Jan,1,,,,,,,
+2001 Total,,,1,,,,,,,
+2003,,,9,,,,,,,
+2004,Qtr2,06. Jun,6,,,,,,,
+2004 Total,,,6,,,,,,,
+Grand Total,,,16,,,,,,,

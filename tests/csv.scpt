@@ -12,7 +12,7 @@ on run argv
 		open workbook workbook file name input_file update links do not update links read only true ignore read only recommended true notify false add to mru false
 		tell active workbook
 			set idx to 1
-			repeat 100 times
+			repeat 1040 times
 				try
 					tell sheet idx
 						--if (get worksheet type) is not equal to (sheet type worksheet) then error ("'" & (get worksheet type) & "'")

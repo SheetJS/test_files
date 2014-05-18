@@ -1,0 +1,22 @@
+PAGE SETTINGS TEST DOCUMENT,,,,,,,,,,
+,,,,,,,,,,
+3 - MANUAL PAGE SETTINGS #2,,,,,,,,,,
+,,,,,,,,,,
+3.1 - PAGE MARGINS,,,3.2 - PAGE SETUP,,,3.3 - PRINT OPTIONS,,,3.4 - HEADERS AND FOOTERS,
+,Inch,,,,,,,,,
+Left,0,,Paper size,A5,,Horizontally centered,off,,Odd header,Odd header <page>
+Right,0,,Copies,1,,Vertically centered,off,,Odd footer,Odd footer <pages>
+Top,1,,Scale,100%,,Print gridlines,off,,Has own even h/f,on
+Bottom,1,,First page,auto,,Print headings,off,,Even header,Even header <page>
+Header,0,,Fit to width,2,,,,,Even footer,Even footer <pages>
+Footer,0,,Fit to height,auto,,,,,Has own first h/f,on
+,,,Fit to pages,on,,,,,First header,First header <page>
+,,,Horizontal DPI,200,,,,,First footer,First footer <pages>
+,,,Vertical DPI,200,,,,,Scale with document,on
+,,,Orientation,portrait,,,,,Align to page margins,on
+,,,Page order,down,,,,,,
+,,,Print comments,at end,,,,,,
+,,,Print errors,#NA,,,,,,
+,,,Black and white,off,,,,,,
+,,,Draft quality,off,,,,,,
+,,,Background bmp,Smiley,,,,,,

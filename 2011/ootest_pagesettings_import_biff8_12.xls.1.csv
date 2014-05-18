@@ -1,0 +1,22 @@
+PAGE SETTINGS TEST DOCUMENT,,,,,,,,,,
+,,,,,,,,,,
+2 - MANUAL PAGE SETTINGS #1,,,,,,,,,,
+,,,,,,,,,,
+2.1 - PAGE MARGINS,,,2.2 - PAGE SETUP,,,2.3 - PRINT OPTIONS,,,2.4 - HEADERS AND FOOTERS,
+,Inch,,,,,,,,,
+Left,1,,Paper size,A3,,Horizontally centered,on,,Odd header,Header <page>
+Right,1,,Copies,1,,Vertically centered,on,,Odd footer,Footer <pages>
+Top,2,,Scale,60%,,Print gridlines,on,,Has own even h/f,off
+Bottom,2,,First page,2,,Print headings,on,,Even header,(none)
+Header,0.5,,Fit to width,1,,,,,Even footer,(none)
+Footer,0.5,,Fit to height,1,,,,,Has own first h/f,off
+,,,Fit to pages,off,,,,,First header,(none)
+,,,Horizontal DPI,300,,,,,First footer,(none)
+,,,Vertical DPI,300,,,,,Scale with document,off
+,,,Orientation,landscape,,,,,Align to page margins,off
+,,,Page order,over,,,,,,
+,,,Print comments,displayed,,,,,,
+,,,Print errors,blank,,,,,,
+,,,Black and white,on,,,,,,
+,,,Draft quality,on,,,,,,
+,,,Background bmp,off,,,,,,

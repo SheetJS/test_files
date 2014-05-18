@@ -1,0 +1,22 @@
+Code,Format,Library,Notes,Importance
+5,XLSX (Excel 2007+),js-xlsx,"Strict Open XML Spreadsheet, Excel Workbook",1
+5,XLSM (2007+ Macros),js-xlsx,Excel Workbook (code),1
+5,XLSB (2007+ Binary),js-xlsx,BIFF12,1
+5,XLS (97-2004),js-xls,BIFF8,1
+4,XML (2003 XMLSS),js-xls,Very Basic Support,1
+3,PRN (Lotus),,Space-delimited,2
+3,TSV (.TXT),,Tab-Separated,2
+3,CSV,,Comma-Separated,2
+2,HTM (Webpage),,Need samples from various versions,2
+2,XML Data,,,2
+2,XLS (5.0/95),,BIFF5,2
+1,XLW (4.0),,,2
+1,DIF,,,3
+1,SYLK,,,3
+1,XLTX (2007+ Template),,Template,3
+1,XLTM (2007+ Template),,Template (code),3
+1,XLT (97-2004 Template),,Template,4
+1,XLAM (2007+ Addin),,Addin (code),4
+1,XLA (97-2004 Addin),,Addin,4
+1,DBF,,,4
+2,ODS,,,4

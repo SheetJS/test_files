@@ -1,0 +1,28 @@
+FORMULA TEST DOCUMENT,,,,,,,,
+,,,,,,,,
+5 - ARRAY FORMULAS,,,,,,,,
+,,,,,,,,
+5.1 - SIMPLE ARRAYS,,,,,,,,
+Formula,Is,,Must,,Ok?,,Test values,
+{=1},1,1,1,1,ok,ok,,
+,1,1,1,1,ok,ok,,
+{=H9:I10},1,2,1,2,ok,ok,1,2
+,3,4,3,4,ok,ok,3,4
+{=$H$9:$I$10},1,2,1,2,ok,ok,,
+,3,4,3,4,ok,ok,,
+"{={1,2;3,4}}",1,2,1,2,ok,ok,,
+,3,4,3,4,ok,ok,,
+,,,,,,,,
+5.2 - ARRAYS AND FUNCTIONS,,,,,,,,
+Formula,Is,,Must,,Ok?,,Test values,
+{=MINVERSE(H18:I19)+H20:I21},1,2,1,2,ok,ok,1,0
+,3,4,3,4,ok,ok,0,1
+{=MINVERSE($H$18:$I$19)+$H$20:$I$21},1,2,1,2,ok,ok,0,2
+,3,4,3,4,ok,ok,3,3
+"{=MINVERSE({1,0;0,1})+{0,2;3,3}}",1,2,1,2,ok,ok,,
+,3,4,3,4,ok,ok,,
+,,,,,,,,
+"5.3 - CONSTANT ARRAYS AND CONSTANT REFERENCE SUBEXPRESSIONS (tArray, tMemArea)",,,,,,,,
+Formula,Is,,Must,,Ok?,,Test values,
+"{={0,1;2,1}+MINVERSE(H27:I28 H27:I28)+{0,1;1,2}}",1,2,1,2,ok,ok,1,0
+,3,4,3,4,ok,ok,0,1

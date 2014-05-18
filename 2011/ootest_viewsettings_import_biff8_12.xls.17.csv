@@ -1,0 +1,20 @@
+SHEET VIEW SETTINGS TEST DOCUMENT,,
+,,
+17 - SHEET VIEW SETTINGS,,
+,,
+17.2 - CHANGED VIEW SETTINGS,,
+,Current,Example
+Grid color,Red,
+Normal zoom,125%,
+Page layout zoom,110%,
+Page break zoom,75%,
+View mode,Normal view,
+Sheet active,Off,Sheet Settings 1
+Sheet selected,Off,"Sheet Settings 1, 3"
+Sheet right-to-left,Off,
+Sheet tab color,Red,
+Show formulas,Off,2
+Show grid,On,
+Show headings,Off,
+Show zeros,Off,
+Show outline symbols,Off,

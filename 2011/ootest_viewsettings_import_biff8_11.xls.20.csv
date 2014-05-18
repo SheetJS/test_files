@@ -1,0 +1,19 @@
+SHEET VIEW SETTINGS TEST DOCUMENT,,
+,,
+17 - SHEET VIEW SETTINGS,,
+,,
+17.5 - SHOW FORMULAS,,
+,Current,Example
+Grid color,Automatic,
+Normal zoom,100% (Default),
+Page break zoom,60% (Default),
+View mode,Normal view,
+Sheet active,On,Sheet Settings 1
+Sheet selected,On,"Sheet Settings 1, 3"
+Sheet right-to-left,Off,
+Sheet tab color,None,
+Show formulas,On,=1+1
+Show grid,On,
+Show headings,On,
+Show zeros,On,0
+Show outline symbols,On,

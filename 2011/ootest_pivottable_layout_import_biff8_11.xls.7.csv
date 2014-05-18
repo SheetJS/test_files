@@ -1,0 +1,22 @@
+PIVOT TABLES LAYOUT TEST DOCUMENT,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+8 - PIVOT TABLE SETTINGS,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+8.1 - GRAND TOTALS,,,,,,,,,,,,,,,,
+"Totals for columns = on, for rows = on",,,,,"Totals for columns = off, for rows = on",,,,,"Totals for columns = on, for rows = off",,,,"Totals for columns = off, for rows = off",,
+,,,,,,,,,,,,,,,,
+Count of Field 3,Field 1,,,,Count of Field 3,Field 1,,,,Count of Field 3,Field 1,,,Count of Field 3,Field 1,
+Field 2,Item 1.A,Item 1.B,Grand Total,,Field 2,Item 1.A,Item 1.B,Grand Total,,Field 2,Item 1.A,Item 1.B,,Field 2,Item 1.A,Item 1.B
+Item 2.A,1,1,2,,Item 2.A,1,1,2,,Item 2.A,1,1,,Item 2.A,1,1
+Item 2.B,1,1,2,,Item 2.B,1,1,2,,Item 2.B,1,1,,Item 2.B,1,1
+Grand Total,2,2,4,,,,,,,Grand Total,2,2,,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+8.2 - DRILL DOWN,,,,,,,,,,,,,,,,
+Drill down = on,,,,,Drill down = off,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+Count of Field 3,Field 1,,,,Count of Field 3,Field 1,,,,,,,,,,
+Field 2,Item 1.A,Item 1.B,Grand Total,,Field 2,Item 1.A,Item 1.B,Grand Total,,,,,,,,
+Item 2.A,1,1,2,,Item 2.A,1,1,2,,,,,,,,
+Item 2.B,1,1,2,,Item 2.B,1,1,2,,,,,,,,
+Grand Total,2,2,4,,Grand Total,2,2,4,,,,,,,,

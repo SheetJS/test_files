@@ -1,0 +1,15 @@
+PIVOT TABLES LAYOUT TEST DOCUMENT,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+7 - PIVOT PAGE FIELD SETTINGS,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+7.1 - VISIBLE PAGE ITEM,,,,,,,,,,,,,
+Field 2 = (all),,,Field 2 = 2.A,,,Field 2 = 2.B,,,Field 2 = 2.C,,,Field 2 = 2.C (reverse order),
+,,,,,,,,,,,,,
+Field 2,(All),,Field 2,Item 2.A,,Field 2,Item 2.B,,Field 2,Item 2.C,,Field 2,Item 2.C
+,,,,,,,,,,,,,
+Sum of Field 3,,,Sum of Field 3,,,Sum of Field 3,,,Sum of Field 3,,,Sum of Field 3,
+Field 1,Total,,Field 1,Total,,Field 1,Total,,Field 1,Total,,Field 1,Total
+Item 1.A,3,,Item 1.A,1,,Item 1.A,2,,Item 1.B,4,,Item 1.B,4
+Item 1.B,7,,Item 1.B,3,,Item 1.C,5,,Item 1.C,6,,Item 1.C,6
+Item 1.C,11,,Grand Total,4,,Grand Total,7,,Grand Total,10,,Grand Total,10
+Grand Total,21,,,,,,,,,,,,

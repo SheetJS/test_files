@@ -1,0 +1,24 @@
+PROTECTION TEST DOCUMENT,
+,
+1 - WORKSHEET PROTECTION,
+,
+1.2 - WORKSHEET PROTECTION WITHOUT PASSWORD,
+Setting,Value
+Password,none
+Protect locked cells,on
+Edit objects,off
+Edit scenarios,off
+Format cells,off
+Format columns,off
+Format rows,off
+Insert columns,off
+Insert rows,off
+Insert hyperlinks,off
+Delete columns,off
+Delete rows,off
+Select locked cells,on
+Use sort,off
+Use autofilter,off
+Pivot tables reports,off
+Select unlocked cells,on
+,

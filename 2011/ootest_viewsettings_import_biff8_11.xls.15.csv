@@ -1,0 +1,16 @@
+Selection,,,Cursor,
+,,,,Selection
+,Cursor,,,
+,,,,
+SHEET VIEW SETTINGS TEST DOCUMENT,,,,
+,,,,
+16 - SELECTION,,,,
+,,,,
+16.1 - PANE DEPENDENT SELECTION,,,,
+Top-Left,Top-Right,Bottom-Left,Bottom-Right,Active Pane
+A2:B4,D2:E3,"A14:B15,A17:B17","D14:E15,D17:E17",Top-Left
+,,,,
+Selection,,,Cursor,
+,,,,Selection
+,,,,
+Selection,Cursor,,,Selection

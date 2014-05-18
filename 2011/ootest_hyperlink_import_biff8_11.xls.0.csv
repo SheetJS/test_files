@@ -1,0 +1,77 @@
+HYPERLINK TEST DOCUMENT,,,
+,,,
+1 - INTERNAL LINKS,,,
+,,,
+1.1 - INTERNAL LINKS TO OWN SHEET (cell A1),,,
+URL,Hyperlink cell,,
+#A1,#A1,,
+#Sheet1!A1,#Sheet1!A1,,
+#name1,#name1,,
+#Sheet1!name1,#Sheet1!name1,,
+#name2,#name2,,
+#name3,#name3,,
+,,,
+1.2 - INTERNAL LINKS TO OTHER SHEETS (cell A2),,,
+URL,Hyperlink cell,,
+#Sheet2!A2,#Sheet2!A2,,
+#Sheet2!localname,#Sheet2!localname,,
+#'Sheet''!'!A1,#'Sheet''!'!A1,,
+#'Sheet''!'!localname,#'Sheet''!'!localname,,
+,,,
+2 - FILE LINKS,,,
+,,,
+2.1 - LOCAL FILE LINKS,,,
+URL,Hyperlink cell,,
+EXTDATA8.XLS,EXTDATA8.XLS,,
+EXTDATA8.XLS#A1,EXTDATA8.XLS#A1,,
+long_unicode_filename_€.xls,long_unicode_filename_€.xls,,
+long_unicode_filename_€.xls#A1,long_unicode_filename_€.xls#A1,,
+PATH\EXTP8_1.XLS,PATH\EXTP8_1.XLS,,
+PATH\EXTP8_1.XLS#A1,PATH\EXTP8_1.XLS#A1,,
+\PATH\EXTP8_2.XLS,\PATH\EXTP8_2.XLS,,
+\PATH\EXTP8_2.XLS#A1,\PATH\EXTP8_2.XLS#A1,,
+C:\PATH\EXTP8_3.XLS,C:\PATH\EXTP8_3.XLS,,
+C:\PATH\EXTP8_3.XLS#A1,C:\PATH\EXTP8_3.XLS#A1,,
+,,,
+2.2 - UNC PATHS,,,
+URL,Hyperlink cell,,
+\\127.0.0.1\PATH\EXTP8_4.XLS,\\127.0.0.1\PATH\EXTP8_4.XLS,,
+\\127.0.0.1\PATH\EXTP8_4.XLS#A1,\\127.0.0.1\PATH\EXTP8_4.XLS#A1,,
+,,,
+3 - URLS,,,
+,,,
+3.1 - HTTP LINKS,,,
+URL,Hyperlink cell,,
+http://www.example.org/,http://www.example.org/,,
+http://127.0.0.1/PATH/EXTP8_5.XLS,http://127.0.0.1/PATH/EXTP8_5.XLS,,
+http://127.0.0.1/PATH/EXTP8_5.XLS#A1,http://127.0.0.1/PATH/EXTP8_5.XLS#A1,,
+,,,
+3.1 - MAIL LINKS,,,
+URL,Hyperlink cell,,
+mailto:test@example.org,mailto:test@example.org,,
+mailto:test@example.org?subject=subject,mailto:test@example.org?subject=subject,,
+,,,
+4 - OTHER FEATURES,,,
+,,,
+4.1 - TOOLTIPS,,,
+Tooltip,Hyperlink cell,,
+This is a tooltip.,http://www.example.org/,,
+This is another tooltip.,http://www.example.org/,,
+,,,
+"4.2 - CELL TYPES, TEXT FORMATTING",,,
+Cell type,Cell without hyperlink,Cell with hyperlink,With text formatting
+String,STRING,STRING,STRING
+Rich string,RICH STRING,RICH STRING,RICH STRING
+Number,12345,12345,12345
+Boolean,TRUE,TRUE,TRUE
+Error,#DIV/0!,#DIV/0!,#DIV/0!
+String formula,STRING,STRING,STRING
+Number formula,12345,12345,12345
+Boolean formula,TRUE,TRUE,TRUE
+Error formula,#DIV/0!,#DIV/0!,#DIV/0!
+String formula with HYPERLINK function,STRING,STRING,STRING
+Number formula with HYPERLINK function,12345,12345,12345
+Boolean formula with HYPERLINK function,TRUE,TRUE,TRUE
+Error formula with HYPERLINK function,#DIV/0!,#DIV/0!,#DIV/0!
+Single-cell array formulas,STRING,STRING,STRING
+Array formula,STRING,STRING,STRING

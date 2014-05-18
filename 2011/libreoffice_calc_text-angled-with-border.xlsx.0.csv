@@ -1,0 +1,19 @@
+Bordered,,,,,,Vertically bordered,,,,,,Bottom bordered,,,
+"45 degrees, centered",,,,,,"45 degrees, centered",,,,,,"45 degrees, centered",,,
+Field 1,Field 2,Field 3,Field 4,,,Field 1,Field 2,Field 3,Field 4,,,Field 1,Field 2,Field 3,Field 4
+,,,,,,,,,,,,,,,
+"30 degrees, left-aligned",,,,,,"30 degrees, left-aligned",,,,,,"30 degrees, left-aligned",,,
+Field 1,Field 2,Field 3,Field 4,,,Field 1,Field 2,Field 3,Field 4,,,Field 1,Field 2,Field 3,Field 4
+,,,,,,,,,,,,,,,
+"60 degrees, right-aligned",,,,,,"60 degrees, right-aligned",,,,,,"60 degrees, right-aligned",,,
+Field 1,Field 2,Field 3,Field 4,,,Field 1,Field 2,Field 3,Field 4,,,Field 1,Field 2,Field 3,Field 4
+,,,,,,,,,,,,,,,
+No borders,,,,,,,,,,,,,,,
+"45 degrees, centered",,,,,,,,,,,,,,,
+Field 1,Field 2,Field 3,Field 4,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+"30 degrees, left-aligned",,,,,,,,,,,,,,,
+Field 1,Field 2,Field 3,Field 4,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+"60 degrees, right-aligned",,,,,,,,,,,,,,,
+Field 1,Field 2,Field 3,Field 4,,,,,,,,,,,,

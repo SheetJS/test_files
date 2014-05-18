@@ -1,0 +1,44 @@
+PIVOT TABLES LAYOUT TEST DOCUMENT,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+5 - PIVOT DATA FIELD SETTINGS,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+5.1 - DATA FIELD FUNCTION,,,,,,,,,,,,,,,,
+"Sum (6, 0, 6)",,,"Count all (2, 2, 4)",,,"Average (3, #DIV/0!, 3)",,,"Max (4, 0, 4)",,,"Min (2, 0, 2)",,,"Product (8, 0, 8)",
+,,,,,,,,,,,,,,,,
+Field 1,Sum of Field 3,,Field 1,Count of Field 3,,Field 1,Average of Field 3,,Field 1,Max of Field 3,,Field 1,Min of Field 3,,Field 1,Product of Field 3
+Item 1.A,6,,Item 1.A,2,,Item 1.A,3,,Item 1.A,4,,Item 1.A,2,,Item 1.A,8
+Item 1.B,0,,Item 1.B,2,,Item 1.B,#DIV/0!,,Item 1.B,0,,Item 1.B,0,,Item 1.B,0
+Grand Total,6,,Grand Total,4,,Grand Total,3,,Grand Total,4,,Grand Total,2,,Grand Total,8
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+"Count numbers (2, 0, 2)",,,"Std Dev (1.4142, #DIV/0!, 1.4142)",,,"Std Dev Pop (1, #DIV/0!, 1)",,,"Variance (2, #DIV/0!, 2)",,,"Variance Pop (1, #DIV/0!, 1)",,,,
+,,,,,,,,,,,,,,,,
+Field 1,Count of Field 3,,Field 1,StdDev of Field 3,,Field 1,StdDevp of Field 3,,Field 1,Var of Field 3,,Field 1,Varp of Field 3,,,
+Item 1.A,2,,Item 1.A,1.414213562,,Item 1.A,1,,Item 1.A,2,,Item 1.A,1,,,
+Item 1.B,0,,Item 1.B,#DIV/0!,,Item 1.B,#DIV/0!,,Item 1.B,#DIV/0!,,Item 1.B,#DIV/0!,,,
+Grand Total,2,,Grand Total,1.414213562,,Grand Total,1,,Grand Total,2,,Grand Total,1,,,
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+5.2 - SHOW DATA AS (based on Field 1),,,,,,,,,,,,,,,,
+"Normal (2, 3, 5, 7, 11, 13)",,,"Diff. from ""prev."" (-, 1, 2, 2, 4, 2)",,,"Diff. from ""next"" (-1, -2, -2, -4, …)",,,"Diff. from 1.B (-1, -, 2, 4, 8, 10)",,,"Diff. from 1.D (-5, -4, -2, -, 4, 6)",,,"Index (1, 1, 1, 1, 1, 1)",
+,,,,,,,,,,,,,,,,
+Field 1,Sum of Field 2,,Field 1,Sum of Field 2,,Field 1,Sum of Field 2,,Field 1,Sum of Field 2,,Field 1,Sum of Field 2,,Field 1,Sum of Field 2
+Item 1.A,2,,Item 1.A,,,Item 1.A,-1,,Item 1.A,-1,,Item 1.A,-5,,Item 1.A,1
+Item 1.B,3,,Item 1.B,1,,Item 1.B,-2,,Item 1.B,,,Item 1.B,-4,,Item 1.B,1
+Item 1.C,5,,Item 1.C,2,,Item 1.C,-2,,Item 1.C,2,,Item 1.C,-2,,Item 1.C,1
+Item 1.D,7,,Item 1.D,2,,Item 1.D,-4,,Item 1.D,4,,Item 1.D,,,Item 1.D,1
+Item 1.E,11,,Item 1.E,4,,Item 1.E,-2,,Item 1.E,8,,Item 1.E,4,,Item 1.E,1
+Item 1.F,13,,Item 1.F,2,,Item 1.F,,,Item 1.F,10,,Item 1.F,6,,Item 1.F,1
+Grand Total,41,,Grand Total,,,Grand Total,,,Grand Total,,,Grand Total,,,Grand Total,1
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
+"% of ""prev."" (100, 150, 167, 140, …)",,,"% diff. from ""next"" (-33, -40, -28, …)",,,"Running total in (2, 5, 10, 17, …)",,,"% of row (100, 100, 100, …)",,,"% of column (4, 7, 12, 17, 26, 31)",,,"% of total (4, 7, 12, 17, 26, 31)",
+,,,,,,,,,,,,,,,,
+Field 1,Sum of Field 2,,Field 1,Sum of Field 2,,Field 1,Sum of Field 2,,Field 1,Sum of Field 2,,Field 1,Sum of Field 2,,Field 1,Sum of Field 2
+Item 1.A,100.00%,,Item 1.A,-33.33%,,Item 1.A,2,,Item 1.A,100.00%,,Item 1.A,4.88%,,Item 1.A,4.88%
+Item 1.B,150.00%,,Item 1.B,-40.00%,,Item 1.B,5,,Item 1.B,100.00%,,Item 1.B,7.32%,,Item 1.B,7.32%
+Item 1.C,166.67%,,Item 1.C,-28.57%,,Item 1.C,10,,Item 1.C,100.00%,,Item 1.C,12.20%,,Item 1.C,12.20%
+Item 1.D,140.00%,,Item 1.D,-36.36%,,Item 1.D,17,,Item 1.D,100.00%,,Item 1.D,17.07%,,Item 1.D,17.07%
+Item 1.E,157.14%,,Item 1.E,-15.38%,,Item 1.E,28,,Item 1.E,100.00%,,Item 1.E,26.83%,,Item 1.E,26.83%
+Item 1.F,118.18%,,Item 1.F,,,Item 1.F,41,,Item 1.F,100.00%,,Item 1.F,31.71%,,Item 1.F,31.71%
+Grand Total,,,Grand Total,,,Grand Total,,,Grand Total,100.00%,,Grand Total,100.00%,,Grand Total,100.00%

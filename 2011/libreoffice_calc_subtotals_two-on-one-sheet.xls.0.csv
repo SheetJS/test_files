@@ -1,0 +1,19 @@
+Name,Value
+A,1
+A,2
+A Total,3
+B,3
+B,4
+B Total,7
+Grand Total,10
+,
+,
+,
+Name,Value
+A,1
+A,2
+A Average,1.5
+B,3
+B,4
+B Average,3.5
+Grand Average,2.5
