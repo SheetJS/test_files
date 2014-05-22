@@ -68,7 +68,7 @@ excel-reader-xlsx:
 .PHONY: openpyxl
 openpyxl:
 	if [ ! -e openpyxl ]; then hg clone https://bitbucket.org/ericgazoni/openpyxl; fi
-	cd openpyxl; hg pull || echo foo
+	cd openpyxl; hg pull && hg update || echo foo
 	cd openpyxl/openpyxl/tests/test_data/genuine; for i in *.xls*; do cp $$i ../../../../../openpyxl_g_$$i; done
 	cd openpyxl/openpyxl/tests/test_data/reader; for i in *.xls*; do cp $$i ../../../../../openpyxl_r_$$i; done
 

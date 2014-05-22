@@ -520,7 +520,7 @@
    <Row>
     <Cell><Data ss:Type="Number">14</Data></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="DateTime">1933-10-18T16:17:36.960</Data></Cell>
-    <Cell ss:Formula="=NumFmt(RC[-1])"><Data ss:Type="String">m/d/yyyy</Data></Cell>
+    <Cell ss:Formula="=NumFmt(RC[-1])"><Data ss:Type="String">m/d/yy</Data></Cell>
     <Cell ss:Formula="=Dofmt(RC[-2],RC[1])"><Data ss:Type="String">10/18/33</Data></Cell>
     <Cell><Data ss:Type="String" x:Ticked="1">m/d/yy</Data></Cell>
     <Cell ss:StyleID="s74" ss:Formula="=RC[-4]"><Data ss:Type="DateTime">1933-10-18T16:17:36.960</Data></Cell>
@@ -775,7 +775,7 @@
    <Row>
     <Cell><Data ss:Type="Number">14</Data></Cell>
     <Cell ss:StyleID="s74"><Data ss:Type="DateTime">1866-03-13T07:42:23.040</Data></Cell>
-    <Cell ss:Formula="=NumFmt(RC[-1])"><Data ss:Type="String">m/d/yyyy</Data></Cell>
+    <Cell ss:Formula="=NumFmt(RC[-1])"><Data ss:Type="String">m/d/yy</Data></Cell>
     <Cell ss:Formula="=Dofmt(RC[-2],RC[1])"><Data ss:Type="String">3/13/66</Data></Cell>
     <Cell><Data ss:Type="String" x:Ticked="1">m/d/yy</Data></Cell>
     <Cell ss:Formula="=RC[-1]=RC[-3]"><Data ss:Type="Boolean">0</Data></Cell>
