@@ -77,6 +77,8 @@ of Excel h/t @eladxxx).
 
 `cell_style_simple` tests simple cell styles
 
+`formulae_test_simple` tests simple shared and array formulae 
+
 `password_*` tests different password modes in different versions. Name format:
 `password_<ExcelVersion>_<Bits>_<Desc>`. 
 
