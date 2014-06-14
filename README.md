@@ -82,6 +82,8 @@ of Excel h/t @eladxxx).
 `password_*` tests different password modes in different versions. Name format:
 `password_<ExcelVersion>_<Bits>_<Desc>`. 
 
+`sushi` tests the sushi character U+1F363 (h/t @uzulla for identifying issue)
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate
