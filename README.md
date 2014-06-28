@@ -132,6 +132,10 @@ At the time of this writing, it is covered under Apache License, version 2.0
 <http://cgit.freedesktop.org/libreoffice/contrib/test-files/>
 At the time of this writing, it is covered under the GNU Lesser GPL License v3
 
+`ootest` pulls test files at <http://www.openoffice.org/sc/testdocs/index.html>
+Since the license terms are unclear, they are not pulled in the default targets.
+To pull these files, you must explicitly run `make ootest`.
+
 # Requests for Removal
 
 This repo includes derivatives of files from external sources.  According to the
