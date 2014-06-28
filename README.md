@@ -11,7 +11,7 @@ All files contained in root directory are covered under the Apache 2.0 license.
 The `Makefile` can pull files from other projects, which are covered under
 separate licenses (see below).
 
-The files in the 2011 and 2013 subdirectories are derivative outputs generated
+The files in the 2011/2013/biff5 subdirectories are derivative outputs generated
 using the specified version of Microsoft Excel.  Each derivative file of an
 external file is clearly marked with a prefix associated with the source
 (followed by an underscore), and original files do not have any of the source
