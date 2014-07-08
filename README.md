@@ -33,6 +33,9 @@ available within the Excel 2011 UI.  Ultimately there will be international
 versions to test certain features (some require an east-Asian version -- if you
 are reading this and can generate test files, please contribute!)
 
+`number_format_russian` tests the number_format files in Russian (the original
+files were opened in Excel 2013 with russian locale and saved).
+
 `large_strings` tests large strings and a large shared string table.  Larger
 strings are programmatically generated using `CONCATENATE` while the shared
 string table was pulled from <http://longwords.org/longwordslist.html>
