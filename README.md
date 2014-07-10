@@ -88,6 +88,8 @@ of Excel h/t @eladxxx).
 
 `sushi` tests the sushi character U+1F363 (h/t @uzulla for identifying issue)
 
+`defined_names_simple` tests sheet-level and workbook-level defined names
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate
