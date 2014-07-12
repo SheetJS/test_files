@@ -35,7 +35,8 @@ are reading this and can generate test files, please contribute!)
 
 `number_format_*` tests the number_format files in various locales (the original
 files were opened in Excel 2013 with the given locale and saved). In Excel 2013,
-only the BIFF5 workbooks are written with the specific codepages.
+only the BIFF5 workbooks are written with the specific codepages.  For example,
+`number_format_estonian` uses code page 1257.
 
 `large_strings` tests large strings and a large shared string table.  Larger
 strings are programmatically generated using `CONCATENATE` while the shared
