@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:st1="urn:schemas-microsoft-com:office:smarttags">
+ <SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+  name="date" xmlns="urn:schemas-microsoft-com:office:office"/>
+ <SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+  name="stockticker" xmlns="urn:schemas-microsoft-com:office:office"/>
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>glepage</Author>
+  <LastAuthor>glepage</LastAuthor>
+  <Created>2014-07-14T20:38:16Z</Created>
+  <LastSaved>2014-07-14T20:43:12Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10238</WindowHeight>
+  <WindowWidth>20250</WindowWidth>
+  <WindowTopX>60</WindowTopX>
+  <WindowTopY>113</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+  <EmbedSaveSmartTags/>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s17">
+   <NumberFormat ss:Format="&quot;$&quot;#,##0_);[Red]\(&quot;$&quot;#,##0\)"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="51" ss:DefaultRowHeight="14.25">
+   <Column ss:AutoFitWidth="0" ss:Width="102.375"/>
+   <Column ss:Width="57.375"/>
+   <Row>
+    <Cell><Data ss:Type="String">fuzzy whuzzy</Data></Cell>
+    <Cell ss:StyleID="s16"><SmartTags
+      xmlns="urn:schemas-microsoft-com:office:office"><st1:date Year="2014"
+       Day="6" Month="6" ls="trans"/></SmartTags><Data ss:Type="DateTime">2014-06-06T00:00:00.000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><SmartTags xmlns="urn:schemas-microsoft-com:office:office"><st1:stockticker/></SmartTags><Data
+      ss:Type="String">MSFT</Data></Cell>
+    <Cell><Data ss:Type="String">hmm</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><SmartTags xmlns="urn:schemas-microsoft-com:office:office"><st1:stockticker/></SmartTags><Data
+      ss:Type="String">SPY</Data></Cell>
+    <Cell><Data ss:Type="String">ha ha ha</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s17"><Data ss:Type="Number">100000000</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>3</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet2">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="51" ss:DefaultRowHeight="14.25">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Sheet3">
+  <Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="51" ss:DefaultRowHeight="14.25">
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

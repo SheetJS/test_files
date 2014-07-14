@@ -91,6 +91,8 @@ of Excel h/t @eladxxx).
 
 `defined_names_simple` tests sheet-level and workbook-level defined names
 
+`smart_tags_2007` tests some basic smart tag functionality (from Excel 2007)
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate
