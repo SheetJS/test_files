@@ -78,20 +78,23 @@ other formats are truncated to 65536 rows.
 `hyperlink_stress_test_2011` tests different types of hyperlinks
 
 `text_and_numbers` considers text and numbers (generated from a Hebrew version
-of Excel h/t @eladxxx).
+of Excel h/t @elad).
 
 `cell_style_simple` tests simple cell styles
 
-`formulae_test_simple` tests simple shared and array formulae 
+`formulae_test_simple` tests simple shared and array formulae
 
 `password_*` tests different password modes in different versions. Name format:
-`password_<ExcelVersion>_<Bits>_<Desc>`. 
+`password_<ExcelVersion>_<Bits>_<Desc>`.
 
 `sushi` tests the sushi character U+1F363 (h/t @uzulla for identifying issue)
 
 `defined_names_simple` tests sheet-level and workbook-level defined names
 
 `smart_tags_2007` tests some basic smart tag functionality (from Excel 2007)
+
+`A4X_*` tests Dimensions in various XLS writers.  Initially created for gnumeric
+bug 733771: <https://bugzilla.gnome.org/show_bug.cgi?id=733771>
 
 # Getting External Test Files
 
