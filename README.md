@@ -96,6 +96,8 @@ of Excel h/t @elad).
 `A4X_*` tests Dimensions in various XLS writers.  Initially created for gnumeric
 bug 733771: <https://bugzilla.gnome.org/show_bug.cgi?id=733771>
 
+`numfmt_*` tests various number formatting features (h/t @sysarchitect et al)
+
 # Getting External Test Files
 
 All external test files are pulled using the Makefile and fall under separate
