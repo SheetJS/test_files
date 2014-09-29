@@ -69,8 +69,8 @@ excel-reader-xlsx:
 openpyxl:
 	if [ ! -e openpyxl ]; then hg clone https://bitbucket.org/openpyxl/openpyxl; fi
 	cd openpyxl; hg pull && hg update || echo foo
-	cd openpyxl/openpyxl/tests/test_data/genuine; for i in *.xls*; do cp $$i ../../../../../openpyxl_g_$$i; done
-	cd openpyxl/openpyxl/tests/test_data/reader; for i in *.xls*; do cp $$i ../../../../../openpyxl_r_$$i; done
+	cd openpyxl/openpyxl/tests/data/genuine; for i in *.xls*; do cp $$i ../../../../../openpyxl_g_$$i; done
+	cd openpyxl/openpyxl/tests/data/reader; for i in *.xls*; do cp $$i ../../../../../openpyxl_r_$$i; done
 
 # pyExcelerator (Python)
 .PHONY: pyExcelerator
