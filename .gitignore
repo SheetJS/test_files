@@ -12,7 +12,7 @@ spreadsheet-parsexlsx
 oo34xml
 ootest
 libreoffice
-# Files
+# Excel Files
 apachepoi_*.x*
 excel-reader-xlsx_*.x*
 jxls-*_*.x*
@@ -24,3 +24,14 @@ spreadsheet-parsexlsx_*.x*
 oo34xml_*.x*
 ootest_*.x*
 libreoffice_*.x*
+# Other Formats
+apachepoi_*.ods
+excel-reader-xlsx_*.ods
+jxls-*_*.ods
+openpyxl_*.ods
+pyExcelerator_*.ods
+xlrd_*.ods
+roo_*.ods
+spreadsheet-parsexlsx_*.ods
+oo34xml_*.ods
+ootest_*.ods

@@ -3,7 +3,7 @@ SHELL=/bin/bash
 # `github` macro uses svn to clone a subfolder and copy resources up
 # usage: $(call github,user/repo_name,path/to/test/files)
 GSVN=svn co --trust-server-cert --non-interactive
-CPUP=cd $@; for i in *.x* ; do cp "$$i" ../"$@_$$i"; done
+CPUP=cd $@; for i in *.x* *.ods; do if [ -e "$$i" ]; then cp "$$i" ../"$@_$$i"; fi; done
 github = $(GSVN) https://github.com/$(1)/trunk/$(2) $@; $(CPUP)
 
 ## Make Targets
