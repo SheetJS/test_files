@@ -121,6 +121,7 @@ ootest:
 # LibreOffice (Java)
 .PHONY: libreoffice
 libreoffice:
-	if [ ! -e libreoffice ]; then git clone git://anongit.freedesktop.org/libreoffice/contrib/test-files libreoffice; fi;
+	if [ ! -e libreoffice ]; then git clone git://github.com/SheetJS/libreoffice_test-files libreoffice; fi;
+	#if [ ! -e libreoffice ]; then git clone git://gerrit.libreoffice.org/test-files.git libreoffice; fi;
 	cd libreoffice; git pull; cd -
 	find libreoffice/calc -name \*.x\* | while read x; do y=$${x//\//_}; cp "$$x" "$$y"; done
