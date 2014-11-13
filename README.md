@@ -84,6 +84,8 @@ other formats are truncated to 65536 rows.
 
 `hyperlink_stress_test_2011` tests different types of hyperlinks
 
+`hyperlink_no_rels` tests a non-relationship hyperlink (h/t @keemy)
+
 `text_and_numbers` considers text and numbers (generated from a Hebrew version
 of Excel h/t @elad).
 
