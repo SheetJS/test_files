@@ -4,5 +4,5 @@ node_js:
 before_script:
   - "make all"
   - "npm install -g xlsjs xlsx j"
-  - "sudo pip install -r requirements.txt --use-mirrors"
-  - "gem install roo spreadsheet" 
+#  - "sudo pip install -r requirements.txt --use-mirrors"
+#  - "gem install roo spreadsheet" 
