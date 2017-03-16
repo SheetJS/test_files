@@ -1,6 +1,6 @@
 #!/bin/bash
 # test.sh -- testing script
-# Copyright (C) 2013-2014  SheetJS
+# Copyright (C) 2013-present  SheetJS
 # usage:
 #   test.sh prep # installs requisite modules
 #   test.sh clean # removes test logs

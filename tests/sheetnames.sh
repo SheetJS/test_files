@@ -1,8 +1,8 @@
 #!/bin/bash
-# sheetnames.sh -- generate sheet names using Excel 2011 for Mac
-# Copyright (C) 2013-2014  SheetJS
+# sheetnames.sh -- generate sheet names using Excel 2016 for Mac
+# Copyright (C) 2013-present  SheetJS
 
-basedir=${1:-2011}
+basedir=${1:-2016}
 mkdir -p $basedir
 SCPT=./sheetnames.scpt
 if [ ! -e $SCPT ]; then SCPT=./tests/sheetnames.scpt; fi

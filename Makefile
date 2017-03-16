@@ -1,4 +1,4 @@
-# Copyright (C) 2013-2014   SheetJS
+# Copyright (C) 2013-present   SheetJS
 SHELL=/bin/bash
 # `github` macro uses svn to clone a subfolder and copy resources up
 # usage: $(call github,user/repo_name,path/to/test/files)
@@ -8,21 +8,17 @@ github = $(GSVN) https://github.com/$(1)/trunk/$(2) $@; $(CPUP)
 
 ## Make Targets
 
-# Entry Point (init)
 .PHONY: init clean
-init: all
+init: all ## Entry Point (init)
 
-# All files
 .PHONY: all
-all: svn hg git
+all: svn hg git ## All files
 
-# Tests
 .PHONY: test
-test:
+test: ## Run Tests
 	bash test.sh all
 
-# git clean
-clean:
+clean: ## git clean
 	bash test.sh clean
 	git clean -fd
 
@@ -30,7 +26,7 @@ clean:
 .PHONY: svn ghsvn
 svn: apachepoi jxls oo34xml ghsvn
 
-ghsvn: xlrd excel-reader-xlsx pyExcelerator roo spreadsheet-parsexlsx
+ghsvn: xlrd excel-reader-xlsx pyExcelerator roo roo-xls spout-xlsx spout-ods spreadsheet-parsexlsx
 
 # Resources acquired via mercurial
 .PHONY: hg
@@ -41,10 +37,15 @@ hg: openpyxl
 git: libreoffice
 
 # Sheet Names
-.PHONY: 2011
-2011:
+.PHONY: 2016
+2016:
 	tests/sheetnames.sh
 	tests/csv.sh
+
+.PHONY: 2011
+2011:
+	tests/sheetnames.sh 2011
+	tests/csv.sh 2011
 
 ## Acquisition
 
@@ -99,9 +100,20 @@ jxls-src:
 
 # roo (Ruby)
 .PHONY: roo
-
 roo:
 	$(call github,Empact/roo,test/files)
+
+# roo-xls (Ruby)
+.PHONY: roo-xls
+roo-xls:
+	$(call github,roo-rb/roo-xls,test/files)
+
+# spout (PHP)
+.PHONY: spout-xlsx spout-ods
+spout-xlsx:
+	$(call github,box/spout,tests/resources/xlsx/)
+spout-ods:
+	$(call github,box/spout,tests/resources/ods/)
 
 # Spreadsheet::ParseXLSX (Perl)
 .PHONY: spreadsheet-parsexlsx
@@ -125,3 +137,7 @@ libreoffice:
 	#if [ ! -e libreoffice ]; then git clone git://gerrit.libreoffice.org/test-files.git libreoffice; fi;
 	cd libreoffice; git pull; cd -
 	find libreoffice/calc -name \*.x\* | while read x; do y=$${x//\//_}; cp "$$x" "$$y"; done
+
+.PHONY: help
+help:
+	@grep -hE '(^[a-zA-Z_-][ a-zA-Z_-]*:.*?|^#[#*])' $(MAKEFILE_LIST) | bash misc/help.sh

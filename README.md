@@ -137,6 +137,10 @@ At the time of this writing, it is covered under Perl Artistic License.
 <http://openpyxl.readthedocs.org/>
 At the time of this writing, it is covered under the MIT License
 
+`spout` pulls the test battery from the spout project:
+<https://packagist.org/packages/box/spout>
+At the time of this writing, it is covered under the Apache License, version 2.0
+
 `pyExcelerator` pulls the test battery from the pyExcelerator project:
 <https://pypi.python.org/pypi/pyExcelerator>
 At the time of this writing, it is covered under the BSD 4-clause License
@@ -202,4 +206,6 @@ All files contained in this repository are licensed under the Apache 2 License.
 Files external to this repo (acquired via `make`) are licensed under separate
 terms (as indicated in the External Test Files section)
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/1a1b91956aee094414d49d818560a2b5 "githalytics.com")](http://githalytics.com/SheetJS/test_files)
+[![ghit.me](https://ghit.me/badge.svg?repo=sheetjs/js-xlsx)](https://ghit.me/repo/sheetjs/js-xlsx)
+
+[![Analytics](https://ga-beacon.appspot.com/UA-36810333-1/SheetJS/js-xlsx?pixel)](https://github.com/SheetJS/js-xlsx)

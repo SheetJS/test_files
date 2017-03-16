@@ -8,6 +8,9 @@ openpyxl
 pyExcelerator
 xlrd
 roo
+roo-xls
+spout-ods
+spout-xlsx
 spreadsheet-parsexlsx
 oo34xml
 ootest
@@ -20,6 +23,9 @@ openpyxl_*.x*
 pyExcelerator_*.x*
 xlrd_*.x*
 roo_*.x*
+roo-xls_*.x*
+spout-ods_*.x*
+spout-xlsx_*.x*
 spreadsheet-parsexlsx_*.x*
 oo34xml_*.x*
 ootest_*.x*
@@ -32,6 +38,9 @@ openpyxl_*.ods
 pyExcelerator_*.ods
 xlrd_*.ods
 roo_*.ods
+roo-xls_*.ods
+spout-ods_*.ods
+spout-xlsx_*.ods
 spreadsheet-parsexlsx_*.ods
 oo34xml_*.ods
 ootest_*.ods
