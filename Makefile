@@ -107,6 +107,7 @@ roo:
 .PHONY: roo-xls
 roo-xls:
 	$(call github,roo-rb/roo-xls,test/files)
+	bash misc/fix_roo.sh
 
 # spout (PHP)
 .PHONY: spout-xlsx spout-ods

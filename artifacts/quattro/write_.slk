@@ -1,0 +1,17 @@
+ID;PQuattro Pro
+B;X4;Y4
+F;DF0G9
+C;X1;Y1;K1
+C;X2;K2
+C;X3;K3
+C;X1;Y2;K1;ETRUE()
+C;X2;K;EFALSE()
+C;X4;K"sheetjs"
+C;X1;Y3;K"foo"
+C;X2;K"bar"
+F;FF0G
+C;X3;K41689
+C;X4;K0.3
+C;X1;Y4;K"baz"
+C;X3;K"qux"
+E
