@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Microsoft Office User</Author>
+  <LastAuthor>Microsoft Office User</LastAuthor>
+  <Created>2017-03-20T00:26:03Z</Created>
+  <LastSaved>2017-03-20T00:33:00Z</LastSaved>
+  <Version>15.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+  <PixelsPerInch>96</PixelsPerInch>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16880</WindowHeight>
+  <WindowWidth>28160</WindowWidth>
+  <WindowTopX>3640</WindowTopX>
+  <WindowTopY>940</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="4" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="1"/>
+   <Column ss:AutoFitWidth="0" ss:Width="100"/>
+   <Column ss:AutoFitWidth="0" ss:Width="10"/>
+   <Column ss:AutoFitWidth="0" ss:Width="29"/>
+   <Column ss:AutoFitWidth="0" ss:Width="53"/>
+   <Column ss:AutoFitWidth="0" ss:Width="77"/>
+   <Column ss:AutoFitWidth="0" ss:Width="101"/>
+   <Row>
+    <Cell><Data ss:Type="String">default</Data></Cell>
+    <Cell><Data ss:Type="String">W .09</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">W 4</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">W 12</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">W 10</Data></Cell>
+    <Cell><Data ss:Type="String">1 px</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">10 px</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">W 8</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">W 16</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">65 px</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">W 15.83</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String">29 px</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">77 px</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="3"><Data ss:Type="String">100 px</Data></Cell>
+    <Cell><Data ss:Type="String">W .9</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">53 px</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">101 px</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
