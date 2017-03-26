@@ -1,8 +1,8 @@
 #!/bin/bash
 # csv.sh -- generate sheet names and csv output using Excel 2011 for Mac
-# Copyright (C) 2013  SheetJS
+# Copyright (C) 2013-present  SheetJS
 
-basedir=${1:-2011}
+basedir=${1:-2016}
 mkdir -p $basedir
 CSV=./csv.scpt
 SNAME=./sheetnames.scpt
@@ -11,7 +11,7 @@ if [ ! -e $CSV ]; then
 	SNAME=./tests/sheetnames.scpt
 fi
 
-for i in *.xls *.xlsx; do
+for i in *.xls *.xlsx *.xlsm *.xlsb *.xml; do
 	# generate sheetnames output
 	if [ -e "./tests/skips/$i.skip" ]; then continue; fi
 	of="$basedir/$i.sheetnames"
@@ -22,10 +22,11 @@ for i in *.xls *.xlsx; do
 	fi
 
 	if [[ ! -s $of ]]; then continue; fi
-	if [[ ! -s "$basedir/$i.0.csv" && ! -s "$basedir/$i.1.csv" ]]; then
+	if [[ ! -e "$basedir/$i.0.csv" && ! -e "$basedir/$i.1.csv" ]]; then
 		echo CSV "$i"
-		osascript -s o $CSV "$i"
-		mv ~/Desktop/"$i".*.csv $basedir
+		osascript -s o $CSV "$i" 2>&1 | while read x; do
+			if [ -e "$x" ]; then echo "$x"; cp "$x" "$basedir"; fi
+		done
 		sleep 1
 	fi
 done

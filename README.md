@@ -20,6 +20,14 @@ prefixes.  Each derivative file is released under the same terms as the original
 file (and all derivatives of original files are released under the Apache 2.0
 License).
 
+# Excel 2016 for Mac Automation
+
+In previous versions of Excel for Mac, the app could write to any user-writable
+directory.  In 2016, the output fiile must be contained in the quarantine
+`~/Library/Containers/com.microsoft.excel`.  As a result, the AppleScript has
+been changed to write to the aforementioned directory and the accompanying shell
+script copies from the quarantine.
+
 # Manifest
 
 `formula_stress_test` uses every single function available in Excel 2011 in some
