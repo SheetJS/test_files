@@ -1,0 +1,23 @@
+EPQ Visual Check Score Card_v2,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Defect ID,Defect Category,,Defect Severity,,Defect Location,,Visible in Finshed Product?,,Defect Type (optional),,Check Point (match with EPQ defect info),Base Deduction,Multiplier,Total Deduction,"Comments(Location, Color, ect.)"
+1,Print_Clarity,,area < 10x10 mm OR Misregistration,,Live Zone,,No,,Smearing,,Ink Quality,-0.101,1.17,-0.117,
+2,Print_Clarity,,area < 10x10 mm OR Misregistration,,Live Zone,,No,,Mottled Print (pudding/volcanoes),,Ink Transfer / Press Setup,-0.101,1.17,-0.117,
+3,Missing_Print,,Other,,Live Zone,,No,,Skip Out,,Ink Transfer / Press Setup,-0.268,1.17,-0.312,
+4,Print_Clarity,,area < 10x10 mm OR Misregistration,,Live Zone,,No,,Dirty Print,,Ink Transfer / Press Setup,-0.101,1.17,-0.117,
+5,Select,,Select,,Select,,Yes,,Select,,,,--,,
+6,Select,,Select,,Select,,Yes,,Select,,,,--,,
+7,Select,,Select,,Select,,Select,,Select,,,,--,,
+8,Select,,Select,,Select,,Select,,Select,,,,--,,
+9,Select,,Select,,Select,,Select,,Select,,,,--,,
+10,Select,,Select,,Select,,Select,,Select,,,,--,,
+,,,,,,,,,,,Deduction Total,,Total,-0.66,
+,Required,,,,,,,,,,,,,,
+,Optional,,,,,,,,,,Score,,,,
+,"Automatic (Protected, don't touch)",,,,,,,,,,Starting Value,,,5,
+,,,,,,,,,,,Less Deductions,,,-0.66,
+,,,,,,,,,,,Calculated Score,,,4.34,
+,P&G Contact Information:,,"Karen CleaverBaby Care GMDSO6280 Center Hill Ave, Cincinnati, OH 45224+1-513-945-4611",,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,RESTRICTED,,,,,,,,,,,,,,
+,GCAS:92096202,,Version: 002,,,,,,,,,,,,

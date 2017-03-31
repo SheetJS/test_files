@@ -1,0 +1,8 @@
+Employees,
+Name,Payment
+"<jx:forEach items=""${employees}"" var=""employee"">",
+<jx:outline>,
+${employee.name},${employee.payment}
+</jx:outline>,
+</jx:forEach>,
+Sum:,$[SUM(B5)]

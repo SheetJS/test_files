@@ -1,0 +1,31 @@
+Ticket Classes,,
+comment,Create an unlimited ticket class,Create a limited ticket class with a promocode
+eventname,CALENDAR_EVENT_BST1,CALENDAR_EVENT_BST1
+ticketname,unlimited,limited
+security,General,General
+ticketprice,25,10
+taxdeductible,10,9
+ticketinventorylimit,nolimit,limited
+ticketinventory,,10
+userlimit,nolimit,limited
+limitperuser,,2
+promocode,,792
+body,,
+image,,
+create,nil,nil
+verify,nil,nil
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,

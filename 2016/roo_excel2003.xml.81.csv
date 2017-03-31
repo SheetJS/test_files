@@ -1,0 +1,9 @@
+GenericSQLUpdateTasks,,
+tablename,group_members,constituent
+disablehistograms,FALSE,FALSE
+create,nil,
+edit,,nil
+verify,nil,nil
+run_task,nil,nil
+verify_run,nil,nil
+delete_task,,nil

@@ -1,0 +1,8 @@
+SecurityCategory,,,
+comment,Create a security category,,
+name,BST1 Special Members Only,,
+desc,,,
+priority,,,
+convioonly,,,
+create,nil,,
+verify,nil,,

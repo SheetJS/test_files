@@ -1,0 +1,46 @@
+Data,Description
+-120000,Initial cost
+39000,Return first year
+30000,Return second year
+21000,Return third year
+37000,Return fourth year
+46000,Return fifth year
+10%,"Annual interest rate for the 120,000 loan"
+12%,Annual interest rate for the reinvested profits
+0.12609413,MIRR
+,
+,
+-7500,Initial cost
+3000,Return first year
+5000,Return second year
+1200,Return third year
+4000,Return fourth year
+5%,Annual interest rate
+8%,Annual interest rate for the reinvested profits
+18.736225093%,MIRR
+,
+,
+,
+-10000,Initial cost
+3400,Return first year
+6500,Return second year
+1000,Return third year
+7%,Annual interest rate
+10%,Annual interest rate for the reinvested profits
+7.039493966%,MIRR
+,
+10000,Initial cost
+3400,Return first year
+6500,Return second year
+1000,Return third year
+7%,Annual interest rate
+10%,Annual interest rate for the reinvested profits
+#DIV/0!,MIRR
+,
+-10000,Initial cost
+-3400,Return first year
+-6500,Return second year
+-1000,Return third year
+7%,Annual interest rate
+1%,Annual interest rate for the reinvested profits
+-100.00%,MIRR

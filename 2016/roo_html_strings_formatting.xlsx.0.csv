@@ -1,0 +1,7 @@
+This has no formatting.,,,,,,
+This has bold formatting.,This has italics formatting.,This has underline format.,Superscript. x123,SubScript.  Tj,,
+"Bold, italics together.","Bold, Underline together.","Bold, Superscript. xN","Bold, Subscript. Tabc","Italics, Underline together.","Italics, Superscript.  Xabc","Italics, Subscript.  Befg"
+"Bold, italics underline, together.","Bold, italics, superscript. Xabc123","Bold, Italics, subscript. Mgha2","Bold, Underline, superscript. ABC123","Bold, Underline, subscript. GoodXYZ","Italics, Underline, superscript. Upswing","Italics, Underline, subscript. Tswing"
+"Bold, italics, underline, superscript.  GHJK1904","Bold, italics, underline, subscript. Mikedrop",,,,,
+"See that regular html tags do not create html tags.<ol>  <li> Denver Broncos </li>  <li> Carolina Panthers </li>  <li> New England Patriots</li>  <li>Arizona Panthers</li></ol>",,,,,,
+"Does create html tags when formatting is used..<ol>  <li> Denver Broncos </li>  <li> Carolina Panthers </li>  <li> New England Patriots</li>  <li>Arizona Panthers</li></ol>",,,,,,

@@ -1,0 +1,4 @@
+"Method 1: Works with POI: =SUM(Sheet1!C1,Sheet2!C1,Sheet3!C1,Sheet4!C1)",20,2
+Method 2: Doesn't work with POI: =SUM(Sheet1:Sheet4!C1),20,
+,,
+Both methods SUM the C1 cells from all 4 sheets.,,

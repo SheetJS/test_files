@@ -1,0 +1,11 @@
+,Style,Blank,Error,Date,Boolean,String,Int,Float,Cell Formula,Cell Formula with Reference,Cell Formula with Reference spanning multiple rows,Cell Formula with Area Reference,Array Formula,Data Format,Merged,,Merged across multiple rows,
+Source row ->,Red,,#N/A,1/1/00,TRUE,Hello,15,12.5,7,22,Hello World,75,61,$100.20 ,Merged cells,,Merged cells across multiple rows,
+,Blue,,#NAME?,1/2/00,FALSE,World,42,5.5,24,39,World ,75,125,$100.20 ,Merged cells,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+"sheet.copyRows(1, 8, 1)Destination row ->",Should be overwritten,Should be overwritten,Should be overwritten,Should be overwritten,Should be overwritten,Should be overwritten,Should be overwritten,,Should be overwritten,Should be overwritten,Should be overwritten,,Should be overwritten,Should be overwritten,Should be overwritten and merged,,Should NOT be overwritten,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+"sheet.copyRows(1, 8, 2)",Should be overwritten,Should be overwritten,Should be overwritten,Should be overwritten,Should be overwritten,Should be overwritten,Should be overwritten,,Should be overwritten,Should be overwritten,Should be overwritten,,Should be overwritten,Should be overwritten,Should be overwritten and merged,,Should be overwritten,
+"Destination row ->",Should be overwritten,Should be overwritten,Should be overwritten,Should be overwritten,Should be overwritten,Should be overwritten,Should be overwritten,,Should be overwritten,Should be overwritten,,,Should be overwritten,Should be overwritten,Should be overwritten and merged,,Should be overwritten,

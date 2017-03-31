@@ -1,0 +1,12 @@
+Site Data Variables,name,value,verify,clear_caches
+,ADVOCACY_BACKEND_SEND_ENABLED,TRUE,nil,
+,CLICK_TIMEOUT_MINS,1,nil,
+,EMAIL_AUDIENCE_STATS_TASK_INTERVAL,3,nil,
+,EMAIL_DAILY_DELIVERY_TASK_INTERVAL,5,nil,
+,EMAIL_STATS_TASK_INTERVAL,3,nil,
+,AJAX_PROXY_DOMAINS_ALLOWED,search.twitter.com,nil,nil
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,

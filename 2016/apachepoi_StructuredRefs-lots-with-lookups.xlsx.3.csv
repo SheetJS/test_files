@@ -1,0 +1,54 @@
+states,,states,,CATEGORY,FACTOR,COLUMN
+Alabama,,All States,,Category 1,1,2
+Alaska,,Alabama,,Category 2,1,3
+Arizona,,Alaska,,Category 3,1,4
+Arkansas,,Arizona,,Category 4,100,5
+California,,Arkansas,,Category 5,1,6
+Colorado,,California,,Category 6,100,7
+Connecticut,,Colorado,,Category 7,1,8
+Delaware,,Connecticut,,Category 8,1,9
+District of Columbia,,Delaware,,Category 9,1,10
+Florida,,District of Columbia,,Category 10,1,11
+Georgia,,Florida,,Category 11,100,12
+Hawaii,,Georgia,,Category 12,1,13
+Idaho,,Hawaii,,,,
+Illinois,,Idaho,,,,
+Indiana,,Illinois,,,,
+Iowa,,Indiana,,,,
+Kansas,,Iowa,,,,
+Kentucky,,Kansas,,,,
+Louisiana,,Kentucky,,,,
+Maine,,Louisiana,,,,
+Maryland,,Maine,,,,
+Massachusetts,,Maryland,,,,
+Michigan,,Massachusetts,,,,
+Minnesota,,Michigan,,,,
+Mississippi,,Minnesota,,,,
+Missouri,,Mississippi,,,,
+Montana,,Missouri,,,,
+Nebraska,,Montana,,,,
+Nevada,,Nebraska,,,,
+New Hampshire,,Nevada,,,,
+New Jersey,,New Hampshire,,,,
+New Mexico,,New Jersey,,,,
+New York,,New Mexico,,,,
+North Carolina,,New York,,,,
+North Dakota,,North Carolina,,,,
+Ohio,,North Dakota,,,,
+Oklahoma,,Ohio,,,,
+Oregon,,Oklahoma,,,,
+Pennsylvania,,Oregon,,,,
+Puerto Rico,,Pennsylvania,,,,
+Rhode Island,,Puerto Rico,,,,
+South Carolina,,Rhode Island,,,,
+South Dakota,,South Carolina,,,,
+Tennessee,,South Dakota,,,,
+Texas,,Tennessee,,,,
+Utah,,Texas,,,,
+Vermont,,Utah,,,,
+Virginia,,Vermont,,,,
+Washington,,Virginia,,,,
+West Virginia,,Washington,,,,
+Wisconsin,,West Virginia,,,,
+Wyoming,,Wisconsin,,,,
+,,Wyoming,,,,

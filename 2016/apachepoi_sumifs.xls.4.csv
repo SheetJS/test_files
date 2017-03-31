@@ -1,0 +1,11 @@
+Homes,Square Feet,Bedrooms,Baths,Garage,Year built,Price,G
+House1,1200,2,1,yes,1940,"$125,000 ",
+House2,1580,3,1.5,no,1965,"$217,000 ",
+House3,2200,4,3,yes,2003,"$376,000 ",
+House4,1750,3,2.5,yes,2001,"$249,000 ",
+House5,2140,4,3,yes,1998,"$199,000 ",
+>2,yes,y*,,,,,
+Formula,Description,Result,,,,,
+"=SUMIFS(G2:G6,C2:C6,A7,E2:E6,B7,F2:F6,"">1999"",F2:F6,""<2004"")'","Adds the price of those homes that have at least 3 bedrooms, a garage, and are between 5 and 10 years old as of 2009.",625000,,,,,
+"""=AVERAGEIFS(G2:G6,C2:C6,"">2"",E2:E6,C7,F2:F6,"">1999"",F2:F6,""<2004"")""","Returns the average price for homes that have at least 3 bedrooms, a garage, and are between 5 and 10 years old as of 2009.",312500,,,,,
+,,,,,,,

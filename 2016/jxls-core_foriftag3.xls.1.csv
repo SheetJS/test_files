@@ -1,0 +1,12 @@
+"<jx:forEach items=""${deps}"" var=""dep"">",,
+"<jx:forEach items=""${dep.staff}"" var=""employee"">",,
+${employee.name},${employee.payment},${employee.bonus}
+</jx:forEach>,,
+</jx:forEach>,,
+"<jx:if test=""${employees.size() > 0}"">",,
+,SubTotal,
+"<jx:forEach items=""${employees}"" var=""emp"">",,
+${emp.name},,
+</jx:forEach>,,
+</jx:if>,,
+,Total,

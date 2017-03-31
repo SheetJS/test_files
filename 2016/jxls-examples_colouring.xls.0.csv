@@ -1,0 +1,12 @@
+$[0]red_name,$[0]red_age,$[0]red_birthDate,$[0]red_payment,$[0]red_bonus,
+Department,${department.name},,,,$[0]testName
+Chief,,,,,
+Name,Age,Birth date,Payment,Bonus,
+${department.chief.name},${department.chief.age},${department.chief.birthDate},${department.chief.payment},${department.chief.bonus},
+,,,,,
+Employees,,,,,
+Name,Age,Birth Date,Payment,Bonus,
+${department.staff.name},${department.staff.age} years,${department.staff.birthDate},${department.staff.payment},${department.staff.bonus},
+Employee Payment Totals:,,,$[SUM(D9)],,
+,,,,,
+Total payment:,,,,,

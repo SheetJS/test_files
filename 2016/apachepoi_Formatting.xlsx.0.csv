@@ -1,0 +1,13 @@
+"Dates, all 24th November 2006",
+dd/mm/yyyy,11/24/06
+yyyy/mm/dd,2006/11/24
+yyyy-mm-dd,2006-11-24
+yy/mm/dd,06/11/24
+dd/mm/yy,24/11/06
+dd-mm-yy,24-11-06
+,
+"Numbers, all 10.52",
+nn.nn,10.52
+nn.nnn,10.520
+nn.n,10.5
+£nn.nn,£10.52

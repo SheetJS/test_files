@@ -1,0 +1,15 @@
+normal,"this text is normal, sure enough"
+bold,"this text is bold, sure enough"
+italic,this text is italicized sure enough
+underline,"this text is underlined, sure enough"
+sz10,"this text is sz10, sure enough"
+strike,this text is stricken sure enough
+subscript,this text is subscripted sure enough
+superscript,this text is superscripted sure enough
+outline,this text is outlined sure enough
+shadow,this text is shadowed sure enough
+2underline,this text is double underlined sure enough
+accounting,this text is accounting underlined sure enough
+2accounting,this text is double accounting underlined sure enough
+,
+BIU,lets try all combinations of BIU in cell

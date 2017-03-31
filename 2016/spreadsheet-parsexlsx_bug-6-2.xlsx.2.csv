@@ -1,0 +1,46 @@
+APPLICATION,,Required DSG Groups            Copy and Paste Group/Owner  to DSGroups,REQUEST INFORMATION - use color legend on Basic Access tab to determine if additional action is necessary.
+BCSNS,FALSE,,"Requires DSG: BCSNS, PROD, TRNG, TRNG_Overide1"
+,,BCSNS,"BCS NS Access - Chad Goldsmith, Valerie Varner"
+,,PROD,"BCSSENV - Valerie Varner, Teena McCleary"
+,,PROD_Override1,BCSS - Valerie Varner; Chad Goldsmith
+,,TRNG,"BCSSENV - Chad Goldsmith, Valerie Varner"
+,,TRNG_Overide1,"BCSS - Chad Goldsmith, Valerie Varner"
+Additional access beyond basic,FALSE,,Additional access will need to be coordinated via Valerie Varner and might not be easily profiled
+,,,
+Business Objects,FALSE,,request to ME-DW
+,,,
+CMS,FALSE,,Call Center - requests to Valerie Varner/Ron Wilson/Colleen Conner - IT: Requests to ME-TEL Stephen Pean
+,,,
+ELS,FALSE,,UNIX server:  MPMFGDB1 - table access from Andrew Hanson
+,,EILS,Heather Krupp; Andrew Hanson
+,,EILPSUU,"Bonnie Walker, Heather Krupp; Andrew Hanson"
+,,,
+Merchandise Planner Stores,FALSE,,UNIX ACCESS REQUIRED: MMERMPS1- Licensed Software
+MP Stores,FALSE,,Request to Teresa Anderson/Steve Rowland for access
+MP Reporting Stores,,Stores Makoro,Teresa Anderson
+,,,
+Merchandise Planner Stores,FALSE,,Licensed software - UNIX ACCESS REQUIRED: MMERMPS1
+MP Marketing,FALSE,,Request to Mitch Bates for access
+MP Reporting DM,FALSE,DIRM Makoro Users,"John Rogers,Jennifer Estenson, Jesse Shoemaker "
+,,,
+Power2Pay,FALSE,,
+Finance,FALSE,,Request to Sheila Gratsinger/Andee Bylund - ticket to ME-FIN
+Payroll,FALSE,,Request to Denise Williams - ticket to ME-TMS
+,,,
+Profit Access,,,UNIX Access required
+,,,
+,,,
+Peoplesoft Finance,FALSE,,Setup basic profile with attached PS FIN form
+PS FIN 3Tier,FALSE,,requested on PS fin Form
+,,,
+Peoplesoft HR (8),FALSE,,Setup basic profile with attached PS HR form
+,,,
+Remedy,FALSE,,Request sent to ME-REM for access/IT support configuration
+,,,
+Virtual Observer Supervisor,FALSE,,Candace Watkins notified to add to database
+,,VOUsers,Valerie Varner; Chad Goldsmith;Candace Watkins
+,,,
+,,,
+,,,
+,,,
+,,,

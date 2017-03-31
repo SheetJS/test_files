@@ -1,0 +1,4 @@
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,WYSIWYG Links,,,,,,,,,,WYSIWYG Personalization,,,,,,,WYSIWYG Conditional,,,,,WYSIWYG Component
+pagename,version,locationindex,body,linkname,linktarget,linktext,linkpagename,linkaddinterest,linkremoveinterest,linknewwindow,linktitle,linkpromotioncode,linkadditionalargs,personalname,personaltext,personalgroup,personalfield,personalreptype,personalrepstyle,personalrepfields,condname,condgrouptype,condgroupname,condinterest,condtext,compname
+homepage,Convio Default,8,,PageBuilder,AJAX,AJAX,,,,,,,,,,,,,,,,,,,,

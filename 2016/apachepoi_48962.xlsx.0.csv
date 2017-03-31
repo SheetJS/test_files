@@ -1,0 +1,14 @@
+#,Snarf,Status ,Priority,Due Date,Assigned To,Complete?
+1,Research vendors on Google,Complete,High,TBD,Mark,1
+2,Compile list of first round vendors,Complete,High,3/15/08,Mark,0
+3,Ciriculate list to executives for comments,In Progress,Medium,4/30/08,Sue,TRUE
+4,We are going to make this some very long text that absolutely has to wrap around to a new line in just about any width column,Complete,Medium,9-Nove-07,Mark,FALSE
+5,Send list to D&B for details,New,Low,5/30/08,Mary,Y
+6,Review D&B list with executive team,New,Low,6/15/08,Sue,N
+7,Assemble RFP requirements,New,High,30-Jun,Mark,YES
+8,Finalize vendor list,New,High,TBD,Mary,NO
+9,Mail RFPs to vendors,New,High,TBD,Horace,TRUE
+10,Send invite to RFP Q&A to vendors,New,High,TBD,Emil,FALSE
+11,Gather questions from vendors,New,Low,13-Sep,Horace,
+$472.00,($123.00),25.00%,(38245.67),"37,282,734","355,232.32 €",3/17/08
+,,,4/15/08,,,

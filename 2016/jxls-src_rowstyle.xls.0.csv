@@ -1,0 +1,7 @@
+$[0]customRow,,,,,
+Department,${department.name},,,,$[0]testName
+,,,,,
+Employees,,,,,
+Name,Age,Payment,Bonus,Total,
+${department.staff.name},${department.staff.age} years,${department.staff.payment},${department.staff.bonus},$[C6*(1+D6)]//department.staff,
+,,,,$[SUM(E6)],

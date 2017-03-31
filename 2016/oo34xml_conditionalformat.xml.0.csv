@@ -1,0 +1,29 @@
+Rates Table for Policy Renewals,,,,,,,,,,,,,,,,,,1
+,,,,,,,,,,,,,,,,,,2
+Coverage Type,,,,,,,,,,,,,,,,,,3
+,,,,,,,,,,,,,,,,Dental,False,4
+,Medical:,INCLUDED,,Dental Coverage:,EXCLUDED,,Prescription Plan:,INCLUDED,,,,,,,,Pharmaceutical,True,5
+,,,,,,,,,,,,,,,,,,6
+,,,,,,,,,,,,,,,,,,7
+Policy Type,,,,,,,,,,,,,,,,,,8
+,,,,,,,,,,,,,,,,,,9
+,Plan Type,PPO,,Period,Annual,,Company Size,1-9,,,,,,,,,,10
+,,,,,,,,,,,,,,,,,,11
+,,,,,,,,,,,,,,,,,,12
+Options & Limits,,,,,,,,,,,,,,,,,,13
+,,,,,,,,,,,,,,,,,,14
+,Deductible,$500,,Out of Pocket Limit,"$2,500",,Lifetime Limit,"$1,000,000",,,,,,,,,,15
+,,,,,,,,,,,,,,,,,,16
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,Rates,Monthly,,Semi-Annual,,Annual,,,,,,,,,,,
+,,Individual, $54.50 ,, $327.00 ,, $654.00 ,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,Individual & Spouse, $105.75 ,, $634.50 ,," $1,269.00 ",,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,Individual & One Dependent, $112.00 ,, $672.00 ,," $1,344.00 ",,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,Individual & Family, $152.25 ,, $913.50 ,," $1,827.00 ",,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,

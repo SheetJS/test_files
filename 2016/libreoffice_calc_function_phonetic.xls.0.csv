@@ -1,0 +1,16 @@
+Original Text,Phonetic Output,Excel Output,Auto Check,Note
+____,#N/A,_______,#N/A,
+_______________,#N/A,____________________,#N/A,
+______,#N/A,______,#N/A,
+______,#N/A,______,#N/A,
+_________,#N/A,_________,#N/A,"Phonetic does not convert Hiragana into Katakana, but the auto check does not detect this."
+__________,#N/A,___________________,#N/A,
+"123,456.79",#N/A,,#N/A,
+______,#N/A,______,#N/A,
+______________________,#N/A,________________________,#N/A,
+________,#N/A,__________,#N/A,
+__________,#N/A,__________,#N/A,"Calc does not differentiate half-width and full-width Katakana's, so the outputs must be checked manually."
+______________,#N/A,______________,#N/A,
+_________,#N/A,_________,#N/A,
+_______(123456789),#N/A,___________(123456789),#N/A,
+_______(123456789)___,#N/A,___________(123456789)_____,#N/A,

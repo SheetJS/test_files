@@ -1,0 +1,275 @@
+Solid,,,,,,,Tint,,,,,
+,L,a,b,C,H,,,L,a,b,C,H
+ref 1,63.27,-57.83,-7.6,58.32725692,187.4868873,,ref 1,81.19,-24.08,-3.61,24.34909649,188.5261115
+sample 1,63.63,-60.62,-7.76,61.115,187.295,,sample 1,76.5,-29.3,-4.05,29.579,187.870
+,,,,,,,,,,,,
+_L=,-0.36,SL=,1.224769,l=,2,,_L=,4.69,SL=,1.367347,l=,2
+_a=,2.79,SC=,2.747464,c=,1,,_a=,5.22,SC=,1.815789,c=,1
+_b=,0.16,SH=,2.086423,,,,_b=,0.44,SH=,1.380507,,
+_C=,-2.787406,T=,0.759380,_E CMC=,1.03,,_C=,-5.229485,T=,0.759633,_E CMC=,3.36
+_H=,0.200172,F=,0.999918,,,,_H=,0.307382,F=,0.997308,,
+,,,,,,,,,,,,
+LX'=,63.450000,T=,0.940006977,_E2000=,0.82,,LX'=,78.845000,T=,0.939967539,_E2000=,4.12
+C1=,58.327257,Dh',-0.191991,,,,C1=,24.349096,Dh',-0.596954,,
+C2=,61.114663,DL'=,0.360000,,,,C2=,29.578582,DL'=,-4.690000,,
+CX=,59.720960,DC'=,2.788976,,,,CX=,26.963839,DC'=,5.768046,,
+G=,0.000562,DH'=,-0.200174,,,,G=,0.103348,DH'=,-0.307941,,
+a1'=,-57.862513,SL=,1.191445,,,,a1'=,-26.568625,SL=,1.427567,,
+a2'=,-60.654081,SC=,3.688929,,,,a2'=,-32.328103,SC=,2.336355,,
+C1'=,58.359493,SH=,1.842537,,,,C1'=,26.812757,SH=,1.418710,,
+C2'=,61.148468,TH=,0.000139,,,,C2'=,32.580803,TH=,0.000141,,
+CX'=,59.753980,RC=,1.997760,,,,CX'=,29.696780,RC=,1.754352,,
+h1'=,187.482728,RT=,-0.000010,,,,h1'=,187.737653,RT=,-0.000009,,
+h2'=,187.290737,KL=,1.000000,,,,h2'=,187.140699,KL=,1.000000,,
+HX'=,187.386732,KC=,1.000000,,,,HX'=,187.439176,KC=,1.000000,,
+,,KH=,1.000000,,,,,,KH=,1.000000,,
+,,,,,,,,,,,,
+ref 2,91,2.2,71,71.03407633,88.22520568,,ref 2,92.96,-0.39,29.15,29.1526088,90.76651873
+sample 2,88.06,0.63,71.73,71.733,89.497,,sample 2,91.67,0.15,34.01,34.010,89.747
+,,,,,,,,,,,,
+_L=,2.94,SL=,1.430741,l=,2,,_L=,1.29,SL=,1.442410,l=,2
+_a=,1.57,SC=,2.985508,c=,1,,_a=,-0.54,SC=,1.983928,c=,1
+_b=,-0.73,SH=,1.729171,,,,_b=,-4.86,SH=,1.179101,,
+_C=,-0.698690,T=,0.579173,_E CMC=,1.4,,_C=,-4.857722,T=,0.593793,_E CMC=,2.53
+_H=,1.584182,F=,0.999963,,,,_H=,0.560122,F=,0.998687,,
+,,,,,,,,,,,,
+LX'=,89.530000,T=,0.61034406,_E2000=,2.09,,LX'=,92.315000,T=,0.619494287,_E2000=,2.2
+C1=,71.034076,Dh',1.271787,,,,C1=,29.152609,Dh',-1.062601,,
+C2=,71.732767,DL'=,-2.940000,,,,C2=,34.010331,DL'=,-1.290000,,
+CX=,71.383421,DC'=,0.698680,,,,CX=,31.581470,DC'=,4.857524,,
+G=,0.000161,DH'=,1.584438,,,,G=,0.042569,DH'=,-0.583966,,
+a1'=,2.200355,SL=,1.589191,,,,a1'=,-0.406602,SL=,1.631210,,
+a2'=,0.630102,SC=,4.212254,,,,a2'=,0.156385,SC=,2.421172,,
+C1'=,71.034087,SH=,1.653527,,,,C1'=,29.152836,SH=,1.293469,,
+C2'=,71.732767,TH=,0.000000,,,,C2'=,34.010360,TH=,0.000000,,
+CX'=,71.383427,RC=,1.999354,,,,CX'=,31.581598,RC=,1.829727,,
+h1'=,88.224919,RT=,0.000000,,,,h1'=,90.799145,RT=,0.000000,,
+h2'=,89.496707,KL=,1.000000,,,,h2'=,89.736543,KL=,1.000000,,
+HX'=,88.860813,KC=,1.000000,,,,HX'=,90.267844,KC=,1.000000,,
+,,KH=,1.000000,,,,,,KH=,1.000000,,
+,,,,,,,,,,,,
+ref 3,74.93,36.54,75.89,84.22863943,64.28981922,,ref 3,84.16,19.04,30.21,35.70946233,57.77861912
+sample 3,73.13,37.12,75.62,84.239,63.855,,sample 3,84.41,17.07,27.43,32.308,58.106
+,,,,,,,,,,,,
+_L=,1.8,SL=,1.321954,l=,2,,_L=,-0.25,SL=,1.387472,l=,2
+_a=,-0.58,SC=,3.192816,c=,1,,_a=,1.97,SC=,2.190169,c=,1
+_b=,0.27,SH=,1.355613,,,,_b=,2.78,SH=,0.831723,,
+_C=,-0.010774,T=,0.424571,_E CMC=,0.83,,_C=,3.401726,T=,0.379391,_E CMC=,1.57
+_H=,0.639675,F=,0.999981,,,,_H=,0.193797,F=,0.999416,,
+,,,,,,,,,,,,
+LX'=,74.030000,T=,0.601634391,_E2000=,1.38,,LX'=,84.285000,T=,0.623614205,_E2000=,1.37
+C1=,84.228639,Dh',-0.435120,,,,C1=,35.709462,Dh',0.330597,,
+C2=,84.239414,DL'=,-1.800000,,,,C2=,32.307736,DL'=,0.250000,,
+CX=,84.234027,DC'=,0.010800,,,,CX=,34.008599,DC'=,-3.432244,,
+G=,0.000051,DH'=,-0.639701,,,,G=,0.026699,DH'=,0.197472,,
+a1'=,36.541853,SL=,1.354365,,,,a1'=,19.548340,SL=,1.509955,,
+a2'=,37.121882,SC=,4.790568,,,,a2'=,17.525744,SC=,2.542013,,
+C1'=,84.229443,SH=,1.760179,,,,C1'=,35.983075,SH=,1.320540,,
+C2'=,84.240243,TH=,0.000000,,,,C2'=,32.550831,TH=,0.000000,,
+CX'=,84.234843,RC=,1.999797,,,,CX'=,34.266953,RC=,1.898303,,
+h1'=,64.288684,RT=,0.000000,,,,h1'=,57.093831,RT=,0.000000,,
+h2'=,63.853564,KL=,1.000000,,,,h2'=,57.424428,KL=,1.000000,,
+HX'=,64.071124,KC=,1.000000,,,,HX'=,57.259129,KC=,1.000000,,
+,,KH=,1.000000,,,,,,KH=,1.000000,,
+,,,,,,,,,,,,
+ref 4,,,,#VALUE!,#VALUE!,,ref 4,,,,#VALUE!,#VALUE!
+sample 4,0,0,0,0.000,#DIV/0!,,sample 4,0,0,0,0.000,#DIV/0!
+,,,,,,,,,,,,
+_L=,#VALUE!,SL=,#VALUE!,l=,2,,_L=,#VALUE!,SL=,#VALUE!,l=,2
+_a=,#VALUE!,SC=,#VALUE!,c=,1,,_a=,#VALUE!,SC=,#VALUE!,c=,1
+_b=,#VALUE!,SH=,#VALUE!,,,,_b=,#VALUE!,SH=,#VALUE!,,
+_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!,,_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!
+_H=,#VALUE!,F=,#VALUE!,,,,_H=,#VALUE!,F=,#VALUE!,,
+,,,,,,,,,,,,
+LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!,,LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!
+C1=,#VALUE!,Dh',#VALUE!,,,,C1=,#VALUE!,Dh',#VALUE!,,
+C2=,0.000000,DL'=,#VALUE!,,,,C2=,0.000000,DL'=,#VALUE!,,
+CX=,#VALUE!,DC'=,#VALUE!,,,,CX=,#VALUE!,DC'=,#VALUE!,,
+G=,#VALUE!,DH'=,#VALUE!,,,,G=,#VALUE!,DH'=,#VALUE!,,
+a1'=,#VALUE!,SL=,#VALUE!,,,,a1'=,#VALUE!,SL=,#VALUE!,,
+a2'=,#VALUE!,SC=,#VALUE!,,,,a2'=,#VALUE!,SC=,#VALUE!,,
+C1'=,#VALUE!,SH=,#VALUE!,,,,C1'=,#VALUE!,SH=,#VALUE!,,
+C2'=,#VALUE!,TH=,#VALUE!,,,,C2'=,#VALUE!,TH=,#VALUE!,,
+CX'=,#VALUE!,RC=,#VALUE!,,,,CX'=,#VALUE!,RC=,#VALUE!,,
+h1'=,#VALUE!,RT=,#VALUE!,,,,h1'=,#VALUE!,RT=,#VALUE!,,
+h2'=,#VALUE!,KL=,1.000000,,,,h2'=,#VALUE!,KL=,1.000000,,
+HX'=,#VALUE!,KC=,1.000000,,,,HX'=,#VALUE!,KC=,1.000000,,
+,,KH=,1.000000,,,,,,KH=,1.000000,,
+,,,,,,,,,,,,
+ref 5,,,,#VALUE!,#VALUE!,,ref 5,,,,#VALUE!,#VALUE!
+sample 5,0,0,0,0.000,#DIV/0!,,sample 5,0,0,0,0.000,#DIV/0!
+,,,,,,,,,,,,
+_L=,#VALUE!,SL=,#VALUE!,l=,2,,_L=,#VALUE!,SL=,#VALUE!,l=,2
+_a=,#VALUE!,SC=,#VALUE!,c=,1,,_a=,#VALUE!,SC=,#VALUE!,c=,1
+_b=,#VALUE!,SH=,#VALUE!,,,,_b=,#VALUE!,SH=,#VALUE!,,
+_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!,,_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!
+_H=,#VALUE!,F=,#VALUE!,,,,_H=,#VALUE!,F=,#VALUE!,,
+,,,,,,,,,,,,
+LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!,,LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!
+C1=,#VALUE!,Dh',#VALUE!,,,,C1=,#VALUE!,Dh',#VALUE!,,
+C2=,0.000000,DL'=,#VALUE!,,,,C2=,0.000000,DL'=,#VALUE!,,
+CX=,#VALUE!,DC'=,#VALUE!,,,,CX=,#VALUE!,DC'=,#VALUE!,,
+G=,#VALUE!,DH'=,#VALUE!,,,,G=,#VALUE!,DH'=,#VALUE!,,
+a1'=,#VALUE!,SL=,#VALUE!,,,,a1'=,#VALUE!,SL=,#VALUE!,,
+a2'=,#VALUE!,SC=,#VALUE!,,,,a2'=,#VALUE!,SC=,#VALUE!,,
+C1'=,#VALUE!,SH=,#VALUE!,,,,C1'=,#VALUE!,SH=,#VALUE!,,
+C2'=,#VALUE!,TH=,#VALUE!,,,,C2'=,#VALUE!,TH=,#VALUE!,,
+CX'=,#VALUE!,RC=,#VALUE!,,,,CX'=,#VALUE!,RC=,#VALUE!,,
+h1'=,#VALUE!,RT=,#VALUE!,,,,h1'=,#VALUE!,RT=,#VALUE!,,
+h2'=,#VALUE!,KL=,1.000000,,,,h2'=,#VALUE!,KL=,1.000000,,
+HX'=,#VALUE!,KC=,1.000000,,,,HX'=,#VALUE!,KC=,1.000000,,
+,,KH=,1.000000,,,,,,KH=,1.000000,,
+,,,,,,,,,,,,
+ref 6,,,,#VALUE!,#VALUE!,,ref 6,,,,#VALUE!,#VALUE!
+sample 6,0,0,0,0.000,#DIV/0!,,sample 6,0,0,0,0.000,#DIV/0!
+,,,,,,,,,,,,
+_L=,#VALUE!,SL=,#VALUE!,l=,2,,_L=,#VALUE!,SL=,#VALUE!,l=,2
+_a=,#VALUE!,SC=,#VALUE!,c=,1,,_a=,#VALUE!,SC=,#VALUE!,c=,1
+_b=,#VALUE!,SH=,#VALUE!,,,,_b=,#VALUE!,SH=,#VALUE!,,
+_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!,,_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!
+_H=,#VALUE!,F=,#VALUE!,,,,_H=,#VALUE!,F=,#VALUE!,,
+,,,,,,,,,,,,
+LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!,,LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!
+C1=,#VALUE!,Dh',#VALUE!,,,,C1=,#VALUE!,Dh',#VALUE!,,
+C2=,0.000000,DL'=,#VALUE!,,,,C2=,0.000000,DL'=,#VALUE!,,
+CX=,#VALUE!,DC'=,#VALUE!,,,,CX=,#VALUE!,DC'=,#VALUE!,,
+G=,#VALUE!,DH'=,#VALUE!,,,,G=,#VALUE!,DH'=,#VALUE!,,
+a1'=,#VALUE!,SL=,#VALUE!,,,,a1'=,#VALUE!,SL=,#VALUE!,,
+a2'=,#VALUE!,SC=,#VALUE!,,,,a2'=,#VALUE!,SC=,#VALUE!,,
+C1'=,#VALUE!,SH=,#VALUE!,,,,C1'=,#VALUE!,SH=,#VALUE!,,
+C2'=,#VALUE!,TH=,#VALUE!,,,,C2'=,#VALUE!,TH=,#VALUE!,,
+CX'=,#VALUE!,RC=,#VALUE!,,,,CX'=,#VALUE!,RC=,#VALUE!,,
+h1'=,#VALUE!,RT=,#VALUE!,,,,h1'=,#VALUE!,RT=,#VALUE!,,
+h2'=,#VALUE!,KL=,1.000000,,,,h2'=,#VALUE!,KL=,1.000000,,
+HX'=,#VALUE!,KC=,1.000000,,,,HX'=,#VALUE!,KC=,1.000000,,
+,,KH=,1.000000,,,,,,KH=,1.000000,,
+,,,,,,,,,,,,
+ref 7,,,,#VALUE!,#VALUE!,,ref 7,,,,#VALUE!,#VALUE!
+sample 7,0,0,0,0.000,#DIV/0!,,sample 7,0,0,0,0.000,#DIV/0!
+,,,,,,,,,,,,
+_L=,#VALUE!,SL=,#VALUE!,l=,2,,_L=,#VALUE!,SL=,#VALUE!,l=,2
+_a=,#VALUE!,SC=,#VALUE!,c=,1,,_a=,#VALUE!,SC=,#VALUE!,c=,1
+_b=,#VALUE!,SH=,#VALUE!,,,,_b=,#VALUE!,SH=,#VALUE!,,
+_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!,,_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!
+_H=,#VALUE!,F=,#VALUE!,,,,_H=,#VALUE!,F=,#VALUE!,,
+,,,,,,,,,,,,
+LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!,,LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!
+C1=,#VALUE!,Dh',#VALUE!,,,,C1=,#VALUE!,Dh',#VALUE!,,
+C2=,0.000000,DL'=,#VALUE!,,,,C2=,0.000000,DL'=,#VALUE!,,
+CX=,#VALUE!,DC'=,#VALUE!,,,,CX=,#VALUE!,DC'=,#VALUE!,,
+G=,#VALUE!,DH'=,#VALUE!,,,,G=,#VALUE!,DH'=,#VALUE!,,
+a1'=,#VALUE!,SL=,#VALUE!,,,,a1'=,#VALUE!,SL=,#VALUE!,,
+a2'=,#VALUE!,SC=,#VALUE!,,,,a2'=,#VALUE!,SC=,#VALUE!,,
+C1'=,#VALUE!,SH=,#VALUE!,,,,C1'=,#VALUE!,SH=,#VALUE!,,
+C2'=,#VALUE!,TH=,#VALUE!,,,,C2'=,#VALUE!,TH=,#VALUE!,,
+CX'=,#VALUE!,RC=,#VALUE!,,,,CX'=,#VALUE!,RC=,#VALUE!,,
+h1'=,#VALUE!,RT=,#VALUE!,,,,h1'=,#VALUE!,RT=,#VALUE!,,
+h2'=,#VALUE!,KL=,1.000000,,,,h2'=,#VALUE!,KL=,1.000000,,
+HX'=,#VALUE!,KC=,1.000000,,,,HX'=,#VALUE!,KC=,1.000000,,
+,,KH=,1.000000,,,,,,KH=,1.000000,,
+,,,,,,,,,,,,
+ref 8,,,,#VALUE!,#VALUE!,,ref 8,,,,#VALUE!,#VALUE!
+sample 8,0,0,0,0.000,#DIV/0!,,sample 8,0,0,0,0.000,#DIV/0!
+,,,,,,,,,,,,
+_L=,#VALUE!,SL=,#VALUE!,l=,2,,_L=,#VALUE!,SL=,#VALUE!,l=,2
+_a=,#VALUE!,SC=,#VALUE!,c=,1,,_a=,#VALUE!,SC=,#VALUE!,c=,1
+_b=,#VALUE!,SH=,#VALUE!,,,,_b=,#VALUE!,SH=,#VALUE!,,
+_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!,,_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!
+_H=,#VALUE!,F=,#VALUE!,,,,_H=,#VALUE!,F=,#VALUE!,,
+,,,,,,,,,,,,
+LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!,,LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!
+C1=,#VALUE!,Dh',#VALUE!,,,,C1=,#VALUE!,Dh',#VALUE!,,
+C2=,0.000000,DL'=,#VALUE!,,,,C2=,0.000000,DL'=,#VALUE!,,
+CX=,#VALUE!,DC'=,#VALUE!,,,,CX=,#VALUE!,DC'=,#VALUE!,,
+G=,#VALUE!,DH'=,#VALUE!,,,,G=,#VALUE!,DH'=,#VALUE!,,
+a1'=,#VALUE!,SL=,#VALUE!,,,,a1'=,#VALUE!,SL=,#VALUE!,,
+a2'=,#VALUE!,SC=,#VALUE!,,,,a2'=,#VALUE!,SC=,#VALUE!,,
+C1'=,#VALUE!,SH=,#VALUE!,,,,C1'=,#VALUE!,SH=,#VALUE!,,
+C2'=,#VALUE!,TH=,#VALUE!,,,,C2'=,#VALUE!,TH=,#VALUE!,,
+CX'=,#VALUE!,RC=,#VALUE!,,,,CX'=,#VALUE!,RC=,#VALUE!,,
+h1'=,#VALUE!,RT=,#VALUE!,,,,h1'=,#VALUE!,RT=,#VALUE!,,
+h2'=,#VALUE!,KL=,1.000000,,,,h2'=,#VALUE!,KL=,1.000000,,
+HX'=,#VALUE!,KC=,1.000000,,,,HX'=,#VALUE!,KC=,1.000000,,
+,,KH=,1.000000,,,,,,KH=,1.000000,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+ref 9,,,,#VALUE!,#VALUE!,,ref 9,,,,#VALUE!,#VALUE!
+sample 9,0,0,0,0.000,#DIV/0!,,sample 9,0,0,0,0.000,#DIV/0!
+,,,,,,,,,,,,
+_L=,#VALUE!,SL=,#VALUE!,l=,2,,_L=,#VALUE!,SL=,#VALUE!,l=,2
+_a=,#VALUE!,SC=,#VALUE!,c=,1,,_a=,#VALUE!,SC=,#VALUE!,c=,1
+_b=,#VALUE!,SH=,#VALUE!,,,,_b=,#VALUE!,SH=,#VALUE!,,
+_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!,,_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!
+_H=,#VALUE!,F=,#VALUE!,,,,_H=,#VALUE!,F=,#VALUE!,,
+,,,,,,,,,,,,
+LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!,,LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!
+C1=,#VALUE!,Dh',#VALUE!,,,,C1=,#VALUE!,Dh',#VALUE!,,
+C2=,0.000000,DL'=,#VALUE!,,,,C2=,0.000000,DL'=,#VALUE!,,
+CX=,#VALUE!,DC'=,#VALUE!,,,,CX=,#VALUE!,DC'=,#VALUE!,,
+G=,#VALUE!,DH'=,#VALUE!,,,,G=,#VALUE!,DH'=,#VALUE!,,
+a1'=,#VALUE!,SL=,#VALUE!,,,,a1'=,#VALUE!,SL=,#VALUE!,,
+a2'=,#VALUE!,SC=,#VALUE!,,,,a2'=,#VALUE!,SC=,#VALUE!,,
+C1'=,#VALUE!,SH=,#VALUE!,,,,C1'=,#VALUE!,SH=,#VALUE!,,
+C2'=,#VALUE!,TH=,#VALUE!,,,,C2'=,#VALUE!,TH=,#VALUE!,,
+CX'=,#VALUE!,RC=,#VALUE!,,,,CX'=,#VALUE!,RC=,#VALUE!,,
+h1'=,#VALUE!,RT=,#VALUE!,,,,h1'=,#VALUE!,RT=,#VALUE!,,
+h2'=,#VALUE!,KL=,1.000000,,,,h2'=,#VALUE!,KL=,1.000000,,
+HX'=,#VALUE!,KC=,1.000000,,,,HX'=,#VALUE!,KC=,1.000000,,
+,,KH=,1.000000,,,,,,KH=,1.000000,,
+,,,,,,,,,,,,
+ref 10,,,,#VALUE!,#VALUE!,,ref 10,,,,#VALUE!,#VALUE!
+sample 10,0,0,0,0.000,#DIV/0!,,sample 10,0,0,0,0.000,#DIV/0!
+,,,,,,,,,,,,
+_L=,#VALUE!,SL=,#VALUE!,l=,2,,_L=,#VALUE!,SL=,#VALUE!,l=,2
+_a=,#VALUE!,SC=,#VALUE!,c=,1,,_a=,#VALUE!,SC=,#VALUE!,c=,1
+_b=,#VALUE!,SH=,#VALUE!,,,,_b=,#VALUE!,SH=,#VALUE!,,
+_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!,,_C=,#VALUE!,T=,#VALUE!,_E CMC=,#VALUE!
+_H=,#VALUE!,F=,#VALUE!,,,,_H=,#VALUE!,F=,#VALUE!,,
+,,,,,,,,,,,,
+LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!,,LX'=,#VALUE!,T=,#VALUE!,_E2000=,#VALUE!
+C1=,#VALUE!,Dh',#VALUE!,,,,C1=,#VALUE!,Dh',#VALUE!,,
+C2=,0.000000,DL'=,#VALUE!,,,,C2=,0.000000,DL'=,#VALUE!,,
+CX=,#VALUE!,DC'=,#VALUE!,,,,CX=,#VALUE!,DC'=,#VALUE!,,
+G=,#VALUE!,DH'=,#VALUE!,,,,G=,#VALUE!,DH'=,#VALUE!,,
+a1'=,#VALUE!,SL=,#VALUE!,,,,a1'=,#VALUE!,SL=,#VALUE!,,
+a2'=,#VALUE!,SC=,#VALUE!,,,,a2'=,#VALUE!,SC=,#VALUE!,,
+C1'=,#VALUE!,SH=,#VALUE!,,,,C1'=,#VALUE!,SH=,#VALUE!,,
+C2'=,#VALUE!,TH=,#VALUE!,,,,C2'=,#VALUE!,TH=,#VALUE!,,
+CX'=,#VALUE!,RC=,#VALUE!,,,,CX'=,#VALUE!,RC=,#VALUE!,,
+h1'=,#VALUE!,RT=,#VALUE!,,,,h1'=,#VALUE!,RT=,#VALUE!,,
+h2'=,#VALUE!,KL=,1.000000,,,,h2'=,#VALUE!,KL=,1.000000,,
+HX'=,#VALUE!,KC=,1.000000,,,,HX'=,#VALUE!,KC=,1.000000,,
+,,KH=,1.000000,,,,,,KH=,1.000000,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,

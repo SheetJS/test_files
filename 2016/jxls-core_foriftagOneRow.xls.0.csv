@@ -1,0 +1,5 @@
+"<jx:forEach items=""${departments}"" var=""department"">",,,,,,,,,
+Department,${department.name},,,,,,,,
+Employees,"<jx:forEach items=""${department.staff}"" var=""employee"">",${employee.name},"<jx:if test=""${employee.payment > 2000}"">",${employee.payment},</jx:if>,"<jx:if test=""${employee.payment <= 2000}"">",${employee.payment},</jx:if>,</jx:forEach>
+,"<jx:forEach items=""${department.staff}"" var=""employee"">",,"<jx:if test=""${employee.payment > 2000}"">",${employee.bonus},</jx:if>,"<jx:if test=""${employee.payment <= 2000}"">",${employee.bonus},</jx:if>,</jx:forEach>
+</jx:forEach>,,,,,,,,,

@@ -1,0 +1,13 @@
+String,___,"&'"";<>",&amp;
+Integer,1,2,-3
+Float,1.5,0.3,1.23457E+22
+Boolean,TRUE,FALSE,
+Date,2/14/14,,
+2 Decimals Built-in format #2,1.50,,
+Time Built-in format #18,12:00 PM,,
+Percentage Built-in format #9,50.00%,,
+Percentage Custom format,50.000%,,
+Duration 36 hours format #46,36:00:00,,
+Formula,String1,,
+A simple comment,cell with comment,,
+A full comment,cell with comment,,

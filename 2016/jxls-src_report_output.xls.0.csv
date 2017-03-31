@@ -1,0 +1,66 @@
+Employees,,,,
+Name,Payment,Bonus,Total,Department
+John,1800,20.00%,2160,IT
+Neil,2300,25.00%,2875,IT
+Denise,2400,20.00%,2880,BA
+Oleg,1500,25.00%,1875,IT
+LeAnn,2200,10.00%,2420,BA
+Cat,1900,10.00%,2090,HR
+Keith,1800,20.00%,2160,HR
+Natali,1700,15.00%,1955,BA
+Olga,1400,15.00%,1610,HR
+Maria,2400,10.00%,2640,IT
+Elsa,3000,30.00%,3900,IT
+Helen,2100,5.00%,2205,HR
+Totals:,,,28770,
+SQL grouping test,,,,
+Department: BA,,,,
+Employees,,,,
+Name,Payment,Bonus,Total,
+Denise,2400,20.00%,2880,
+LeAnn,2200,10.00%,2420,
+Natali,1700,15.00%,1955,
+Totals:,,,7255,
+Department: HR,,,,
+Employees,,,,
+Name,Payment,Bonus,Total,
+Cat,1900,10.00%,2090,
+Keith,1800,20.00%,2160,
+Olga,1400,15.00%,1610,
+Helen,2100,5.00%,2205,
+Totals:,,,8065,
+Department: IT,,,,
+Employees,,,,
+Name,Payment,Bonus,Total,
+John,1800,20.00%,2160,
+Neil,2300,25.00%,2875,
+Oleg,1500,25.00%,1875,
+Maria,2400,10.00%,2640,
+Elsa,3000,30.00%,3900,
+Totals:,,,13450,
+SQL subqueries test,,,,
+Department: IT,,,,
+Employees,,,,
+Name,Payment,Bonus,Total,
+Elsa,3000,30.00%,3900,
+Oleg,1500,25.00%,1875,
+Neil,2300,25.00%,2875,
+Maria,2400,10.00%,2640,
+John,1800,20.00%,2160,
+Totals:,,,13450,
+Department: HR,,,,
+Employees,,,,
+Name,Payment,Bonus,Total,
+Olga,1400,15.00%,1610,
+Helen,2100,5.00%,2205,
+Keith,1800,20.00%,2160,
+Cat,1900,10.00%,2090,
+Totals:,,,8065,
+Department: BA,,,,
+Employees,,,,
+Name,Payment,Bonus,Total,
+Denise,2400,20.00%,2880,
+LeAnn,2200,10.00%,2420,
+Natali,1700,15.00%,1955,
+Totals:,,,7255,
+Grand Total,,,28770,

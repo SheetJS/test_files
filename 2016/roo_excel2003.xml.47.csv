@@ -1,0 +1,16 @@
+,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,WYSIWYG Links,,,,,,,,,,WYSIWYG Personalization,,,,,,,WYSIWYG Conditional,,,,,WYSIWYG Component
+pagename,version,locationindex,body,linkname,linktarget,linktext,linkpagename,linkaddinterest,linkremoveinterest,linknewwindow,linktitle,linkpromotioncode,linkadditionalargs,personalname,personaltext,personalgroup,personalfield,personalreptype,personalrepstyle,personalrepfields,condname,condgrouptype,condgroupname,condinterest,condtext,compname
+homepage,Convio Default,1,,Donation Classic Form,DONATION_PREMIUM_BST1,DONATION_PREMIUM_BST1,,,,,,,,,,,,,,,,,,,,
+homepage,Convio Default,1,,Donation Classic Form,DONATION_USERSPEC_BST1,DONATION_USERSPEC_BST1,,,,,,,,,,,,,,,,,,,,
+homepage,Convio Default,1,,Events,CALENDAR_EVENT_BST1,CALENDAR_EVENT_BST1,,,,,,,,,,,,,,,,,,,,
+homepage,Convio Default,1,,Events,CALENDAR_EVENT_BST1,CALENDAR_EVENT_PROMO_BST1,,,,,,792,,,,,,,,,,,,,,
+homepage,Convio Default,1,,Action Alert,ACTION_ALERT_BST1,ACTION_ALERT_BST1,,,,,,,,,,,,,,,,,,,,
+homepage,Convio Default,1,,Survey,SURVEY_CRI_BST1,SURVEY_CRI_BST1,,,,,,,,,,,,,,,,,,,,
+homepage,Convio Default,1,,Survey,SURVEY_BST1,SURVEY_BST1,,,,,,,,,,,,,,,,,,,,
+homepage,Convio Default,1,,TeamRaiser,TEAMRAISER_BST1,TEAMRAISER_BST1,,,,,,,,,,,,,,,,,,,,
+homepage,Convio Default,1,,Club,CLUB_BST1,CLUB_BST1,,,,,,,,,,,,,,,,,,,,
+homepage,Convio Default,1,,User Story,BST1 cars,CARS_BST1,,,,,,,,,,,,,,,,,,,,
+homepage,Convio Default,1,,Document Library,DOCUMENT_TITLE_BST1,DOCUMENT_BST1,,,,,,,,,,,,,,,,,,,,
+homepage,Convio Default,1,,Rewards,Reward List,BST1_REWARDS_LIST,,,,,,,,,,,,,,,,,,,,
+homepage,Convio Default,1,,PageBuilder,SPECIAL_OFFER_BST1,SPECIAL_OFFER_BST1,,,,,,,,,,,,,,,Is in group,BST1 Special Members,BST1 Special Members,,,

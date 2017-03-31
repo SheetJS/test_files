@@ -1,0 +1,7 @@
+0,,FruitName,TreeHeight,HarvestYield,,FruitName,TreeHeight
+$0.00 ,,Apple,15,2,,=Apple,>10
+0.785398163,,Banana,15,3,,,
+$1.00,,Apple,15,4,,,
+abc,,Apple,5,5,,,
+FALSE,,,,,,,
+8,,,,,,,

@@ -1,0 +1,9 @@
+Department,${department.name},,,,,,,$[0]testName
+,,,,,,,,
+Employees,,,,,,,,
+Name://department.staff,${department.staff.name}//:4,,,,,,,
+Age:,${department.staff.age},,,,,,,
+Payment:,${department.staff.payment},Bonus:,${department.staff.bonus},Superior Name:,${department.staff.superior.name},,,
+Birth Date:,${department.staff.birthDate},,,Superior Payment:,${department.staff.superior.payment},,,
+Total:,,,,,,,,
+,,,,,,,,

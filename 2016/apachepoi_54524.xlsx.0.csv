@@ -1,0 +1,6 @@
+,1. About the situation,2. What I wanna do,3. The problem
+1,,,
+2,,,
+3,_ There is a formula in A4 to sum the value in A2:A3.,"_ I wanna shift this rows(4~6) up by 1 row. The code is _sheet.shiftRows(3, 5, -1);_.",_ I got an error when FormulaShifter#rowMoveAreaPtg(AreaPtgBase) is called.
+X,,,
+X,,,

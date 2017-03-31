@@ -1,0 +1,4 @@
+Flag Name,Value,Description
+Title,Single-format Conditional Tests,
+Categories,,Run only tests that have this category
+AllColors,True,Run the test with all standard colors specified

@@ -1,0 +1,6 @@
+Employees,,,
+Name,Payment,Bonus,Total
+"<jx:forEach items=""${rm.exec(""SELECT d.name depname, e.name empname, age, payment, bonus, birthDate FROM employee e, department d where d.id = e.depid AND birthDate > '1975-01-01' AND birthDate < '"" + minDate + ""' order by age desc"")}"" var=""employee"">",,,
+${employee.empname},${employee.payment},${employee.bonus},$[B4*(1+C4)]
+</jx:forEach>,,,
+Totals:,,,$[SUM(D4)]

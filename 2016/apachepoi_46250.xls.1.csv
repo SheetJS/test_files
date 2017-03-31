@@ -1,0 +1,16 @@
+Auto Turnover Instructions,,
+,,
+Step 1,Enter Account Info,
+Step 2,Save Copy of Order,
+,,File - Save As - Account Name and Date
+Step 3,Enter Order Details,
+,,Distributor Item #
+,,# Cases
+,,Discount
+Step 4,Replace Formulas,
+,,Copy All Item rows
+,,Paste Special over Same Rows - Values
+,,Highlight all cells with #N/A and Clear Contents
+Step 6,Save Final Order,
+,,
+Don't Forget to replace the formulas with values and clear #N/A,,

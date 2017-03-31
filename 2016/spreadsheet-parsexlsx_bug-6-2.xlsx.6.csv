@@ -1,0 +1,11 @@
+,Mainframe/RACF,FALSE,,
+,model account after:,FALSE,,<--choose a user ID to model account after
+,VISION,FALSE,,Request to Dawn Frick
+,,,,
+,,,,
+,SERVER,,Description,
+,UNIX,FALSE,,
+,MPMFGDB1,FALSE,ELS Server,
+,MMERMPS1,FALSE,Merchandise Planner (Either Version),
+,MPMKDB1,FALSE,Marketing Database,
+,MPRMS1,FALSE,Profit Server,

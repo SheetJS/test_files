@@ -1,0 +1,28 @@
+Enrollment Restrictions Applied to Small Group Rx PPO/PoS Plans before Building Continuance Tables,,,,,,,,,,,,,
+Not including 12 month or newborn enrollment restriction,,,,,,,,,,,,,
+All Small Group PPO/PoS plans with over 50 members in the Small Group Market with Positive Rx Enrollment:,,,,,,,,,,,,,
+,,Enrollment Composition,,,,,,,,,,,
+,,Ages 0 to 6,,Ages 7 to 18,,Ages 19 to 25,,Ages 26 to 40,,Ages 41 to 54,,Ages 55 to 64,
+# PCCs,# Members,Male,Female,Male,Female,Male,Female,Male,Female,Male,Female,Male,Female
+"25,740","2,333,641",4.1%,4.0%,8.5%,8.1%,5.3%,5.1%,13.0%,12.7%,13.3%,13.1%,6.5%,6.4%
+,,,,,,,,,,,,,
+# PCCs with 100% Zero Spending: 299,,,,,,,,,,,,,
+# PCCs with Negative Empirical AV overall: 1,,,,,,,,,,,,,
+"# Members Excluded due to Restriction: 28,312",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Enrollment Composition After Excluding Plans with Zero Spending,,,,,,,,,,,,,
+,,Enrollment Composition,,,,,,,,,,,
+,,Ages 0 to 6,,Ages 7 to 18,,Ages 19 to 25,,Ages 26 to 40,,Ages 41 to 54,,Ages 55 to 64,
+# PCCs,# Members,Male,Female,Male,Female,Male,Female,Male,Female,Male,Female,Male,Female
+"25,441","2,305,329",4.1%,3.9%,8.4%,8.0%,5.2%,5.0%,12.9%,12.6%,13.2%,13.0%,6.4%,6.3%
+,,,,,,,,,,,,,
+# PCCs with Imputed Actual Coinsurance Not Bounded between 0 and 100%: 20,,,,,,,,,,,,,
+"# Members Excluded due to Restriction: 1,616",,,,,,,,,,,,,
+"# Members Excluded due to Gender=""U"" : 155",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Final Count for Sample:,,,,,,,,,,,,,
+All Members,"2,333,641",,,,,,,,,,,,
+Minus Zero Spending and Negative AV,"-28,312",,,,,,,,,,,,
+Minus Imputed Coinsurance Restriction,"-1,616",,,,,,,,,,,,
+"Minus Gender=""U""",-155,,,,,,,,,,,,
+Final Count,"2,303,558",,,,,,,,,,,,

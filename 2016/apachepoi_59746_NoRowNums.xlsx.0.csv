@@ -1,0 +1,72 @@
+Checked,Ion,Charge,Molecular Weight,m/z,RT [min],FWHM [min],# MI,Area,Parent Area [%],Study File ID
+TRUE,[M+Na]+1,1,644.24222,667.23145,8.346,0.177,3,259103.2486,98.495,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,644.24221,8.346,0.177,3,2,263061.9986,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,644.24221,8.347,263311.5871,263311.5871,TRUE,,
+TRUE,[M+H]+1,1,588.38396,589.39124,15.023,0.073,3,224221.7953,100,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,588.38396,15.023,0.073,3,1,224221.7953,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,588.38396,15.023,224221.7953,224221.7953,TRUE,,
+TRUE,[M+H]+1,1,376.12944,377.13672,12.512,0.199,2,210507.1714,100,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,376.12944,12.512,0.199,2,1,210507.1714,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,376.12944,12.512,210507.1714,210507.1714,TRUE,,
+TRUE,[M+H]+1,1,225.94431,226.95158,15.754,0.463,1,207077.274,100,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,225.94431,15.754,0.463,1,1,207077.274,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,225.94431,15.754,207077.274,207077.274,TRUE,,
+TRUE,[M+H]+1,1,362.11409,363.12137,10.839,0.127,3,205749.4758,100,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,362.11409,10.839,0.127,3,1,205749.4758,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,362.11409,10.839,205749.4758,205749.4758,TRUE,,
+TRUE,[M+H]+1,1,362.11409,363.12137,8.306,0.086,2,191654.2027,76.536,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,362.11405,8.306,0.086,2,2,250410.3167,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,362.11405,8.306,250410.3167,250410.3167,TRUE,,
+TRUE,[M+H]+1,1,568.30736,569.31464,6.272,0.129,3,164705.9878,100,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,568.30736,6.272,0.129,3,1,164705.9878,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,568.30736,6.272,164705.9878,164705.9878,TRUE,,
+TRUE,[M+H]+1,1,700.38555,701.39282,6.621,0.073,3,163704.1929,100,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,700.38555,6.621,0.073,3,1,163704.1929,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,700.38555,6.621,163704.1929,163704.1929,TRUE,,
+TRUE,[M+H]+1,1,225.94495,226.95222,12.551,1.517,2,157044.0948,100,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,225.94495,12.551,1.517,2,1,157044.0948,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,225.94495,12.551,157044.0948,157044.0948,TRUE,,
+TRUE,[M+H]+1,1,808.51274,809.52002,14.667,0.071,3,143900.8263,86.479,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,808.51293,14.667,0.071,3,2,166399.038,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,808.51293,14.667,166399.038,166399.038,TRUE,,
+TRUE,[M+H-H2O]+1,1,362.11391,345.11063,8.314,0.093,1,58756.11404,23.464,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,362.11405,8.306,0.086,2,2,250410.3167,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,362.11405,8.306,250410.3167,250410.3167,TRUE,,
+TRUE,[M+H+Na]+2,2,808.51412,416.25531,14.683,0.076,1,22498.21162,13.521,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,808.51293,14.667,0.071,3,2,166399.038,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,808.51293,14.667,166399.038,166399.038,TRUE,,
+TRUE,[M+H]+1,1,644.2412,645.24847,8.362,0.165,2,3958.749991,1.505,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,644.24221,8.346,0.177,3,2,263061.9986,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,644.24221,8.347,263311.5871,263311.5871,TRUE,,
+TRUE,[M+H]+1,1,644.2412,645.24847,8.726,0.226,1,249.5884594,100,F1
+,Checked,Molecular Weight,RT [min],FWHM [min],Max. # MI,# Adducts,Area,Study File ID,,
+,TRUE,644.2412,8.726,0.226,1,1,249.5884594,F1,,
+,,Checked,Name,Molecular Weight,RT [min],Area (Max.),"Group Area: F1, Sample",Best Compound,,
+,,TRUE,,644.24221,8.347,263311.5871,263311.5871,FALSE,,
+,,,,,,,,,,

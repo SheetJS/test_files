@@ -1,0 +1,13 @@
+Testing Map access,
+,
+Name:,"${map.get(""Name"")}"
+Surname:,${map.get('Surname')}
+Employees:,
+"<jx:forEach items=""${map.get('employees')}"" var=""employee"">",
+${employee.name},${employee.payment}
+</jx:forEach>,
+,
+,
+Empty Variable,${emptyVar}
+,
+Null Variable,${nullVar}

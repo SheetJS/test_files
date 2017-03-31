@@ -1,0 +1,35 @@
+Data Validation Tests,Values,Expected Valid,,,List Values,,Date Start,1/1/99
+Any with value,any,TRUE,,,1,,Date End,12/31/60
+"text length without value, empty allowed",,TRUE,,,1.1,,Time Start,9:00 AM
+"text length without value, empty not allowed",,FALSE,,,1.2,,Time End,14:00
+Integer valid,1,TRUE,,,1.3,,formula true,TRUE
+Integer text,any,FALSE,,,1.4,,formula false,FALSE
+Integer non-int,9.1,FALSE,,,1.5,,formula error,#DIV/0!
+Decimal valid,1.1,TRUE,,,1.6,,formula text,text
+Decimal text,any,FALSE,,,1.7,,formula number,-1
+List valid text different case,TEST,TRUE,,,1.8,,formula number,0
+List invalid text,invalid,FALSE,,,Test,,formula number,1
+List invalid boolean,TRUE,FALSE,,,FALSE,,,
+List valid boolean,FALSE,TRUE,,,8:00 AM,,,
+List valid number,1.1,TRUE,,,,,,
+list invalid number,1.9,FALSE,,,,,,
+list text number with number options,1.1,FALSE,,,,,,
+"date valid, different format than constant constants",1/1/00 15:00,TRUE,,,,,,
+"date valid, different format than range cells",5/23/10 20:00,TRUE,,,,,,
+date out of range,1/1/98,FALSE,,,,,,
+"time valid, different format than range constants",2:00 PM,TRUE,,,,,,
+"time valid, different format than range cells",13:00,TRUE,,,,,,
+text length invalid,too short,FALSE,,,,,,
+text length valid,this is long enough to pass,TRUE,,,,,,
+text length valid with multi-byte unicode characters,________12,TRUE,"24 bytes, 10 characters",,,,,
+formula boolean true result,valid,TRUE,,,,,,
+formula boolean false result,invalid,FALSE,,,,,,
+formula error result,error,FALSE,,,,,,
+formula text result (should be invalid),invalid,FALSE,,,,,,
+"decimal valid value, > invalid cell ref value",9.7,FALSE,,,,,,
+"decimal valid value, >  empty cell ref value",10.7,TRUE,,,,,,
+"decimal too big value, > blank < valid # cell",10.7,TRUE,,,,,,
+"decimal valid value, > valid # cell < blank",11.7,TRUE,,,,,,
+formula numeric result,numeric formula,TRUE,,,,,,
+formula numeric result,numeric formula,FALSE,,,,,,
+formula numeric result,numeric formula,TRUE,,,,,,

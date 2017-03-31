@@ -1,0 +1,27 @@
+Single Value,,
+Value,Formula,Excel 97
+0,0,0
+,0,0
+Text,0,0
+1,1,1
+TRUE,1,1
+FALSE,0,0
+,0,0
+1.2,0,0
+1.2,1.2,1.2
+-23.4,-23.4,-23.4
+(inline value),1,1
+(inline value),0,0
+(inline value),1,1
+(inline value),0,0
+(inline value),0,0
+(inline value),0,0
+(inline value),0,0
+,,
+Range Value (should take the top-left value),,
+,0,0
+,1,1
+,0,0
+,1.2,1.2
+,1,1
+,4,4

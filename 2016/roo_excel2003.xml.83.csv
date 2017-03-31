@@ -1,0 +1,45 @@
+,,,,,,
+,pagename,AJAX,,,,
+,version,v1,,,,
+,locationindex,0,,,,
+,body,,,,,
+,editor_html,"<script
+src=""http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js""></script>
+<script type=""text/javascript"">// <![CDATA[
+$(function(){
+    $.ajax({
+        type:'GET',
+
+url:'AjaxProxy?cnv_url=[[T1:http://search.twitter.com/search.json?q=convio&rpp=5]]&auth=[[S86:true]]',
+        success:function(data){
+            document.write(data);
+        }
+    });
+});
+// ]]></script>
+<p>Ajax</p>
+<p>&nbsp;</p>",,,,
+WYSIWYG Links,linkname,,,,,
+,linktarget,,,,,
+,linktext,,,,,
+,linkpagename,,,,,
+,linkaddinterest,,,,,
+,linkremoveinterest,,,,,
+,linknewwindow,,,,,
+,linktitle,,,,,
+,linkpromotioncode,,,,,
+,linkadditionalargs,,,,,
+WYSIWYG Personalization,personalname,,,,,
+,personaltext,,,,,
+,personalgroup,,,,,
+,personalfield,,,,,
+,personalreptype,,,,,
+,personalrepstyle,,,,,
+,personalrepfields,,,,,
+WYSIWYG Conditional,condname,,,,,
+,condgrouptype,,,,,
+,condgroupname,,,,,
+,condinterest,,,,,
+,condtext,,,,,
+WYSIWYG Component,compname,,,,,
+,create,nil,,,,

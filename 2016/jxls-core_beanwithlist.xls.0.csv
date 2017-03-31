@@ -1,0 +1,5 @@
+Bean with List Test,,,
+Name:,${listBean.name},,
+Other.Name,Double Value,Integer Value,Date Value
+${listBean.beans.name},${listBean.beans.doubleValue},${listBean.beans.other.intValue},${listBean.beans.dateValue}
+Last Row,,,

@@ -1,0 +1,11 @@
+Security Category Permissions,,,,
+,comment,Add permissions to the security category,The default should be Cannot View Content,The override should be set for the special members
+,securitycategoryname,BST1 Special Members Only,BST1 Special Members Only,BST1 Special Members Only
+,permissiontype,Content Viewing,Content Viewing,Content Viewing
+,permissiondefault,Cannot View Content,Cannot View Content,View Content
+Overrides,overridegrouptype,BST1,,
+,overridegroupname,BST1 Special Members,,BST1 Special Members
+,overridecategoryname,,,
+,overridedefault,View Content in the Category,,
+,create,nil,,
+,verify,,nil,nil

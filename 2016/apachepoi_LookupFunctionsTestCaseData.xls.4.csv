@@ -1,0 +1,78 @@
+,Sheet Comment:,Simple tests of HLOOKUP using basic argument values,,,,,,,Lookup Table,,,,,,,,,,,,,,
+,,,,,,,,,5,30,30,45,46,47,50,75,80,81,,,,,
+,Formula,Expected Result,Comment,,lookup_value,col_index_num,range_lookup,,r0,r1,r2,r3,r4,r5,r6,r7,r8,r9,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,2,2,,,,,,,,,,,,,,,,,,,,,
+,r3,r3,,,45,2,FALSE,,,,,,,,,,,,,,,,
+,r1,r1,first occurence of 30,,30,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,55,2,FALSE,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,r3,r3,,,45,2,TRUE,,,,,,,,,,,,,,,,
+,r2,r2,last occurence of 30,,30,2,TRUE,,,,,,,,,,,,,,,,
+,r6,r6,,,55,2,TRUE,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,2,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,2,2,TRUE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,90,2,FALSE,,,,,,,,,,,,,,,,
+,r9,r9,,,90,2,TRUE,,,,,,,,,,,,,,,,
+bad row arg,,,,,,,,,,,,,,,,,,,,,,,
+,#REF!,#REF!,,,45,#DIV/0,TRUE,,,,,,,,,,,,,,,,
+,#VALUE!,#VALUE!,,,45,,TRUE,,,,,,,,,,,,,,,,
+,#REF!,#REF!,col index too high,,45,5,TRUE,,,,,,,,,,,,,,,,
+,#VALUE!,#VALUE!,,,45,-1,TRUE,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+Wildcard values,,,,,,,"If FALSE, HLOOKUP will find an exact match.  If one is not found, the error value #N/A is returned.",,Lookup Table,,,,,,,,,,,,,,
+,something1,something1,,,BLA*,2,FALSE,,BLA16,BLA23567,MEIER1234,BLA,BLATST234,MEIER3456,SOMEBLA,Apache POI for excel,Got bugs?,Oh...is this a bug now??,3*2=6,(Apache)(POI),$not beginning,"simple vector [2,3,4]",not at the end ^
+,something2,something2,,,BLA2*,2,FALSE,,something1,something2,something3,something4,something5,something6,something7,something8,something9,something10,something11,something12,something13,something14,something15
+,something6,something6,,,*IER3*,2,FALSE,,,,,,,,,,,,,,,,
+,something3,something3,,,*IER1*,2,FALSE,,,,,,,,,,,,,,,,
+,something7,something7,,,SOME???,2,FALSE,,,,,,,,,,,,,,,,
+,something2,something2,,,BLA?3567,2,FALSE,,,,,,,,,,,,,,,,
+,something5,something5,,,BLA*34,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,CanNotBefound*,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,CanNotBefou?d,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,*POI for*,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,*bugs~?,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,*now~?~?,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,3~*2=6,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,$not*,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,*[2*,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,*^,2,FALSE,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,"If TRUE or omitted, an approximate match isreturned. In other words, if an exact match isnot found, the next largest value that is less than lookup_value is returned. ",,,,,,,,,,,,,,,,
+,something4,something4,,,BLA*,2,TRUE,,,,,,,,,,,,,,,,
+,something4,something4,,,BLA2*,2,TRUE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,*IER3*,2,TRUE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,*IER1*,2,TRUE,,,,,,,,,,,,,,,,
+,something6,something6,,,SOME???,2,TRUE,,,,,,,,,,,,,,,,
+,something4,something4,,,BLA?3567,2,TRUE,,,,,,,,,,,,,,,,
+,something4,something4,,,BLA*34,2,TRUE,,,,,,,,,,,,,,,,
+,something5,something5,,,CanNotBefound*,2,TRUE,,,,,,,,,,,,,,,,
+,something5,something5,,,CanNotBefou?d,2,TRUE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,*POI for*,2,TRUE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,*bugs~?,2,TRUE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,*now~?~?,2,TRUE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,3~*2=6,2,TRUE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,$not*,2,TRUE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,*[2*,2,TRUE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,*^,2,TRUE,,,,,,,,,,,,,,,,
+Complex Wildcards values,,,,,,,"If FALSE, HLOOKUP will find an exact match.  If one is not found, the error value #N/A is returned.",,,,,,,,,,,,,,,,
+,something1,something1,,,BLA,2,FALSE,,,,,,,,,,,,,,,,
+,something2,something2,,,BLA2,2,FALSE,,,,,,,,,,,,,,,,
+,something6,something6,,,IER3,2,FALSE,,,,,,,,,,,,,,,,
+,something3,something3,,,IER1,2,FALSE,,,,,,,,,,,,,,,,
+,something7,something7,,,SOME,2,FALSE,,,,,,,,,,,,,,,,
+,something2,something2,,,BLA,2,FALSE,,,,,,,,,,,,,,,,
+,something5,something5,,,BLA,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,CanNotBefound,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,CanNotBefou,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,,,POI for,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,bugs,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,now,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,3,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,$not,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,[2,2,FALSE,,,,,,,,,,,,,,,,
+,#N/A,#N/A,"literal characters that have special meaning in regex",,^,2,FALSE,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,
+<end>,,,,,,,,,,,,,,,,,,,,,,,

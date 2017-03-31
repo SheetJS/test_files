@@ -1,0 +1,19 @@
+UserStory,,
+,linkname,CARS_BST1
+,loginfirst,TRUE
+,username,user_js_1
+,password,pass_js_1
+,firstname,
+,lastname,
+,address1,
+,address2,
+,city,
+,state,
+,zip,
+,email,
+,emailoptin,
+,title,test story
+,summary,race car
+,contents,yo mtv raps
+,photo,
+,verify_user_story,nil

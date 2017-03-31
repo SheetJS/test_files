@@ -1,0 +1,12 @@
+tasks,,
+taskname,Duplicate Finder,Duplicate Finder
+name,Test_task,Test_task
+description,Task description,Task Description
+email,nomatchemail,nomatchemail
+othercriteria,sameadd,simname
+create,nil,
+edit,,nil
+verify,nil,nil
+run_task,nil,nil
+verify_run,nil,nil
+delete_task,,nil

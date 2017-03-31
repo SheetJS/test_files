@@ -1,0 +1,6 @@
+Node ID   ,Node Name,Parent1 Node ID,Parent1 Name,Parent2 Node ID,Parent2 Name,Parent3 Node ID,Parent3 Name,Parent4 Node ID,Parent4 Name,Parent5 Node ID,Parent5 Name,Parent6 Node ID,Parent6 Name,Parent7 Node ID,Parent 7 Name,Products Hierarchy Path,Node Type,Node display name (Less than 5 words),Subtype,Image Standards File Name,Node Notation  (Brief description 120 chars),Node Definition (1000 Char),Synonyms (Semi colon separated list),Implementation Priority Number
+16010,Entertainment_Media,,,,,,,,,,,,,,,Entertainment_Media,Root Node,,,,,,,
+16087,Movies_and_TV_Shows,16010,Entertainment_Media,,,,,,,,,,,,,Entertainment_Media>Movies_and_TV_Shows,Branch Node,,,,,,,
+16387,Movies,16087,Movies_and_TV_Shows,16010,Entertainment_Media,,,,,,,,,,,Entertainment_Media>Movies_and_TV_Shows>Movies,Leaf Node,,,,,,,
+16388,TV_Shows,16087,Movies_and_TV_Shows,16010,Entertainment_Media,,,,,,,,,,,Entertainment_Media>Movies_and_TV_Shows>TV_Shows,Leaf Node,,,,,,,
+16389,Music,16010,Entertainment_Media,,,,,,,,,,,,,Entertainment_Media>Music>,Leaf Node,,,,,,,

@@ -1,0 +1,8 @@
+Employees,,,,
+Name,Payment,Bonus,,
+${employee.name},${employee.payment},${employee.bonus},,
+,,,,
+,,,,
+,,,,
+,,,,
+,$[SUM(@employee.payment@)],,,

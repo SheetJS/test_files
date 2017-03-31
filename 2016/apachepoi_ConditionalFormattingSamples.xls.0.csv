@@ -1,0 +1,24 @@
+ ,,,
+,,,
+,,,
+,,,
+,"To navigate to the  worksheet you want to see, click the worksheet name button in the Worksheet column.",,
+,"To return to this Home worksheet, click the Home button                       in the top left cell.",,
+,,,
+,Worksheet,Rule Type,Description
+,,Cell value,"Find specific numbers, dates, and text in a list of products"
+,,Cell value (with formula),See a dynamically changed number or text value in a list of products
+,,"Top/bottom valuesAbove/below average","Identify top, bottom, and above average values in a recent book tour report"
+,,Top/bottom values,Determine who are the top two students in the class
+,,Unique/duplicate,Find duplicate rows in a list of customers
+,,Icon set,Quickly see revenue status and trends from one quarter to the next
+,,Icon set,Compare different product criteria by using a rating scale
+,,Icon set,Examine profit trends from month to month
+,,Icon set,"Identify regional sales below $900,000"
+,,Data bars,Compare heights of the tallest mountains
+,,3  color scale,Examine overall sales distributions in key product categories
+,,Formula-based,Shade alternate rows in a range
+,,Formula-based,Compare data in a cell outside the conditionally formatted range of cells
+,,Formula-based,Shade an entire row where several criteria must be true
+,,Formula-based,Shade an entire row if the row is a unique value
+,,,

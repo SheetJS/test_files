@@ -1,0 +1,12 @@
+,,Several lists in row,,,,,
+Static table 1,,Name:,${listBean.name},,,Static table 2,
+Header 1,Header 2,Other.Name,Double Value,Sum,Int Value,First,Second
+Name: ${bean.name},${bean.doubleValue},${listBean.beans.name},${listBean.beans.doubleValue},$[D# + F#]//listBean.beans,${listBean.beans.intValue},Name: ${bean.name},
+Merged - ${bean.intValue},,Last Row,,,,Int value:,${bean.intValue}
+Final Row,,,,,,Final Row,${bean.doubleValue}
+,,,,,,Constant 1,
+,,,,,,Constant 2,
+,,,,,,Constant 3,
+,,,,,,Constant 4,
+,,,,,,Constant 5,
+,,,,,,Constant 6,

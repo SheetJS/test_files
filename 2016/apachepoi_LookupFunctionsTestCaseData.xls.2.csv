@@ -1,0 +1,41 @@
+,Sheet Comment:,Tests of VLOOKUP using some unusual argument values,,,,,,,Lookup Table,,
+,,,,,,,,,5,r0,s0
+,Formula,Expected Result,Comment,,lookup_value,col_index_num,range_lookup,,30,r1,s1
+,,,,,,,,,30,r2,s2
+Odd values for col_index_num,,,,,,,,,45,r3,s3
+,47,47,key column,,47,1,FALSE,,46,r4,s4
+,r5,r5,,,47,2,FALSE,,47,r5,s5
+,s5,s5,something besides 2,,47,3,FALSE,,50,r6,s6
+,#REF!,#REF!,column 4 out of range,,47,4,FALSE,,75,r7,s7
+,r5,r5,scientific notation,,47,2.99,FALSE,,80,r8,s8
+,r5,r5,scientific notation,,47,2.99E+00,FALSE,,81,r9,s9
+,r5,r5,,,47,2,FALSE,,,,
+,#VALUE!,#VALUE!,,,47,0.9,FALSE,,,,
+,#REF!,#REF!,,,47,5.1,FALSE,,,,
+<skip>,r5,r5,text scientific notation not supported yet,,47,29.9e-1,FALSE,,,,
+,47,47,,,47,TRUE,FALSE,,,,
+,#VALUE!,#VALUE!,,,47,FALSE,FALSE,,,,
+,#REF!,#REF!,,,47,TRUE,FALSE,,,,
+,#REF!,#REF!,,,47,FALSE,FALSE,,,,
+,#VALUE!,#VALUE!,blank,,47,,FALSE,,,,
+,,,,,,,,,,,
+Odd values for range_lookup,,,,,,,,,,,
+,#VALUE!,#VALUE!,no range_lookup arg,,30,2,<arg not passed>,,,,
+,r1,r1,blank,,30,2,,,,,
+,r1,r1,text false,,30,2,false,,,,
+,r2,r2,text true,,30,2,TRUE,,,,
+,#VALUE!,#VALUE!,text 1,,30,2,1,,,,
+,r2,r2,,,30,2,1,,,,
+,r1,r1,,,30,2,0,,,,
+,r2,r2,,,30,2,-0.01,,,,
+,r2,r2,,,30,2,0.01,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Out of range lookup_value:,,,,,,,,,,,
+,#N/A,#N/A,,,2,2,FALSE,,,,
+,#N/A,#N/A,,,2,2,TRUE,,,,
+,#N/A,#N/A,,,90,2,FALSE,,,,
+,r9,r9,,,90,2,TRUE,,,,
+,,,,,,,,,,,
+<end>,,,,,,,,,,,

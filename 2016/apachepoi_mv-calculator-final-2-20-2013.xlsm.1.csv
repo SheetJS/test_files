@@ -1,0 +1,106 @@
+
+Introduction
+The Minimum Value Calculator (MV Calculator) is designed to give an estimate of network liability for a given plan design.  This build of the MV Calculator uses data from a large national commercial database to build continuance tables for Employer-Sponsored Health Plans.
+
+Data Properties
+"The MV Calculator uses 2009 data, where enrollees are either continuously enrolled for 12 months, exit the dataset due to death (as identified by inpatient discharge), or enter the dataset due to birth. Only enrollees with identifiable plan structures are included; the dataset is limited to PPO employer-sponsored health plans. Plans with incomplete drug or medical claims are excluded (defined as drug cost comprising under 7.5% of total claims cost, or over 50% of total claims cost). This data is then projected forward to 2014 values at a growth rate of 6.5% per year."
+"For additional detail on the methodology used to construct the calculator, please refer to the accompanying methodology document."
+
+Usage
+The MV Calculator allows users to specify several plan design features.  Please note that any data entered into greyed out boxes will not be counted towards the final calculation.
+
+User Inputs for Plan Parameters
+
+Use Integrated Medical and Drug Deductible
+Select this option if the plan for which you are estimating AV has an integrated deductible for medical and drug spending.
+
+Apply Inpatient Copay per Day and Apply Skilled Nursing Facility Copay per Day
+Select these options if you would like copays to be applied per day for either inpatient or skilled nursing facility services.
+
+Use Separate OOP Maximum for Medical and Drug Spending
+Select this option to designate separate out-of-pocket (OOP) maximums for medical and drug spending.  This option is only available if you do not select an integrated medical and drug deductible.
+
+Grandfathered Plan Option
+Select this option to indicate a grandfathered plan. Doing so removes restrictions on the OOP maximum and cost sharing for preventive care. 
+
+HSA/HRA Options
+"HSA employer contributions and HRA amounts first made available for the benefit year will be added to the numerator as a benefit to first-dollar spending.  This amount leaves both the deductible and the maximum out of pocket (MOOP) unchanged. For example, if before HSA/HRA considerations a plan had a $500 deductible and a $1500 MOOP, and there was an annual employer's HSA contribution of $200, then the first $200 of spending would be covered, the deductible would be $500 (applying in the $200-$500 range), and the MOOP would remain unchanged at $1500. Please refer to regulation for types of HRAs that count towards the calculation of minimum value. "
+
+Narrow Network Options
+"To calculate the AV of a plan with “narrow” network utilization or point of service cost-sharing structure, enable the blended network option.  This requires you to fill out two cost share designs for the general benefit portion (deductible, co-insurance and MOOP) and for service-level cost-sharing.  The user must input what proportion of claims cost is anticipated to be utilized in each tier. These proportions should add up to 100%."
+
+Tier 1 Plan Design and Tier 2 Plan Design 
+"Select the deductible, general coinsurance rate (for services that will not be “carved out”), and MOOP limit.  Note that the MOOP should be greater than or equal to the deductible amount, but no greater than $6500, because higher amounts are likely to exceed the federal limit in 2014. Include separate OOP maximums for drug expenses and medical expenses if the OOP maximum separate option was selected. Fill in these values for Tier 1 only, unless the plan is a blended network plan. In that case, fill out specifications for Tier 1 and Tier 2."
+
+Carve-outs for Self Insured Employer Sponsored Plans
+"To indicate a service carve-out, select the ""Service Not Covered"" option. Doing so removes the benefit from the spending distributions, but does not alter the denominator of the MV calculation in any way.  "
+
+Options for Specific Benefit Types
+
+"Subject to Deductible and Copay, if separate"
+"Depending on whether or not a service is ""Subject to Deductible"" and the value entered into the “Copay, if Separate” field, a variety of plan designs may be accommodated.  If “Subject to Deductible” is checked, and no copay is entered, the cost of the service is covered by the enrollee and applied to the deductible at 100%.  If “Subject to Deductible” is checked and a copay is entered, the enrollee pays both the copay and the remainder of the cost, with the latter going towards the deductible.  If “Subject to Deductible” is not checked, and no copay or coinsurance is entered, the service is assumed to be covered at 100% by the plan in the deductible range.  If “Subject to Deductible” is not checked and a copay is entered, the cost of the service is covered by the plan except for the copay amount, which is covered by the enrollee."
+
+"Subject to Coinsurance and Copay, if Different"
+"If a service is selected to be ""Subject to Coinsurance"" and no custom rate is entered, the general coinsurance rate will be applied. Otherwise, the custom rate will be used.  If “Subject to Coinsurance” is not selected, then the copay rate will determine the cost of that service in the coinsurance range."
+
+Benefit Type Details
+
+Primary Care and Specialist Office Visits
+"If special cost-sharing provisions are indicated for Primary Care and/or Specialist Office Visits, certain office visits will be split into their component parts only if those office visits include services that do not have special cost-sharing provisions (not having special cost-sharing provisions is defined as being Subject to Deductible, Subject to Coinsurance, with no special coinsurance rate and no copay).  This is applicable to X-rays, and the component parts are Primary Care Office Visit, Specialist Office Visit, and Other. For example, if Primary Care office visits are not subject to the deductible and have a $20 copay, but X-rays are subject to the deductible and general coinsurance, a Primary Care office visit that includes an X-ray will be split into two services, a Primary Care office visit and an X-ray."
+
+Outpatient - Facility and Outpatient – Professional Visits
+"If special cost-sharing provisions are indicated for Outpatient - Facility and/or Outpatient - Professional claims, certain services including both an Outpatient-Facility and Outpatient-Professional component will be split into their component parts if the cost-share provisions for the Outpatient-Facility and Outpatient-Professional portions of the service are different. The services subject to this potential splitting into component parts are Mental/Behavioral Health and Substance Abuse Disorder Outpatient Services, Imaging, Rehabilitative Speech Therapy, Occupational Therapy and Physical Therapy, and Laboratory Outpatient and Professional Services, and the component parts are Outpatient - Facility, Outpatient - Professional, and Other."
+
+Other Benefit Type Notes
+·         Prescription benefits cannot be subjected to both a different co-insurance rate and separate copay.
+"·         Preventive care visits are defined as those services covered at 100%, per section 2713 of the Affordable Care Act."
+"·         Well-baby preventive care visits are included in preventive care, per section 2713 of the Affordable Care Act."
+•      Well-baby non-preventive care visits are included in Primary Care .
+"•      Emergency room services, all inpatient hospital services, and outpatient surgery physician/surgical services are          "
+        aggregated to the stay level. 
+•      Emergency room services and all inpatient hospital services include both physician and facility components. 
+
+Options for Additional Benefit Design Limits
+
+Set a Maximum on Specialty Rx Coinsurance Payments
+Select this option to limit the amount of coinsurance on specialty prescription drugs by capping the maximum coinsurance payment on specialty drugs at a set amount.  Enter the maximum coinsurance payments allowed for specialty prescription drugs.
+
+Set a Maximum Number of Days for Charging an IP Copay
+"Select this option to limit the number of days on which a patient can be charged a copay for an inpatient stay, if the option to charge inpatient stays by day is selected.  Enter the maximum number of days allowed."
+ 
+Begin Primary Care Cost-Sharing After a Set Number of Visits
+Select this option to begin primary care cost sharing after a certain number of (fully covered) visits have occurred.  Enter the maximum number of visits allowed.
+
+Begin Primary Care Deductible/Coinsurance After a Set Number of Copays
+Select this option to begin subjecting primary care visits to the deductible or coinsurance rates only after a certain number of primary care visits with copay have occurred.  Enter the maximum number of visits allowed.
+
+Final Step: Pressing the Calculate Button
+"Once all parameters are entered, pressing the calculate button will begin the calculation. "
+
+Frequently Asked Questions
+
+"Q: How do I enter a typical drug benefit design, e.g. copays for the first three tiers and coinsurance for the specialty drug? (e.g. $10/$20/$50/75%)"
+"A: Deselect ""Use Integrated Medical and Drug Deductible,"" set drug deductible to desired amount (often $0) and set the specialty coinsurance rate (75%) under the general drug coinsurance rate. Next, enter the copays ($10/$20/$50) in the appropriate fields in the Drug Benefit section, deselecting ""Subject to Deductible"" and ""Subject to Coinsurance."" Finally, select ""Subject to Deductible"" and ""Subject to Coinsurance"" for Specialty Drugs."
+
+Q: How do I specify a copay during the deductible range and a coinsurance rate during the coinsurance range for drug benefits?
+"A: To prevent misinterpretation of results where one intends a typical drug benefit as specified above, a separate copay and deductible for prescription fields is not directly supported.  However, a design with a copay applying during the deductible range in conjunction with coinsurance in the coinsurance range is possible by following the typical benefit drug instructions, with the exception of selecting ""Subject to Coinsurance"" for the drugs with copays."
+
+Q: How do I specify copays that should be paid in conjunction with coinsurance in the cost-sharing range?
+A: This feature is not supported at this time.
+
+Q: Changing copay and MOOP structure does not seem to affect AV by more than 0.1.
+"A: Ensure that all appropriate ""Subject to deductible"" and ""Subject to coinsurance"" boxes are selected."
+
+Notes to Users
+
+Effect of Changing Copays for Inpatient Hospital Services
+"Changing copays for inpatient hospital services typically does not have a large effect on calculated actuarial value.  There is relatively little use of these services below the MOOP in the underlying utilization data, so plan-covered spending is not greatly affected by changes in the amount of beneficiary cost-sharing."
+
+Effect of Specifying Option to Use Service Unit Cost if Less than Copay
+"The MV compares average service cost at the specified level of spending to the copay when implementing this logic.  Therefore, this option affects the calculation only if the average service cost is less than the copay, even if the copay exceeds service cost for some individuals.  For example, while most generic prescription costs are low and would therefore be less than the typical generic copay, average generic costs include some high-cost generics and may not exceed the copay."
+
+Lack of Copay Option for Outpatient 
+"The national claims database does not include data on outpatient professional and facilities services at the stay level.  Because copays are applied per stay, the calculator cannot support the option to enter a copay for these services."
+
+Do not Specify 100% General Coinsurance Unless Specifying a Copay Plan
+Please specify 100% general coinsurance only for copay based plans. Specifying 100% general coinsurance for non copay based plans may lead to inappropriate results due to the calculation of the point at which maximum out of pocket spending is hit. 

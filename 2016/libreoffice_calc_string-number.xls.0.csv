@@ -1,0 +1,5 @@
+String Number,num x 2,Excel's answer,Check,num + 1,Excel's answer,Check
+1,2,2,TRUE,2,2,TRUE
+1.1,2.2,2.2,TRUE,2.1,2.1,TRUE
+,,,,,,
+COUNTA,3,3,TRUE,,,

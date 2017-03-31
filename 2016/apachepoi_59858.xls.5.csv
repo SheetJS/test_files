@@ -1,0 +1,28 @@
+Constituent Function,Feedstock,Material Type,Yes/No Fields,Units of Measure,Inventory Data,Material Class,Matl Class Polymer,Material Function
+Active Ingredient,Animal - Chicken/Poultry/Fowl,Silicones,Yes,%,"Yes, complies with Both Cosmetic and Drug",Silicones,TRUE,Key
+Antibacterial Agent,Animal - Cow/Beef/Bull/Tallow,Fatty Materials,No,ppm,"Yes, complies with Cosmetic only",Fatty Materials,,Additive-anticaking agent
+Anticaking Agent,Animal - Egg,Dyes and Colorants,,ppb,No,Dyes and Colorants,,Additive-antioxidant
+Antioxidant,Animal - Goat/Ram/Billy/Nanny,"Naturals, Botanicals",,,Unknown,"Naturals, Botanicals",,Additive-coating agent
+Biocide,Animal - Horse/Mule/Donkey/Ass,Peptides,,,,Peptides,,Additive-colorant
+Botanical/Herbal Extract,Animal - Insect,Inorganics,,,,Polymers,TRUE,Additive-other
+Buffering Agent,Animal - Marine Crustacean/Fish,Enzymes,,,,Inorganics,,Additive-preservative
+Carrier Material,Animal - Milk,"Amines, Amides, DEA etc",,,,Enzymes,,Additive-processing aid
+Chelating Agent,"Animal – others, specify",Surfactants,,,,"Amines, Amides, DEA etc",,Additive-resin: alternate
+Colorant,Animal - Pig/Hog/Boar/Pork/Lard,Betaines,,,,Surfactants,,Additive-resin: primary
+Denaturant,Animal - Sheep/Lamb/Mutton,Organics,,,,Betaines,,Additive-surfactant
+Diluent,Animal - Unknown,Preservatives,,,,Organics,,Additive-solvent
+Emulsifier,Plant - Botanicals,Assembled or C&D Product,,,,Preservatives,,Additive-stabilizer
+Enzyme,Plant - Genetically Modified,,,,,,,Additive-UV filter
+pH-Adjuster,Plant - Grain,,,,,,,Fluorescent whitening agent
+Pigment,Plant - Grass/Cane,,,,,,,
+Preservative,Plant - Other,,,,,,,
+Process aid,Plant - Palm,,,,,,,
+Solvent,Plant - Palm Kernel/Coconut,,,,,,,
+Stabilizer,Plant - Vegetable,,,,,,,
+Surfactant,Plant - Wheat,,,,,,,
+Suspending Agent,Plant - Unknown,,,,,,,
+Thickener,Bacteria/Yeast,,,,,,,
+Other,Mineral,,,,,,,
+,Petrochemical,,,,,,,
+,Synthetic,,,,,,,
+,Other (Specify),,,,,,,

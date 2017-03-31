@@ -1,0 +1,16 @@
+Month  ,Sales
+1,3100
+2,4500
+3,4400
+4,5400
+5,7500
+6,8100
+,
+Formula ,Description (Result)
+11000,Estimate sales for the ninth month (11000)
+,
+Excel XP,
+11000,
+,
+Calc 3.2.1,
+11000,

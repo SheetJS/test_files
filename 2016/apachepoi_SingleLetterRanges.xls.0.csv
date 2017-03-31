@@ -1,0 +1,6 @@
+,,1,10
+,,2,20
+,,3,30
+2,<== Exception when parsed with POI,,
+6,<== 0 when parsed with POI,,
+66,<== Across two columns,,

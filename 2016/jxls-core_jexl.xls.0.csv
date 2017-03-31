@@ -1,0 +1,26 @@
+Literals,
+Identifiers/Variables,${obj.name}
+String Literals,"${""Hello, World""}"
+Boolean Literals,${obj.flag == true}
+Null literal,${obj.name == null}
+,
+JEXL Functions,
+,${obj.name.size()}
+,
+Operators,
+,
+,
+,${obj.id > 1}
+,${obj.id == 1}
+,${obj.id != 1}
+,${obj.id eq 1}
+,${obj.id % 2}
+,
+Array Access,${obj.myArray[0]} and ${obj.myArray[1]}
+,
+date formating,${dateFormat.format(obj.date)}
+,
+method invocation,${obj.printIt()}
+,${obj.getName()}
+,"${obj.echo(""Hello"")}"
+inner collection access,${bean.collection.innerCollection.get(0)}

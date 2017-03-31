@@ -1,0 +1,14 @@
+POI Formulae Test,,,
+Purpose,Conduct tests to validate POI formula evaluation for multitab range,,
+Author,Radoslav Georgiev,,
+Date,12/13/13,,
+,,,
+,,,
+,,,
+,,,
+,,,
+Formula,Test Case,Expected,Actual
+SUM,Single Cell,10,10
+SUM,Multi Cell (Single Row),60,60
+,,,
+<END>,,,

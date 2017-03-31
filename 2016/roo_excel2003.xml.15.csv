@@ -1,0 +1,49 @@
+Constituent,,,,,
+,comment,Set Password,Set Password,Set email format to HTML,Ser email format to plain text and add to special members group
+Constituent Search ,findfirstname,Bbbbb1,Ccccc1,Bbbbb1,Ccccc1
+,findlastname,Bbbbb1,Ccccc1,Bbbbb1,Ccccc1
+,findemail,devnull+Bbbbb1@convio.com,devnull+Ccccc1@convio.com,devnull+Bbbbb1@convio.com,devnull+Ccccc1@convio.com
+,findmemberid,,,,
+,findusername,,,,
+,findphone,,,,
+,findzip,,,,
+,findconstituentid,,,,
+Constituent Information,firstname,,,,
+,middlename,,,,
+,lastname,,,,
+,username,userb1,userc1,,
+,password,passb1,passc1,,
+,passwordhint,hintb1,hintc1,,
+,email,,,,
+,title,,,,
+,suffix,,,,
+,profsuffix,,,,
+,memberid,,,,
+,gender,,,,
+,month,,,,
+,day,,,,
+,year,,,,
+,acceptemail,,,,
+,preferredformat,,,HTML,Plain Text
+,emailstatus,,,,
+,street1,,,,
+,street2,,,,
+,city,,,,
+,state,,,,
+,zip,,,,
+,country,,,,
+,acceptmail,,,,
+,congressional,,,,
+,senate,,,,
+,house,,,,
+,phone,,,,
+,employer,,,,
+,occupation,,,,
+Groups,groupmembership,,,,BST1 Special Members
+,groupfoldername,,,,BST1
+Interests,emailinterests,,,,
+,emailinterestfoldername,,,,
+,webinterests,,,,
+,webinterestfoldername,,,,
+,edit,nil,nil,nil,nil
+,verify,nil,nil,nil,nil

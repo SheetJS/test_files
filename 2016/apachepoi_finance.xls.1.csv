@@ -1,0 +1,17 @@
+Data,Description
+10%,Annual interest rate
+2,Number of years in the loan
+2000,Amount of loan
+Formula,Description (Result)
+-75.62,Payment on principle for the first month of loan (-75.62)
+,
+,
+,
+,
+,
+Data,Description
+8%,Annual interest rate
+10,Number of years in the loan
+"200,000",Amount of loan
+Formula,Description (Result)
+"-27,598.05","Principal payment for the last year of the loan with the above terms (-27,598.05)"

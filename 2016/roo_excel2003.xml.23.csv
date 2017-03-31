@@ -1,0 +1,30 @@
+EventList,
+comment,Create an event
+pending,
+eventname,CALENDAR_EVENT_BST1
+security,General
+pagewrapper,defaultpagewrapper
+eventdate,03/27/2017
+eventtype,Standard Event
+attendanceoption,Ticket
+starthour,12
+startminute,0
+startampm,am
+stophour,1
+stopminute,0
+stopampm,pm
+eventenddate,
+registrationtype,
+recurringpattern,
+repeatevery,
+repeattype,
+repeatmonth,
+repeatday,
+repeatyear,
+repeatonthefirst,
+repeatonthedayofweek,
+repeatonthemonth,
+repeatontheday,
+repeatontheyear,
+create,nil
+verify,nil

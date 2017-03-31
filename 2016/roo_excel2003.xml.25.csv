@@ -1,0 +1,43 @@
+Edit Event,,
+,comment,Update ticket information now that we'ce created the ticket classes
+,pending,
+Identify Event,eventname,CALENDAR_EVENT_BST1
+,location,Austin
+,security,
+,pagewrapper,defaultpagewrapper
+Set Event Date,eventdate,
+,starthour,
+,startminute,
+,startampm,
+,stophour,
+,stopminute,
+,stopampm,
+Configure Additional Infromation,eventtag,ticket
+,location,
+,street1,11506 Eubank Drive
+,street2,
+,city,Austin
+,state,TX
+,zip,78732
+,country,United States
+,accountingcode,
+,activitytype,
+,activitytypenew,
+,affiliatetype,
+,affiliatetypenew,
+Edit Ticket Information,purchasedeadline,03/27/2017
+,merchantaccount,
+,generalinformation,
+,guestlist,TRUE
+,additionalgift,TRUE
+,additionalgiftlabel,additional gift stuff
+,soldouttext,"no more tickets, sorry"
+Associate Interests,interestassociation,
+Configure RSVP,rsvpduedate,
+,rsvpinventorylimit,
+,rsvpinventory,
+,orderlimit,
+,orderlimitperuser,
+Publish,publish_status,active
+,edit,nil
+,verify,nil

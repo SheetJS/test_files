@@ -1,0 +1,4 @@
+A1:B2,,C1:C2,Separate blocks
+,,,
+A3:B3,,C3,
+… are merged separately,,,

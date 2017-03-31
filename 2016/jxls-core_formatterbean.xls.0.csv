@@ -1,0 +1,12 @@
+Bean with List Test,,,,,,
+Name:,,,,,,
+Other.Name,Double Value,Integer Value,Date Value,,,
+"<jx:forEach items=""${beans}"" var=""bean"">",,,,,,
+${bean.name},${bean.beansProp},"${fmt.setStyle(bean.intValue,hssfCell,fmt.getStyle(hssfCell).setNext(bean.intValue.intValue() > 1000).setFontColor(2).setNext(true))}",${bean.dateValue},,,"formatter.alternateRowStyle(workbook , hssfRow, 0, hssfCell.getNum())"
+</jx:forEach>,,,,,,
+Last Row,,,,,,
+,,,,,,
+,setFontColor,setFillForegroundColor,setFillPattern,setFillBackgroundColor,,
+"<jx:forEach items=""${ii}"" var=""i"">",,,,,,
+,"${fmt.setStyle(i+"":"", hssfCell, fmt.getStyle(hssfCell).setFontColor(i))}","${fmt.setStyle(i+"":"", hssfCell, fmt.getStyle(hssfCell).setFillPattern(1).setFillForegroundColor(i))}","${fmt.setStyle(i%19+"":"", hssfCell, fmt.getStyle(hssfCell).setFillPattern(i%19))}","${fmt.setStyle(i+"":"", hssfCell, fmt.getStyle(hssfCell).setFillPattern(11).setFillForegroundColor(2).setFillBackgroundColor(i.intValue()))}",,
+</jx:forEach>,,,,,,
