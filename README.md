@@ -90,7 +90,9 @@ entire cell as well as parts of the cell.
 Due to size and format constraints, XLSB contains the full record while the
 other formats are truncated to 65536 rows.
 
-`hyperlink_stress_test_2011` tests different types of hyperlinks
+`hyperlink_stress_test_2011` tests different types of external hyperlinks
+
+`internal_link` tests different types of internal hyperlinks
 
 `hyperlink_no_rels` tests a non-relationship hyperlink (h/t @keemy)
 
