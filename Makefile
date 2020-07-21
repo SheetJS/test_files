@@ -15,10 +15,6 @@ init: rooster ## Entry Point (init)
 rooster: .rooster.yaml
 	rooster -config $<
 
-.PHONY: rooster-clean
-rooster-clean:
-	rm -rf rooster_out
-
 .PHONY: all
 all: svn hg git ## All files
 

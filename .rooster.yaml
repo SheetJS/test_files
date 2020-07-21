@@ -3,69 +3,69 @@
   extensions:
     - ods
     - "*.x*"
-  out: rooster_out/apache_spreadsheet
+  out: apache_spreadsheet
 - repo: https://github.com/python-excel/xlrd
   type: git
   extensions:
     - ods
     - "*.x*"
-  out: rooster_out/python-excel_xlrd
+  out: python-excel_xlrd
 - repo: https://github.com/jmcnamara/excel-reader-xlsx
   type: git
   extensions:
     - ods
     - "*.x*"
-  out: rooster_out/jmcnamara_excel-reader-xlsx
+  out: jmcnamara_excel-reader-xlsx
 - repo: https://github.com/WoLpH/pyExcelerator
   type: git
   extensions:
     - ods
     - "*.x*"
-  out: rooster_out/WoLpH_pyExcelerator
+  out: WoLpH_pyExcelerator
 - repo: https://github.com/SheetJS/jxls
   type: git
   extensions:
     - ods
     - "*.x*"
-  out: rooster_out/SheetJS_jxls
+  out: SheetJS_jxls
 - repo: https://github.com/Empact/roo
   type: git
   extensions:
     - ods
     - "*.x*"
-  out: rooster_out/Empact_roo
+  out: Empact_roo
 - repo: https://github.com/roo-rb/roo-xls
   type: git
   extensions:
     - ods
     - "*.x*"
-  out: rooster_out/roo-rb_roo-xls
+  out: roo-rb_roo-xls
 - repo: https://github.com/doy/spreadsheet-parsexlsx
   type: git
   extensions:
     - ods
     - "*.x*"
-  out: rooster_out/doy_spreadsheet-parsexlsx
+  out: doy_spreadsheet-parsexlsx
 - repo: https://github.com/box/spout
   type: git
   extensions:
     - ods
     - "*.x*"
-  out: rooster_out/box_spout
+  out: box_spout
 - repo: git://github.com/SheetJS/libreoffice_test-files
   type: git
   extensions:
     - ods
     - "*.x*"
-  out: rooster_out/SheetJS_libreoffice_test-files
+  out: SheetJS_libreoffice_test-files
 - repo: https://svn.apache.org/repos/asf/openoffice/branches/AOO34/main/testautomation/xml/optional/input/calc/ExcelXML
   type: svn
   extensions:
     - ods
     - "*.x*"
-  out: rooster_out/apache_ExcelXML
+  out: apache_ExcelXML
 - repo: https://foss.heptapod.net/openpyxl/openpyxl
   type: hg
   extensions:
     - "*.xls*"
-  out: rooster_out/openpyxl_openpyxl
+  out: openpyxl_openpyxl
