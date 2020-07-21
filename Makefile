@@ -9,7 +9,15 @@ github = $(GSVN) https://github.com/$(1)/trunk/$(2) $@; $(CPUP)
 ## Make Targets
 
 .PHONY: init clean
-init: all ## Entry Point (init)
+init: rooster ## Entry Point (init)
+
+.PHONY: rooster
+rooster: .rooster.yaml
+	rooster -config $<
+
+.PHONY: rooster-clean
+rooster-clean:
+	rm -rf rooster_out
 
 .PHONY: all
 all: svn hg git ## All files
