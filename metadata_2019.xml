@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Sheet</Author>
+  <LastAuthor>Sheet</LastAuthor>
+  <Created>2022-02-27T18:28:20Z</Created>
+  <LastSaved>2022-02-27T18:42:19Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>16940</WindowHeight>
+  <WindowWidth>27640</WindowWidth>
+  <WindowTopX>10760</WindowTopX>
+  <WindowTopY>380</WindowTopY>
+  <DoNotCalculateBeforeSave/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <NumberFormat
+    ss:Format="_([$$-409]* #,##0.00_);_([$$-409]* \(#,##0.00\);_([$$-409]* &quot;-&quot;??_);_(@_)"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="21" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Column ss:Width="185"/>
+   <Row>
+    <Cell><Data ss:Type="String">Geography</Data></Cell>
+    <Cell><Data ss:Type="String">Leaders</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell ss:ArrayRange="RC" ss:Formula="=RC[-1].[Leader(s)]"><Data ss:Type="Error">#VALUE!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell ss:ArrayRange="RC:R[1]C" ss:Formula="=RC[-1].[Leader(s)]"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="Error">#VALUE!</Data></Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell><Data ss:Type="String">Stock</Data></Cell>
+    <Cell><Data ss:Type="String">High</Data></Cell>
+    <Cell><Data ss:Type="String">Low</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell ss:StyleID="s16" ss:ArrayRange="RC" ss:Formula="=RC[-1].High"><Data
+      ss:Type="Number">439.77</Data></Cell>
+    <Cell ss:StyleID="s16" ss:ArrayRange="RC" ss:Formula="=RC[-2].Low"><Data
+      ss:Type="Number">429.755</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Error">#VALUE!</Data></Cell>
+    <Cell ss:StyleID="s16" ss:ArrayRange="RC" ss:Formula="=RC[-1].High"><Data
+      ss:Type="Number">124.97</Data></Cell>
+    <Cell ss:StyleID="s16" ss:ArrayRange="RC" ss:Formula="=RC[-2].Low"><Data
+      ss:Type="Number">116.485</Data></Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell><Data ss:Type="String">Dynamic Array</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:ArrayRange="RC:R[4]C" ss:Formula="=UNIQUE(RC[-1]:R[8]C[-1])"><Data
+      ss:Type="Number">1</Data></Cell>
+    <Cell ss:ArrayRange="RC" ss:Formula="=UNIQUE(RC[-2]:R[8]C[-2])"><Data
+      ss:Type="Error">#VALUE!</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">elicit</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">a spill</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">error</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
