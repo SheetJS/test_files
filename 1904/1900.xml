@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Sheet</Author>
+  <LastAuthor>Sheet</LastAuthor>
+  <Created>2022-06-03T00:11:34Z</Created>
+  <LastSaved>2022-06-03T00:14:19Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>17440</WindowHeight>
+  <WindowWidth>28040</WindowWidth>
+  <WindowTopX>5180</WindowTopX>
+  <WindowTopY>3000</WindowTopY>
+  <DoNotCalculateBeforeSave/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat ss:Format="yyyy\-mm\-dd;@"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="5" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">1900-01-01T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-1],&quot;YYYY-MM-DD&quot;)"><Data ss:Type="String">1900-01-01</Data></Cell>
+    <Cell ss:Formula="=T(RC[-1])"><Data ss:Type="String">1900-01-01</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">1900-01-11T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-1],&quot;YYYY-MM-DD&quot;)"><Data ss:Type="String">1900-01-11</Data></Cell>
+    <Cell ss:Formula="=T(RC[-1])"><Data ss:Type="String">1900-01-11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">1900-04-20T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-1],&quot;YYYY-MM-DD&quot;)"><Data ss:Type="String">1900-04-20</Data></Cell>
+    <Cell ss:Formula="=T(RC[-1])"><Data ss:Type="String">1900-04-20</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">1903-01-15T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-1],&quot;YYYY-MM-DD&quot;)"><Data ss:Type="String">1903-01-15</Data></Cell>
+    <Cell ss:Formula="=T(RC[-1])"><Data ss:Type="String">1903-01-15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">11111</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">1930-06-02T00:00:00.000</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-1],&quot;YYYY-MM-DD&quot;)"><Data ss:Type="String">1930-06-02</Data></Cell>
+    <Cell ss:Formula="=T(RC[-1])"><Data ss:Type="String">1930-06-02</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
