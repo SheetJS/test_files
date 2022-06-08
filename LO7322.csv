@@ -1,0 +1,33 @@
+1.2345,Number,1,,16:17,Time,1,,10/18/33,Date,1
+1,Number,2,,16:17:36,Time,2,,"Wednesday, October 18, 1933",Date,2
+1.23,Number,3,,04:17 PM,Time,3,,10/18/33,Date,3
+1,Number,4,,04:17:36 PM,Time,4,,10/18/1933,Date,4
+1.23,Number,5,,296296:17:37,Time,5,,"Oct 18, 33",Date,5
+1.23,Number,6,,17:36.96,Time,6,,"Oct 18, 1933",Date,6
+1.23 ,Number,7,,296296:17:36.96,Time,7,,18. Oct. 1933,Date,7
+1 ,Number,8,,10/18/1933 04:17 PM,Time,8,,"October 18, 1933",Date,8
+123%,Percent,1,,10/18/33 04:17 PM,Time,9,,18. October 1933,Date,9
+123.45%,Percent,2,,10/18/1933 16:17:36,Time,10,,"Wed, Oct 18, 33",Date,10
+$1,Currency,1,,1933-10-18 16:17:36,Time,11,,Wed 18/Oct 33,Date,11
+$1.23,Currency,2,,1933-10-18 16:17:36.960,Time,12,,"Wed, October 18, 1933",Date,12
+$1,Currency,3,,1933-10-18T16:17:36,Time,13,,10-18,Date,13
+$1.23,Currency,4,,1933-10-18T16:17:36.960,Time,14,,33-10-18,Date,14
+$1.23,Currency,5,,,,,,1933-10-18,Date,15
+1.23 USD,Currency,6,,,,,,10/33,Date,16
+1.23 USD,Currency,7,,,,,,Oct 18,Date,17
+$1.23,Currency,8,,,,,,October,Date,18
+$1,Currency,9,,,,,,4th quarter 33,Date,19
+1.23E+000,Scientific,1,,,,,,42,Date,20
+1.23E+00,Scientific,2,,,,,,10/18/1933 04:17 PM,Date,31
+1.23E+00,Scientific,3,,,,,,10/18/33 04:17 PM,Date,32
+TRUE,Boolean,1,,,,,,10/18/1933 16:17:36,Date,33
+1.2345,Text,1,,,,,,1933-10-18 16:17:36,Date,34
+1 2/9,Fraction,1,,,,,,1933-10-18 16:17:36.960,Date,35
+1 19/81,Fraction,2,,,,,,1933-10-18T16:17:36,Date,36
+1  87/371,Fraction,3,,,,,,1933-10-18T16:17:36.960,Date,37
+1   ,Fraction,4,,,,,,,,
+1 1/4,Fraction,5,,,,,,,,
+1 2/8,Fraction,6,,,,,,,,
+1  4/16,Fraction,7,,,,,,,,
+1  2/10,Fraction,8,,,,,,,,
+1 23/100,Fraction,9,,,,,,,,
