@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Sheet JS</Author>
+  <LastAuthor>Sheet JS</LastAuthor>
+  <Created>2022-07-17T23:14:58Z</Created>
+  <LastSaved>2022-07-17T23:34:22Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <HideHorizontalScrollBar/>
+  <HideVerticalScrollBar/>
+  <WindowHeight>12360</WindowHeight>
+  <WindowWidth>18840</WindowWidth>
+  <WindowTopX>11720</WindowTopX>
+  <WindowTopY>8860</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="test">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="37" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="16">
+   <Column ss:AutoFitWidth="0" ss:Width="67"/>
+   <Column ss:Width="53"/>
+   <Column ss:AutoFitWidth="0" ss:Width="73"/>
+   <Column ss:AutoFitWidth="0" ss:Width="149"/>
+   <Column ss:AutoFitWidth="0" ss:Width="142" ss:Span="1"/>
+   <Column ss:Index="7" ss:Width="41"/>
+   <Column ss:Width="199"/>
+   <Row ss:StyleID="s16">
+    <Cell><Data ss:Type="String">value</Data></Cell>
+    <Cell><Data ss:Type="String">date1904</Data></Cell>
+    <Cell><Data ss:Type="String">val1900</Data></Cell>
+    <Cell><Data ss:Type="String">format</Data></Cell>
+    <Cell><Data ss:Type="String">formula</Data></Cell>
+    <Cell><Data ss:Type="String">expected</Data></Cell>
+    <Cell><Data ss:Type="String">correct</Data></Cell>
+    <Cell><Data ss:Type="String">desc</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=4018.99999998843"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">mm/dd/yyyy hh:mm:ss.000</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">12/31/1910 23:59:59.999</Data></Cell>
+    <Cell><Data ss:Type="String">12/31/1910 23:59:59.999</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">end-of-year thousandths rounding</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">mm/dd/yyyy hh:mm:ss.00</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">01/01/1911 00:00:00.00</Data></Cell>
+    <Cell><Data ss:Type="String">01/01/1911 00:00:00.00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">end-of-year hundredths round up</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">mm/dd/yyyy hh:mm</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">01/01/1911 00:00</Data></Cell>
+    <Cell><Data ss:Type="String">01/01/1911 00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">end-of-year minutes round up</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">[hh]:mm:ss.000</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">96455:59:59.999</Data></Cell>
+    <Cell><Data ss:Type="String">96455:59:59.999</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">hour duration thousandths rounding</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">[hh]:mm:ss.00</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">96456:00:00.00</Data></Cell>
+    <Cell><Data ss:Type="String">96456:00:00.00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">hour duration hundredths round up</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">[hh]:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">96456:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">96456:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">hour duration minute round up (w/ ss)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">[hh]:mm</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">96456:00</Data></Cell>
+    <Cell><Data ss:Type="String">96456:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">hour duration minute round up</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">[hh]</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">96456</Data></Cell>
+    <Cell><Data ss:Type="String">96456</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">hour duration round up</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">[mm]:ss.000</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">5787359:59.999</Data></Cell>
+    <Cell><Data ss:Type="String">5787359:59.999</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">minute duration thousandths rounding</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">[mm]:ss.00</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">5787360:00.00</Data></Cell>
+    <Cell><Data ss:Type="String">5787360:00.00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">minute duration hundredths round up</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">[mm]:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">5787360:00</Data></Cell>
+    <Cell><Data ss:Type="String">5787360:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">minute duration round up</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">[ss].000</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">347241599.999</Data></Cell>
+    <Cell><Data ss:Type="String">347241599.999</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">second duration thousandths rounding</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">[ss].00</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">347241600.00</Data></Cell>
+    <Cell><Data ss:Type="String">347241600.00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">second duration hundredths round up</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Formula="=R[-1]C"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">4018.9999999884299</Data></Cell>
+    <Cell><Data ss:Type="String">[ss]</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-4],RC[-1])"><Data ss:Type="String">347241600</Data></Cell>
+    <Cell><Data ss:Type="String">347241600</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">second duration round up</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6.8999999999999997E-4</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">6.8999999999999997E-4</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1900 Jan Sat 00 00:01:00</Data></Cell>
+    <Cell><Data ss:Type="String">1900 Jan Sat 00 00:01:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up to 1 minute</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1.3879999999999999E-3</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">1.3879999999999999E-3</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1900 Jan Sat 00 00:02:00</Data></Cell>
+    <Cell><Data ss:Type="String">1900 Jan Sat 00 00:02:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up to 2 munutes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6.94E-3</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">6.94E-3</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1900 Jan Sat 00 00:10:00</Data></Cell>
+    <Cell><Data ss:Type="String">1900 Jan Sat 00 00:10:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up to 10 minutes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8.3330000000000001E-2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">8.3330000000000001E-2</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1900 Jan Sat 00 02:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1900 Jan Sat 00 02:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up to 2 hours</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0.99999899999999997</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">0.99999899999999997</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1900 Jan Sun 01 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1900 Jan Sun 01 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up day</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">31.999998999999999</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">31.999998999999999</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1900 Feb Wed 01 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1900 Feb Wed 01 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up month</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">59.999999000000003</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">59.999999000000003</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1900 Feb Wed 29 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1900 Feb Wed 29 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up to 1900 leap day</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">60.999999000000003</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">60.999999000000003</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1900 Mar Thu 01 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1900 Mar Thu 01 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds 1900 leap day up</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">77.999999000000003</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">77.999999000000003</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1900 Mar Sun 18 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1900 Mar Sun 18 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up day in March</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">366.999999</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">366.999999</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1901 Jan Tue 01 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1901 Jan Tue 01 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up leap year 1900</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">365.999999</Data></Cell>
+    <Cell><Data ss:Type="Boolean">0</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">365.999999</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1900 Dec Mon 31 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1900 Dec Mon 31 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up leap year 1904</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6.8999999999999997E-4</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">1462.0006900000001</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1904 Jan Fri 01 00:01:00</Data></Cell>
+    <Cell><Data ss:Type="String">1904 Jan Fri 01 00:01:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up to 1 minute</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1.3879999999999999E-3</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">1462.0013879999999</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1904 Jan Fri 01 00:02:00</Data></Cell>
+    <Cell><Data ss:Type="String">1904 Jan Fri 01 00:02:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up to 2 munutes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6.94E-3</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">1462.00694</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1904 Jan Fri 01 00:10:00</Data></Cell>
+    <Cell><Data ss:Type="String">1904 Jan Fri 01 00:10:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up to 10 minutes</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8.3330000000000001E-2</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">1462.0833299999999</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1904 Jan Fri 01 02:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1904 Jan Fri 01 02:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up to 2 hours</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">0.99999899999999997</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">1462.9999989999999</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1904 Jan Sat 02 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1904 Jan Sat 02 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up day</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">31.999998999999999</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">1493.9999989999999</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1904 Feb Tue 02 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1904 Feb Tue 02 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up month</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">59.999999000000003</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">1521.9999990000001</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1904 Mar Tue 01 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1904 Mar Tue 01 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up to 1900 leap day</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">60.999999000000003</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">1522.9999990000001</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1904 Mar Wed 02 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1904 Mar Wed 02 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds 1900 leap day up</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">77.999999000000003</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">1539.9999990000001</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1904 Mar Sat 19 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1904 Mar Sat 19 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up day in March</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">366.999999</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">1828.9999990000001</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1905 Jan Mon 02 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1905 Jan Mon 02 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up leap year 1900</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">365.999999</Data></Cell>
+    <Cell><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell ss:Formula="=IF(RC[-1],RC[-2]+1462,RC[-2])"><Data ss:Type="Number">1827.9999990000001</Data></Cell>
+    <Cell><Data ss:Type="String">yyyy mmm ddd dd hh:mm:ss</Data></Cell>
+    <Cell ss:Formula="=TEXT(RC[-2],RC[-1])"><Data ss:Type="String">1905 Jan Sun 01 00:00:00</Data></Cell>
+    <Cell><Data ss:Type="String">1905 Jan Sun 01 00:00:00</Data></Cell>
+    <Cell ss:Formula="=RC[-2]=RC[-1]"><Data ss:Type="Boolean">1</Data></Cell>
+    <Cell><Data ss:Type="String">rounds up leap year 1904</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

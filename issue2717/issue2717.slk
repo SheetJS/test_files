@@ -1,0 +1,388 @@
+ID;PWXL;N;E
+P;PGeneral
+P;P0
+P;P0.00
+P;P#,##0
+P;P#,##0.00
+P;P#,##0_);;\(#,##0\)
+P;P#,##0_);;[Red]\(#,##0\)
+P;P#,##0.00_);;\(#,##0.00\)
+P;P#,##0.00_);;[Red]\(#,##0.00\)
+P;P"$"#,##0_);;\("$"#,##0\)
+P;P"$"#,##0_);;[Red]\("$"#,##0\)
+P;P"$"#,##0.00_);;\("$"#,##0.00\)
+P;P"$"#,##0.00_);;[Red]\("$"#,##0.00\)
+P;P0%
+P;P0.00%
+P;P0.00E+00
+P;P##0.0E+0
+P;P#\ ?/?
+P;P#\ ??/??
+P;Pm/d/yy
+P;Pd\-mmm\-yy
+P;Pd\-mmm
+P;Pmmm\-yy
+P;Ph:mm\ AM/PM
+P;Ph:mm:ss\ AM/PM
+P;Ph:mm
+P;Ph:mm:ss
+P;Pm/d/yy\ h:mm
+P;Pmm:ss
+P;Pmm:ss.0
+P;P@
+P;P[h]:mm:ss
+P;P_("$"* #,##0_);;_("$"* \(#,##0\);;_("$"* "-"_);;_(@_)
+P;P_(* #,##0_);;_(* \(#,##0\);;_(* "-"_);;_(@_)
+P;P_("$"* #,##0.00_);;_("$"* \(#,##0.00\);;_("$"* "-"??_);;_(@_)
+P;P_(* #,##0.00_);;_(* \(#,##0.00\);;_(* "-"??_);;_(@_)
+P;P"Yes";;"Yes";;"No"
+P;P"True";;"True";;"False"
+P;P"On";;"On";;"Off"
+P;FCalibri;M240;L9
+P;FCalibri;M240;L9
+P;FCalibri;M240;L9
+P;FCalibri;M240;L9
+P;ECalibri;M240;L9
+P;ECalibri;M240;SB;L9
+P;ECalibri;M240;L9
+P;ECalibri;M240;L10
+P;ECalibri;M240;L21
+P;ECalibri;M240;SB;L53
+P;ECalibri;M240;SB;L10
+P;ECalibri;M240;SI;L24
+P;ECalibri;M240;L18
+P;ECalibri;M300;SB;L55
+P;ECalibri;M260;SB;L55
+P;ECalibri;M220;SB;L55
+P;ECalibri;M240;L63
+P;ECalibri;M240;L53
+P;ECalibri;M240;L61
+P;ECalibri;M240;SB;L64
+P;ECalibri Light;M360;L55
+P;ECalibri;M240;SB;L9
+P;ECalibri;M240;L11
+P;ECalibri;M240;L9
+P;ECalibri;M240;L10
+P;ECalibri;M240;L21
+P;ECalibri;M240;SB;L53
+P;ECalibri;M240;SB;L10
+P;ECalibri;M240;SI;L24
+P;ECalibri;M240;L18
+P;ECalibri;M300;SB;L55
+P;ECalibri;M260;SB;L55
+P;ECalibri;M220;SB;L55
+P;ECalibri;M240;L63
+P;ECalibri;M240;L53
+P;ECalibri;M240;L61
+P;ECalibri;M240;SB;L64
+P;ECalibri Light;M360;L55
+P;ECalibri;M240;SB;L9
+P;ECalibri;M240;L11
+P;ECalibri;M240;L9
+F;P0;DG0G10;M320
+B;Y37;X8;D0 0 36 7
+O;L;C;D;V0;K1;G100 0.001
+F;W2 2 8
+F;W3 3 11
+F;W4 4 24
+F;W5 6 23
+F;W7 7 6
+F;W8 8 32
+F;SDM6;R1
+C;Y1;X1;K"value"
+C;X2;K"date1904"
+C;X3;K"val1900"
+C;X4;K"format"
+C;X5;K"formula"
+C;X6;K"expected"
+C;X7;K"correct"
+C;X8;K"desc"
+C;Y2;X1;K4018.99999998843;E4018.99999998843
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"mm/dd/yyyy hh:mm:ss.000"
+C;X5;K"12/31/1910 23:59:59.999";ETEXT(RC[-4],RC[-1])
+C;X6;K"12/31/1910 23:59:59.999"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"end-of-year thousandths rounding"
+C;Y3;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"mm/dd/yyyy hh:mm:ss.00"
+C;X5;K"01/01/1911 00:00:00.00";ETEXT(RC[-4],RC[-1])
+C;X6;K"01/01/1911 00:00:00.00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"end-of-year hundredths round up"
+C;Y4;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"mm/dd/yyyy hh:mm"
+C;X5;K"01/01/1911 00:00";ETEXT(RC[-4],RC[-1])
+C;X6;K"01/01/1911 00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"end-of-year minutes round up"
+C;Y5;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"[hh]:mm:ss.000"
+C;X5;K"96455:59:59.999";ETEXT(RC[-4],RC[-1])
+C;X6;K"96455:59:59.999"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"hour duration thousandths rounding"
+C;Y6;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"[hh]:mm:ss.00"
+C;X5;K"96456:00:00.00";ETEXT(RC[-4],RC[-1])
+C;X6;K"96456:00:00.00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"hour duration hundredths round up"
+C;Y7;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"[hh]:mm:ss"
+C;X5;K"96456:00:00";ETEXT(RC[-4],RC[-1])
+C;X6;K"96456:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"hour duration minute round up (w/ ss)"
+C;Y8;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"[hh]:mm"
+C;X5;K"96456:00";ETEXT(RC[-4],RC[-1])
+C;X6;K"96456:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"hour duration minute round up"
+C;Y9;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"[hh]"
+C;X5;K"96456";ETEXT(RC[-4],RC[-1])
+C;X6;K"96456"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"hour duration round up"
+C;Y10;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"[mm]:ss.000"
+C;X5;K"5787359:59.999";ETEXT(RC[-4],RC[-1])
+C;X6;K"5787359:59.999"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"minute duration thousandths rounding"
+C;Y11;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"[mm]:ss.00"
+C;X5;K"5787360:00.00";ETEXT(RC[-4],RC[-1])
+C;X6;K"5787360:00.00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"minute duration hundredths round up"
+C;Y12;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"[mm]:ss"
+C;X5;K"5787360:00";ETEXT(RC[-4],RC[-1])
+C;X6;K"5787360:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"minute duration round up"
+C;Y13;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"[ss].000"
+C;X5;K"347241599.999";ETEXT(RC[-4],RC[-1])
+C;X6;K"347241599.999"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"second duration thousandths rounding"
+C;Y14;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"[ss].00"
+C;X5;K"347241600.00";ETEXT(RC[-4],RC[-1])
+C;X6;K"347241600.00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"second duration hundredths round up"
+C;Y15;X1;K4018.99999998843;ER[-1]C
+C;X2;KFALSE
+C;X3;K4018.99999998843;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"[ss]"
+C;X5;K"347241600";ETEXT(RC[-4],RC[-1])
+C;X6;K"347241600"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"second duration round up"
+C;Y16;X1;K0.00069
+C;X2;KFALSE
+C;X3;K0.00069;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1900 Jan Sat 00 00:01:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1900 Jan Sat 00 00:01:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up to 1 minute"
+C;Y17;X1;K0.001388
+C;X2;KFALSE
+C;X3;K0.001388;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1900 Jan Sat 00 00:02:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1900 Jan Sat 00 00:02:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up to 2 munutes"
+C;Y18;X1;K0.00694
+C;X2;KFALSE
+C;X3;K0.00694;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1900 Jan Sat 00 00:10:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1900 Jan Sat 00 00:10:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up to 10 minutes"
+C;Y19;X1;K0.08333
+C;X2;KFALSE
+C;X3;K0.08333;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1900 Jan Sat 00 02:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1900 Jan Sat 00 02:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up to 2 hours"
+C;Y20;X1;K0.999999
+C;X2;KFALSE
+C;X3;K0.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1900 Jan Sun 01 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1900 Jan Sun 01 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up day"
+C;Y21;X1;K31.999999
+C;X2;KFALSE
+C;X3;K31.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1900 Feb Wed 01 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1900 Feb Wed 01 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up month"
+C;Y22;X1;K59.999999
+C;X2;KFALSE
+C;X3;K59.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1900 Feb Wed 29 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1900 Feb Wed 29 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up to 1900 leap day"
+C;Y23;X1;K60.999999
+C;X2;KFALSE
+C;X3;K60.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1900 Mar Thu 01 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1900 Mar Thu 01 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds 1900 leap day up"
+C;Y24;X1;K77.999999
+C;X2;KFALSE
+C;X3;K77.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1900 Mar Sun 18 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1900 Mar Sun 18 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up day in March"
+C;Y25;X1;K366.999999
+C;X2;KFALSE
+C;X3;K366.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1901 Jan Tue 01 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1901 Jan Tue 01 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up leap year 1900"
+C;Y26;X1;K365.999999
+C;X2;KFALSE
+C;X3;K365.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1900 Dec Mon 31 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1900 Dec Mon 31 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up leap year 1904"
+C;Y27;X1;K0.00069
+C;X2;KTRUE
+C;X3;K1462.00069;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1904 Jan Fri 01 00:01:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1904 Jan Fri 01 00:01:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up to 1 minute"
+C;Y28;X1;K0.001388
+C;X2;KTRUE
+C;X3;K1462.001388;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1904 Jan Fri 01 00:02:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1904 Jan Fri 01 00:02:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up to 2 munutes"
+C;Y29;X1;K0.00694
+C;X2;KTRUE
+C;X3;K1462.00694;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1904 Jan Fri 01 00:10:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1904 Jan Fri 01 00:10:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up to 10 minutes"
+C;Y30;X1;K0.08333
+C;X2;KTRUE
+C;X3;K1462.08333;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1904 Jan Fri 01 02:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1904 Jan Fri 01 02:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up to 2 hours"
+C;Y31;X1;K0.999999
+C;X2;KTRUE
+C;X3;K1462.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1904 Jan Sat 02 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1904 Jan Sat 02 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up day"
+C;Y32;X1;K31.999999
+C;X2;KTRUE
+C;X3;K1493.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1904 Feb Tue 02 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1904 Feb Tue 02 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up month"
+C;Y33;X1;K59.999999
+C;X2;KTRUE
+C;X3;K1521.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1904 Mar Tue 01 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1904 Mar Tue 01 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up to 1900 leap day"
+C;Y34;X1;K60.999999
+C;X2;KTRUE
+C;X3;K1522.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1904 Mar Wed 02 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1904 Mar Wed 02 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds 1900 leap day up"
+C;Y35;X1;K77.999999
+C;X2;KTRUE
+C;X3;K1539.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1904 Mar Sat 19 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1904 Mar Sat 19 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up day in March"
+C;Y36;X1;K366.999999
+C;X2;KTRUE
+C;X3;K1828.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1905 Jan Mon 02 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1905 Jan Mon 02 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up leap year 1900"
+C;Y37;X1;K365.999999
+C;X2;KTRUE
+C;X3;K1827.999999;EIF(RC[-1],RC[-2]+1462,RC[-2])
+C;X4;K"yyyy mmm ddd dd hh:mm:ss"
+C;X5;K"1905 Jan Sun 01 00:00:00";ETEXT(RC[-2],RC[-1])
+C;X6;K"1905 Jan Sun 01 00:00:00"
+C;X7;KTRUE;ERC[-2]=RC[-1]
+C;X8;K"rounds up leap year 1904"
+E
