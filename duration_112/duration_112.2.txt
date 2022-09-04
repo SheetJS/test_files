@@ -1,0 +1,72 @@
+W	D	H	M	S	MS	Value	w	d	h	m	s	ms
+1						1 week	1	0	0	0	0	0
+	1					1 day	0	1	0	0	0	0
+		1				1 hour	0	0	1	0	0	0
+			1			1 minute	0	0	0	1	0	0
+				1		1 second	0	0	0	0	1	0
+					1	1 millisecond	0	0	0	0	0	1
+												
+0	0	0	0	0	0	0 seconds	0	0	0	0	0	0
+0	0	0	0	0	1	1 millisecond	0	0	0	0	0	1
+0	0	0	0	1	0	1 second	0	0	0	0	1	0
+0	0	0	0	1	1	1 second 1 millisecond	0	0	0	0	1	1
+0	0	0	1	0	0	1 minute	0	0	0	1	0	0
+0	0	0	1	0	1	1 minute 0 seconds 1 millisecond	0	0	0	1	0	1
+0	0	0	1	1	0	1 minute 1 second	0	0	0	1	1	0
+0	0	0	1	1	1	1 minute 1 second 1 millisecond	0	0	0	1	1	1
+0	0	1	0	0	0	1 hour	0	0	1	0	0	0
+0	0	1	0	0	1	1 hour 0 minutes 0 seconds 1 millisecond	0	0	1	0	0	1
+0	0	1	0	1	0	1 hour 0 minutes 1 second	0	0	1	0	1	0
+0	0	1	0	1	1	1 hour 0 minutes 1 second 1 millisecond	0	0	1	0	1	1
+0	0	1	1	0	0	1 hour 1 minute	0	0	1	1	0	0
+0	0	1	1	0	1	1 hour 1 minute 0 seconds 1 millisecond	0	0	1	1	0	1
+0	0	1	1	1	0	1 hour 1 minute 1 second	0	0	1	1	1	0
+0	0	1	1	1	1	1 hour 1 minute 1 second 1 millisecond	0	0	1	1	1	1
+0	1	0	0	0	0	1 day	0	1	0	0	0	0
+0	1	0	0	0	1	1 day 0 hours 0 minutes 0 seconds 1 millisecond	0	1	0	0	0	1
+0	1	0	0	1	0	1 day 0 hours 0 minutes 1 second	0	1	0	0	1	0
+0	1	0	0	1	1	1 day 0 hours 0 minutes 1 second 1 millisecond	0	1	0	0	1	1
+0	1	0	1	0	0	1 day 0 hours 1 minute	0	1	0	1	0	0
+0	1	0	1	0	1	1 day 0 hours 1 minute 0 seconds 1 millisecond	0	1	0	1	0	1
+0	1	0	1	1	0	1 day 0 hours 1 minute 1 second	0	1	0	1	1	0
+0	1	0	1	1	1	1 day 0 hours 1 minute 1 second 1 millisecond	0	1	0	1	1	1
+0	1	1	0	0	0	1 day 1 hour	0	1	1	0	0	0
+0	1	1	0	0	1	1 day 1 hour 0 minutes 0 seconds 1 millisecond	0	1	1	0	0	1
+0	1	1	0	1	0	1 day 1 hour 0 minutes 1 second	0	1	1	0	1	0
+0	1	1	0	1	1	1 day 1 hour 0 minutes 1 second 1 millisecond	0	1	1	0	1	1
+0	1	1	1	0	0	1 day 1 hour 1 minute	0	1	1	1	0	0
+0	1	1	1	0	1	1 day 1 hour 1 minute 0 seconds 1 millisecond	0	1	1	1	0	1
+0	1	1	1	1	0	1 day 1 hour 1 minute 1 second	0	1	1	1	1	0
+0	1	1	1	1	1	1 day 1 hour 1 minute 1 second 1 millisecond	0	1	1	1	1	1
+1	0	0	0	0	0	1 week	1	0	0	0	0	0
+1	0	0	0	0	1	1 week 0 days 0 hours 0 minutes 0 seconds 1 millisecond	1	0	0	0	0	1
+1	0	0	0	1	0	1 week 0 days 0 hours 0 minutes 1 second	1	0	0	0	1	0
+1	0	0	0	1	1	1 week 0 days 0 hours 0 minutes 1 second 1 millisecond	1	0	0	0	1	1
+1	0	0	1	0	0	1 week 0 days 0 hours 1 minute	1	0	0	1	0	0
+1	0	0	1	0	1	1 week 0 days 0 hours 1 minute 0 seconds 1 millisecond	1	0	0	1	0	1
+1	0	0	1	1	0	1 week 0 days 0 hours 1 minute 1 second	1	0	0	1	1	0
+1	0	0	1	1	1	1 week 0 days 0 hours 1 minute 1 second 1 millisecond	1	0	0	1	1	1
+1	0	1	0	0	0	1 week 0 days 1 hour	1	0	1	0	0	0
+1	0	1	0	0	1	1 week 0 days 1 hour 0 minutes 0 seconds 1 millisecond	1	0	1	0	0	1
+1	0	1	0	1	0	1 week 0 days 1 hour 0 minutes 1 second	1	0	1	0	1	0
+1	0	1	0	1	1	1 week 0 days 1 hour 0 minutes 1 second 1 millisecond	1	0	1	0	1	1
+1	0	1	1	0	0	1 week 0 days 1 hour 1 minute	1	0	1	1	0	0
+1	0	1	1	0	1	1 week 0 days 1 hour 1 minute 0 seconds 1 millisecond	1	0	1	1	0	1
+1	0	1	1	1	0	1 week 0 days 1 hour 1 minute 1 second	1	0	1	1	1	0
+1	0	1	1	1	1	1 week 0 days 1 hour 1 minute 1 second 1 millisecond	1	0	1	1	1	1
+1	1	0	0	0	0	1 week 1 day	1	1	0	0	0	0
+1	1	0	0	0	1	1 week 1 day 0 hours 0 minutes 0 seconds 1 millisecond	1	1	0	0	0	1
+1	1	0	0	1	0	1 week 1 day 0 hours 0 minutes 1 second	1	1	0	0	1	0
+1	1	0	0	1	1	1 week 1 day 0 hours 0 minutes 1 second 1 millisecond	1	1	0	0	1	1
+1	1	0	1	0	0	1 week 1 day 0 hours 1 minute	1	1	0	1	0	0
+1	1	0	1	0	1	1 week 1 day 0 hours 1 minute 0 seconds 1 millisecond	1	1	0	1	0	1
+1	1	0	1	1	0	1 week 1 day 0 hours 1 minute 1 second	1	1	0	1	1	0
+1	1	0	1	1	1	1 week 1 day 0 hours 1 minute 1 second 1 millisecond	1	1	0	1	1	1
+1	1	1	0	0	0	1 week 1 day 1 hour	1	1	1	0	0	0
+1	1	1	0	0	1	1 week 1 day 1 hour 0 minutes 0 seconds 1 millisecond	1	1	1	0	0	1
+1	1	1	0	1	0	1 week 1 day 1 hour 0 minutes 1 second	1	1	1	0	1	0
+1	1	1	0	1	1	1 week 1 day 1 hour 0 minutes 1 second 1 millisecond	1	1	1	0	1	1
+1	1	1	1	0	0	1 week 1 day 1 hour 1 minute	1	1	1	1	0	0
+1	1	1	1	0	1	1 week 1 day 1 hour 1 minute 0 seconds 1 millisecond	1	1	1	1	0	1
+1	1	1	1	1	0	1 week 1 day 1 hour 1 minute 1 second	1	1	1	1	1	0
+1	1	1	1	1	1	1 week 1 day 1 hour 1 minute 1 second 1 millisecond	1	1	1	1	1	1
